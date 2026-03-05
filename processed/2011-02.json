@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2011-02",
+  "messages": [
+    {
+      "id": "msg-2243066b6d89",
+      "message_id": "<4d4b7fa1.0e3e650a.43cb.1142@mx.google.com>",
+      "from_name": "Diego Mazzeo",
+      "from_email_hash": "ec40168eee0117da800ed0c02668efb4881e148ebd1b2c190ac2f15bdd9ba02e",
+      "date": "2011-02-04T01:20:03-03:00",
+      "subject": "[R-sig-ins] SOA CompAct - R Corner",
+      "subject_clean": "SOA CompAct - R Corner",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110204/b7bca8cd/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110204/b7bca8cd/attachment.pl>",
+      "thread_id": "thread-2243066b6d89",
+      "thread_depth": 0,
+      "month": "2011-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2243066b6d89",
+      "subject": "SOA CompAct - R Corner",
+      "message_count": 1,
+      "participants": [
+        "Diego Mazzeo"
+      ],
+      "started": "2011-02-04T01:20:03-03:00",
+      "last_reply": "2011-02-04T01:20:03-03:00",
+      "root_message_id": "msg-2243066b6d89"
+    }
+  ]
+}

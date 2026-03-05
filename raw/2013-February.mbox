@@ -1,0 +1,84 @@
+From chiefmurphy at gmail.com  Mon Feb 11 14:15:14 2013
+From: chiefmurphy at gmail.com (Dan Murphy)
+Date: Mon, 11 Feb 2013 05:15:14 -0800
+Subject: [R-sig-ins] mondate version 0.9.10.04 now on CRAN
+Message-ID: <CAHgH9_Eg5XHCv4pWdhQjs4ewpYeDHoEvmUqiLAULkZt7=1WLZw@mail.gmail.com>
+
+To R-Sig-Insurance:
+
+The mondate package enables date arithmetic in units of 'months' and
+'years', not available with the base 'difftime' function. This can be
+particularly helpful for calculating the actuarial age of
+property/casualty/general insurance liabilities.
+
+Update ...04 expands the signature of the year, month, and day
+functions to Date and POSIXt data. See NEWS at
+cran.r-project.org/web/packages/mondate/index.html.
+
+An example of using mondate is
+> library(mondate)
+> mondate(as.Date("2013-03-31")) - mondate(as.Date("2013-02-28"))
+[1] 1
+
+A potential future package enhancement would be to extend 'difftime'
+so that the following functionality is possible
+> difftime(as.Date("2013-03-31"), as.Date("2013-02-28"), units = "months")
+Time difference of 1 month
+
+For more information on mondate, visit http://code.google.com/p/mondate/
+
+Dan Murphy
+
+
+From markus.gesmann at googlemail.com  Fri Feb 15 10:08:12 2013
+From: markus.gesmann at googlemail.com (Markus Gesmann)
+Date: Fri, 15 Feb 2013 09:08:12 +0000
+Subject: [R-sig-ins] New Data Scientist role at Lloyd's
+Message-ID: <CAHosgjW_Z0hJKNTavTq-EjS1aO_khtK_iCAY2b3hTT-Ne-vawA@mail.gmail.com>
+
+Lloyd's of London is looking for a Data Scientist as part of the Analysis team.
+
+See Lloyd's career web site for more details:
+http://jobs.lloyds.com/fe/tpl_lloyds01.asp?s=PyAxDIfSqHTyVvHqn&jobid=81827,6982498702&key=68190269&c=875262514822&pagestamp=seuarhkizesujvrfri
+
+
+From lisasolomon at alum.mit.edu  Tue Feb 26 22:31:51 2013
+From: lisasolomon at alum.mit.edu (Lisa Solomon)
+Date: Tue, 26 Feb 2013 16:31:51 -0500
+Subject: [R-sig-ins] Webinar Series: The Evolution of Regression from
+ Classical Linear Regression to Modern Ensembles (Hands-on Component)
+Message-ID: <892109022.13113.1361914311739.JavaMail.help@alum.mit.edu>
+
+Begins Friday (no charge) 
+The Evolution of Regression: An Upcoming Webinar Series 
+(Hands-on Component) 
+
+Registration: http://bit.ly/salford-systems-regression-webinar-series 
+
+Regression is one of the most popular modeling methods, but the classical approach has significant problems. This webinar series address these problems. Are you are working with larger datasets? Is your data challenging? Does your data include missing values, nonlinear relationships, local patterns and interactions? This webinar series is for you! We will cover improvements to conventional and logistic regression, and will include a discussion of classical, regularized, and nonlinear regression, as well as modern ensemble and data mining approaches. This series will be of value to any classically trained statistician or modeler.
+ 
+Overcoming Linear Regression Limitations 
+
+Part 1: March 1 - Regression methods discussed 
+? Classical Regression 
+? Logistic Regression 
+? Regularized Regression: GPS Generalized Path Seeker 
+? Nonlinear Regression: MARS Regression Splines 
+
+Part 2: March 15 - Hands-on demonstration of concepts discussed in Part 1 
+? Step-by-step demonstration 
+? Datasets and software available for download 
+? Instructions for reproducing demo at your leisure 
+? For the dedicated student: apply these methods to your own data (optional) 
+
+Part 3: March 29 - Regression methods discussed 
+*Part 1 is a recommended pre-requisite 
+? Nonlinear Ensemble Approaches: TreeNet Gradient Boosting; Random Forests; Gradient Boosting incorporating RF
+ ? Ensemble Post-Processing: ISLE; RuleLearner 
+
+Part 4: April 12 - Hands-on demonstration of concepts discussed in Part 3 
+? Step-by-step demonstration 
+? Datasets and software available for download 
+? Instructions for reproducing demo at your leisure 
+? For the dedicated student: apply these methods to your own data (optional)
+

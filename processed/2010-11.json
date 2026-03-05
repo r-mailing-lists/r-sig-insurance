@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2010-11",
+  "messages": [
+    {
+      "id": "msg-aaa6dc18983a",
+      "message_id": "<AANLkTik5JhwaQh-0AoCGGhssmyQgTA184g6AteE-cDrF@mail.gmail.com>",
+      "from_name": "Daniel Murphy",
+      "from_email_hash": "b0dea2526adb139ecbf137a18fe6df4a1ed2cd7a9e3225ce862a7c116bb99637",
+      "date": "2010-11-13T11:55:47-08:00",
+      "subject": "[R-sig-ins] Clark method enhancement to ChainLadder package",
+      "subject_clean": "Clark method enhancement to ChainLadder package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20101113/e07fadee/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20101113/e07fadee/attachment.pl>",
+      "thread_id": "thread-aaa6dc18983a",
+      "thread_depth": 0,
+      "month": "2010-11"
+    },
+    {
+      "id": "msg-6f788cb036f0",
+      "message_id": "<676694.76843.qm@web25704.mail.ukl.yahoo.com>",
+      "from_name": "Konan Eugène KOUADIO",
+      "from_email_hash": "9a6c7ad9eb65a3bc0df1c22fa495435e4aab7dc3b4c150aa22b15bcb4dc3d39f",
+      "date": "2010-11-22T12:02:51Z",
+      "subject": "[R-sig-ins] (no subject)",
+      "subject_clean": "(no subject)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20101122/6f2bee7b/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20101122/6f2bee7b/attachment.pl>",
+      "thread_id": "thread-6f788cb036f0",
+      "thread_depth": 0,
+      "month": "2010-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-aaa6dc18983a",
+      "subject": "Clark method enhancement to ChainLadder package",
+      "message_count": 1,
+      "participants": [
+        "Daniel Murphy"
+      ],
+      "started": "2010-11-13T11:55:47-08:00",
+      "last_reply": "2010-11-13T11:55:47-08:00",
+      "root_message_id": "msg-aaa6dc18983a"
+    },
+    {
+      "id": "thread-6f788cb036f0",
+      "subject": "(no subject)",
+      "message_count": 1,
+      "participants": [
+        "Konan Eugène KOUADIO"
+      ],
+      "started": "2010-11-22T12:02:51+00:00",
+      "last_reply": "2010-11-22T12:02:51+00:00",
+      "root_message_id": "msg-6f788cb036f0"
+    }
+  ]
+}

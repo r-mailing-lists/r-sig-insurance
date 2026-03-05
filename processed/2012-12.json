@@ -1,0 +1,65 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2012-12",
+  "messages": [
+    {
+      "id": "msg-d3068d5defc5",
+      "message_id": "<1454932067.6037.1355428851959.JavaMail.help@alum.mit.edu>",
+      "from_name": "Lisa Solomon",
+      "from_email_hash": "3b5f37573428031d0b37829ae63f3922f3346b89aa579ecc548938a78e7dc55b",
+      "date": "2012-12-13T15:00:51-05:00",
+      "subject": "[R-sig-ins] Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
+      "subject_clean": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing\nTOMORROW: December 14, 10-11 a.m., PST\n\nWebinar Registration: http://2.salford-systems.com/gradientboosting-and-post-processing/\n \n Course Outline: \nI. Gradient Boosting and Post-Processing: \no What is missing from Gradient Boosting? \no Why post-processing techniques are used? \n\nII. Applications Benefiting from Post-Processing: Examples from a variety of industries. \no Financial Services \no Biomedical \no Environmental \no Manufacturing \no Adserving \n\nIII. Typical Post-Processing Steps \n\nIV. Techniques: \no Generalized Path Seeker (GPS): modern high-speed LASSO-style regularized regression. \no Importance Sampled Learning Ensembles (ISLE): identify and reweight the most influential trees. \no Rulefit: ISLE on ?steroids.? Identify the most influential nodes and rules. \n\nV. Case Study Example: \no Output/Results without Post-Processing \no Output/Results with Post-Processing \no Demo",
+      "body_snippet": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing\nTOMORROW: December 14, 10-11 a.m., PST\n\nWebinar Registration: http://2.salford-systems.com/gradientboosting-and-post-processing/\n \n",
+      "thread_id": "thread-d3068d5defc5",
+      "thread_depth": 0,
+      "month": "2012-12"
+    },
+    {
+      "id": "msg-19fcd3e1ba9b",
+      "message_id": "<D8D8C859-77AE-4EF6-903D-7916678117EB@gmail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
+      "date": "2012-12-19T07:45:26Z",
+      "subject": "[R-sig-ins] R in Insurance Conference, London, 15 July 2013",
+      "subject_clean": "R in Insurance Conference, London, 15 July 2013",
+      "in_reply_to": null,
+      "references": [
+        "<29984310-4608-4B5C-B184-460CF1F3674A@gmail.com>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121219/58c5d8f0/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121219/58c5d8f0/attachment.pl>",
+      "thread_id": "thread-19fcd3e1ba9b",
+      "thread_depth": 0,
+      "month": "2012-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-d3068d5defc5",
+      "subject": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
+      "message_count": 1,
+      "participants": [
+        "Lisa Solomon"
+      ],
+      "started": "2012-12-13T15:00:51-05:00",
+      "last_reply": "2012-12-13T15:00:51-05:00",
+      "root_message_id": "msg-d3068d5defc5"
+    },
+    {
+      "id": "thread-19fcd3e1ba9b",
+      "subject": "R in Insurance Conference, London, 15 July 2013",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2012-12-19T07:45:26+00:00",
+      "last_reply": "2012-12-19T07:45:26+00:00",
+      "root_message_id": "msg-19fcd3e1ba9b"
+    }
+  ]
+}

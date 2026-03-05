@@ -1,0 +1,109 @@
+From tcmuigai at gmail.com  Wed Jun 10 13:14:38 2015
+From: tcmuigai at gmail.com (Charles Thuo)
+Date: Wed, 10 Jun 2015 14:14:38 +0300
+Subject: [R-sig-ins] How to convert a matrix in package DCL
+Message-ID: <CAAJc=rM5E1-54WQ-L14zD=PDXZAr9L7aSUvoub5MjOm5_WkR_A@mail.gmail.com>
+
+Am trying to run the clm function in the package DCL which runs on the
+sample data NtriangleDCL which appears as shown below. I have my own data
+set t1 which i have converted into  matrix using the "as.matrix"function.
+The function clm does not run on my data
+
+> NtriangleDCL
+       [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+ [1,]  6238  831   49    7    1    1    2    1    2     3
+ [2,]  7773 1381   23    4    1    3    1    1    3    NA
+ [3,] 10306 1093   17    5    2    0    2    2   NA    NA
+ [4,]  9639  995   17    6    1    5    4   NA   NA    NA
+ [5,]  9511 1386   39    4    6    5   NA   NA   NA    NA
+ [6,] 10023 1342   31   16    9   NA   NA   NA   NA    NA
+ [7,]  9834 1424   59   24   NA   NA   NA   NA   NA    NA
+ [8,] 10899 1503   84   NA   NA   NA   NA   NA   NA    NA
+ [9,] 11954 1704   NA   NA   NA   NA   NA   NA   NA    NA
+[10,] 10989   NA   NA   NA   NA   NA   NA   NA   NA    NA
+
+> t1
+      502  856  920  955  963  967  969  971 971
+[1,]  695 1424 1504 1530 1537 1539 1543 1545  NA
+[2,] 1841 2830 2996 3075 3096 3107 3111   NA  NA
+[3,] 2970 4580 4866 5020 5084 5097   NA   NA  NA
+[4,] 3874 5678 6142 6397 6445   NA   NA   NA  NA
+[5,] 2756 4265 4659 4832   NA   NA   NA   NA  NA
+[6,] 3356 5044 5398   NA   NA   NA   NA   NA  NA
+[7,] 3167 4825   NA   NA   NA   NA   NA   NA  NA
+[8,] 2804   NA   NA   NA   NA   NA   NA   NA  NA
+>
+How do I get rid of the headers in my sample data so that it has the same
+format as the sample data( i.e. without taking the first row as column
+headers).
+
+
+Charles.
+
+	[[alternative HTML version deleted]]
+
+
+From dutangc at gmail.com  Wed Jun 10 16:02:31 2015
+From: dutangc at gmail.com (Christophe Dutang)
+Date: Wed, 10 Jun 2015 16:02:31 +0200
+Subject: [R-sig-ins] How to convert a matrix in package DCL
+In-Reply-To: <CAAJc=rM5E1-54WQ-L14zD=PDXZAr9L7aSUvoub5MjOm5_WkR_A@mail.gmail.com>
+References: <CAAJc=rM5E1-54WQ-L14zD=PDXZAr9L7aSUvoub5MjOm5_WkR_A@mail.gmail.com>
+Message-ID: <F3BE2AEE-8833-4506-9C37-E09B29922E12@gmail.com>
+
+Did you try ?
+
+colnames(t1) <- NULL
+
+
+---------------------------------------
+Christophe Dutang
+LMM, UdM, Le Mans, France
+web: http://dutangc.free.fr
+
+Le 10 juin 2015 ? 13:14, Charles Thuo <tcmuigai at gmail.com> a ?crit :
+
+> Am trying to run the clm function in the package DCL which runs on the
+> sample data NtriangleDCL which appears as shown below. I have my own data
+> set t1 which i have converted into  matrix using the "as.matrix"function.
+> The function clm does not run on my data
+> 
+>> NtriangleDCL
+>       [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+> [1,]  6238  831   49    7    1    1    2    1    2     3
+> [2,]  7773 1381   23    4    1    3    1    1    3    NA
+> [3,] 10306 1093   17    5    2    0    2    2   NA    NA
+> [4,]  9639  995   17    6    1    5    4   NA   NA    NA
+> [5,]  9511 1386   39    4    6    5   NA   NA   NA    NA
+> [6,] 10023 1342   31   16    9   NA   NA   NA   NA    NA
+> [7,]  9834 1424   59   24   NA   NA   NA   NA   NA    NA
+> [8,] 10899 1503   84   NA   NA   NA   NA   NA   NA    NA
+> [9,] 11954 1704   NA   NA   NA   NA   NA   NA   NA    NA
+> [10,] 10989   NA   NA   NA   NA   NA   NA   NA   NA    NA
+> 
+>> t1
+>      502  856  920  955  963  967  969  971 971
+> [1,]  695 1424 1504 1530 1537 1539 1543 1545  NA
+> [2,] 1841 2830 2996 3075 3096 3107 3111   NA  NA
+> [3,] 2970 4580 4866 5020 5084 5097   NA   NA  NA
+> [4,] 3874 5678 6142 6397 6445   NA   NA   NA  NA
+> [5,] 2756 4265 4659 4832   NA   NA   NA   NA  NA
+> [6,] 3356 5044 5398   NA   NA   NA   NA   NA  NA
+> [7,] 3167 4825   NA   NA   NA   NA   NA   NA  NA
+> [8,] 2804   NA   NA   NA   NA   NA   NA   NA  NA
+>> 
+> How do I get rid of the headers in my sample data so that it has the same
+> format as the sample data( i.e. without taking the first row as column
+> headers).
+> 
+> 
+> Charles.
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-SIG-insurance mailing list
+> R-SIG-insurance at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+

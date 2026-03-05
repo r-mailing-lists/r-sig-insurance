@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2016-02",
+  "messages": [
+    {
+      "id": "msg-2ca2cd4a6f84",
+      "message_id": "<890CCB6D-2C86-4BE6-9277-76B6525327B7@gmail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
+      "date": "2016-02-08T19:36:13Z",
+      "subject": "[R-sig-ins] R in Insurance Conference, London, 11 July 2015",
+      "subject_clean": "R in Insurance Conference, London, 11 July 2015",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nFollowing the successful 3rd R in Insurance conference in Amsterdam last year, we return to London this year.\n\nThe registration for the 4th conference on R in Insurance on Monday 11 July 2016 at Cass Business School has opened. \n\nThis one-day conference will focus again on applications in insurance and actuarial science that use R, the lingua franca for statistical computation. \n\nThe intended audience of the conference includes both academics and practitioners who are active or interested in the applications of R in insurance. \n\nInvited talks will be given by:\n\n\t- Mario V. W?thrich, RiskLab, Department of Mathematics, ETH Zurich.\n\t- Dan Murphy, President, Trinostics LLC.\n\nDetails about the registration and abstract submission are given on the dedicated R in Insurance page at Cass Business School:\nhttp://www.cass.city.ac.uk/news-and-events/conferences/r-in-insurance2016 \n\nThe submission deadline for abstracts is 28 March 2016. Please email your abstract of no more than 300 words to: rinsuranceconference at gmail.com.\n\nAttendance of the whole conference is the equivalent of 6.5 hours of CPD for members of the Actuarial Profession.\n\nFor more information about the past events visit http://www.rininsurance.com.\n\nThe organisers gratefully acknowledge the sponsorship of Verisk/ISO, Mirai Solutions, RStudio, Applied AI, and CYBAEA.\n\nBest regards\n\nMarkus",
+      "body_snippet": "Dear all,\n\nFollowing the successful 3rd R in Insurance conference in Amsterdam last year, we return to London this year.\n\nThe registration for the 4th conference on R in Insurance on Monday 11 July 20",
+      "thread_id": "thread-2ca2cd4a6f84",
+      "thread_depth": 0,
+      "month": "2016-02"
+    },
+    {
+      "id": "msg-51baa01c7d72",
+      "message_id": "<2D1AC19CDA3D5643B9D7AE596C377B280C57C295@GBS0039303.lloyds.net>",
+      "from_name": "Gesmann, Markus",
+      "from_email_hash": "476b59d20b82d06df10ee85b28af07155133bfbb523d75606839fd9dca84bdff",
+      "date": "2016-02-09T11:01:42Z",
+      "subject": "[R-sig-ins] R in Insurance Conference, London, 11 July 2015",
+      "subject_clean": "R in Insurance Conference, London, 11 July 2015",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nFollowing the successful 3rd R in Insurance conference in Amsterdam last year, we return to London this year.\n\nThe registration for the 4th conference on R in Insurance on Monday 11 July 2016 at Cass Business School has opened.\n\nThis one-day conference will focus again on applications in insurance and actuarial science that use R, the lingua franca for statistical computation.\n\nThe intended audience of the conference includes both academics and practitioners who are active or interested in the applications of R in insurance.\n\nInvited talks will be given by:\n\n        - Mario V. W?thrich, RiskLab, Department of Mathematics, ETH Zurich.\n        - Dan Murphy, President, Trinostics LLC.\n\nDetails about the registration and abstract submission are given on the dedicated R in Insurance page at Cass Business School:\nhttp://www.cass.city.ac.uk/news-and-events/conferences/r-in-insurance2016\n\nThe submission deadline for abstracts is 28 March 2016. Please email your abstract of no more than 300 words to: rinsuranceconference at gmail.com<mailto:rinsuranceconference at gmail.com>.\n\nAttendance of the whole conference is the equivalent of 6.5 hours of CPD for members of the Actuarial Profession.\n\nFor more information about the past events visit http://www.rininsurance.com .\n\nThe organisers gratefully acknowledge the sponsorship of Verisk/ISO, Mirai Solutions, RStudio, Applied AI, and CYBAEA.\n\nBest regards\n\nMarkus\n\n\n----------------------------------------------------------------------\nThe information in this E-Mail and in any attachments is...{{dropped:22}}",
+      "body_snippet": "Dear all,\n\nFollowing the successful 3rd R in Insurance conference in Amsterdam last year, we return to London this year.\n\nThe registration for the 4th conference on R in Insurance on Monday 11 July 20",
+      "thread_id": "thread-51baa01c7d72",
+      "thread_depth": 0,
+      "month": "2016-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2ca2cd4a6f84",
+      "subject": "R in Insurance Conference, London, 11 July 2015",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2016-02-08T19:36:13+00:00",
+      "last_reply": "2016-02-08T19:36:13+00:00",
+      "root_message_id": "msg-2ca2cd4a6f84"
+    },
+    {
+      "id": "thread-51baa01c7d72",
+      "subject": "R in Insurance Conference, London, 11 July 2015",
+      "message_count": 1,
+      "participants": [
+        "Gesmann, Markus"
+      ],
+      "started": "2016-02-09T11:01:42+00:00",
+      "last_reply": "2016-02-09T11:01:42+00:00",
+      "root_message_id": "msg-51baa01c7d72"
+    }
+  ]
+}

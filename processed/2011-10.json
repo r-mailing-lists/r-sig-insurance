@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2011-10",
+  "messages": [
+    {
+      "id": "msg-d04bf250b7ac",
+      "message_id": "<330F1BE39EE22C418B76986DFEC5F8F4297C941B2B@E2K7CLSTB.cna.com>",
+      "from_name": "Zhang,Yanwei",
+      "from_email_hash": "7ff3cb2bae42468ab753bba826604c473c838828628a0be0fafa9fc6ff979c59",
+      "date": "2011-10-26T13:49:09-05:00",
+      "subject": "[R-sig-ins] R package cplm",
+      "subject_clean": "R package cplm",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20111026/05b3d55c/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20111026/05b3d55c/attachment.pl>",
+      "thread_id": "thread-d04bf250b7ac",
+      "thread_depth": 0,
+      "month": "2011-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-d04bf250b7ac",
+      "subject": "R package cplm",
+      "message_count": 1,
+      "participants": [
+        "Zhang,Yanwei"
+      ],
+      "started": "2011-10-26T13:49:09-05:00",
+      "last_reply": "2011-10-26T13:49:09-05:00",
+      "root_message_id": "msg-d04bf250b7ac"
+    }
+  ]
+}

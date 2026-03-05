@@ -1,0 +1,82 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2009-11",
+  "messages": [
+    {
+      "id": "msg-90118966156b",
+      "message_id": "<248FB571F3283A4D9F0749C99DC6FFF80C3126AA@ISOEMAILP2.iso.com>",
+      "from_name": "Meyers, Glenn G.",
+      "from_email_hash": "b04aca66b0952d3621b5847c9a34ecaf102c7bc312da3235801e18a3e099e02c",
+      "date": "2009-11-02T10:41:37-05:00",
+      "subject": "[R-sig-ins] R and 64 bit Computing",
+      "subject_clean": "R and 64 bit Computing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091102/48319e89/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091102/48319e89/attachment.pl>",
+      "thread_id": "thread-90118966156b",
+      "thread_depth": 0,
+      "month": "2009-11"
+    },
+    {
+      "id": "msg-59bf58da0a5f",
+      "message_id": "<B429D809-2640-4452-83F8-423D8190EF4C@act.ulaval.ca>",
+      "from_name": "Vincent Goulet",
+      "from_email_hash": "773d704bb01dd05dd0f2d10c30d30f8968194f70b20d8fe3f1dd9b43e0bb6057",
+      "date": "2009-11-02T11:02:59-05:00",
+      "subject": "[R-sig-ins] R and 64 bit Computing",
+      "subject_clean": "R and 64 bit Computing",
+      "in_reply_to": "<248FB571F3283A4D9F0749C99DC6FFF80C3126AA@ISOEMAILP2.iso.com>",
+      "references": [
+        "<248FB571F3283A4D9F0749C99DC6FFF80C3126AA@ISOEMAILP2.iso.com>"
+      ],
+      "body_plain": "Hi Glen,\n\nIt already does... on Linux and Mac OS. The problem on Windows is the  \nlack of a reliable free 64 bit compiler; see\n\n\thttp://cran.r-project.org/doc/manuals/R-admin.html#Choosing-between-32_002d-and-64_002dbit-builds\n\nAs alluded to in the R for Windows FAQ, Revolution Computing also  \nprovide a 64-bit version of R:\n\n\thttp://www.revolution-computing.com/\n\nHope this helps,\n\nVincent\n\nLe lun. 2 nov. ? 10:41, Meyers, Glenn G. a ?crit :\n\n> Does anybody know if R can (or future versions will) take advantage  \n> of a\n> 64-bit computing environment?\n>\n>\n>\n> Glenn Meyers\n>\n> ISO\n>\n> 201-469-2333\n>\n>\n>\n> This email is intended for the recipient only.  If you are not the  \n> intended recipient please disregard, and do not use the information  \n> for any purpose.\n>\n> \t[[alternative HTML version deleted]]\n>\n> _______________________________________________\n> R-SIG-insurance mailing list\n> R-SIG-insurance at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance",
+      "body_snippet": "Hi Glen,\n\nIt already does... on Linux and Mac OS. The problem on Windows is the  \nlack of a reliable free 64 bit compiler; see\n\n\thttp://cran.r-project.org/doc/manuals/R-admin.html#Choosing-between-32_",
+      "thread_id": "thread-90118966156b",
+      "thread_depth": 1,
+      "month": "2009-11"
+    },
+    {
+      "id": "msg-bea229fb784b",
+      "message_id": "<0AEBBFC9-C68A-4213-A4C7-12712B9B3A07@gmail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
+      "date": "2009-11-24T21:45:15Z",
+      "subject": "[R-sig-ins] ChainLadder package new version 0.1.2-13",
+      "subject_clean": "ChainLadder package new version 0.1.2-13",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091124/16cd3c4a/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091124/16cd3c4a/attachment.pl>",
+      "thread_id": "thread-bea229fb784b",
+      "thread_depth": 0,
+      "month": "2009-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-90118966156b",
+      "subject": "R and 64 bit Computing",
+      "message_count": 2,
+      "participants": [
+        "Meyers, Glenn G.",
+        "Vincent Goulet"
+      ],
+      "started": "2009-11-02T10:41:37-05:00",
+      "last_reply": "2009-11-02T11:02:59-05:00",
+      "root_message_id": "msg-90118966156b"
+    },
+    {
+      "id": "thread-bea229fb784b",
+      "subject": "ChainLadder package new version 0.1.2-13",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2009-11-24T21:45:15+00:00",
+      "last_reply": "2009-11-24T21:45:15+00:00",
+      "root_message_id": "msg-bea229fb784b"
+    }
+  ]
+}

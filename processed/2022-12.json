@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2022-12",
+  "messages": [
+    {
+      "id": "msg-b0f8ed124512",
+      "message_id": "<4D6E6140-111A-4141-B8E2-7ED5EA67671E@googlemail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "67d4349e07ad64eeaa08af5e62e5639738e6844648ef14c22a80836edfbbfa68",
+      "date": "2022-12-05T17:41:09+01:00",
+      "subject": "[R-sig-ins] Save the date! The Insurance Data Science conference 2023",
+      "subject_clean": "Save the date! The Insurance Data Science conference 2023",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Save the date! The Insurance Data Science conference returns to London next summer, 15 - 16 June 2023, hosted by Bayes Business School <https://www.linkedin.com/company/bayes-business-school/>, City, University of London. \n\nAbstract submission is open now and will close 3 March 2023. Registration for the conference will open in early 2023.\n\nThe conference will celebrate its 10th anniversary, since it started as \"R in Insurance\" in 2013. The event is established itself as the leading get together for academics and practitioners in data science, analytics, machine learning, artificial intelligence, computational statistics and software, as applied in the insurance industry.\n\nWe were delighted to have Luca Baldassarre <https://www.linkedin.com/in/ACoAAAJdMfcBvdxwukvdEYvUnWWXHqtoOGS7eMY> (Lead Data Scientist, Swiss Re <https://www.linkedin.com/company/swiss-re/>), Rosalba Radice (Professor of Statistics, Bayes Business School <https://www.linkedin.com/company/bayes-business-school/>) and Mark Sellors <https://www.linkedin.com/in/ACoAAAKO7-IBn3gL5GBGV6QCd1EGFu1AKnqaEmo> (Board member, Data Orchard <https://www.linkedin.com/company/data-orchard-cic/>) as our keynote speakers.\n\nSpecial thanks to our sponsors: Jumping Rivers Ltd <https://www.linkedin.com/company/jumping-rivers-ltd/>, Posit PBC <https://www.linkedin.com/company/posit-software/>, Mirai Solutions GmbH <https://www.linkedin.com/company/mirai-solutions-gmbh/> and Markel <https://www.linkedin.com/company/markel-corporation/>.\n\n--\nMarkus Gesmann\n\n\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Save the date! The Insurance Data Science conference returns to London next summer, 15 - 16 June 2023, hosted by Bayes Business School <https://www.linkedin.com/company/bayes-business-school/>, City, ",
+      "thread_id": "thread-b0f8ed124512",
+      "thread_depth": 0,
+      "month": "2022-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b0f8ed124512",
+      "subject": "Save the date! The Insurance Data Science conference 2023",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2022-12-05T17:41:09+01:00",
+      "last_reply": "2022-12-05T17:41:09+01:00",
+      "root_message_id": "msg-b0f8ed124512"
+    }
+  ]
+}

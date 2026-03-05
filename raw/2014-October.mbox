@@ -1,0 +1,3763 @@
+From chiefmurphy at gmail.com  Wed Oct  1 19:22:29 2014
+From: chiefmurphy at gmail.com (Dan Murphy)
+Date: Wed, 1 Oct 2014 10:22:29 -0700
+Subject: [R-sig-ins] General Insurance Data
+In-Reply-To: <54acb048af19456390b33d369fa143be@ex01.redwoodsgroup.com>
+References: <5425F3D9.4050708@yahoo.co.uk>
+	<263CECA0-CB51-4A21-9920-F9E5A1F00FBD@gmail.com>
+	<22467A25-096C-4C1E-AED0-02EB39902203@gmail.com>
+	<125d3ad45fec45baade2cb817996a8eb@ex01.redwoodsgroup.com>
+	<5429E8F4.2090609@yahoo.co.uk>
+	<93d0f9223ca044c7a30f7939cc9d0b3f@ex01.redwoodsgroup.com>
+	<F171CF7B-9EE1-455B-8DBB-C8D890907EC7@gmail.com>
+	<54acb048af19456390b33d369fa143be@ex01.redwoodsgroup.com>
+Message-ID: <CAHgH9_G_+Ax_EFfK7zDt3H3xCE=RzQDSxnbr1XMyoG_2wXEMTA@mail.gmail.com>
+
+Thank you for that reference. Looks nice. More than the original poster was
+looking for?
+
+IMO, open-source is a great vehicle for distributing the guts engineering
+that accommodates data exchange and munging. OTOH, I'm not convinced that
+open-source is the right vehicle for distributing the "look and feel" of a
+GUI. But I'm "open" for persuasion. :)
+
+Dan
+
+On Tue, Sep 30, 2014 at 10:37 AM, Brian Fannin <BFannin at redwoodsgroup.com>
+wrote:
+
+>  Can?t believe I forgot to mention that! I remember the presentation and
+> it looks to be a very powerful tool. The integration with LaTeX is
+> particularly nice.
+>
+>
+>
+> *From:* Christophe Dutang [mailto:dutangc at gmail.com]
+> *Sent:* Tuesday, September 30, 2014 11:30 AM
+> *To:* Brian Fannin
+> *Cc:* Edward Roche; Markus Gesmann; chiefmurphy at gmail.com;
+> R-Sig-Insurance at R-Project. Org
+>
+> *Subject:* Re: [R-sig-ins] General Insurance Data
+>
+>
+>
+> On the GUI part, there is a private software RPGM (
+> http://www.pgm-solutions.com/) offering what Edward is looking for.
+>
+>
+>
+>   This tool was presented at the r in insurance conference this year also!
+>
+>
+>
+>   It is partially developed by an actuary.
+>
+> Christophe
+>
+>
+> Le 30 sept. 2014 ? 15:25, Brian Fannin <BFannin at redwoodsgroup.com> a
+> ?crit :
+>
+>  Edward,
+>
+>
+>
+> If I?m reading your message right, the problem seems to break down into
+> two parts: 1) reshape claims data, either by aggregating individual claim
+> amounts or reshaping data from wide to long. 2) Provide a GUI to guide the
+> user through the process of munging the data so that it may be analyzed.
+>
+>
+>
+> On the first point, it would be helpful to identify a typical structure
+> which must be modified. MRMR doesn?t have a function to go from wide to
+> long as that?s a very simple melt command. The data I use in my work lives
+> in a RDBMS in long format, so I?m sorted. I?ve toyed with the idea of a
+> ?collapse? function that would aggregate data along temporal dimensions, or
+> summarize across a hierarchical axis (i.e. sum all of the territories into
+> a single country). Such a function would be general enough that it could
+> summarize individual claim transactions, though that?s likely better done
+> by a database server.
+>
+>
+>
+> One the second point, note that an absence of a GUI is a universal issue
+> with R. However, it?s worth emphasizing that this issue also exists with
+> Excel. A comfortable user interface which permits users to flag columns as
+> development, or origin period or whatever, must be constructed by hand. Dom
+> Yarnell?s EBDEx tool was a great example of this. Shiny is a powerful
+> option for a user interface to support the kinds of transformation you
+> describe. It?s possible to upload and download files and there are a number
+> of user widgets for identification of the structural elements of data. One
+> may also display some basic ggplot type graphics for basic exploratory
+> analysis. I?ve started a project called ?shout? which will eventually be a
+> GUI for MRMR. It?s been dormant for about three months, but have a look- or
+> have a look at Shiny apps in general- and see if that?s a direction that
+> makes sense.
+>
+>
+>
+> Do you have a GitHub repository list where others can contribute? Mine may
+> be found here: https://github.com/PirateGrunt/.
+>
+>
+>
+> Also, have a look at XLConnect. RExcel actually requires a commercial
+> license, whereas XLConnect is GPL 3. XLConnect allows one to read and write
+> to/from Excel files. This is what I use for the ?write.excel? method in
+> MRMR.
+>
+>
+>
+> Regards,
+>
+> Brian
+>
+>
+>
+> *From:* Edward Roche [mailto:ed.roche at yahoo.co.uk <ed.roche at yahoo.co.uk>]
+> *Sent:* Monday, September 29, 2014 7:19 PM
+> *To:* Brian Fannin; 'Markus Gesmann'; Christophe Dutang;
+> chiefmurphy at gmail.com
+> *Cc:* R-Sig-Insurance at R-Project. Org
+> *Subject:* Re: [R-sig-ins] General Insurance Data
+>
+>
+>
+> Hi All,
+>
+> Thank you all for your responses. What I have in mind is a package to help
+> with the initial stage of getting claims data into R and ready to use
+> (formatting etc) before any modeling is done. Effectively to provide a
+> workflow for working with actuarial claims data.
+> My past experiences, using GI reserving projection programs, have usually
+> involved a stage to summarise the data in some format then later feed this
+> data into a program, be it a proprietary program or one of the R packages.
+> The key stage I wish to contribute to here is where the data has to be fed
+> in to R. MRMR and ChainLadder do allow for reshaping of the data (and
+> loading data) but I would like to build on the functionality in these
+> packages while not reinventing the wheel. I will take some time to digest
+> the MRMR package as this does seem to have a lot of functionality that I
+> could use for manipulating the data.
+>
+> A package providing a workflow to get data into a basic tabular structure
+> would act as a stepping stone for getting claims data available and cleaned
+> for use in packages such as ChainLadder or MRMR. It would even be easier to
+> perform other more basic analysis. As I see it at the moment when someone
+> gets to the stage that the data is loaded and formatted in R they are
+> basically ready to go and use MRMR or ChainLadder *but* this is a very
+> big hurdle for novice R users who typically have data stored elsewhere
+> (SAS, SQL Excel or other flat files). Even moving from Excel to R, where
+> data can be stored in objects as opposed to tables is a giant leap in its
+> own right and I fear this is the stage where a lot of novice R Actuarial
+> users are lost or lose confidence in R. I am not a professional programmer
+> and I am not very knowledgeable about different types of connections or
+> porting files from one format to another so I was hoping to leave that up
+> to packages such as RODBC or xlsx. My idea is to provide a workflow
+> structure to load claims data into a data.table using a simple GUI
+> interface. Its worth mentioning, I have come across RExcel which allows you
+> to call R from Excel but what I am talking about is somewhat different in
+> that your using R as the backbone, rather than Excel, for storing and
+> manipulating the data. This would at the same time leave the data in
+> familiar tabular format but helper functions could pivot the data and allow
+> novice R users to create triangles intuitively or extract useful
+> representations such as latest diagonals cumulative data, in year data etc.
+> It would still be easy to manipulate the basic underlying data structure if
+> desired as it is just a data.table but helper functions would give it
+> intuitive Actuarial functionality. The goal would be to reduce the time to
+> close to zero for a novice R Actuarial user to go from using existing data
+> (e.g. Excel or SAS) to a data object that could then be passed to
+> ChainLadder, MRMR or ggplot2.
+> The package Rattle,, has a lovely GUI interface for loading data. I have
+> something like this in mind to get people started. A GUI interface could be
+> used to specify key fields and formats such as origin period etc. The data
+> stored in R as a data.table would still be in a very familiar tabular
+> format and look similar to what novice R users are used to when they have
+> worked with data stored elsewhere in SQL, SAS or Excel files.  This would
+> provide a bit of reassurance  to get working in R. It would also facilitate
+> novice R users to plot the data using ggplot or googlevis, reshape it,
+> summarise it in tables for printing and you also get the benefit that the
+> data.table structure is quite efficient for working with big in memory data.
+>
+> My recent background is claims reserving in a GI company and claims data
+> is what I have initially in mind to tackle. Other data such as pricing
+> data, time series etc would also certainly lend themselves to more
+> specialised Actuarial data structures and I think I could work on these
+> down the road.
+>
+> From my description above the package might just sound like its to load
+> and format the data. This is a non trivial exercise for novice R users and
+> such a package would reduce the barrier for people adopting R especially at
+> work. At the optimistic end of the scale I also think it could make
+> development data analysis accessible to non Actuaries and could even be
+> useful in other fields. I would love the help from anyone that is
+> interested in contributing as I am working on this solo at the moment. I
+> wish to work a bit on a basic proof of concept first and when I get it
+> working I will load it to git hub and post some links to this mailing list.
+> I wanted first to check that such a package does not exist but it will take
+> a bit of time to get something useful and working. I also appreciate any
+> comments, contributions or feedback.
+>
+> Thanks again for the help
+>
+> Regards
+> Edward Roche
+>
+> On 29/09/14 02:03, Brian Fannin wrote:
+>
+> Edward,
+>
+>
+>
+> It may not be exactly what you're looking for, but MRMR could have some things you might like. My primary aim was to develop a package which made data manipulation for loss reserving a bit more efficient. However, it has application in a more general context as well. It begins with a clear, robust yet flexible notion of an origin period (accident/underwriting/report year). For each origin year, one may store measured observations, which have an arbitrarily complex set of dimensions. For example, written premium is allocated to territory, line of business, currency, etc. For loss reserving, we go a step further and allow those measures to change at regular evaluation points.
+>
+>
+>
+> That's that for the data structure. I've tried to build in reasonable support for simple multidimensional/multivariate visualizations. I've got a lot more work to do here, but it's a good start. There's also a new generic method "write.excel" which stores information to a spreadsheet in a reasonable way. This is a pragmatic feature to facilitate data exchange with folk who aren't yet using R. The loss reserving methods presume a linear model framework with chain ladder as a special case. We use mixed effects regression for "loss reserving with credibility".
+>
+>
+>
+> Attached is a very short vignette which may help you to understand how the package is meant to be used. I'm happy to talk more about it, if you're interested.
+>
+>
+>
+> Note that I'm describing features on the development version of MRMR. The CRAN version is more limited. I hope to get the new version submitted and approved before the end of the year.
+>
+>
+>
+> Regards,
+>
+> Brian Fannin
+>
+>
+>
+> -----Original Message-----
+>
+> From: Markus Gesmann [mailto:markus.gesmann at googlemail.com <markus.gesmann at googlemail.com>]
+>
+> Sent: Sunday, September 28, 2014 6:36 AM
+>
+> To: Christophe Dutang
+>
+> Cc: Edward Roche; R-Sig-Insurance at R-Project. Org; Brian Fannin
+>
+> Subject: Re: [R-sig-ins] General Insurance Data
+>
+>
+>
+> Hi Edward,
+>
+>
+>
+> Have you looked at Brian Fanin's MRMR package, http://cran.r-project.org/web/packages/MRMR/index.html or https://github.com/PirateGrunt/MRMR?
+>
+> The package provides quite a bit on infrastructure for dealing with triangle like data.
+>
+>
+>
+> Regards
+>
+>
+>
+> Markus
+>
+>
+>
+> On 27 Sep 2014, at 14:08, Christophe Dutang <dutangc at gmail.com> <dutangc at gmail.com> wrote:
+>
+>
+>
+>  Dear Edward,
+>
+>
+>
+> To my knowledge, there is no single package doing data manipulation in the insurance context.
+>
+>
+>
+> There are package for manipulating from database manager and other
+>
+> proprietary softwares : see
+>
+> http://cran.r-project.org/doc/manuals/r-release/R-data.html
+>
+>
+>
+> Maintaining the CASdatasets package, I face to some of your problem to read SAS or excel files. Typically the case, where there is a separator for thousand. I did write some R functions :
+>
+> - readfunc(filelist, yearlist, sheetname, pattern, nrow, ncol,
+>
+> colname, col2conv, echo=FALSE, row2rm=NULL) : read a list of excel
+>
+> file to extract the same sheet and concatenate the whole
+>
+> - str2num(x) : convert a character string to a numeric dealing with
+>
+> thousand separator
+>
+> - concatmultcol(df, nbinfo, nbblock, col2foot, col2conv, col2rmpre,
+>
+> cm2rmpost, cname2trunc=NULL, echo=FALSE) : concatenate blockwise data into a rowwise dataframe etc...
+>
+> In such function, I read excel files with gdata package.
+>
+>
+>
+> As you say, for manipulating triangles, there are functions in ChainLadder. By the way, I propose cum2incr and incr2cum to M. Gesmann. Another function shrinkTriangle was not kept in this package: this function computes an annual triangle from a monthly or quarterly basis.
+>
+>
+>
+> For manipulating string, there is a good book by Gaston Sanchez, see
+>
+> http://gastonsanchez.com/work/
+>
+>
+>
+> At the last R in insurance conf, there was a good presentation of data manipulation (see http://www.cass.city.ac.uk/news-and-events/conferences/r-in-insurance-2014/r-in-insurance,-conference-programme and ask for presentation file).
+>
+>
+>
+> Do you have a detailed list of what type of data you want to
+>
+> manipulate? for which purpose? (is it only for reserving purpose?) If you are willing to create a package, I will be happy to contribute.
+>
+>
+>
+> Regards, Christophe
+>
+> -
+>
+> Christophe Dutang
+>
+> LMM, UdM, Le Mans, France
+>
+> web: http://dutangc.free.fr
+>
+>
+>
+> Le 27 sept. 2014 ? 01:16, Edward Roche <ed.roche at yahoo.co.uk> <ed.roche at yahoo.co.uk> a ?crit :
+>
+>
+>
+>  Hi all,
+>
+> I am interested in a package for working with General Insurance data, i.e. something that deals with the initial stage of getting GI data into R, reshaping it and subsetting it before performing projections using packages such as ChainLadder or claim development visualisations using googlevis.
+>
+>
+>
+> When working with GI data before you can do any meaningful analysis or projections you need to get your data in the right format. Typically you might start with incremental long format data showing claim transactions and this needs to be reshaped and summarised into triangle matrices (e.g.  paid and incurreds). You can then perform projections with packages such as ChainLadder or other simple development methods. This initial manipulation stage is not always easy to do especially for novice users of R. There are helper functions in the ChainLadder package such as incr2cum, as.triangle etc that let you perform conversions on the fly but I cant find anything for the wholesale restructuring or manipulation of GI data such as converting it from Annual Quarterly to Annual Annual etc. This type of manipulation is very easy to do in some proprietary software (not R based) that I use on a daily basis.
+>
+> I am considering working on a package that would generally provide helper functions to load untidy GI data into R and let a novice R user perform restructuring and manipulation on the fly.  I envisage a GUI such as is available in Rattle to load the data and specify the key variables and formats. Once the data is loaded intuitive helper functions would let you manipulate it on the fly. For example you might wish to pick out paid and incurred triangles, subset the data in some way or convert it to Annual Annual or from cumulative to incremental.
+>
+>
+>
+> My question for this mailing list is are there any such packages out there? or is anyone working on something like this? I would love to get involved if so. Any other thoughts?
+>
+>
+>
+> Thanks
+>
+> Ed
+>
+>
+>
+> _______________________________________________
+>
+> R-SIG-insurance mailing list
+>
+> R-SIG-insurance at r-project.org
+>
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>
+>  _______________________________________________
+>
+> R-SIG-insurance mailing list
+>
+> R-SIG-insurance at r-project.org
+>
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>
+>
+>
+>
+
+	[[alternative HTML version deleted]]
+
+
+From BFannin at redwoodsgroup.com  Wed Oct  1 19:42:49 2014
+From: BFannin at redwoodsgroup.com (Brian Fannin)
+Date: Wed, 1 Oct 2014 17:42:49 +0000
+Subject: [R-sig-ins] General Insurance Data
+In-Reply-To: <CAHgH9_G_+Ax_EFfK7zDt3H3xCE=RzQDSxnbr1XMyoG_2wXEMTA@mail.gmail.com>
+References: <5425F3D9.4050708@yahoo.co.uk>
+	<263CECA0-CB51-4A21-9920-F9E5A1F00FBD@gmail.com>
+	<22467A25-096C-4C1E-AED0-02EB39902203@gmail.com>
+	<125d3ad45fec45baade2cb817996a8eb@ex01.redwoodsgroup.com>
+	<5429E8F4.2090609@yahoo.co.uk>
+	<93d0f9223ca044c7a30f7939cc9d0b3f@ex01.redwoodsgroup.com>
+	<F171CF7B-9EE1-455B-8DBB-C8D890907EC7@gmail.com>
+	<54acb048af19456390b33d369fa143be@ex01.redwoodsgroup.com>
+	<CAHgH9_G_+Ax_EFfK7zDt3H3xCE=RzQDSxnbr1XMyoG_2wXEMTA@mail.gmail.com>
+Message-ID: <9a3e0e35a4b0408fa1aec5be6b19021e@ex01.redwoodsgroup.com>
+
+That begs the question of which tool you prefer for a GUI? I?ll confess that it?s fairly easy to knock something together in Excel. However, I?d like to move to something that has more natural support for forms.
+
+From: Dan Murphy [mailto:chiefmurphy at gmail.com]
+Sent: Wednesday, October 01, 2014 1:22 PM
+To: Brian Fannin
+Cc: Christophe Dutang; Edward Roche; Markus Gesmann; R-Sig-Insurance at R-Project. Org
+Subject: Re: [R-sig-ins] General Insurance Data
+
+Thank you for that reference. Looks nice. More than the original poster was looking for?
+
+IMO, open-source is a great vehicle for distributing the guts engineering that accommodates data exchange and munging. OTOH, I'm not convinced that open-source is the right vehicle for distributing the "look and feel" of a GUI. But I'm "open" for persuasion. :)
+
+Dan
+
+On Tue, Sep 30, 2014 at 10:37 AM, Brian Fannin <BFannin at redwoodsgroup.com<mailto:BFannin at redwoodsgroup.com>> wrote:
+Can?t believe I forgot to mention that! I remember the presentation and it looks to be a very powerful tool. The integration with LaTeX is particularly nice.
+
+From: Christophe Dutang [mailto:dutangc at gmail.com<mailto:dutangc at gmail.com>]
+Sent: Tuesday, September 30, 2014 11:30 AM
+To: Brian Fannin
+Cc: Edward Roche; Markus Gesmann; chiefmurphy at gmail.com<mailto:chiefmurphy at gmail.com>; R-Sig-Insurance at R-Project. Org
+
+Subject: Re: [R-sig-ins] General Insurance Data
+
+On the GUI part, there is a private software RPGM (http://www.pgm-solutions.com/) offering what Edward is looking for.
+
+This tool was presented at the r in insurance conference this year also!
+
+It is partially developed by an actuary.
+
+Christophe
+
+Le 30 sept. 2014 ? 15:25, Brian Fannin <BFannin at redwoodsgroup.com<mailto:BFannin at redwoodsgroup.com>> a ?crit :
+Edward,
+
+If I?m reading your message right, the problem seems to break down into two parts: 1) reshape claims data, either by aggregating individual claim amounts or reshaping data from wide to long. 2) Provide a GUI to guide the user through the process of munging the data so that it may be analyzed.
+
+On the first point, it would be helpful to identify a typical structure which must be modified. MRMR doesn?t have a function to go from wide to long as that?s a very simple melt command. The data I use in my work lives in a RDBMS in long format, so I?m sorted. I?ve toyed with the idea of a ?collapse? function that would aggregate data along temporal dimensions, or summarize across a hierarchical axis (i.e. sum all of the territories into a single country). Such a function would be general enough that it could summarize individual claim transactions, though that?s likely better done by a database server.
+
+One the second point, note that an absence of a GUI is a universal issue with R. However, it?s worth emphasizing that this issue also exists with Excel. A comfortable user interface which permits users to flag columns as development, or origin period or whatever, must be constructed by hand. Dom Yarnell?s EBDEx tool was a great example of this. Shiny is a powerful option for a user interface to support the kinds of transformation you describe. It?s possible to upload and download files and there are a number of user widgets for identification of the structural elements of data. One may also display some basic ggplot type graphics for basic exploratory analysis. I?ve started a project called ?shout? which will eventually be a GUI for MRMR. It?s been dormant for about three months, but have a look- or have a look at Shiny apps in general- and see if that?s a direction that makes sense.
+
+Do you have a GitHub repository list where others can contribute? Mine may be found here: https://github.com/PirateGrunt/.
+
+Also, have a look at XLConnect. RExcel actually requires a commercial license, whereas XLConnect is GPL 3. XLConnect allows one to read and write to/from Excel files. This is what I use for the ?write.excel? method in MRMR.
+
+Regards,
+Brian
+
+From: Edward Roche [mailto:ed.roche at yahoo.co.uk]
+Sent: Monday, September 29, 2014 7:19 PM
+To: Brian Fannin; 'Markus Gesmann'; Christophe Dutang; chiefmurphy at gmail.com<mailto:chiefmurphy at gmail.com>
+Cc: R-Sig-Insurance at R-Project. Org
+Subject: Re: [R-sig-ins] General Insurance Data
+
+Hi All,
+
+Thank you all for your responses. What I have in mind is a package to help with the initial stage of getting claims data into R and ready to use (formatting etc) before any modeling is done. Effectively to provide a workflow for working with actuarial claims data.
+My past experiences, using GI reserving projection programs, have usually involved a stage to summarise the data in some format then later feed this data into a program, be it a proprietary program or one of the R packages. The key stage I wish to contribute to here is where the data has to be fed in to R. MRMR and ChainLadder do allow for reshaping of the data (and loading data) but I would like to build on the functionality in these packages while not reinventing the wheel. I will take some time to digest the MRMR package as this does seem to have a lot of functionality that I could use for manipulating the data.
+
+A package providing a workflow to get data into a basic tabular structure  would act as a stepping stone for getting claims data available and cleaned for use in packages such as ChainLadder or MRMR. It would even be easier to perform other more basic analysis. As I see it at the moment when someone gets to the stage that the data is loaded and formatted in R they are basically ready to go and use MRMR or ChainLadder but this is a very big hurdle for novice R users who typically have data stored elsewhere (SAS, SQL Excel or other flat files). Even moving from Excel to R, where data can be stored in objects as opposed to tables is a giant leap in its own right and I fear this is the stage where a lot of novice R Actuarial users are lost or lose confidence in R. I am not a professional programmer and I am not very knowledgeable about different types of connections or porting files from one format to another so I was hoping to leave that up to packages such as RODBC or xlsx. My idea is to provide a workflow structure to load claims data into a data.table using a simple GUI interface. Its worth mentioning, I have come across RExcel which allows you to call R from Excel but what I am talking about is somewhat different in that your using R as the backbone, rather than Excel, for storing and manipulating the data. This would at the same time leave the data in familiar tabular format but helper functions could pivot the data and allow novice R users to create triangles intuitively or extract useful representations such as latest diagonals cumulative data, in year data etc. It would still be easy to manipulate the basic underlying data structure if desired as it is just a data.table but helper functions would give it intuitive Actuarial functionality. The goal would be to reduce the time to close to zero for a novice R Actuarial user to go from using existing data (e.g. Excel or SAS) to a data object that could then be passed to ChainLadder, MRMR or ggplot2.
+The package Rattle,, has a lovely GUI interface for loading data. I have something like this in mind to get people started. A GUI interface could be used to specify key fields and formats such as origin period etc. The data stored in R as a data.table would still be in a very familiar tabular format and look similar to what novice R users are used to when they have worked with data stored elsewhere in SQL, SAS or Excel files.  This would provide a bit of reassurance  to get working in R. It would also facilitate novice R users to plot the data using ggplot or googlevis, reshape it, summarise it in tables for printing and you also get the benefit that the data.table structure is quite efficient for working with big in memory data.
+
+My recent background is claims reserving in a GI company and claims data is what I have initially in mind to tackle. Other data such as pricing data, time series etc would also certainly lend themselves to more specialised Actuarial data structures and I think I could work on these down the road.
+
+From my description above the package might just sound like its to load and format the data. This is a non trivial exercise for novice R users and such a package would reduce the barrier for people adopting R especially at work. At the optimistic end of the scale I also think it could make development data analysis accessible to non Actuaries and could even be useful in other fields. I would love the help from anyone that is interested in contributing as I am working on this solo at the moment. I wish to work a bit on a basic proof of concept first and when I get it working I will load it to git hub and post some links to this mailing list. I wanted first to check that such a package does not exist but it will take a bit of time to get something useful and working. I also appreciate any comments, contributions or feedback.
+
+Thanks again for the help
+
+Regards
+Edward Roche
+On 29/09/14 02:03, Brian Fannin wrote:
+
+Edward,
+
+
+
+It may not be exactly what you're looking for, but MRMR could have some things you might like. My primary aim was to develop a package which made data manipulation for loss reserving a bit more efficient. However, it has application in a more general context as well. It begins with a clear, robust yet flexible notion of an origin period (accident/underwriting/report year). For each origin year, one may store measured observations, which have an arbitrarily complex set of dimensions. For example, written premium is allocated to territory, line of business, currency, etc. For loss reserving, we go a step further and allow those measures to change at regular evaluation points.
+
+
+
+That's that for the data structure. I've tried to build in reasonable support for simple multidimensional/multivariate visualizations. I've got a lot more work to do here, but it's a good start. There's also a new generic method "write.excel" which stores information to a spreadsheet in a reasonable way. This is a pragmatic feature to facilitate data exchange with folk who aren't yet using R. The loss reserving methods presume a linear model framework with chain ladder as a special case. We use mixed effects regression for "loss reserving with credibility".
+
+
+
+Attached is a very short vignette which may help you to understand how the package is meant to be used. I'm happy to talk more about it, if you're interested.
+
+
+
+Note that I'm describing features on the development version of MRMR. The CRAN version is more limited. I hope to get the new version submitted and approved before the end of the year.
+
+
+
+Regards,
+
+Brian Fannin
+
+
+
+-----Original Message-----
+
+From: Markus Gesmann [mailto:markus.gesmann at googlemail.com]
+
+Sent: Sunday, September 28, 2014 6:36 AM
+
+To: Christophe Dutang
+
+Cc: Edward Roche; R-Sig-Insurance at R-Project. Org; Brian Fannin
+
+Subject: Re: [R-sig-ins] General Insurance Data
+
+
+
+Hi Edward,
+
+
+
+Have you looked at Brian Fanin's MRMR package, http://cran.r-project.org/web/packages/MRMR/index.html or https://github.com/PirateGrunt/MRMR?
+
+The package provides quite a bit on infrastructure for dealing with triangle like data.
+
+
+
+Regards
+
+
+
+Markus
+
+
+
+On 27 Sep 2014, at 14:08, Christophe Dutang <dutangc at gmail.com><mailto:dutangc at gmail.com> wrote:
+
+
+
+Dear Edward,
+
+
+
+To my knowledge, there is no single package doing data manipulation in the insurance context.
+
+
+
+There are package for manipulating from database manager and other
+
+proprietary softwares : see
+
+http://cran.r-project.org/doc/manuals/r-release/R-data.html
+
+
+
+Maintaining the CASdatasets package, I face to some of your problem to read SAS or excel files. Typically the case, where there is a separator for thousand. I did write some R functions :
+
+- readfunc(filelist, yearlist, sheetname, pattern, nrow, ncol,
+
+colname, col2conv, echo=FALSE, row2rm=NULL) : read a list of excel
+
+file to extract the same sheet and concatenate the whole
+
+- str2num(x) : convert a character string to a numeric dealing with
+
+thousand separator
+
+- concatmultcol(df, nbinfo, nbblock, col2foot, col2conv, col2rmpre,
+
+cm2rmpost, cname2trunc=NULL, echo=FALSE) : concatenate blockwise data into a rowwise dataframe etc...
+
+In such function, I read excel files with gdata package.
+
+
+
+As you say, for manipulating triangles, there are functions in ChainLadder. By the way, I propose cum2incr and incr2cum to M. Gesmann. Another function shrinkTriangle was not kept in this package: this function computes an annual triangle from a monthly or quarterly basis.
+
+
+
+For manipulating string, there is a good book by Gaston Sanchez, see
+
+http://gastonsanchez.com/work/
+
+
+
+At the last R in insurance conf, there was a good presentation of data manipulation (see http://www.cass.city.ac.uk/news-and-events/conferences/r-in-insurance-2014/r-in-insurance,-conference-programme and ask for presentation file).
+
+
+
+Do you have a detailed list of what type of data you want to
+
+manipulate? for which purpose? (is it only for reserving purpose?) If you are willing to create a package, I will be happy to contribute.
+
+
+
+Regards, Christophe
+
+-
+
+Christophe Dutang
+
+LMM, UdM, Le Mans, France
+
+web: http://dutangc.free.fr
+
+
+
+Le 27 sept. 2014 ? 01:16, Edward Roche <ed.roche at yahoo.co.uk><mailto:ed.roche at yahoo.co.uk> a ?crit :
+
+
+
+Hi all,
+
+I am interested in a package for working with General Insurance data, i.e. something that deals with the initial stage of getting GI data into R, reshaping it and subsetting it before performing projections using packages such as ChainLadder or claim development visualisations using googlevis.
+
+
+
+When working with GI data before you can do any meaningful analysis or projections you need to get your data in the right format. Typically you might start with incremental long format data showing claim transactions and this needs to be reshaped and summarised into triangle matrices (e.g.  paid and incurreds). You can then perform projections with packages such as ChainLadder or other simple development methods. This initial manipulation stage is not always easy to do especially for novice users of R. There are helper functions in the ChainLadder package such as incr2cum, as.triangle etc that let you perform conversions on the fly but I cant find anything for the wholesale restructuring or manipulation of GI data such as converting it from Annual Quarterly to Annual Annual etc. This type of manipulation is very easy to do in some proprietary software (not R based) that I use on a daily basis.
+
+I am considering working on a package that would generally provide helper functions to load untidy GI data into R and let a novice R user perform restructuring and manipulation on the fly.  I envisage a GUI such as is available in Rattle to load the data and specify the key variables and formats. Once the data is loaded intuitive helper functions would let you manipulate it on the fly. For example you might wish to pick out paid and incurred triangles, subset the data in some way or convert it to Annual Annual or from cumulative to incremental.
+
+
+
+My question for this mailing list is are there any such packages out there? or is anyone working on something like this? I would love to get involved if so. Any other thoughts?
+
+
+
+Thanks
+
+Ed
+
+
+
+_______________________________________________
+
+R-SIG-insurance mailing list
+
+R-SIG-insurance at r-project.org<mailto:R-SIG-insurance at r-project.org>
+
+https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+_______________________________________________
+
+R-SIG-insurance mailing list
+
+R-SIG-insurance at r-project.org<mailto:R-SIG-insurance at r-project.org>
+
+https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+
+
+	[[alternative HTML version deleted]]
+
+
+From chiefmurphy at gmail.com  Wed Oct  1 22:34:30 2014
+From: chiefmurphy at gmail.com (Dan Murphy)
+Date: Wed, 1 Oct 2014 13:34:30 -0700
+Subject: [R-sig-ins] General Insurance Data
+In-Reply-To: <9a3e0e35a4b0408fa1aec5be6b19021e@ex01.redwoodsgroup.com>
+References: <5425F3D9.4050708@yahoo.co.uk>
+	<263CECA0-CB51-4A21-9920-F9E5A1F00FBD@gmail.com>
+	<22467A25-096C-4C1E-AED0-02EB39902203@gmail.com>
+	<125d3ad45fec45baade2cb817996a8eb@ex01.redwoodsgroup.com>
+	<5429E8F4.2090609@yahoo.co.uk>
+	<93d0f9223ca044c7a30f7939cc9d0b3f@ex01.redwoodsgroup.com>
+	<F171CF7B-9EE1-455B-8DBB-C8D890907EC7@gmail.com>
+	<54acb048af19456390b33d369fa143be@ex01.redwoodsgroup.com>
+	<CAHgH9_G_+Ax_EFfK7zDt3H3xCE=RzQDSxnbr1XMyoG_2wXEMTA@mail.gmail.com>
+	<9a3e0e35a4b0408fa1aec5be6b19021e@ex01.redwoodsgroup.com>
+Message-ID: <CAHgH9_HszOSXi4QuNmHKiYS8PRdarZFGtC_iuGFpxx8XG9co0A@mail.gmail.com>
+
+I don't agree, Brian, that that's the question I'm begging.
+
+I don't have all the details, but the story goes that a while back (pre21st
+century?) an actuary tried to patent an actuarial method/calculation that
+he/she invented. I can't even remember if that attempt was successful. But
+the actuarial community was against such endeavors. I'm in that camp,
+having learned on my daddy's knee that you can't patent an idea. (He was
+not a patent attorney!)
+
+OTOH, Apple Computer (and others) made a business out of patenting the look
+and feel of their products, including their software. (E.g., I cannot zoom
+in on an Instagram photo on my android phone, but last night was
+demonstrated the three-finger-tap to do it on an iphone!) I don't believe
+the tool that creates the look and feel is germane to the patent, but I'm
+not a patent attorney either.
+
+
+On Wed, Oct 1, 2014 at 10:42 AM, Brian Fannin <BFannin at redwoodsgroup.com>
+wrote:
+
+>  That begs the question of which tool you prefer for a GUI? I?ll confess
+> that it?s fairly easy to knock something together in Excel. However, I?d
+> like to move to something that has more natural support for forms.
+>
+>
+>
+> *From:* Dan Murphy [mailto:chiefmurphy at gmail.com]
+> *Sent:* Wednesday, October 01, 2014 1:22 PM
+> *To:* Brian Fannin
+> *Cc:* Christophe Dutang; Edward Roche; Markus Gesmann;
+> R-Sig-Insurance at R-Project. Org
+>
+> *Subject:* Re: [R-sig-ins] General Insurance Data
+>
+>
+>
+> Thank you for that reference. Looks nice. More than the original poster
+> was looking for?
+>
+>
+>
+> IMO, open-source is a great vehicle for distributing the guts engineering
+> that accommodates data exchange and munging. OTOH, I'm not convinced that
+> open-source is the right vehicle for distributing the "look and feel" of a
+> GUI. But I'm "open" for persuasion. :)
+>
+>
+>
+> Dan
+>
+>
+>
+> On Tue, Sep 30, 2014 at 10:37 AM, Brian Fannin <BFannin at redwoodsgroup.com>
+> wrote:
+>
+>  Can?t believe I forgot to mention that! I remember the presentation and
+> it looks to be a very powerful tool. The integration with LaTeX is
+> particularly nice.
+>
+>
+>
+> *From:* Christophe Dutang [mailto:dutangc at gmail.com]
+> *Sent:* Tuesday, September 30, 2014 11:30 AM
+> *To:* Brian Fannin
+> *Cc:* Edward Roche; Markus Gesmann; chiefmurphy at gmail.com;
+> R-Sig-Insurance at R-Project. Org
+>
+>
+> *Subject:* Re: [R-sig-ins] General Insurance Data
+>
+>
+>
+> On the GUI part, there is a private software RPGM (
+> http://www.pgm-solutions.com/) offering what Edward is looking for.
+>
+>
+>
+> This tool was presented at the r in insurance conference this year also!
+>
+>
+>
+> It is partially developed by an actuary.
+>
+> Christophe
+>
+>
+> Le 30 sept. 2014 ? 15:25, Brian Fannin <BFannin at redwoodsgroup.com> a
+> ?crit :
+>
+>  Edward,
+>
+>
+>
+> If I?m reading your message right, the problem seems to break down into
+> two parts: 1) reshape claims data, either by aggregating individual claim
+> amounts or reshaping data from wide to long. 2) Provide a GUI to guide the
+> user through the process of munging the data so that it may be analyzed.
+>
+>
+>
+> On the first point, it would be helpful to identify a typical structure
+> which must be modified. MRMR doesn?t have a function to go from wide to
+> long as that?s a very simple melt command. The data I use in my work lives
+> in a RDBMS in long format, so I?m sorted. I?ve toyed with the idea of a
+> ?collapse? function that would aggregate data along temporal dimensions, or
+> summarize across a hierarchical axis (i.e. sum all of the territories into
+> a single country). Such a function would be general enough that it could
+> summarize individual claim transactions, though that?s likely better done
+> by a database server.
+>
+>
+>
+> One the second point, note that an absence of a GUI is a universal issue
+> with R. However, it?s worth emphasizing that this issue also exists with
+> Excel. A comfortable user interface which permits users to flag columns as
+> development, or origin period or whatever, must be constructed by hand. Dom
+> Yarnell?s EBDEx tool was a great example of this. Shiny is a powerful
+> option for a user interface to support the kinds of transformation you
+> describe. It?s possible to upload and download files and there are a number
+> of user widgets for identification of the structural elements of data. One
+> may also display some basic ggplot type graphics for basic exploratory
+> analysis. I?ve started a project called ?shout? which will eventually be a
+> GUI for MRMR. It?s been dormant for about three months, but have a look- or
+> have a look at Shiny apps in general- and see if that?s a direction that
+> makes sense.
+>
+>
+>
+> Do you have a GitHub repository list where others can contribute? Mine may
+> be found here: https://github.com/PirateGrunt/.
+>
+>
+>
+> Also, have a look at XLConnect. RExcel actually requires a commercial
+> license, whereas XLConnect is GPL 3. XLConnect allows one to read and write
+> to/from Excel files. This is what I use for the ?write.excel? method in
+> MRMR.
+>
+>
+>
+> Regards,
+>
+> Brian
+>
+>
+>
+> *From:* Edward Roche [mailto:ed.roche at yahoo.co.uk <ed.roche at yahoo.co.uk>]
+> *Sent:* Monday, September 29, 2014 7:19 PM
+> *To:* Brian Fannin; 'Markus Gesmann'; Christophe Dutang;
+> chiefmurphy at gmail.com
+> *Cc:* R-Sig-Insurance at R-Project. Org
+> *Subject:* Re: [R-sig-ins] General Insurance Data
+>
+>
+>
+> Hi All,
+>
+> Thank you all for your responses. What I have in mind is a package to help
+> with the initial stage of getting claims data into R and ready to use
+> (formatting etc) before any modeling is done. Effectively to provide a
+> workflow for working with actuarial claims data.
+> My past experiences, using GI reserving projection programs, have usually
+> involved a stage to summarise the data in some format then later feed this
+> data into a program, be it a proprietary program or one of the R packages.
+> The key stage I wish to contribute to here is where the data has to be fed
+> in to R. MRMR and ChainLadder do allow for reshaping of the data (and
+> loading data) but I would like to build on the functionality in these
+> packages while not reinventing the wheel. I will take some time to digest
+> the MRMR package as this does seem to have a lot of functionality that I
+> could use for manipulating the data.
+>
+> A package providing a workflow to get data into a basic tabular structure
+> would act as a stepping stone for getting claims data available and cleaned
+> for use in packages such as ChainLadder or MRMR. It would even be easier to
+> perform other more basic analysis. As I see it at the moment when someone
+> gets to the stage that the data is loaded and formatted in R they are
+> basically ready to go and use MRMR or ChainLadder *but* this is a very
+> big hurdle for novice R users who typically have data stored elsewhere
+> (SAS, SQL Excel or other flat files). Even moving from Excel to R, where
+> data can be stored in objects as opposed to tables is a giant leap in its
+> own right and I fear this is the stage where a lot of novice R Actuarial
+> users are lost or lose confidence in R. I am not a professional programmer
+> and I am not very knowledgeable about different types of connections or
+> porting files from one format to another so I was hoping to leave that up
+> to packages such as RODBC or xlsx. My idea is to provide a workflow
+> structure to load claims data into a data.table using a simple GUI
+> interface. Its worth mentioning, I have come across RExcel which allows you
+> to call R from Excel but what I am talking about is somewhat different in
+> that your using R as the backbone, rather than Excel, for storing and
+> manipulating the data. This would at the same time leave the data in
+> familiar tabular format but helper functions could pivot the data and allow
+> novice R users to create triangles intuitively or extract useful
+> representations such as latest diagonals cumulative data, in year data etc.
+> It would still be easy to manipulate the basic underlying data structure if
+> desired as it is just a data.table but helper functions would give it
+> intuitive Actuarial functionality. The goal would be to reduce the time to
+> close to zero for a novice R Actuarial user to go from using existing data
+> (e.g. Excel or SAS) to a data object that could then be passed to
+> ChainLadder, MRMR or ggplot2.
+> The package Rattle,, has a lovely GUI interface for loading data. I have
+> something like this in mind to get people started. A GUI interface could be
+> used to specify key fields and formats such as origin period etc. The data
+> stored in R as a data.table would still be in a very familiar tabular
+> format and look similar to what novice R users are used to when they have
+> worked with data stored elsewhere in SQL, SAS or Excel files.  This would
+> provide a bit of reassurance  to get working in R. It would also facilitate
+> novice R users to plot the data using ggplot or googlevis, reshape it,
+> summarise it in tables for printing and you also get the benefit that the
+> data.table structure is quite efficient for working with big in memory data.
+>
+> My recent background is claims reserving in a GI company and claims data
+> is what I have initially in mind to tackle. Other data such as pricing
+> data, time series etc would also certainly lend themselves to more
+> specialised Actuarial data structures and I think I could work on these
+> down the road.
+>
+> From my description above the package might just sound like its to load
+> and format the data. This is a non trivial exercise for novice R users and
+> such a package would reduce the barrier for people adopting R especially at
+> work. At the optimistic end of the scale I also think it could make
+> development data analysis accessible to non Actuaries and could even be
+> useful in other fields. I would love the help from anyone that is
+> interested in contributing as I am working on this solo at the moment. I
+> wish to work a bit on a basic proof of concept first and when I get it
+> working I will load it to git hub and post some links to this mailing list.
+> I wanted first to check that such a package does not exist but it will take
+> a bit of time to get something useful and working. I also appreciate any
+> comments, contributions or feedback.
+>
+> Thanks again for the help
+>
+> Regards
+> Edward Roche
+>
+> On 29/09/14 02:03, Brian Fannin wrote:
+>
+> Edward,
+>
+>
+>
+> It may not be exactly what you're looking for, but MRMR could have some things you might like. My primary aim was to develop a package which made data manipulation for loss reserving a bit more efficient. However, it has application in a more general context as well. It begins with a clear, robust yet flexible notion of an origin period (accident/underwriting/report year). For each origin year, one may store measured observations, which have an arbitrarily complex set of dimensions. For example, written premium is allocated to territory, line of business, currency, etc. For loss reserving, we go a step further and allow those measures to change at regular evaluation points.
+>
+>
+>
+> That's that for the data structure. I've tried to build in reasonable support for simple multidimensional/multivariate visualizations. I've got a lot more work to do here, but it's a good start. There's also a new generic method "write.excel" which stores information to a spreadsheet in a reasonable way. This is a pragmatic feature to facilitate data exchange with folk who aren't yet using R. The loss reserving methods presume a linear model framework with chain ladder as a special case. We use mixed effects regression for "loss reserving with credibility".
+>
+>
+>
+> Attached is a very short vignette which may help you to understand how the package is meant to be used. I'm happy to talk more about it, if you're interested.
+>
+>
+>
+> Note that I'm describing features on the development version of MRMR. The CRAN version is more limited. I hope to get the new version submitted and approved before the end of the year.
+>
+>
+>
+> Regards,
+>
+> Brian Fannin
+>
+>
+>
+> -----Original Message-----
+>
+> From: Markus Gesmann [mailto:markus.gesmann at googlemail.com <markus.gesmann at googlemail.com>]
+>
+> Sent: Sunday, September 28, 2014 6:36 AM
+>
+> To: Christophe Dutang
+>
+> Cc: Edward Roche; R-Sig-Insurance at R-Project. Org; Brian Fannin
+>
+> Subject: Re: [R-sig-ins] General Insurance Data
+>
+>
+>
+> Hi Edward,
+>
+>
+>
+> Have you looked at Brian Fanin's MRMR package, http://cran.r-project.org/web/packages/MRMR/index.html or https://github.com/PirateGrunt/MRMR?
+>
+> The package provides quite a bit on infrastructure for dealing with triangle like data.
+>
+>
+>
+> Regards
+>
+>
+>
+> Markus
+>
+>
+>
+> On 27 Sep 2014, at 14:08, Christophe Dutang <dutangc at gmail.com> <dutangc at gmail.com> wrote:
+>
+>
+>
+>  Dear Edward,
+>
+>
+>
+> To my knowledge, there is no single package doing data manipulation in the insurance context.
+>
+>
+>
+> There are package for manipulating from database manager and other
+>
+> proprietary softwares : see
+>
+> http://cran.r-project.org/doc/manuals/r-release/R-data.html
+>
+>
+>
+> Maintaining the CASdatasets package, I face to some of your problem to read SAS or excel files. Typically the case, where there is a separator for thousand. I did write some R functions :
+>
+> - readfunc(filelist, yearlist, sheetname, pattern, nrow, ncol,
+>
+> colname, col2conv, echo=FALSE, row2rm=NULL) : read a list of excel
+>
+> file to extract the same sheet and concatenate the whole
+>
+> - str2num(x) : convert a character string to a numeric dealing with
+>
+> thousand separator
+>
+> - concatmultcol(df, nbinfo, nbblock, col2foot, col2conv, col2rmpre,
+>
+> cm2rmpost, cname2trunc=NULL, echo=FALSE) : concatenate blockwise data into a rowwise dataframe etc...
+>
+> In such function, I read excel files with gdata package.
+>
+>
+>
+> As you say, for manipulating triangles, there are functions in ChainLadder. By the way, I propose cum2incr and incr2cum to M. Gesmann. Another function shrinkTriangle was not kept in this package: this function computes an annual triangle from a monthly or quarterly basis.
+>
+>
+>
+> For manipulating string, there is a good book by Gaston Sanchez, see
+>
+> http://gastonsanchez.com/work/
+>
+>
+>
+> At the last R in insurance conf, there was a good presentation of data manipulation (see http://www.cass.city.ac.uk/news-and-events/conferences/r-in-insurance-2014/r-in-insurance,-conference-programme and ask for presentation file).
+>
+>
+>
+> Do you have a detailed list of what type of data you want to
+>
+> manipulate? for which purpose? (is it only for reserving purpose?) If you are willing to create a package, I will be happy to contribute.
+>
+>
+>
+> Regards, Christophe
+>
+> -
+>
+> Christophe Dutang
+>
+> LMM, UdM, Le Mans, France
+>
+> web: http://dutangc.free.fr
+>
+>
+>
+> Le 27 sept. 2014 ? 01:16, Edward Roche <ed.roche at yahoo.co.uk> <ed.roche at yahoo.co.uk> a ?crit :
+>
+>
+>
+>  Hi all,
+>
+> I am interested in a package for working with General Insurance data, i.e. something that deals with the initial stage of getting GI data into R, reshaping it and subsetting it before performing projections using packages such as ChainLadder or claim development visualisations using googlevis.
+>
+>
+>
+> When working with GI data before you can do any meaningful analysis or projections you need to get your data in the right format. Typically you might start with incremental long format data showing claim transactions and this needs to be reshaped and summarised into triangle matrices (e.g.  paid and incurreds). You can then perform projections with packages such as ChainLadder or other simple development methods. This initial manipulation stage is not always easy to do especially for novice users of R. There are helper functions in the ChainLadder package such as incr2cum, as.triangle etc that let you perform conversions on the fly but I cant find anything for the wholesale restructuring or manipulation of GI data such as converting it from Annual Quarterly to Annual Annual etc. This type of manipulation is very easy to do in some proprietary software (not R based) that I use on a daily basis.
+>
+> I am considering working on a package that would generally provide helper functions to load untidy GI data into R and let a novice R user perform restructuring and manipulation on the fly.  I envisage a GUI such as is available in Rattle to load the data and specify the key variables and formats. Once the data is loaded intuitive helper functions would let you manipulate it on the fly. For example you might wish to pick out paid and incurred triangles, subset the data in some way or convert it to Annual Annual or from cumulative to incremental.
+>
+>
+>
+> My question for this mailing list is are there any such packages out there? or is anyone working on something like this? I would love to get involved if so. Any other thoughts?
+>
+>
+>
+> Thanks
+>
+> Ed
+>
+>
+>
+> _______________________________________________
+>
+> R-SIG-insurance mailing list
+>
+> R-SIG-insurance at r-project.org
+>
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>
+>  _______________________________________________
+>
+> R-SIG-insurance mailing list
+>
+> R-SIG-insurance at r-project.org
+>
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>
+>
+>
+>
+>
+
+	[[alternative HTML version deleted]]
+
+
+From BFannin at redwoodsgroup.com  Wed Oct  1 23:01:25 2014
+From: BFannin at redwoodsgroup.com (Brian Fannin)
+Date: Wed, 1 Oct 2014 21:01:25 +0000
+Subject: [R-sig-ins] General Insurance Data
+In-Reply-To: <CAHgH9_HszOSXi4QuNmHKiYS8PRdarZFGtC_iuGFpxx8XG9co0A@mail.gmail.com>
+References: <5425F3D9.4050708@yahoo.co.uk>
+	<263CECA0-CB51-4A21-9920-F9E5A1F00FBD@gmail.com>
+	<22467A25-096C-4C1E-AED0-02EB39902203@gmail.com>
+	<125d3ad45fec45baade2cb817996a8eb@ex01.redwoodsgroup.com>
+	<5429E8F4.2090609@yahoo.co.uk>
+	<93d0f9223ca044c7a30f7939cc9d0b3f@ex01.redwoodsgroup.com>
+	<F171CF7B-9EE1-455B-8DBB-C8D890907EC7@gmail.com>
+	<54acb048af19456390b33d369fa143be@ex01.redwoodsgroup.com>
+	<CAHgH9_G_+Ax_EFfK7zDt3H3xCE=RzQDSxnbr1XMyoG_2wXEMTA@mail.gmail.com>
+	<9a3e0e35a4b0408fa1aec5be6b19021e@ex01.redwoodsgroup.com>,
+	<CAHgH9_HszOSXi4QuNmHKiYS8PRdarZFGtC_iuGFpxx8XG9co0A@mail.gmail.com>
+Message-ID: <7D9F94B2-0950-4FFC-9FDB-D377B0FDA1D5@redwoodsgroup.com>
+
+Sorry, I think I misunderstood your point. I was thinking of development environments and how something is deployed. Visual Basic is a proprietary environment to develop an application, for example.
+
+Agree that it's easier to personalize (or sell, if you'd rather) the implementation of an idea, as opposed to the idea itself.
+
+I thought you had some really cool GUI design tool that I wanted to hear more about.
+
+-B
+
+Sent from my iPhone
+
+On Oct 1, 2014, at 4:34 PM, "Dan Murphy" <chiefmurphy at gmail.com<mailto:chiefmurphy at gmail.com>> wrote:
+
+I don't agree, Brian, that that's the question I'm begging.
+
+I don't have all the details, but the story goes that a while back (pre21st century?) an actuary tried to patent an actuarial method/calculation that he/she invented. I can't even remember if that attempt was successful. But the actuarial community was against such endeavors. I'm in that camp, having learned on my daddy's knee that you can't patent an idea. (He was not a patent attorney!)
+
+OTOH, Apple Computer (and others) made a business out of patenting the look and feel of their products, including their software. (E.g., I cannot zoom in on an Instagram photo on my android phone, but last night was demonstrated the three-finger-tap to do it on an iphone!) I don't believe the tool that creates the look and feel is germane to the patent, but I'm not a patent attorney either.
+
+
+On Wed, Oct 1, 2014 at 10:42 AM, Brian Fannin <BFannin at redwoodsgroup.com<mailto:BFannin at redwoodsgroup.com>> wrote:
+That begs the question of which tool you prefer for a GUI? I?ll confess that it?s fairly easy to knock something together in Excel. However, I?d like to move to something that has more natural support for forms.
+
+From: Dan Murphy [mailto:chiefmurphy at gmail.com<mailto:chiefmurphy at gmail.com>]
+Sent: Wednesday, October 01, 2014 1:22 PM
+To: Brian Fannin
+Cc: Christophe Dutang; Edward Roche; Markus Gesmann; R-Sig-Insurance at R-Project. Org
+
+Subject: Re: [R-sig-ins] General Insurance Data
+
+Thank you for that reference. Looks nice. More than the original poster was looking for?
+
+IMO, open-source is a great vehicle for distributing the guts engineering that accommodates data exchange and munging. OTOH, I'm not convinced that open-source is the right vehicle for distributing the "look and feel" of a GUI. But I'm "open" for persuasion. :)
+
+Dan
+
+On Tue, Sep 30, 2014 at 10:37 AM, Brian Fannin <BFannin at redwoodsgroup.com<mailto:BFannin at redwoodsgroup.com>> wrote:
+Can?t believe I forgot to mention that! I remember the presentation and it looks to be a very powerful tool. The integration with LaTeX is particularly nice.
+
+From: Christophe Dutang [mailto:dutangc at gmail.com<mailto:dutangc at gmail.com>]
+Sent: Tuesday, September 30, 2014 11:30 AM
+To: Brian Fannin
+Cc: Edward Roche; Markus Gesmann; chiefmurphy at gmail.com<mailto:chiefmurphy at gmail.com>; R-Sig-Insurance at R-Project. Org
+
+Subject: Re: [R-sig-ins] General Insurance Data
+
+On the GUI part, there is a private software RPGM (http://www.pgm-solutions.com/) offering what Edward is looking for.
+
+This tool was presented at the r in insurance conference this year also!
+
+It is partially developed by an actuary.
+
+Christophe
+
+Le 30 sept. 2014 ? 15:25, Brian Fannin <BFannin at redwoodsgroup.com<mailto:BFannin at redwoodsgroup.com>> a ?crit :
+Edward,
+
+If I?m reading your message right, the problem seems to break down into two parts: 1) reshape claims data, either by aggregating individual claim amounts or reshaping data from wide to long. 2) Provide a GUI to guide the user through the process of munging the data so that it may be analyzed.
+
+On the first point, it would be helpful to identify a typical structure which must be modified. MRMR doesn?t have a function to go from wide to long as that?s a very simple melt command. The data I use in my work lives in a RDBMS in long format, so I?m sorted. I?ve toyed with the idea of a ?collapse? function that would aggregate data along temporal dimensions, or summarize across a hierarchical axis (i.e. sum all of the territories into a single country). Such a function would be general enough that it could summarize individual claim transactions, though that?s likely better done by a database server.
+
+One the second point, note that an absence of a GUI is a universal issue with R. However, it?s worth emphasizing that this issue also exists with Excel. A comfortable user interface which permits users to flag columns as development, or origin period or whatever, must be constructed by hand. Dom Yarnell?s EBDEx tool was a great example of this. Shiny is a powerful option for a user interface to support the kinds of transformation you describe. It?s possible to upload and download files and there are a number of user widgets for identification of the structural elements of data. One may also display some basic ggplot type graphics for basic exploratory analysis. I?ve started a project called ?shout? which will eventually be a GUI for MRMR. It?s been dormant for about three months, but have a look- or have a look at Shiny apps in general- and see if that?s a direction that makes sense.
+
+Do you have a GitHub repository list where others can contribute? Mine may be found here: https://github.com/PirateGrunt/.
+
+Also, have a look at XLConnect. RExcel actually requires a commercial license, whereas XLConnect is GPL 3. XLConnect allows one to read and write to/from Excel files. This is what I use for the ?write.excel? method in MRMR.
+
+Regards,
+Brian
+
+From: Edward Roche [mailto:ed.roche at yahoo.co.uk]
+Sent: Monday, September 29, 2014 7:19 PM
+To: Brian Fannin; 'Markus Gesmann'; Christophe Dutang; chiefmurphy at gmail.com<mailto:chiefmurphy at gmail.com>
+Cc: R-Sig-Insurance at R-Project. Org
+Subject: Re: [R-sig-ins] General Insurance Data
+
+Hi All,
+
+Thank you all for your responses. What I have in mind is a package to help with the initial stage of getting claims data into R and ready to use (formatting etc) before any modeling is done. Effectively to provide a workflow for working with actuarial claims data.
+My past experiences, using GI reserving projection programs, have usually involved a stage to summarise the data in some format then later feed this data into a program, be it a proprietary program or one of the R packages. The key stage I wish to contribute to here is where the data has to be fed in to R. MRMR and ChainLadder do allow for reshaping of the data (and loading data) but I would like to build on the functionality in these packages while not reinventing the wheel. I will take some time to digest the MRMR package as this does seem to have a lot of functionality that I could use for manipulating the data.
+
+A package providing a workflow to get data into a basic tabular structure  would act as a stepping stone for getting claims data available and cleaned for use in packages such as ChainLadder or MRMR. It would even be easier to perform other more basic analysis. As I see it at the moment when someone gets to the stage that the data is loaded and formatted in R they are basically ready to go and use MRMR or ChainLadder but this is a very big hurdle for novice R users who typically have data stored elsewhere (SAS, SQL Excel or other flat files). Even moving from Excel to R, where data can be stored in objects as opposed to tables is a giant leap in its own right and I fear this is the stage where a lot of novice R Actuarial users are lost or lose confidence in R. I am not a professional programmer and I am not very knowledgeable about different types of connections or porting files from one format to another so I was hoping to leave that up to packages such as RODBC or xlsx. My idea is to provide a workflow structure to load claims data into a data.table using a simple GUI interface. Its worth mentioning, I have come across RExcel which allows you to call R from Excel but what I am talking about is somewhat different in that your using R as the backbone, rather than Excel, for storing and manipulating the data. This would at the same time leave the data in familiar tabular format but helper functions could pivot the data and allow novice R users to create triangles intuitively or extract useful representations such as latest diagonals cumulative data, in year data etc. It would still be easy to manipulate the basic underlying data structure if desired as it is just a data.table but helper functions would give it intuitive Actuarial functionality. The goal would be to reduce the time to close to zero for a novice R Actuarial user to go from using existing data (e.g. Excel or SAS) to a data object that could then be passed to ChainLadder, MRMR or ggplot2.
+The package Rattle,, has a lovely GUI interface for loading data. I have something like this in mind to get people started. A GUI interface could be used to specify key fields and formats such as origin period etc. The data stored in R as a data.table would still be in a very familiar tabular format and look similar to what novice R users are used to when they have worked with data stored elsewhere in SQL, SAS or Excel files.  This would provide a bit of reassurance  to get working in R. It would also facilitate novice R users to plot the data using ggplot or googlevis, reshape it, summarise it in tables for printing and you also get the benefit that the data.table structure is quite efficient for working with big in memory data.
+
+My recent background is claims reserving in a GI company and claims data is what I have initially in mind to tackle. Other data such as pricing data, time series etc would also certainly lend themselves to more specialised Actuarial data structures and I think I could work on these down the road.
+
+>From my description above the package might just sound like its to load and format the data. This is a non trivial exercise for novice R users and such a package would reduce the barrier for people adopting R especially at work. At the optimistic end of the scale I also think it could make development data analysis accessible to non Actuaries and could even be useful in other fields. I would love the help from anyone that is interested in contributing as I am working on this solo at the moment. I wish to work a bit on a basic proof of concept first and when I get it working I will load it to git hub and post some links to this mailing list. I wanted first to check that such a package does not exist but it will take a bit of time to get something useful and working. I also appreciate any comments, contributions or feedback.
+
+Thanks again for the help
+
+Regards
+Edward Roche
+On 29/09/14 02:03, Brian Fannin wrote:
+
+Edward,
+
+
+
+It may not be exactly what you're looking for, but MRMR could have some things you might like. My primary aim was to develop a package which made data manipulation for loss reserving a bit more efficient. However, it has application in a more general context as well. It begins with a clear, robust yet flexible notion of an origin period (accident/underwriting/report year). For each origin year, one may store measured observations, which have an arbitrarily complex set of dimensions. For example, written premium is allocated to territory, line of business, currency, etc. For loss reserving, we go a step further and allow those measures to change at regular evaluation points.
+
+
+
+That's that for the data structure. I've tried to build in reasonable support for simple multidimensional/multivariate visualizations. I've got a lot more work to do here, but it's a good start. There's also a new generic method "write.excel" which stores information to a spreadsheet in a reasonable way. This is a pragmatic feature to facilitate data exchange with folk who aren't yet using R. The loss reserving methods presume a linear model framework with chain ladder as a special case. We use mixed effects regression for "loss reserving with credibility".
+
+
+
+Attached is a very short vignette which may help you to understand how the package is meant to be used. I'm happy to talk more about it, if you're interested.
+
+
+
+Note that I'm describing features on the development version of MRMR. The CRAN version is more limited. I hope to get the new version submitted and approved before the end of the year.
+
+
+
+Regards,
+
+Brian Fannin
+
+
+
+-----Original Message-----
+
+From: Markus Gesmann [mailto:markus.gesmann at googlemail.com]
+
+Sent: Sunday, September 28, 2014 6:36 AM
+
+To: Christophe Dutang
+
+Cc: Edward Roche; R-Sig-Insurance at R-Project. Org; Brian Fannin
+
+Subject: Re: [R-sig-ins] General Insurance Data
+
+
+
+Hi Edward,
+
+
+
+Have you looked at Brian Fanin's MRMR package, http://cran.r-project.org/web/packages/MRMR/index.html or https://github.com/PirateGrunt/MRMR?
+
+The package provides quite a bit on infrastructure for dealing with triangle like data.
+
+
+
+Regards
+
+
+
+Markus
+
+
+
+On 27 Sep 2014, at 14:08, Christophe Dutang <dutangc at gmail.com><mailto:dutangc at gmail.com> wrote:
+
+
+
+Dear Edward,
+
+
+
+To my knowledge, there is no single package doing data manipulation in the insurance context.
+
+
+
+There are package for manipulating from database manager and other
+
+proprietary softwares : see
+
+http://cran.r-project.org/doc/manuals/r-release/R-data.html
+
+
+
+Maintaining the CASdatasets package, I face to some of your problem to read SAS or excel files. Typically the case, where there is a separator for thousand. I did write some R functions :
+
+- readfunc(filelist, yearlist, sheetname, pattern, nrow, ncol,
+
+colname, col2conv, echo=FALSE, row2rm=NULL) : read a list of excel
+
+file to extract the same sheet and concatenate the whole
+
+- str2num(x) : convert a character string to a numeric dealing with
+
+thousand separator
+
+- concatmultcol(df, nbinfo, nbblock, col2foot, col2conv, col2rmpre,
+
+cm2rmpost, cname2trunc=NULL, echo=FALSE) : concatenate blockwise data into a rowwise dataframe etc...
+
+In such function, I read excel files with gdata package.
+
+
+
+As you say, for manipulating triangles, there are functions in ChainLadder. By the way, I propose cum2incr and incr2cum to M. Gesmann. Another function shrinkTriangle was not kept in this package: this function computes an annual triangle from a monthly or quarterly basis.
+
+
+
+For manipulating string, there is a good book by Gaston Sanchez, see
+
+http://gastonsanchez.com/work/
+
+
+
+At the last R in insurance conf, there was a good presentation of data manipulation (see http://www.cass.city.ac.uk/news-and-events/conferences/r-in-insurance-2014/r-in-insurance,-conference-programme and ask for presentation file).
+
+
+
+Do you have a detailed list of what type of data you want to
+
+manipulate? for which purpose? (is it only for reserving purpose?) If you are willing to create a package, I will be happy to contribute.
+
+
+
+Regards, Christophe
+
+-
+
+Christophe Dutang
+
+LMM, UdM, Le Mans, France
+
+web: http://dutangc.free.fr
+
+
+
+Le 27 sept. 2014 ? 01:16, Edward Roche <ed.roche at yahoo.co.uk><mailto:ed.roche at yahoo.co.uk> a ?crit :
+
+
+
+Hi all,
+
+I am interested in a package for working with General Insurance data, i.e. something that deals with the initial stage of getting GI data into R, reshaping it and subsetting it before performing projections using packages such as ChainLadder or claim development visualisations using googlevis.
+
+
+
+When working with GI data before you can do any meaningful analysis or projections you need to get your data in the right format. Typically you might start with incremental long format data showing claim transactions and this needs to be reshaped and summarised into triangle matrices (e.g.  paid and incurreds). You can then perform projections with packages such as ChainLadder or other simple development methods. This initial manipulation stage is not always easy to do especially for novice users of R. There are helper functions in the ChainLadder package such as incr2cum, as.triangle etc that let you perform conversions on the fly but I cant find anything for the wholesale restructuring or manipulation of GI data such as converting it from Annual Quarterly to Annual Annual etc. This type of manipulation is very easy to do in some proprietary software (not R based) that I use on a daily basis.
+
+I am considering working on a package that would generally provide helper functions to load untidy GI data into R and let a novice R user perform restructuring and manipulation on the fly.  I envisage a GUI such as is available in Rattle to load the data and specify the key variables and formats. Once the data is loaded intuitive helper functions would let you manipulate it on the fly. For example you might wish to pick out paid and incurred triangles, subset the data in some way or convert it to Annual Annual or from cumulative to incremental.
+
+
+
+My question for this mailing list is are there any such packages out there? or is anyone working on something like this? I would love to get involved if so. Any other thoughts?
+
+
+
+Thanks
+
+Ed
+
+
+
+_______________________________________________
+
+R-SIG-insurance mailing list
+
+R-SIG-insurance at r-project.org<mailto:R-SIG-insurance at r-project.org>
+
+https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+_______________________________________________
+
+R-SIG-insurance mailing list
+
+R-SIG-insurance at r-project.org<mailto:R-SIG-insurance at r-project.org>
+
+https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+
+
+
+	[[alternative HTML version deleted]]
+
+
+From dwinsemius at comcast.net  Wed Oct  1 21:32:02 2014
+From: dwinsemius at comcast.net (David Winsemius)
+Date: Wed, 1 Oct 2014 15:32:02 -0400
+Subject: [R-sig-ins] General Insurance Data
+In-Reply-To: <CAHgH9_G_+Ax_EFfK7zDt3H3xCE=RzQDSxnbr1XMyoG_2wXEMTA@mail.gmail.com>
+References: <5425F3D9.4050708@yahoo.co.uk>
+	<263CECA0-CB51-4A21-9920-F9E5A1F00FBD@gmail.com>
+	<22467A25-096C-4C1E-AED0-02EB39902203@gmail.com>
+	<125d3ad45fec45baade2cb817996a8eb@ex01.redwoodsgroup.com>
+	<5429E8F4.2090609@yahoo.co.uk>
+	<93d0f9223ca044c7a30f7939cc9d0b3f@ex01.redwoodsgroup.com>
+	<F171CF7B-9EE1-455B-8DBB-C8D890907EC7@gmail.com>
+	<54acb048af19456390b33d369fa143be@ex01.redwoodsgroup.com>
+	<CAHgH9_G_+Ax_EFfK7zDt3H3xCE=RzQDSxnbr1XMyoG_2wXEMTA@mail.gmail.com>
+Message-ID: <C5C39F09-B15C-4CF0-9B3D-1583097633CD@comcast.net>
+
+
+I was puzzled when I read that this program was "private". It seems to be a violation of the licensing terms of R.  It appears to depend entirely on the functionality of R which would make it a derivative work.
+
+-- 
+David Winsemius
+Sent from my iPhone
+
+> On Oct 1, 2014, at 1:22 PM, Dan Murphy <chiefmurphy at gmail.com> wrote:
+> 
+> Thank you for that reference. Looks nice. More than the original poster was
+> looking for?
+> 
+> IMO, open-source is a great vehicle for distributing the guts engineering
+> that accommodates data exchange and munging. OTOH, I'm not convinced that
+> open-source is the right vehicle for distributing the "look and feel" of a
+> GUI. But I'm "open" for persuasion. :)
+> 
+> Dan
+> 
+> On Tue, Sep 30, 2014 at 10:37 AM, Brian Fannin <BFannin at redwoodsgroup.com>
+> wrote:
+> 
+>> Can?t believe I forgot to mention that! I remember the presentation and
+>> it looks to be a very powerful tool. The integration with LaTeX is
+>> particularly nice.
+>> 
+>> 
+>> 
+>> *From:* Christophe Dutang [mailto:dutangc at gmail.com]
+>> *Sent:* Tuesday, September 30, 2014 11:30 AM
+>> *To:* Brian Fannin
+>> *Cc:* Edward Roche; Markus Gesmann; chiefmurphy at gmail.com;
+>> R-Sig-Insurance at R-Project. Org
+>> 
+>> *Subject:* Re: [R-sig-ins] General Insurance Data
+>> 
+>> 
+>> 
+>> On the GUI part, there is a private software RPGM (
+>> http://www.pgm-solutions.com/) offering what Edward is looking for.
+>> 
+>> 
+>> 
+>>  This tool was presented at the r in insurance conference this year also!
+>> 
+>> 
+>> 
+>>  It is partially developed by an actuary.
+>> 
+>> Christophe
+>> 
+>> 
+>> Le 30 sept. 2014 ? 15:25, Brian Fannin <BFannin at redwoodsgroup.com> a
+>> ?crit :
+>> 
+>> Edward,
+>> 
+>> 
+>> 
+>> If I?m reading your message right, the problem seems to break down into
+>> two parts: 1) reshape claims data, either by aggregating individual claim
+>> amounts or reshaping data from wide to long. 2) Provide a GUI to guide the
+>> user through the process of munging the data so that it may be analyzed.
+>> 
+>> 
+>> 
+>> On the first point, it would be helpful to identify a typical structure
+>> which must be modified. MRMR doesn?t have a function to go from wide to
+>> long as that?s a very simple melt command. The data I use in my work lives
+>> in a RDBMS in long format, so I?m sorted. I?ve toyed with the idea of a
+>> ?collapse? function that would aggregate data along temporal dimensions, or
+>> summarize across a hierarchical axis (i.e. sum all of the territories into
+>> a single country). Such a function would be general enough that it could
+>> summarize individual claim transactions, though that?s likely better done
+>> by a database server.
+>> 
+>> 
+>> 
+>> One the second point, note that an absence of a G
+
+
+From chiefmurphy at gmail.com  Thu Oct  2 00:52:47 2014
+From: chiefmurphy at gmail.com (Dan Murphy)
+Date: Wed, 1 Oct 2014 15:52:47 -0700
+Subject: [R-sig-ins] General Insurance Data
+In-Reply-To: <C5C39F09-B15C-4CF0-9B3D-1583097633CD@comcast.net>
+References: <5425F3D9.4050708@yahoo.co.uk>
+	<263CECA0-CB51-4A21-9920-F9E5A1F00FBD@gmail.com>
+	<22467A25-096C-4C1E-AED0-02EB39902203@gmail.com>
+	<125d3ad45fec45baade2cb817996a8eb@ex01.redwoodsgroup.com>
+	<5429E8F4.2090609@yahoo.co.uk>
+	<93d0f9223ca044c7a30f7939cc9d0b3f@ex01.redwoodsgroup.com>
+	<F171CF7B-9EE1-455B-8DBB-C8D890907EC7@gmail.com>
+	<54acb048af19456390b33d369fa143be@ex01.redwoodsgroup.com>
+	<CAHgH9_G_+Ax_EFfK7zDt3H3xCE=RzQDSxnbr1XMyoG_2wXEMTA@mail.gmail.com>
+	<C5C39F09-B15C-4CF0-9B3D-1583097633CD@comcast.net>
+Message-ID: <CAHgH9_E+HHbNHwQ-uenEBcqC8qsC1wb2svk6Adxmen++Gtz4yA@mail.gmail.com>
+
+Caveat repeated -- I'm not an attorney -- but the most promising
+explanation I have heard is that if the way your GUI uses R as its
+computational engine is so arms-length that R could be replaced by another
+computational engine, then they are separate products. E.g., I have seen
+programs write an entire R script to disk based on chosen data sources and
+selected compuations ... but it could have been a SAS script.
+
+Consult your attorney. :)
+
+On Wed, Oct 1, 2014 at 12:32 PM, David Winsemius <dwinsemius at comcast.net>
+wrote:
+
+>
+> I was puzzled when I read that this program was "private". It seems to be
+> a violation of the licensing terms of R.  It appears to depend entirely on
+> the functionality of R which would make it a derivative work.
+>
+> --
+> David Winsemius
+> Sent from my iPhone
+>
+> > On Oct 1, 2014, at 1:22 PM, Dan Murphy <chiefmurphy at gmail.com> wrote:
+> >
+> > Thank you for that reference. Looks nice. More than the original poster
+> was
+> > looking for?
+> >
+> > IMO, open-source is a great vehicle for distributing the guts engineering
+> > that accommodates data exchange and munging. OTOH, I'm not convinced that
+> > open-source is the right vehicle for distributing the "look and feel" of
+> a
+> > GUI. But I'm "open" for persuasion. :)
+> >
+> > Dan
+> >
+> > On Tue, Sep 30, 2014 at 10:37 AM, Brian Fannin <
+> BFannin at redwoodsgroup.com>
+> > wrote:
+> >
+> >> Can?t believe I forgot to mention that! I remember the presentation and
+> >> it looks to be a very powerful tool. The integration with LaTeX is
+> >> particularly nice.
+> >>
+> >>
+> >>
+> >> *From:* Christophe Dutang [mailto:dutangc at gmail.com]
+> >> *Sent:* Tuesday, September 30, 2014 11:30 AM
+> >> *To:* Brian Fannin
+> >> *Cc:* Edward Roche; Markus Gesmann; chiefmurphy at gmail.com;
+> >> R-Sig-Insurance at R-Project. Org
+> >>
+> >> *Subject:* Re: [R-sig-ins] General Insurance Data
+> >>
+> >>
+> >>
+> >> On the GUI part, there is a private software RPGM (
+> >> http://www.pgm-solutions.com/) offering what Edward is looking for.
+> >>
+> >>
+> >>
+> >>  This tool was presented at the r in insurance conference this year
+> also!
+> >>
+> >>
+> >>
+> >>  It is partially developed by an actuary.
+> >>
+> >> Christophe
+> >>
+> >>
+> >> Le 30 sept. 2014 ? 15:25, Brian Fannin <BFannin at redwoodsgroup.com> a
+> >> ?crit :
+> >>
+> >> Edward,
+> >>
+> >>
+> >>
+> >> If I?m reading your message right, the problem seems to break down into
+> >> two parts: 1) reshape claims data, either by aggregating individual
+> claim
+> >> amounts or reshaping data from wide to long. 2) Provide a GUI to guide
+> the
+> >> user through the process of munging the data so that it may be analyzed.
+> >>
+> >>
+> >>
+> >> On the first point, it would be helpful to identify a typical structure
+> >> which must be modified. MRMR doesn?t have a function to go from wide to
+> >> long as that?s a very simple melt command. The data I use in my work
+> lives
+> >> in a RDBMS in long format, so I?m sorted. I?ve toyed with the idea of a
+> >> ?collapse? function that would aggregate data along temporal
+> dimensions, or
+> >> summarize across a hierarchical axis (i.e. sum all of the territories
+> into
+> >> a single country). Such a function would be general enough that it could
+> >> summarize individual claim transactions, though that?s likely better
+> done
+> >> by a database server.
+> >>
+> >>
+> >>
+> >> One the second point, note that an absence of a G
+>
+
+	[[alternative HTML version deleted]]
+
+
+From mark.shapland at milliman.com  Thu Oct  2 07:14:26 2014
+From: mark.shapland at milliman.com (Mark Shapland)
+Date: Thu, 2 Oct 2014 05:14:26 +0000
+Subject: [R-sig-ins] General Insurance Data
+In-Reply-To: <CAHgH9_HszOSXi4QuNmHKiYS8PRdarZFGtC_iuGFpxx8XG9co0A@mail.gmail.com>
+References: <5425F3D9.4050708@yahoo.co.uk>
+	<263CECA0-CB51-4A21-9920-F9E5A1F00FBD@gmail.com>
+	<22467A25-096C-4C1E-AED0-02EB39902203@gmail.com>
+	<125d3ad45fec45baade2cb817996a8eb@ex01.redwoodsgroup.com>
+	<5429E8F4.2090609@yahoo.co.uk>
+	<93d0f9223ca044c7a30f7939cc9d0b3f@ex01.redwoodsgroup.com>
+	<F171CF7B-9EE1-455B-8DBB-C8D890907EC7@gmail.com>
+	<54acb048af19456390b33d369fa143be@ex01.redwoodsgroup.com>
+	<CAHgH9_G_+Ax_EFfK7zDt3H3xCE=RzQDSxnbr1XMyoG_2wXEMTA@mail.gmail.com>
+	<9a3e0e35a4b0408fa1aec5be6b19021e@ex01.redwoodsgroup.com>
+	<CAHgH9_HszOSXi4QuNmHKiYS8PRdarZFGtC_iuGFpxx8XG9co0A@mail.gmail.com>
+Message-ID: <95DB3B1D95D88F48B05E424653687CAA6288E5EC@WEST-MBX03.milliman.com>
+
+Dan,
+
+I haven't been following this thread, but your comment on patents caught my eye.
+
+I am not an attorney either, but I think the patent law changed within the past 10 years to allow ideas to be patented. In fact, Guy Carpenter recently (within the past few years) filed for and received something like 22 patents on their reserving software. Reading the patent application it looks to me like only one of the patent items is an original idea from Guy Carpenter. It also seemed like everything they received patents for would have already been covered by copyright laws. If you are interested, you should be able to do an internet search for their patent application or if you can't find it I'm sure I have a copy someplace.
+
+Mark
+
+
+Mark Shapland, FCAS, FSA, MAAA  |  Senior Consulting Actuary   |  mark.shapland at milliman.com
+Milliman   |  Liberty House, Unit 809, Level 8  |  Dubai International Financial Centre  |  Dubai P.O. Box 506784   |  United Arab Emirates
+Main +971 4 386 6990   |  Fax +971 4 386 6950   |  Mobile +971 56 179 1532   |  milliman.com
+
+
+
+
+-----Original Message-----
+From: r-sig-insurance-bounces at r-project.org [mailto:r-sig-insurance-bounces at r-project.org] On Behalf Of Dan Murphy
+Sent: Thursday, October 02, 2014 12:35 AM
+To: Brian Fannin
+Cc: R-Sig-Insurance at R-Project. Org; Edward Roche
+Subject: Re: [R-sig-ins] General Insurance Data
+
+I don't agree, Brian, that that's the question I'm begging.
+
+I don't have all the details, but the story goes that a while back (pre21st
+century?) an actuary tried to patent an actuarial method/calculation that he/she invented. I can't even remember if that attempt was successful. But the actuarial community was against such endeavors. I'm in that camp, having learned on my daddy's knee that you can't patent an idea. (He was not a patent attorney!)
+
+OTOH, Apple Computer (and others) made a business out of patenting the look and feel of their products, including their software. (E.g., I cannot zoom in on an Instagram photo on my android phone, but last night was demonstrated the three-finger-tap to do it on an iphone!) I don't believe the tool that creates the look and feel is germane to the patent, but I'm not a patent attorney either.
+
+
+On Wed, Oct 1, 2014 at 10:42 AM, Brian Fannin <BFannin at redwoodsgroup.com>
+wrote:
+
+>  That begs the question of which tool you prefer for a GUI? I?ll
+> confess that it?s fairly easy to knock something together in Excel.
+> However, I?d like to move to something that has more natural support for forms.
+>
+>
+>
+> *From:* Dan Murphy [mailto:chiefmurphy at gmail.com]
+> *Sent:* Wednesday, October 01, 2014 1:22 PM
+> *To:* Brian Fannin
+> *Cc:* Christophe Dutang; Edward Roche; Markus Gesmann;
+> R-Sig-Insurance at R-Project. Org
+>
+> *Subject:* Re: [R-sig-ins] General Insurance Data
+>
+>
+>
+> Thank you for that reference. Looks nice. More than the original
+> poster was looking for?
+>
+>
+>
+> IMO, open-source is a great vehicle for distributing the guts
+> engineering that accommodates data exchange and munging. OTOH, I'm not
+> convinced that open-source is the right vehicle for distributing the
+> "look and feel" of a GUI. But I'm "open" for persuasion. :)
+>
+>
+>
+> Dan
+>
+>
+>
+> On Tue, Sep 30, 2014 at 10:37 AM, Brian Fannin
+> <BFannin at redwoodsgroup.com>
+> wrote:
+>
+>  Can?t believe I forgot to mention that! I remember the presentation
+> and it looks to be a very powerful tool. The integration with LaTeX is
+> particularly nice.
+>
+>
+>
+> *From:* Christophe Dutang [mailto:dutangc at gmail.com]
+> *Sent:* Tuesday, September 30, 2014 11:30 AM
+> *To:* Brian Fannin
+> *Cc:* Edward Roche; Markus Gesmann; chiefmurphy at gmail.com;
+> R-Sig-Insurance at R-Project. Org
+>
+>
+> *Subject:* Re: [R-sig-ins] General Insurance Data
+>
+>
+>
+> On the GUI part, there is a private software RPGM (
+> http://www.pgm-solutions.com/) offering what Edward is looking for.
+>
+>
+>
+> This tool was presented at the r in insurance conference this year also!
+>
+>
+>
+> It is partially developed by an actuary.
+>
+> Christophe
+>
+>
+> Le 30 sept. 2014 ? 15:25, Brian Fannin <BFannin at redwoodsgroup.com> a
+> ?crit :
+>
+>  Edward,
+>
+>
+>
+> If I?m reading your message right, the problem seems to break down
+> into two parts: 1) reshape claims data, either by aggregating
+> individual claim amounts or reshaping data from wide to long. 2)
+> Provide a GUI to guide the user through the process of munging the data so that it may be analyzed.
+>
+>
+>
+> On the first point, it would be helpful to identify a typical
+> structure which must be modified. MRMR doesn?t have a function to go
+> from wide to long as that?s a very simple melt command. The data I use
+> in my work lives in a RDBMS in long format, so I?m sorted. I?ve toyed
+> with the idea of a ?collapse? function that would aggregate data along
+> temporal dimensions, or summarize across a hierarchical axis (i.e. sum
+> all of the territories into a single country). Such a function would
+> be general enough that it could summarize individual claim
+> transactions, though that?s likely better done by a database server.
+>
+>
+>
+> One the second point, note that an absence of a GUI is a universal
+> issue with R. However, it?s worth emphasizing that this issue also
+> exists with Excel. A comfortable user interface which permits users to
+> flag columns as development, or origin period or whatever, must be
+> constructed by hand. Dom Yarnell?s EBDEx tool was a great example of
+> this. Shiny is a powerful option for a user interface to support the
+> kinds of transformation you describe. It?s possible to upload and
+> download files and there are a number of user widgets for
+> identification of the structural elements of data. One may also
+> display some basic ggplot type graphics for basic exploratory
+> analysis. I?ve started a project called ?shout? which will eventually
+> be a GUI for MRMR. It?s been dormant for about three months, but have
+> a look- or have a look at Shiny apps in general- and see if that?s a direction that makes sense.
+>
+>
+>
+> Do you have a GitHub repository list where others can contribute? Mine
+> may be found here: https://github.com/PirateGrunt/.
+>
+>
+>
+> Also, have a look at XLConnect. RExcel actually requires a commercial
+> license, whereas XLConnect is GPL 3. XLConnect allows one to read and
+> write to/from Excel files. This is what I use for the ?write.excel?
+> method in MRMR.
+>
+>
+>
+> Regards,
+>
+> Brian
+>
+>
+>
+> *From:* Edward Roche [mailto:ed.roche at yahoo.co.uk
+> <ed.roche at yahoo.co.uk>]
+> *Sent:* Monday, September 29, 2014 7:19 PM
+> *To:* Brian Fannin; 'Markus Gesmann'; Christophe Dutang;
+> chiefmurphy at gmail.com
+> *Cc:* R-Sig-Insurance at R-Project. Org
+> *Subject:* Re: [R-sig-ins] General Insurance Data
+>
+>
+>
+> Hi All,
+>
+> Thank you all for your responses. What I have in mind is a package to
+> help with the initial stage of getting claims data into R and ready to
+> use (formatting etc) before any modeling is done. Effectively to
+> provide a workflow for working with actuarial claims data.
+> My past experiences, using GI reserving projection programs, have
+> usually involved a stage to summarise the data in some format then
+> later feed this data into a program, be it a proprietary program or one of the R packages.
+> The key stage I wish to contribute to here is where the data has to be
+> fed in to R. MRMR and ChainLadder do allow for reshaping of the data
+> (and loading data) but I would like to build on the functionality in
+> these packages while not reinventing the wheel. I will take some time
+> to digest the MRMR package as this does seem to have a lot of
+> functionality that I could use for manipulating the data.
+>
+> A package providing a workflow to get data into a basic tabular
+> structure would act as a stepping stone for getting claims data
+> available and cleaned for use in packages such as ChainLadder or MRMR.
+> It would even be easier to perform other more basic analysis. As I see
+> it at the moment when someone gets to the stage that the data is
+> loaded and formatted in R they are basically ready to go and use MRMR
+> or ChainLadder *but* this is a very big hurdle for novice R users who
+> typically have data stored elsewhere (SAS, SQL Excel or other flat
+> files). Even moving from Excel to R, where data can be stored in
+> objects as opposed to tables is a giant leap in its own right and I
+> fear this is the stage where a lot of novice R Actuarial users are
+> lost or lose confidence in R. I am not a professional programmer and I
+> am not very knowledgeable about different types of connections or
+> porting files from one format to another so I was hoping to leave that
+> up to packages such as RODBC or xlsx. My idea is to provide a workflow
+> structure to load claims data into a data.table using a simple GUI
+> interface. Its worth mentioning, I have come across RExcel which
+> allows you to call R from Excel but what I am talking about is
+> somewhat different in that your using R as the backbone, rather than
+> Excel, for storing and manipulating the data. This would at the same
+> time leave the data in familiar tabular format but helper functions
+> could pivot the data and allow novice R users to create triangles intuitively or extract useful representations such as latest diagonals cumulative data, in year data etc.
+> It would still be easy to manipulate the basic underlying data
+> structure if desired as it is just a data.table but helper functions
+> would give it intuitive Actuarial functionality. The goal would be to
+> reduce the time to close to zero for a novice R Actuarial user to go
+> from using existing data (e.g. Excel or SAS) to a data object that
+> could then be passed to ChainLadder, MRMR or ggplot2.
+> The package Rattle,, has a lovely GUI interface for loading data. I
+> have something like this in mind to get people started. A GUI
+> interface could be used to specify key fields and formats such as
+> origin period etc. The data stored in R as a data.table would still be
+> in a very familiar tabular format and look similar to what novice R
+> users are used to when they have worked with data stored elsewhere in
+> SQL, SAS or Excel files.  This would provide a bit of reassurance  to
+> get working in R. It would also facilitate novice R users to plot the
+> data using ggplot or googlevis, reshape it, summarise it in tables for
+> printing and you also get the benefit that the data.table structure is quite efficient for working with big in memory data.
+>
+> My recent background is claims reserving in a GI company and claims
+> data is what I have initially in mind to tackle. Other data such as
+> pricing data, time series etc would also certainly lend themselves to
+> more specialised Actuarial data structures and I think I could work on
+> these down the road.
+>
+> From my description above the package might just sound like its to
+> load and format the data. This is a non trivial exercise for novice R
+> users and such a package would reduce the barrier for people adopting
+> R especially at work. At the optimistic end of the scale I also think
+> it could make development data analysis accessible to non Actuaries
+> and could even be useful in other fields. I would love the help from
+> anyone that is interested in contributing as I am working on this solo
+> at the moment. I wish to work a bit on a basic proof of concept first
+> and when I get it working I will load it to git hub and post some links to this mailing list.
+> I wanted first to check that such a package does not exist but it will
+> take a bit of time to get something useful and working. I also
+> appreciate any comments, contributions or feedback.
+>
+> Thanks again for the help
+>
+> Regards
+> Edward Roche
+>
+> On 29/09/14 02:03, Brian Fannin wrote:
+>
+> Edward,
+>
+>
+>
+> It may not be exactly what you're looking for, but MRMR could have some things you might like. My primary aim was to develop a package which made data manipulation for loss reserving a bit more efficient. However, it has application in a more general context as well. It begins with a clear, robust yet flexible notion of an origin period (accident/underwriting/report year). For each origin year, one may store measured observations, which have an arbitrarily complex set of dimensions. For example, written premium is allocated to territory, line of business, currency, etc. For loss reserving, we go a step further and allow those measures to change at regular evaluation points.
+>
+>
+>
+> That's that for the data structure. I've tried to build in reasonable support for simple multidimensional/multivariate visualizations. I've got a lot more work to do here, but it's a good start. There's also a new generic method "write.excel" which stores information to a spreadsheet in a reasonable way. This is a pragmatic feature to facilitate data exchange with folk who aren't yet using R. The loss reserving methods presume a linear model framework with chain ladder as a special case. We use mixed effects regression for "loss reserving with credibility".
+>
+>
+>
+> Attached is a very short vignette which may help you to understand how the package is meant to be used. I'm happy to talk more about it, if you're interested.
+>
+>
+>
+> Note that I'm describing features on the development version of MRMR. The CRAN version is more limited. I hope to get the new version submitted and approved before the end of the year.
+>
+>
+>
+> Regards,
+>
+> Brian Fannin
+>
+>
+>
+> -----Original Message-----
+>
+> From: Markus Gesmann [mailto:markus.gesmann at googlemail.com
+> <markus.gesmann at googlemail.com>]
+>
+> Sent: Sunday, September 28, 2014 6:36 AM
+>
+> To: Christophe Dutang
+>
+> Cc: Edward Roche; R-Sig-Insurance at R-Project. Org; Brian Fannin
+>
+> Subject: Re: [R-sig-ins] General Insurance Data
+>
+>
+>
+> Hi Edward,
+>
+>
+>
+> Have you looked at Brian Fanin's MRMR package, http://cran.r-project.org/web/packages/MRMR/index.html or https://github.com/PirateGrunt/MRMR?
+>
+> The package provides quite a bit on infrastructure for dealing with triangle like data.
+>
+>
+>
+> Regards
+>
+>
+>
+> Markus
+>
+>
+>
+> On 27 Sep 2014, at 14:08, Christophe Dutang <dutangc at gmail.com> <dutangc at gmail.com> wrote:
+>
+>
+>
+>  Dear Edward,
+>
+>
+>
+> To my knowledge, there is no single package doing data manipulation in the insurance context.
+>
+>
+>
+> There are package for manipulating from database manager and other
+>
+> proprietary softwares : see
+>
+> http://cran.r-project.org/doc/manuals/r-release/R-data.html
+>
+>
+>
+> Maintaining the CASdatasets package, I face to some of your problem to read SAS or excel files. Typically the case, where there is a separator for thousand. I did write some R functions :
+>
+> - readfunc(filelist, yearlist, sheetname, pattern, nrow, ncol,
+>
+> colname, col2conv, echo=FALSE, row2rm=NULL) : read a list of excel
+>
+> file to extract the same sheet and concatenate the whole
+>
+> - str2num(x) : convert a character string to a numeric dealing with
+>
+> thousand separator
+>
+> - concatmultcol(df, nbinfo, nbblock, col2foot, col2conv, col2rmpre,
+>
+> cm2rmpost, cname2trunc=NULL, echo=FALSE) : concatenate blockwise data into a rowwise dataframe etc...
+>
+> In such function, I read excel files with gdata package.
+>
+>
+>
+> As you say, for manipulating triangles, there are functions in ChainLadder. By the way, I propose cum2incr and incr2cum to M. Gesmann. Another function shrinkTriangle was not kept in this package: this function computes an annual triangle from a monthly or quarterly basis.
+>
+>
+>
+> For manipulating string, there is a good book by Gaston Sanchez, see
+>
+> http://gastonsanchez.com/work/
+>
+>
+>
+> At the last R in insurance conf, there was a good presentation of data manipulation (see http://www.cass.city.ac.uk/news-and-events/conferences/r-in-insurance-2014/r-in-insurance,-conference-programme and ask for presentation file).
+>
+>
+>
+> Do you have a detailed list of what type of data you want to
+>
+> manipulate? for which purpose? (is it only for reserving purpose?) If you are willing to create a package, I will be happy to contribute.
+>
+>
+>
+> Regards, Christophe
+>
+> -
+>
+> Christophe Dutang
+>
+> LMM, UdM, Le Mans, France
+>
+> web: http://dutangc.free.fr
+>
+>
+>
+> Le 27 sept. 2014 ? 01:16, Edward Roche <ed.roche at yahoo.co.uk> <ed.roche at yahoo.co.uk> a ?crit :
+>
+>
+>
+>  Hi all,
+>
+> I am interested in a package for working with General Insurance data, i.e. something that deals with the initial stage of getting GI data into R, reshaping it and subsetting it before performing projections using packages such as ChainLadder or claim development visualisations using googlevis.
+>
+>
+>
+> When working with GI data before you can do any meaningful analysis or projections you need to get your data in the right format. Typically you might start with incremental long format data showing claim transactions and this needs to be reshaped and summarised into triangle matrices (e.g.  paid and incurreds). You can then perform projections with packages such as ChainLadder or other simple development methods. This initial manipulation stage is not always easy to do especially for novice users of R. There are helper functions in the ChainLadder package such as incr2cum, as.triangle etc that let you perform conversions on the fly but I cant find anything for the wholesale restructuring or manipulation of GI data such as converting it from Annual Quarterly to Annual Annual etc. This type of manipulation is very easy to do in some proprietary software (not R based) that I use on a daily basis.
+>
+> I am considering working on a package that would generally provide helper functions to load untidy GI data into R and let a novice R user perform restructuring and manipulation on the fly.  I envisage a GUI such as is available in Rattle to load the data and specify the key variables and formats. Once the data is loaded intuitive helper functions would let you manipulate it on the fly. For example you might wish to pick out paid and incurred triangles, subset the data in some way or convert it to Annual Annual or from cumulative to incremental.
+>
+>
+>
+> My question for this mailing list is are there any such packages out there? or is anyone working on something like this? I would love to get involved if so. Any other thoughts?
+>
+>
+>
+> Thanks
+>
+> Ed
+>
+>
+>
+> _______________________________________________
+>
+> R-SIG-insurance mailing list
+>
+> R-SIG-insurance at r-project.org
+>
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>
+>  _______________________________________________
+>
+> R-SIG-insurance mailing list
+>
+> R-SIG-insurance at r-project.org
+>
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>
+>
+>
+>
+>
+
+        [[alternative HTML version deleted]]
+
+_______________________________________________
+R-SIG-insurance mailing list
+R-SIG-insurance at r-project.org
+https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+******************************************************************
+This communication is intended solely for the addressee and is confidential. If you
+are not the intended recipient, any disclosure, copying, distribution or any action taken
+or omitted to be taken in reliance on it, is prohibited and may be unlawful. Unless
+indicated to the contrary: it does not constitute professional advice or opinions upon
+which reliance may be made by the addressee or any other party, and it should be
+considered to be a work in progress.
+******************************************************************
+
+From chiefmurphy at gmail.com  Thu Oct  2 21:38:21 2014
+From: chiefmurphy at gmail.com (Dan Murphy)
+Date: Thu, 2 Oct 2014 12:38:21 -0700
+Subject: [R-sig-ins] General Insurance Data
+In-Reply-To: <95DB3B1D95D88F48B05E424653687CAA6288E5EC@WEST-MBX03.milliman.com>
+References: <5425F3D9.4050708@yahoo.co.uk>
+	<263CECA0-CB51-4A21-9920-F9E5A1F00FBD@gmail.com>
+	<22467A25-096C-4C1E-AED0-02EB39902203@gmail.com>
+	<125d3ad45fec45baade2cb817996a8eb@ex01.redwoodsgroup.com>
+	<5429E8F4.2090609@yahoo.co.uk>
+	<93d0f9223ca044c7a30f7939cc9d0b3f@ex01.redwoodsgroup.com>
+	<F171CF7B-9EE1-455B-8DBB-C8D890907EC7@gmail.com>
+	<54acb048af19456390b33d369fa143be@ex01.redwoodsgroup.com>
+	<CAHgH9_G_+Ax_EFfK7zDt3H3xCE=RzQDSxnbr1XMyoG_2wXEMTA@mail.gmail.com>
+	<9a3e0e35a4b0408fa1aec5be6b19021e@ex01.redwoodsgroup.com>
+	<CAHgH9_HszOSXi4QuNmHKiYS8PRdarZFGtC_iuGFpxx8XG9co0A@mail.gmail.com>
+	<95DB3B1D95D88F48B05E424653687CAA6288E5EC@WEST-MBX03.milliman.com>
+Message-ID: <CAHgH9_EqQ=0wUojNRy4FQnFAOP+2oUmiNWhS1e8sEbU7xJKmnA@mail.gmail.com>
+
+Indeed.
+http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=2&f=G&l=50&co1=AND&d=PTXT&s1=metarisk&OS=metarisk&RS=metarisk
+Thanks, Mark.
+
+On Wed, Oct 1, 2014 at 10:14 PM, Mark Shapland <mark.shapland at milliman.com>
+wrote:
+
+> Dan,
+>
+> I haven't been following this thread, but your comment on patents caught
+> my eye.
+>
+> I am not an attorney either, but I think the patent law changed within the
+> past 10 years to allow ideas to be patented. In fact, Guy Carpenter
+> recently (within the past few years) filed for and received something like
+> 22 patents on their reserving software. Reading the patent application it
+> looks to me like only one of the patent items is an original idea from Guy
+> Carpenter. It also seemed like everything they received patents for would
+> have already been covered by copyright laws. If you are interested, you
+> should be able to do an internet search for their patent application or if
+> you can't find it I'm sure I have a copy someplace.
+>
+> Mark
+>
+>
+> Mark Shapland, FCAS, FSA, MAAA  |  Senior Consulting Actuary   |
+> mark.shapland at milliman.com
+> Milliman   |  Liberty House, Unit 809, Level 8  |  Dubai International
+> Financial Centre  |  Dubai P.O. Box 506784   |  United Arab Emirates
+> Main +971 4 386 6990   |  Fax +971 4 386 6950   |  Mobile +971 56 179 1532
+>  |  milliman.com
+>
+>
+>
+>
+> -----Original Message-----
+> From: r-sig-insurance-bounces at r-project.org [mailto:
+> r-sig-insurance-bounces at r-project.org] On Behalf Of Dan Murphy
+> Sent: Thursday, October 02, 2014 12:35 AM
+> To: Brian Fannin
+> Cc: R-Sig-Insurance at R-Project. Org; Edward Roche
+> Subject: Re: [R-sig-ins] General Insurance Data
+>
+> I don't agree, Brian, that that's the question I'm begging.
+>
+> I don't have all the details, but the story goes that a while back (pre21st
+> century?) an actuary tried to patent an actuarial method/calculation that
+> he/she invented. I can't even remember if that attempt was successful. But
+> the actuarial community was against such endeavors. I'm in that camp,
+> having learned on my daddy's knee that you can't patent an idea. (He was
+> not a patent attorney!)
+>
+> OTOH, Apple Computer (and others) made a business out of patenting the
+> look and feel of their products, including their software. (E.g., I cannot
+> zoom in on an Instagram photo on my android phone, but last night was
+> demonstrated the three-finger-tap to do it on an iphone!) I don't believe
+> the tool that creates the look and feel is germane to the patent, but I'm
+> not a patent attorney either.
+>
+>
+> On Wed, Oct 1, 2014 at 10:42 AM, Brian Fannin <BFannin at redwoodsgroup.com>
+> wrote:
+>
+> >  That begs the question of which tool you prefer for a GUI? I?ll
+> > confess that it?s fairly easy to knock something together in Excel.
+> > However, I?d like to move to something that has more natural support for
+> forms.
+> >
+> >
+> >
+> > *From:* Dan Murphy [mailto:chiefmurphy at gmail.com]
+> > *Sent:* Wednesday, October 01, 2014 1:22 PM
+> > *To:* Brian Fannin
+> > *Cc:* Christophe Dutang; Edward Roche; Markus Gesmann;
+> > R-Sig-Insurance at R-Project. Org
+> >
+> > *Subject:* Re: [R-sig-ins] General Insurance Data
+> >
+> >
+> >
+> > Thank you for that reference. Looks nice. More than the original
+> > poster was looking for?
+> >
+> >
+> >
+> > IMO, open-source is a great vehicle for distributing the guts
+> > engineering that accommodates data exchange and munging. OTOH, I'm not
+> > convinced that open-source is the right vehicle for distributing the
+> > "look and feel" of a GUI. But I'm "open" for persuasion. :)
+> >
+> >
+> >
+> > Dan
+> >
+> >
+> >
+> > On Tue, Sep 30, 2014 at 10:37 AM, Brian Fannin
+> > <BFannin at redwoodsgroup.com>
+> > wrote:
+> >
+> >  Can?t believe I forgot to mention that! I remember the presentation
+> > and it looks to be a very powerful tool. The integration with LaTeX is
+> > particularly nice.
+> >
+> >
+> >
+> > *From:* Christophe Dutang [mailto:dutangc at gmail.com]
+> > *Sent:* Tuesday, September 30, 2014 11:30 AM
+> > *To:* Brian Fannin
+> > *Cc:* Edward Roche; Markus Gesmann; chiefmurphy at gmail.com;
+> > R-Sig-Insurance at R-Project. Org
+> >
+> >
+> > *Subject:* Re: [R-sig-ins] General Insurance Data
+> >
+> >
+> >
+> > On the GUI part, there is a private software RPGM (
+> > http://www.pgm-solutions.com/) offering what Edward is looking for.
+> >
+> >
+> >
+> > This tool was presented at the r in insurance conference this year also!
+> >
+> >
+> >
+> > It is partially developed by an actuary.
+> >
+> > Christophe
+> >
+> >
+> > Le 30 sept. 2014 ? 15:25, Brian Fannin <BFannin at redwoodsgroup.com> a
+> > ?crit :
+> >
+> >  Edward,
+> >
+> >
+> >
+> > If I?m reading your message right, the problem seems to break down
+> > into two parts: 1) reshape claims data, either by aggregating
+> > individual claim amounts or reshaping data from wide to long. 2)
+> > Provide a GUI to guide the user through the process of munging the data
+> so that it may be analyzed.
+> >
+> >
+> >
+> > On the first point, it would be helpful to identify a typical
+> > structure which must be modified. MRMR doesn?t have a function to go
+> > from wide to long as that?s a very simple melt command. The data I use
+> > in my work lives in a RDBMS in long format, so I?m sorted. I?ve toyed
+> > with the idea of a ?collapse? function that would aggregate data along
+> > temporal dimensions, or summarize across a hierarchical axis (i.e. sum
+> > all of the territories into a single country). Such a function would
+> > be general enough that it could summarize individual claim
+> > transactions, though that?s likely better done by a database server.
+> >
+> >
+> >
+> > One the second point, note that an absence of a GUI is a universal
+> > issue with R. However, it?s worth emphasizing that this issue also
+> > exists with Excel. A comfortable user interface which permits users to
+> > flag columns as development, or origin period or whatever, must be
+> > constructed by hand. Dom Yarnell?s EBDEx tool was a great example of
+> > this. Shiny is a powerful option for a user interface to support the
+> > kinds of transformation you describe. It?s possible to upload and
+> > download files and there are a number of user widgets for
+> > identification of the structural elements of data. One may also
+> > display some basic ggplot type graphics for basic exploratory
+> > analysis. I?ve started a project called ?shout? which will eventually
+> > be a GUI for MRMR. It?s been dormant for about three months, but have
+> > a look- or have a look at Shiny apps in general- and see if that?s a
+> direction that makes sense.
+> >
+> >
+> >
+> > Do you have a GitHub repository list where others can contribute? Mine
+> > may be found here: https://github.com/PirateGrunt/.
+> >
+> >
+> >
+> > Also, have a look at XLConnect. RExcel actually requires a commercial
+> > license, whereas XLConnect is GPL 3. XLConnect allows one to read and
+> > write to/from Excel files. This is what I use for the ?write.excel?
+> > method in MRMR.
+> >
+> >
+> >
+> > Regards,
+> >
+> > Brian
+> >
+> >
+> >
+> > *From:* Edward Roche [mailto:ed.roche at yahoo.co.uk
+> > <ed.roche at yahoo.co.uk>]
+> > *Sent:* Monday, September 29, 2014 7:19 PM
+> > *To:* Brian Fannin; 'Markus Gesmann'; Christophe Dutang;
+> > chiefmurphy at gmail.com
+> > *Cc:* R-Sig-Insurance at R-Project. Org
+> > *Subject:* Re: [R-sig-ins] General Insurance Data
+> >
+> >
+> >
+> > Hi All,
+> >
+> > Thank you all for your responses. What I have in mind is a package to
+> > help with the initial stage of getting claims data into R and ready to
+> > use (formatting etc) before any modeling is done. Effectively to
+> > provide a workflow for working with actuarial claims data.
+> > My past experiences, using GI reserving projection programs, have
+> > usually involved a stage to summarise the data in some format then
+> > later feed this data into a program, be it a proprietary program or one
+> of the R packages.
+> > The key stage I wish to contribute to here is where the data has to be
+> > fed in to R. MRMR and ChainLadder do allow for reshaping of the data
+> > (and loading data) but I would like to build on the functionality in
+> > these packages while not reinventing the wheel. I will take some time
+> > to digest the MRMR package as this does seem to have a lot of
+> > functionality that I could use for manipulating the data.
+> >
+> > A package providing a workflow to get data into a basic tabular
+> > structure would act as a stepping stone for getting claims data
+> > available and cleaned for use in packages such as ChainLadder or MRMR.
+> > It would even be easier to perform other more basic analysis. As I see
+> > it at the moment when someone gets to the stage that the data is
+> > loaded and formatted in R they are basically ready to go and use MRMR
+> > or ChainLadder *but* this is a very big hurdle for novice R users who
+> > typically have data stored elsewhere (SAS, SQL Excel or other flat
+> > files). Even moving from Excel to R, where data can be stored in
+> > objects as opposed to tables is a giant leap in its own right and I
+> > fear this is the stage where a lot of novice R Actuarial users are
+> > lost or lose confidence in R. I am not a professional programmer and I
+> > am not very knowledgeable about different types of connections or
+> > porting files from one format to another so I was hoping to leave that
+> > up to packages such as RODBC or xlsx. My idea is to provide a workflow
+> > structure to load claims data into a data.table using a simple GUI
+> > interface. Its worth mentioning, I have come across RExcel which
+> > allows you to call R from Excel but what I am talking about is
+> > somewhat different in that your using R as the backbone, rather than
+> > Excel, for storing and manipulating the data. This would at the same
+> > time leave the data in familiar tabular format but helper functions
+> > could pivot the data and allow novice R users to create triangles
+> intuitively or extract useful representations such as latest diagonals
+> cumulative data, in year data etc.
+> > It would still be easy to manipulate the basic underlying data
+> > structure if desired as it is just a data.table but helper functions
+> > would give it intuitive Actuarial functionality. The goal would be to
+> > reduce the time to close to zero for a novice R Actuarial user to go
+> > from using existing data (e.g. Excel or SAS) to a data object that
+> > could then be passed to ChainLadder, MRMR or ggplot2.
+> > The package Rattle,, has a lovely GUI interface for loading data. I
+> > have something like this in mind to get people started. A GUI
+> > interface could be used to specify key fields and formats such as
+> > origin period etc. The data stored in R as a data.table would still be
+> > in a very familiar tabular format and look similar to what novice R
+> > users are used to when they have worked with data stored elsewhere in
+> > SQL, SAS or Excel files.  This would provide a bit of reassurance  to
+> > get working in R. It would also facilitate novice R users to plot the
+> > data using ggplot or googlevis, reshape it, summarise it in tables for
+> > printing and you also get the benefit that the data.table structure is
+> quite efficient for working with big in memory data.
+> >
+> > My recent background is claims reserving in a GI company and claims
+> > data is what I have initially in mind to tackle. Other data such as
+> > pricing data, time series etc would also certainly lend themselves to
+> > more specialised Actuarial data structures and I think I could work on
+> > these down the road.
+> >
+> > From my description above the package might just sound like its to
+> > load and format the data. This is a non trivial exercise for novice R
+> > users and such a package would reduce the barrier for people adopting
+> > R especially at work. At the optimistic end of the scale I also think
+> > it could make development data analysis accessible to non Actuaries
+> > and could even be useful in other fields. I would love the help from
+> > anyone that is interested in contributing as I am working on this solo
+> > at the moment. I wish to work a bit on a basic proof of concept first
+> > and when I get it working I will load it to git hub and post some links
+> to this mailing list.
+> > I wanted first to check that such a package does not exist but it will
+> > take a bit of time to get something useful and working. I also
+> > appreciate any comments, contributions or feedback.
+> >
+> > Thanks again for the help
+> >
+> > Regards
+> > Edward Roche
+> >
+> > On 29/09/14 02:03, Brian Fannin wrote:
+> >
+> > Edward,
+> >
+> >
+> >
+> > It may not be exactly what you're looking for, but MRMR could have some
+> things you might like. My primary aim was to develop a package which made
+> data manipulation for loss reserving a bit more efficient. However, it has
+> application in a more general context as well. It begins with a clear,
+> robust yet flexible notion of an origin period
+> (accident/underwriting/report year). For each origin year, one may store
+> measured observations, which have an arbitrarily complex set of dimensions.
+> For example, written premium is allocated to territory, line of business,
+> currency, etc. For loss reserving, we go a step further and allow those
+> measures to change at regular evaluation points.
+> >
+> >
+> >
+> > That's that for the data structure. I've tried to build in reasonable
+> support for simple multidimensional/multivariate visualizations. I've got a
+> lot more work to do here, but it's a good start. There's also a new generic
+> method "write.excel" which stores information to a spreadsheet in a
+> reasonable way. This is a pragmatic feature to facilitate data exchange
+> with folk who aren't yet using R. The loss reserving methods presume a
+> linear model framework with chain ladder as a special case. We use mixed
+> effects regression for "loss reserving with credibility".
+> >
+> >
+> >
+> > Attached is a very short vignette which may help you to understand how
+> the package is meant to be used. I'm happy to talk more about it, if you're
+> interested.
+> >
+> >
+> >
+> > Note that I'm describing features on the development version of MRMR.
+> The CRAN version is more limited. I hope to get the new version submitted
+> and approved before the end of the year.
+> >
+> >
+> >
+> > Regards,
+> >
+> > Brian Fannin
+> >
+> >
+> >
+> > -----Original Message-----
+> >
+> > From: Markus Gesmann [mailto:markus.gesmann at googlemail.com
+> > <markus.gesmann at googlemail.com>]
+> >
+> > Sent: Sunday, September 28, 2014 6:36 AM
+> >
+> > To: Christophe Dutang
+> >
+> > Cc: Edward Roche; R-Sig-Insurance at R-Project. Org; Brian Fannin
+> >
+> > Subject: Re: [R-sig-ins] General Insurance Data
+> >
+> >
+> >
+> > Hi Edward,
+> >
+> >
+> >
+> > Have you looked at Brian Fanin's MRMR package,
+> http://cran.r-project.org/web/packages/MRMR/index.html or
+> https://github.com/PirateGrunt/MRMR?
+> >
+> > The package provides quite a bit on infrastructure for dealing with
+> triangle like data.
+> >
+> >
+> >
+> > Regards
+> >
+> >
+> >
+> > Markus
+> >
+> >
+> >
+> > On 27 Sep 2014, at 14:08, Christophe Dutang <dutangc at gmail.com> <
+> dutangc at gmail.com> wrote:
+> >
+> >
+> >
+> >  Dear Edward,
+> >
+> >
+> >
+> > To my knowledge, there is no single package doing data manipulation in
+> the insurance context.
+> >
+> >
+> >
+> > There are package for manipulating from database manager and other
+> >
+> > proprietary softwares : see
+> >
+> > http://cran.r-project.org/doc/manuals/r-release/R-data.html
+> >
+> >
+> >
+> > Maintaining the CASdatasets package, I face to some of your problem to
+> read SAS or excel files. Typically the case, where there is a separator for
+> thousand. I did write some R functions :
+> >
+> > - readfunc(filelist, yearlist, sheetname, pattern, nrow, ncol,
+> >
+> > colname, col2conv, echo=FALSE, row2rm=NULL) : read a list of excel
+> >
+> > file to extract the same sheet and concatenate the whole
+> >
+> > - str2num(x) : convert a character string to a numeric dealing with
+> >
+> > thousand separator
+> >
+> > - concatmultcol(df, nbinfo, nbblock, col2foot, col2conv, col2rmpre,
+> >
+> > cm2rmpost, cname2trunc=NULL, echo=FALSE) : concatenate blockwise data
+> into a rowwise dataframe etc...
+> >
+> > In such function, I read excel files with gdata package.
+> >
+> >
+> >
+> > As you say, for manipulating triangles, there are functions in
+> ChainLadder. By the way, I propose cum2incr and incr2cum to M. Gesmann.
+> Another function shrinkTriangle was not kept in this package: this function
+> computes an annual triangle from a monthly or quarterly basis.
+> >
+> >
+> >
+> > For manipulating string, there is a good book by Gaston Sanchez, see
+> >
+> > http://gastonsanchez.com/work/
+> >
+> >
+> >
+> > At the last R in insurance conf, there was a good presentation of data
+> manipulation (see
+> http://www.cass.city.ac.uk/news-and-events/conferences/r-in-insurance-2014/r-in-insurance,-conference-programme
+> and ask for presentation file).
+> >
+> >
+> >
+> > Do you have a detailed list of what type of data you want to
+> >
+> > manipulate? for which purpose? (is it only for reserving purpose?) If
+> you are willing to create a package, I will be happy to contribute.
+> >
+> >
+> >
+> > Regards, Christophe
+> >
+> > -
+> >
+> > Christophe Dutang
+> >
+> > LMM, UdM, Le Mans, France
+> >
+> > web: http://dutangc.free.fr
+> >
+> >
+> >
+> > Le 27 sept. 2014 ? 01:16, Edward Roche <ed.roche at yahoo.co.uk> <
+> ed.roche at yahoo.co.uk> a ?crit :
+> >
+> >
+> >
+> >  Hi all,
+> >
+> > I am interested in a package for working with General Insurance data,
+> i.e. something that deals with the initial stage of getting GI data into R,
+> reshaping it and subsetting it before performing projections using packages
+> such as ChainLadder or claim development visualisations using googlevis.
+> >
+> >
+> >
+> > When working with GI data before you can do any meaningful analysis or
+> projections you need to get your data in the right format. Typically you
+> might start with incremental long format data showing claim transactions
+> and this needs to be reshaped and summarised into triangle matrices (e.g.
+> paid and incurreds). You can then perform projections with packages such as
+> ChainLadder or other simple development methods. This initial manipulation
+> stage is not always easy to do especially for novice users of R. There are
+> helper functions in the ChainLadder package such as incr2cum, as.triangle
+> etc that let you perform conversions on the fly but I cant find anything
+> for the wholesale restructuring or manipulation of GI data such as
+> converting it from Annual Quarterly to Annual Annual etc. This type of
+> manipulation is very easy to do in some proprietary software (not R based)
+> that I use on a daily basis.
+> >
+> > I am considering working on a package that would generally provide
+> helper functions to load untidy GI data into R and let a novice R user
+> perform restructuring and manipulation on the fly.  I envisage a GUI such
+> as is available in Rattle to load the data and specify the key variables
+> and formats. Once the data is loaded intuitive helper functions would let
+> you manipulate it on the fly. For example you might wish to pick out paid
+> and incurred triangles, subset the data in some way or convert it to Annual
+> Annual or from cumulative to incremental.
+> >
+> >
+> >
+> > My question for this mailing list is are there any such packages out
+> there? or is anyone working on something like this? I would love to get
+> involved if so. Any other thoughts?
+> >
+> >
+> >
+> > Thanks
+> >
+> > Ed
+> >
+> >
+> >
+> > _______________________________________________
+> >
+> > R-SIG-insurance mailing list
+> >
+> > R-SIG-insurance at r-project.org
+> >
+> > https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+> >
+> >  _______________________________________________
+> >
+> > R-SIG-insurance mailing list
+> >
+> > R-SIG-insurance at r-project.org
+> >
+> > https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+> >
+> >
+> >
+> >
+> >
+>
+>         [[alternative HTML version deleted]]
+>
+> _______________________________________________
+> R-SIG-insurance mailing list
+> R-SIG-insurance at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+> ******************************************************************
+> This communication is intended solely for the addressee and is
+> confidential. If you
+> are not the intended recipient, any disclosure, copying, distribution or
+> any action taken
+> or omitted to be taken in reliance on it, is prohibited and may be
+> unlawful. Unless
+> indicated to the contrary: it does not constitute professional advice or
+> opinions upon
+> which reliance may be made by the addressee or any other party, and it
+> should be
+> considered to be a work in progress.
+> ******************************************************************
+>
+
+	[[alternative HTML version deleted]]
+
+
+From chiefmurphy at gmail.com  Wed Oct  8 04:53:38 2014
+From: chiefmurphy at gmail.com (Dan Murphy)
+Date: Tue, 7 Oct 2014 19:53:38 -0700
+Subject: [R-sig-ins] General Insurance Data
+In-Reply-To: <93d0f9223ca044c7a30f7939cc9d0b3f@ex01.redwoodsgroup.com>
+References: <5425F3D9.4050708@yahoo.co.uk>
+	<263CECA0-CB51-4A21-9920-F9E5A1F00FBD@gmail.com>
+	<22467A25-096C-4C1E-AED0-02EB39902203@gmail.com>
+	<125d3ad45fec45baade2cb817996a8eb@ex01.redwoodsgroup.com>
+	<5429E8F4.2090609@yahoo.co.uk>
+	<93d0f9223ca044c7a30f7939cc9d0b3f@ex01.redwoodsgroup.com>
+Message-ID: <CAHgH9_FK4cZWP5CPz6Ffm6558ik_ehRDQN_zoCn142qos0+zLw@mail.gmail.com>
+
+At some past Casualty Actuarial Society meetings and seminars I have
+handed out scripts of R code that facilitate the exchange of data
+between R and Excel. The scripts perform Input/Output via the
+clipboard, via csv files, and directly -- a total of six functions.
+
+Surprisingly, the clipboard is a useful medium for exchanging small
+amounts of data with Excel. For large amounts of data, as others have
+noted, databases and csv files are usually more appropriate. The
+disadvantage of importing data to R using my character-based methods
+include
+
+1. a potential lack of floating point precision,
+2. translating amounts from currency etc. to R numerics,
+3. translating dates to R time-oriented objects (Date, POSIXt, etc.),
+4. interpreting NA's on input and output.
+
+My scripts ignore the first issue but attempt to deal with the others
+in (hopefully) "intuitive" ways that make sense in situations
+actuaries tend to face.
+
+I used your post, Edward, as an opportunity to share those scripts
+with a broader audience. See the open-source 'excelRio' package on
+github at https://github.com/trinostics/excelRio, including
+instructions, copied from Markus' ChainLadder repository, on how to
+download and install (thank you, Markus!).
+
+Note that to exchange data directly requires other R packages (e.g.,
+XLConnect, as with Brian's MRMR package). Those other packages, in
+turn, rely on other software -- e.g., java or perl -- that can be
+troublesome to administer on some systems.
+
+As a result, I encourage R newcomers to use the clipboard as much as
+possible. The clipboard functions are pasteFromExcel and copyToExcel
+preceded/followed by, respectively, Ctrl-C/Ctrl-V in Excel. (On a mac
+use the apple key r.t. ctrl.)
+
+Let me know if you have any questions, or if any behavior does not
+meet your intuition.
+
+Thanks,
+Dan
+
+On Tue, Sep 30, 2014 at 6:25 AM, Brian Fannin <BFannin at redwoodsgroup.com> wrote:
+> Edward,
+>
+>
+>
+> If I?m reading your message right, the problem seems to break down into two
+> parts: 1) reshape claims data, either by aggregating individual claim
+> amounts or reshaping data from wide to long. 2) Provide a GUI to guide the
+> user through the process of munging the data so that it may be analyzed.
+>
+>
+>
+> On the first point, it would be helpful to identify a typical structure
+> which must be modified. MRMR doesn?t have a function to go from wide to long
+> as that?s a very simple melt command. The data I use in my work lives in a
+> RDBMS in long format, so I?m sorted. I?ve toyed with the idea of a
+> ?collapse? function that would aggregate data along temporal dimensions, or
+> summarize across a hierarchical axis (i.e. sum all of the territories into a
+> single country). Such a function would be general enough that it could
+> summarize individual claim transactions, though that?s likely better done by
+> a database server.
+>
+>
+>
+> One the second point, note that an absence of a GUI is a universal issue
+> with R. However, it?s worth emphasizing that this issue also exists with
+> Excel. A comfortable user interface which permits users to flag columns as
+> development, or origin period or whatever, must be constructed by hand. Dom
+> Yarnell?s EBDEx tool was a great example of this. Shiny is a powerful option
+> for a user interface to support the kinds of transformation you describe.
+> It?s possible to upload and download files and there are a number of user
+> widgets for identification of the structural elements of data. One may also
+> display some basic ggplot type graphics for basic exploratory analysis. I?ve
+> started a project called ?shout? which will eventually be a GUI for MRMR.
+> It?s been dormant for about three months, but have a look- or have a look at
+> Shiny apps in general- and see if that?s a direction that makes sense.
+>
+>
+>
+> Do you have a GitHub repository list where others can contribute? Mine may
+> be found here: https://github.com/PirateGrunt/.
+>
+>
+>
+> Also, have a look at XLConnect. RExcel actually requires a commercial
+> license, whereas XLConnect is GPL 3. XLConnect allows one to read and write
+> to/from Excel files. This is what I use for the ?write.excel? method in
+> MRMR.
+>
+>
+>
+> Regards,
+>
+> Brian
+>
+>
+>
+> From: Edward Roche [mailto:ed.roche at yahoo.co.uk]
+> Sent: Monday, September 29, 2014 7:19 PM
+> To: Brian Fannin; 'Markus Gesmann'; Christophe Dutang; chiefmurphy at gmail.com
+> Cc: R-Sig-Insurance at R-Project. Org
+>
+>
+> Subject: Re: [R-sig-ins] General Insurance Data
+>
+>
+>
+> Hi All,
+>
+> Thank you all for your responses. What I have in mind is a package to help
+> with the initial stage of getting claims data into R and ready to use
+> (formatting etc) before any modeling is done. Effectively to provide a
+> workflow for working with actuarial claims data.
+> My past experiences, using GI reserving projection programs, have usually
+> involved a stage to summarise the data in some format then later feed this
+> data into a program, be it a proprietary program or one of the R packages.
+> The key stage I wish to contribute to here is where the data has to be fed
+> in to R. MRMR and ChainLadder do allow for reshaping of the data (and
+> loading data) but I would like to build on the functionality in these
+> packages while not reinventing the wheel. I will take some time to digest
+> the MRMR package as this does seem to have a lot of functionality that I
+> could use for manipulating the data.
+>
+> A package providing a workflow to get data into a basic tabular structure
+> would act as a stepping stone for getting claims data available and cleaned
+> for use in packages such as ChainLadder or MRMR. It would even be easier to
+> perform other more basic analysis. As I see it at the moment when someone
+> gets to the stage that the data is loaded and formatted in R they are
+> basically ready to go and use MRMR or ChainLadder but this is a very big
+> hurdle for novice R users who typically have data stored elsewhere (SAS, SQL
+> Excel or other flat files). Even moving from Excel to R, where data can be
+> stored in objects as opposed to tables is a giant leap in its own right and
+> I fear this is the stage where a lot of novice R Actuarial users are lost or
+> lose confidence in R. I am not a professional programmer and I am not very
+> knowledgeable about different types of connections or porting files from one
+> format to another so I was hoping to leave that up to packages such as RODBC
+> or xlsx. My idea is to provide a workflow structure to load claims data into
+> a data.table using a simple GUI interface. Its worth mentioning, I have come
+> across RExcel which allows you to call R from Excel but what I am talking
+> about is somewhat different in that your using R as the backbone, rather
+> than Excel, for storing and manipulating the data. This would at the same
+> time leave the data in familiar tabular format but helper functions could
+> pivot the data and allow novice R users to create triangles intuitively or
+> extract useful representations such as latest diagonals cumulative data, in
+> year data etc. It would still be easy to manipulate the basic underlying
+> data structure if desired as it is just a data.table but helper functions
+> would give it intuitive Actuarial functionality. The goal would be to reduce
+> the time to close to zero for a novice R Actuarial user to go from using
+> existing data (e.g. Excel or SAS) to a data object that could then be passed
+> to ChainLadder, MRMR or ggplot2.
+> The package Rattle,, has a lovely GUI interface for loading data. I have
+> something like this in mind to get people started. A GUI interface could be
+> used to specify key fields and formats such as origin period etc. The data
+> stored in R as a data.table would still be in a very familiar tabular format
+> and look similar to what novice R users are used to when they have worked
+> with data stored elsewhere in SQL, SAS or Excel files.  This would provide a
+> bit of reassurance  to get working in R. It would also facilitate novice R
+> users to plot the data using ggplot or googlevis, reshape it, summarise it
+> in tables for printing and you also get the benefit that the data.table
+> structure is quite efficient for working with big in memory data.
+>
+> My recent background is claims reserving in a GI company and claims data is
+> what I have initially in mind to tackle. Other data such as pricing data,
+> time series etc would also certainly lend themselves to more specialised
+> Actuarial data structures and I think I could work on these down the road.
+>
+> From my description above the package might just sound like its to load and
+> format the data. This is a non trivial exercise for novice R users and such
+> a package would reduce the barrier for people adopting R especially at work.
+> At the optimistic end of the scale I also think it could make development
+> data analysis accessible to non Actuaries and could even be useful in other
+> fields. I would love the help from anyone that is interested in contributing
+> as I am working on this solo at the moment. I wish to work a bit on a basic
+> proof of concept first and when I get it working I will load it to git hub
+> and post some links to this mailing list. I wanted first to check that such
+> a package does not exist but it will take a bit of time to get something
+> useful and working. I also appreciate any comments, contributions or
+> feedback.
+>
+> Thanks again for the help
+>
+> Regards
+> Edward Roche
+>
+> On 29/09/14 02:03, Brian Fannin wrote:
+>
+> Edward,
+>
+>
+>
+> It may not be exactly what you're looking for, but MRMR could have some
+> things you might like. My primary aim was to develop a package which made
+> data manipulation for loss reserving a bit more efficient. However, it has
+> application in a more general context as well. It begins with a clear,
+> robust yet flexible notion of an origin period (accident/underwriting/report
+> year). For each origin year, one may store measured observations, which have
+> an arbitrarily complex set of dimensions. For example, written premium is
+> allocated to territory, line of business, currency, etc. For loss reserving,
+> we go a step further and allow those measures to change at regular
+> evaluation points.
+>
+>
+>
+> That's that for the data structure. I've tried to build in reasonable
+> support for simple multidimensional/multivariate visualizations. I've got a
+> lot more work to do here, but it's a good start. There's also a new generic
+> method "write.excel" which stores information to a spreadsheet in a
+> reasonable way. This is a pragmatic feature to facilitate data exchange with
+> folk who aren't yet using R. The loss reserving methods presume a linear
+> model framework with chain ladder as a special case. We use mixed effects
+> regression for "loss reserving with credibility".
+>
+>
+>
+> Attached is a very short vignette which may help you to understand how the
+> package is meant to be used. I'm happy to talk more about it, if you're
+> interested.
+>
+>
+>
+> Note that I'm describing features on the development version of MRMR. The
+> CRAN version is more limited. I hope to get the new version submitted and
+> approved before the end of the year.
+>
+>
+>
+> Regards,
+>
+> Brian Fannin
+>
+>
+>
+> -----Original Message-----
+>
+> From: Markus Gesmann [mailto:markus.gesmann at googlemail.com]
+>
+> Sent: Sunday, September 28, 2014 6:36 AM
+>
+> To: Christophe Dutang
+>
+> Cc: Edward Roche; R-Sig-Insurance at R-Project. Org; Brian Fannin
+>
+> Subject: Re: [R-sig-ins] General Insurance Data
+>
+>
+>
+> Hi Edward,
+>
+>
+>
+> Have you looked at Brian Fanin's MRMR package,
+> http://cran.r-project.org/web/packages/MRMR/index.html or
+> https://github.com/PirateGrunt/MRMR?
+>
+> The package provides quite a bit on infrastructure for dealing with triangle
+> like data.
+>
+>
+>
+> Regards
+>
+>
+>
+> Markus
+>
+>
+>
+> On 27 Sep 2014, at 14:08, Christophe Dutang <dutangc at gmail.com> wrote:
+>
+>
+>
+> Dear Edward,
+>
+>
+>
+> To my knowledge, there is no single package doing data manipulation in the
+> insurance context.
+>
+>
+>
+> There are package for manipulating from database manager and other
+>
+> proprietary softwares : see
+>
+> http://cran.r-project.org/doc/manuals/r-release/R-data.html
+>
+>
+>
+> Maintaining the CASdatasets package, I face to some of your problem to read
+> SAS or excel files. Typically the case, where there is a separator for
+> thousand. I did write some R functions :
+>
+> - readfunc(filelist, yearlist, sheetname, pattern, nrow, ncol,
+>
+> colname, col2conv, echo=FALSE, row2rm=NULL) : read a list of excel
+>
+> file to extract the same sheet and concatenate the whole
+>
+> - str2num(x) : convert a character string to a numeric dealing with
+>
+> thousand separator
+>
+> - concatmultcol(df, nbinfo, nbblock, col2foot, col2conv, col2rmpre,
+>
+> cm2rmpost, cname2trunc=NULL, echo=FALSE) : concatenate blockwise data into a
+> rowwise dataframe etc...
+>
+> In such function, I read excel files with gdata package.
+>
+>
+>
+> As you say, for manipulating triangles, there are functions in ChainLadder.
+> By the way, I propose cum2incr and incr2cum to M. Gesmann. Another function
+> shrinkTriangle was not kept in this package: this function computes an
+> annual triangle from a monthly or quarterly basis.
+>
+>
+>
+> For manipulating string, there is a good book by Gaston Sanchez, see
+>
+> http://gastonsanchez.com/work/
+>
+>
+>
+> At the last R in insurance conf, there was a good presentation of data
+> manipulation (see
+> http://www.cass.city.ac.uk/news-and-events/conferences/r-in-insurance-2014/r-in-insurance,-conference-programme
+> and ask for presentation file).
+>
+>
+>
+> Do you have a detailed list of what type of data you want to
+>
+> manipulate? for which purpose? (is it only for reserving purpose?) If you
+> are willing to create a package, I will be happy to contribute.
+>
+>
+>
+> Regards, Christophe
+>
+> -
+>
+> Christophe Dutang
+>
+> LMM, UdM, Le Mans, France
+>
+> web: http://dutangc.free.fr
+>
+>
+>
+> Le 27 sept. 2014 ? 01:16, Edward Roche <ed.roche at yahoo.co.uk> a ?crit :
+>
+>
+>
+> Hi all,
+>
+> I am interested in a package for working with General Insurance data, i.e.
+> something that deals with the initial stage of getting GI data into R,
+> reshaping it and subsetting it before performing projections using packages
+> such as ChainLadder or claim development visualisations using googlevis.
+>
+>
+>
+> When working with GI data before you can do any meaningful analysis or
+> projections you need to get your data in the right format. Typically you
+> might start with incremental long format data showing claim transactions and
+> this needs to be reshaped and summarised into triangle matrices (e.g.  paid
+> and incurreds). You can then perform projections with packages such as
+> ChainLadder or other simple development methods. This initial manipulation
+> stage is not always easy to do especially for novice users of R. There are
+> helper functions in the ChainLadder package such as incr2cum, as.triangle
+> etc that let you perform conversions on the fly but I cant find anything for
+> the wholesale restructuring or manipulation of GI data such as converting it
+> from Annual Quarterly to Annual Annual etc. This type of manipulation is
+> very easy to do in some proprietary software (not R based) that I use on a
+> daily basis.
+>
+> I am considering working on a package that would generally provide helper
+> functions to load untidy GI data into R and let a novice R user perform
+> restructuring and manipulation on the fly.  I envisage a GUI such as is
+> available in Rattle to load the data and specify the key variables and
+> formats. Once the data is loaded intuitive helper functions would let you
+> manipulate it on the fly. For example you might wish to pick out paid and
+> incurred triangles, subset the data in some way or convert it to Annual
+> Annual or from cumulative to incremental.
+>
+>
+>
+> My question for this mailing list is are there any such packages out there?
+> or is anyone working on something like this? I would love to get involved if
+> so. Any other thoughts?
+>
+>
+>
+> Thanks
+>
+> Ed
+>
+>
+>
+> _______________________________________________
+>
+> R-SIG-insurance mailing list
+>
+> R-SIG-insurance at r-project.org
+>
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>
+> _______________________________________________
+>
+> R-SIG-insurance mailing list
+>
+> R-SIG-insurance at r-project.org
+>
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>
+>
+
+
+From chiefmurphy at gmail.com  Mon Oct 20 19:35:20 2014
+From: chiefmurphy at gmail.com (Dan Murphy)
+Date: Mon, 20 Oct 2014 10:35:20 -0700
+Subject: [R-sig-ins] Fwd: pasteFromExcel
+In-Reply-To: <CAHgH9_F7dLVGULxfok1f3xLjZTT3WX8UPnOohmXWj-28nj7cwA@mail.gmail.com>
+References: <CAHgH9_F7dLVGULxfok1f3xLjZTT3WX8UPnOohmXWj-28nj7cwA@mail.gmail.com>
+Message-ID: <CAHgH9_FvfP2-Qds=n2BB1si7a92mqPaSTAD7RhqC-7buDmuP1w@mail.gmail.com>
+
+This is a follow-up to the tread originally started by Edward Roche on Sep 29.
+
+Sorry for cross-posting. Meant to post here but sent to R-Help
+inadvertently. But I can't complain because I already received a
+suggestion for my locale question (Sys.getlocale("LC_MONETARY") and
+options("OutDec")).
+
+
+---------- Forwarded message ----------
+From: Dan Murphy <chiefmurphy at gmail.com>
+Date: Sun, Oct 19, 2014 at 11:18 PM
+Subject: pasteFromExcel
+To: "R-help at r-project.org" <r-help at r-project.org>
+
+
+To Users of Excel:
+
+Following advice from Brian and Markus, I created an RMarkdown
+"vignette" that shows an example of how the pasteFromExcel function in
+the excelRio package on github could be used by an actuary to transfer
+a triangle from Excel to R. See today's post at
+http://trinostics.blogspot.com/
+
+Unfortunately, if you are located outside the US, the demonstrated
+functionality will not work for you because the currency regex
+implemented assumes the dollar sign ($) and comma/decimal punctuation
+of the form 999,999.00.
+
+If anyone is interested in contributing currency regex expressions
+that work in your locale, I would be happy to try to incorporate them
+in the package. If anyone knows how best to determine the user's
+locale (might "timezone" suffice?), I'd appreciate that help too.
+
+Thanks a lot.
+
+Dan
+
+
+From dwinsemius at comcast.net  Tue Oct 21 22:41:11 2014
+From: dwinsemius at comcast.net (David Winsemius)
+Date: Tue, 21 Oct 2014 13:41:11 -0700
+Subject: [R-sig-ins] pasteFromExcel
+In-Reply-To: <CAHgH9_FvfP2-Qds=n2BB1si7a92mqPaSTAD7RhqC-7buDmuP1w@mail.gmail.com>
+References: <CAHgH9_F7dLVGULxfok1f3xLjZTT3WX8UPnOohmXWj-28nj7cwA@mail.gmail.com>
+	<CAHgH9_FvfP2-Qds=n2BB1si7a92mqPaSTAD7RhqC-7buDmuP1w@mail.gmail.com>
+Message-ID: <0C3D187B-388D-4CFE-BD01-F750AFE94F03@comcast.net>
+
+I was the poster who offered those options and have replied to Dan on some followup questions on Rhelp, but the last question seemed to revolve around how Excel handle currency formatting and that is definitely off-topic on Rhelp. I wondered, however, whether it would be seen as on-topic for this mailing list?
+
+(Despite my medical degree, I'm a longtime user of Excel and a medium-term user of R.)
+
+-- 
+David Winsemius, MD, MPH
+Medical Director, Life Underwriting
+AXA
+Financial Services Section, US
+
+On Oct 20, 2014, at 10:35 AM, Dan Murphy wrote:
+
+> This is a follow-up to the tread originally started by Edward Roche on Sep 29.
+> 
+> Sorry for cross-posting. Meant to post here but sent to R-Help
+> inadvertently. But I can't complain because I already received a
+> suggestion for my locale question (Sys.getlocale("LC_MONETARY") and
+> options("OutDec")).
+> 
+> 
+> ---------- Forwarded message ----------
+> From: Dan Murphy <chiefmurphy at gmail.com>
+> Date: Sun, Oct 19, 2014 at 11:18 PM
+> Subject: pasteFromExcel
+> To: "R-help at r-project.org" <r-help at r-project.org>
+> 
+> 
+> To Users of Excel:
+> 
+> Following advice from Brian and Markus, I created an RMarkdown
+> "vignette" that shows an example of how the pasteFromExcel function in
+> the excelRio package on github could be used by an actuary to transfer
+> a triangle from Excel to R. See today's post at
+> http://trinostics.blogspot.com/
+> 
+> Unfortunately, if you are located outside the US, the demonstrated
+> functionality will not work for you because the currency regex
+> implemented assumes the dollar sign ($) and comma/decimal punctuation
+> of the form 999,999.00.
+> 
+> If anyone is interested in contributing currency regex expressions
+> that work in your locale, I would be happy to try to incorporate them
+> in the package. If anyone knows how best to determine the user's
+> locale (might "timezone" suffice?), I'd appreciate that help too.
+> 
+> Thanks a lot.
+> 
+> Dan
+> 
+> _______________________________________________
+> R-SIG-insurance mailing list
+> R-SIG-insurance at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+David Winsemius
+Alameda, CA, USA
+
+
+From chiefmurphy at gmail.com  Tue Oct 21 23:10:55 2014
+From: chiefmurphy at gmail.com (Dan Murphy)
+Date: Tue, 21 Oct 2014 14:10:55 -0700
+Subject: [R-sig-ins] pasteFromExcel
+In-Reply-To: <0C3D187B-388D-4CFE-BD01-F750AFE94F03@comcast.net>
+References: <CAHgH9_F7dLVGULxfok1f3xLjZTT3WX8UPnOohmXWj-28nj7cwA@mail.gmail.com>
+	<CAHgH9_FvfP2-Qds=n2BB1si7a92mqPaSTAD7RhqC-7buDmuP1w@mail.gmail.com>
+	<0C3D187B-388D-4CFE-BD01-F750AFE94F03@comcast.net>
+Message-ID: <CAHgH9_EXG4XSwa9bS35K4tej1=_eosGezm_BE4BX1Kv0_TugXg@mail.gmail.com>
+
+Thanks, David.
+
+I was able to find euro and other optional currency denominations
+under Format after installing the French language.
+
+Thanks for the spreadsheet too. Could you please do me a favor? Format
+your -124 euros with parentheses. And then enter -1000 and format it
+in dollars with parentheses. On my machine the Euro symbol is inside
+the parentheses and the dollar symbol is outside. Is that the case on
+your machine?
+
+Finally, I was never able to format in the French method of spaces (I
+can get the decimal comma) -- e.g. ? 123 456,89 -- so I don't know if
+that is a valid Excel option I need enable in pasteFromExcel.
+
+Thanks for your persistence!
+
+On Tue, Oct 21, 2014 at 1:41 PM, David Winsemius <dwinsemius at comcast.net> wrote:
+> I was the poster who offered those options and have replied to Dan on some followup questions on Rhelp, but the last question seemed to revolve around how Excel handle currency formatting and that is definitely off-topic on Rhelp. I wondered, however, whether it would be seen as on-topic for this mailing list?
+>
+> (Despite my medical degree, I'm a longtime user of Excel and a medium-term user of R.)
+>
+> --
+> David Winsemius, MD, MPH
+> Medical Director, Life Underwriting
+> AXA
+> Financial Services Section, US
+>
+> On Oct 20, 2014, at 10:35 AM, Dan Murphy wrote:
+>
+>> This is a follow-up to the tread originally started by Edward Roche on Sep 29.
+>>
+>> Sorry for cross-posting. Meant to post here but sent to R-Help
+>> inadvertently. But I can't complain because I already received a
+>> suggestion for my locale question (Sys.getlocale("LC_MONETARY") and
+>> options("OutDec")).
+>>
+>>
+>> ---------- Forwarded message ----------
+>> From: Dan Murphy <chiefmurphy at gmail.com>
+>> Date: Sun, Oct 19, 2014 at 11:18 PM
+>> Subject: pasteFromExcel
+>> To: "R-help at r-project.org" <r-help at r-project.org>
+>>
+>>
+>> To Users of Excel:
+>>
+>> Following advice from Brian and Markus, I created an RMarkdown
+>> "vignette" that shows an example of how the pasteFromExcel function in
+>> the excelRio package on github could be used by an actuary to transfer
+>> a triangle from Excel to R. See today's post at
+>> http://trinostics.blogspot.com/
+>>
+>> Unfortunately, if you are located outside the US, the demonstrated
+>> functionality will not work for you because the currency regex
+>> implemented assumes the dollar sign ($) and comma/decimal punctuation
+>> of the form 999,999.00.
+>>
+>> If anyone is interested in contributing currency regex expressions
+>> that work in your locale, I would be happy to try to incorporate them
+>> in the package. If anyone knows how best to determine the user's
+>> locale (might "timezone" suffice?), I'd appreciate that help too.
+>>
+>> Thanks a lot.
+>>
+>> Dan
+>>
+>> _______________________________________________
+>> R-SIG-insurance mailing list
+>> R-SIG-insurance at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>
+> David Winsemius
+> Alameda, CA, USA
+>
+
+
+From dwinsemius at comcast.net  Wed Oct 22 21:46:42 2014
+From: dwinsemius at comcast.net (David Winsemius)
+Date: Wed, 22 Oct 2014 12:46:42 -0700
+Subject: [R-sig-ins] Currency/Accounting formats in Excel ... was
+	pasteFromExcel
+In-Reply-To: <CAHgH9_EXG4XSwa9bS35K4tej1=_eosGezm_BE4BX1Kv0_TugXg@mail.gmail.com>
+References: <CAHgH9_F7dLVGULxfok1f3xLjZTT3WX8UPnOohmXWj-28nj7cwA@mail.gmail.com>
+	<CAHgH9_FvfP2-Qds=n2BB1si7a92mqPaSTAD7RhqC-7buDmuP1w@mail.gmail.com>
+	<0C3D187B-388D-4CFE-BD01-F750AFE94F03@comcast.net>
+	<CAHgH9_EXG4XSwa9bS35K4tej1=_eosGezm_BE4BX1Kv0_TugXg@mail.gmail.com>
+Message-ID: <CDBC8EDB-49F5-4BE5-8CE3-06661FB8A3E6@comcast.net>
+
+
+On Oct 21, 2014, at 2:10 PM, Dan Murphy wrote:
+
+> Thanks, David.
+> 
+> I was able to find euro and other optional currency denominations
+> under Format after installing the French language.
+> 
+> Thanks for the spreadsheet too. Could you please do me a favor? Format
+> your -124 euros with parentheses. And then enter -1000 and format it
+> in dollars with parentheses. On my machine the Euro symbol is inside
+> the parentheses and the dollar symbol is outside. Is that the case on
+> your machine?
+> 
+
+I wasn't quite able to figure out what you wanted. The Excel "Custom format" options are available. I can make a custom format string that will insert a fixed number of spaces (2) at the thousands and millions breaks when numbers are greater , and wrap parentheses around negative numbers:
+
+[$?-2] # ##0_);([$?-2] # ### ##0)
+
+So a -1200000000 looks like:
+
+(? 1240 000 000)
+
+This screenshot shows how you get access to custom formats:
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: PastedGraphic-1.tiff
+Type: image/tiff
+Size: 59944 bytes
+Desc: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20141022/d71835d3/attachment-0001.tiff>
+-------------- next part --------------
+
+
+I'm sure there must be websites out there that have details on the exact syntax for this
+-- 
+David.
+
+> Finally, I was never able to format in the French method of spaces (I
+> can get the decimal comma) -- e.g. ? 123 456,89 -- so I don't know if
+> that is a valid Excel option I need enable in pasteFromExcel.
+> 
+> Thanks for your persistence!
+> 
+> On Tue, Oct 21, 2014 at 1:41 PM, David Winsemius <dwinsemius at comcast.net> wrote:
+>> I was the poster who offered those options and have replied to Dan on some followup questions on Rhelp, but the last question seemed to revolve around how Excel handle currency formatting and that is definitely off-topic on Rhelp. I wondered, however, whether it would be seen as on-topic for this mailing list?
+>> 
+>> (Despite my medical degree, I'm a longtime user of Excel and a medium-term user of R.)
+>> 
+>> --
+>> David Winsemius, MD, MPH
+>> Medical Director, Life Underwriting
+>> AXA
+>> Financial Services Section, US
+>> 
+>> On Oct 20, 2014, at 10:35 AM, Dan Murphy wrote:
+>> 
+>>> This is a follow-up to the tread originally started by Edward Roche on Sep 29.
+>>> 
+>>> Sorry for cross-posting. Meant to post here but sent to R-Help
+>>> inadvertently. But I can't complain because I already received a
+>>> suggestion for my locale question (Sys.getlocale("LC_MONETARY") and
+>>> options("OutDec")).
+>>> 
+>>> 
+>>> ---------- Forwarded message ----------
+>>> From: Dan Murphy <chiefmurphy at gmail.com>
+>>> Date: Sun, Oct 19, 2014 at 11:18 PM
+>>> Subject: pasteFromExcel
+>>> To: "R-help at r-project.org" <r-help at r-project.org>
+>>> 
+>>> 
+>>> To Users of Excel:
+>>> 
+>>> Following advice from Brian and Markus, I created an RMarkdown
+>>> "vignette" that shows an example of how the pasteFromExcel function in
+>>> the excelRio package on github could be used by an actuary to transfer
+>>> a triangle from Excel to R. See today's post at
+>>> http://trinostics.blogspot.com/
+>>> 
+>>> Unfortunately, if you are located outside the US, the demonstrated
+>>> functionality will not work for you because the currency regex
+>>> implemented assumes the dollar sign ($) and comma/decimal punctuation
+>>> of the form 999,999.00.
+>>> 
+>>> If anyone is interested in contributing currency regex expressions
+>>> that work in your locale, I would be happy to try to incorporate them
+>>> in the package. If anyone knows how best to determine the user's
+>>> locale (might "timezone" suffice?), I'd appreciate that help too.
+>>> 
+>>> Thanks a lot.
+>>> 
+>>> Dan
+>>> 
+>>> _______________________________________________
+>>> R-SIG-insurance mailing list
+>>> R-SIG-insurance at r-project.org
+>>> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>> 
+>> David Winsemius
+>> Alameda, CA, USA
+>> 
+
+David Winsemius
+Alameda, CA, USA
+
+
+From dwinsemius at comcast.net  Wed Oct 22 21:56:38 2014
+From: dwinsemius at comcast.net (David Winsemius)
+Date: Wed, 22 Oct 2014 12:56:38 -0700
+Subject: [R-sig-ins] Currency/Accounting formats in Excel ... was
+	pasteFromExcel
+In-Reply-To: <CDBC8EDB-49F5-4BE5-8CE3-06661FB8A3E6@comcast.net>
+References: <CAHgH9_F7dLVGULxfok1f3xLjZTT3WX8UPnOohmXWj-28nj7cwA@mail.gmail.com>
+	<CAHgH9_FvfP2-Qds=n2BB1si7a92mqPaSTAD7RhqC-7buDmuP1w@mail.gmail.com>
+	<0C3D187B-388D-4CFE-BD01-F750AFE94F03@comcast.net>
+	<CAHgH9_EXG4XSwa9bS35K4tej1=_eosGezm_BE4BX1Kv0_TugXg@mail.gmail.com>
+	<CDBC8EDB-49F5-4BE5-8CE3-06661FB8A3E6@comcast.net>
+Message-ID: <50066E8C-1ADB-4D83-9D6A-F86EB6E0E44F@comcast.net>
+
+
+On Oct 22, 2014, at 12:46 PM, David Winsemius wrote:
+
+> 
+> On Oct 21, 2014, at 2:10 PM, Dan Murphy wrote:
+> 
+>> Thanks, David.
+>> 
+>> I was able to find euro and other optional currency denominations
+>> under Format after installing the French language.
+>> 
+>> Thanks for the spreadsheet too. Could you please do me a favor? Format
+>> your -124 euros with parentheses. And then enter -1000 and format it
+>> in dollars with parentheses. On my machine the Euro symbol is inside
+>> the parentheses and the dollar symbol is outside. Is that the case on
+>> your machine?
+>> 
+> 
+> I wasn't quite able to figure out what you wanted. The Excel "Custom format" options are available. I can make a custom format string that will insert a fixed number of spaces (2) at the thousands and millions breaks when numbers are greater , and wrap parentheses around negative numbers:
+> 
+> [$?-2] # ##0_);([$?-2] # ### ##0)
+> 
+> So a -1200000000 looks like:
+> 
+> (? 1240 000 000)
+> 
+> This screenshot shows how you get access to custom formats:
+> 
+> <PastedGraphic-1.tiff>
+> 
+> I'm sure there must be websites out there that have details on the exact syntax for this
+
+This was the URL that MS sent me to for details on custom formats:
+
+https://support.office.com/en-US/Article/Create-or-delete-a-custom-number-format-83657ca7-9dbe-4ee5-9c89-d8bf836e028e?ui=en-US&rs=en-US&ad=US
+
+-- 
+David.
+> -- 
+> David.
+> 
+>> Finally, I was never able to format in the French method of spaces (I
+>> can get the decimal comma) -- e.g. ? 123 456,89 -- so I don't know if
+>> that is a valid Excel option I need enable in pasteFromExcel.
+>> 
+>> Thanks for your persistence!
+>> 
+>> On Tue, Oct 21, 2014 at 1:41 PM, David Winsemius <dwinsemius at comcast.net> wrote:
+>>> I was the poster who offered those options and have replied to Dan on some followup questions on Rhelp, but the last question seemed to revolve around how Excel handle currency formatting and that is definitely off-topic on Rhelp. I wondered, however, whether it would be seen as on-topic for this mailing list?
+>>> 
+>>> (Despite my medical degree, I'm a longtime user of Excel and a medium-term user of R.)
+>>> 
+>>> --
+>>> David Winsemius, MD, MPH
+>>> Medical Director, Life Underwriting
+>>> AXA
+>>> Financial Services Section, US
+>>> 
+>>> On Oct 20, 2014, at 10:35 AM, Dan Murphy wrote:
+>>> 
+>>>> This is a follow-up to the tread originally started by Edward Roche on Sep 29.
+>>>> 
+>>>> Sorry for cross-posting. Meant to post here but sent to R-Help
+>>>> inadvertently. But I can't complain because I already received a
+>>>> suggestion for my locale question (Sys.getlocale("LC_MONETARY") and
+>>>> options("OutDec")).
+>>>> 
+>>>> 
+>>>> ---------- Forwarded message ----------
+>>>> From: Dan Murphy <chiefmurphy at gmail.com>
+>>>> Date: Sun, Oct 19, 2014 at 11:18 PM
+>>>> Subject: pasteFromExcel
+>>>> To: "R-help at r-project.org" <r-help at r-project.org>
+>>>> 
+>>>> 
+>>>> To Users of Excel:
+>>>> 
+>>>> Following advice from Brian and Markus, I created an RMarkdown
+>>>> "vignette" that shows an example of how the pasteFromExcel function in
+>>>> the excelRio package on github could be used by an actuary to transfer
+>>>> a triangle from Excel to R. See today's post at
+>>>> http://trinostics.blogspot.com/
+>>>> 
+>>>> Unfortunately, if you are located outside the US, the demonstrated
+>>>> functionality will not work for you because the currency regex
+>>>> implemented assumes the dollar sign ($) and comma/decimal punctuation
+>>>> of the form 999,999.00.
+>>>> 
+>>>> If anyone is interested in contributing currency regex expressions
+>>>> that work in your locale, I would be happy to try to incorporate them
+>>>> in the package. If anyone knows how best to determine the user's
+>>>> locale (might "timezone" suffice?), I'd appreciate that help too.
+>>>> 
+>>>> Thanks a lot.
+>>>> 
+>>>> Dan
+>>>> 
+>>>> _______________________________________________
+>>>> R-SIG-insurance mailing list
+>>>> R-SIG-insurance at r-project.org
+>>>> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>>> 
+>>> David Winsemius
+>>> Alameda, CA, USA
+>>> 
+> 
+> David Winsemius
+> Alameda, CA, USA
+> 
+> _______________________________________________
+> R-SIG-insurance mailing list
+> R-SIG-insurance at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+David Winsemius
+Alameda, CA, USA
+
+
+From tcmuigai at gmail.com  Thu Oct 23 07:20:49 2014
+From: tcmuigai at gmail.com (Charles Thuo)
+Date: Thu, 23 Oct 2014 08:20:49 +0300
+Subject: [R-sig-ins] running the aggregate claims distribution with the
+	package "actuar"
+Message-ID: <CAAJc=rOD6L-qDfi=U8PY_hP0ujJdB4GBJU62qtK2f7BD8dQd9w@mail.gmail.com>
+
+# i  run the following after fitting claims data into the negative binomial
+as the frequency  distribution and the lognormal for the severity
+distribution using the package "fitdistrplus".
+
+require(actuar)
+
+
+fx<- discretize(plnorm(x,11.69,0.79331),method="unbiased",step=500,from=0,
+
+
+        to=qlnorm(1-1E-6,11.69,0.79331),lev=levlnorm(x,11.69,0.79331))
+
+
+
+ pb<- 2.6/18.6
+
+
+ pn<- dnbinom(0:qnbinom(1-1E-6,size=2.6,prob=pb),size=2.6,prob=pb)
+
+
+
+ Fs<-
+aggregateDist("convolution",model.sev=fx,model.freq=pn,x.scale=1,tol=1E-6)
+
+
+# The Fs function stalls and does not produce and output. Can anyoen advise
+why this is the case?
+
+# On the other hand does the convolution method require iterations.
+# In case the function Fs run successfully how are the parameters of the Fs
+distribution extracted. How would the same parameters be related to an
+existing portfolio of outstanding claims.
+
+	[[alternative HTML version deleted]]
+
+
+From chiefmurphy at gmail.com  Thu Oct 23 08:23:51 2014
+From: chiefmurphy at gmail.com (Dan Murphy)
+Date: Wed, 22 Oct 2014 23:23:51 -0700
+Subject: [R-sig-ins] Currency/Accounting formats in Excel ... was
+	pasteFromExcel
+In-Reply-To: <50066E8C-1ADB-4D83-9D6A-F86EB6E0E44F@comcast.net>
+References: <CAHgH9_F7dLVGULxfok1f3xLjZTT3WX8UPnOohmXWj-28nj7cwA@mail.gmail.com>
+	<CAHgH9_FvfP2-Qds=n2BB1si7a92mqPaSTAD7RhqC-7buDmuP1w@mail.gmail.com>
+	<0C3D187B-388D-4CFE-BD01-F750AFE94F03@comcast.net>
+	<CAHgH9_EXG4XSwa9bS35K4tej1=_eosGezm_BE4BX1Kv0_TugXg@mail.gmail.com>
+	<CDBC8EDB-49F5-4BE5-8CE3-06661FB8A3E6@comcast.net>
+	<50066E8C-1ADB-4D83-9D6A-F86EB6E0E44F@comcast.net>
+Message-ID: <CAHgH9_ErGxwtHh_+hv+oR_9607VFXp6_h6nZ=Twc07hafSxBMw@mail.gmail.com>
+
+Another useful link is the one that tells how to set the "Decimal
+separator" and "Thousands separator" before trying out something
+different (Decimal separator = "," and Thousands separator = " ")
+under Format Cells, Custom:
+http://office.microsoft.com/en-us/excel-help/change-the-character-used-to-separate-thousands-or-decimals-HP001230245.aspx
+
+Putting all this together, there are any number of ways an Excel user
+may format numeric data in Ex-cells.
+
+On Wed, Oct 22, 2014 at 12:56 PM, David Winsemius
+<dwinsemius at comcast.net> wrote:
+>
+> On Oct 22, 2014, at 12:46 PM, David Winsemius wrote:
+>
+>>
+>> On Oct 21, 2014, at 2:10 PM, Dan Murphy wrote:
+>>
+>>> Thanks, David.
+>>>
+>>> I was able to find euro and other optional currency denominations
+>>> under Format after installing the French language.
+>>>
+>>> Thanks for the spreadsheet too. Could you please do me a favor? Format
+>>> your -124 euros with parentheses. And then enter -1000 and format it
+>>> in dollars with parentheses. On my machine the Euro symbol is inside
+>>> the parentheses and the dollar symbol is outside. Is that the case on
+>>> your machine?
+>>>
+>>
+>> I wasn't quite able to figure out what you wanted. The Excel "Custom format" options are available. I can make a custom format string that will insert a fixed number of spaces (2) at the thousands and millions breaks when numbers are greater , and wrap parentheses around negative numbers:
+>>
+>> [$?-2] # ##0_);([$?-2] # ### ##0)
+>>
+>> So a -1200000000 looks like:
+>>
+>> (? 1240 000 000)
+>>
+>> This screenshot shows how you get access to custom formats:
+>>
+>> <PastedGraphic-1.tiff>
+>>
+>> I'm sure there must be websites out there that have details on the exact syntax for this
+>
+> This was the URL that MS sent me to for details on custom formats:
+>
+> https://support.office.com/en-US/Article/Create-or-delete-a-custom-number-format-83657ca7-9dbe-4ee5-9c89-d8bf836e028e?ui=en-US&rs=en-US&ad=US
+>
+> --
+> David.
+>> --
+>> David.
+>>
+>>> Finally, I was never able to format in the French method of spaces (I
+>>> can get the decimal comma) -- e.g. ? 123 456,89 -- so I don't know if
+>>> that is a valid Excel option I need enable in pasteFromExcel.
+>>>
+>>> Thanks for your persistence!
+>>>
+>>> On Tue, Oct 21, 2014 at 1:41 PM, David Winsemius <dwinsemius at comcast.net> wrote:
+>>>> I was the poster who offered those options and have replied to Dan on some followup questions on Rhelp, but the last question seemed to revolve around how Excel handle currency formatting and that is definitely off-topic on Rhelp. I wondered, however, whether it would be seen as on-topic for this mailing list?
+>>>>
+>>>> (Despite my medical degree, I'm a longtime user of Excel and a medium-term user of R.)
+>>>>
+>>>> --
+>>>> David Winsemius, MD, MPH
+>>>> Medical Director, Life Underwriting
+>>>> AXA
+>>>> Financial Services Section, US
+>>>>
+>>>> On Oct 20, 2014, at 10:35 AM, Dan Murphy wrote:
+>>>>
+>>>>> This is a follow-up to the tread originally started by Edward Roche on Sep 29.
+>>>>>
+>>>>> Sorry for cross-posting. Meant to post here but sent to R-Help
+>>>>> inadvertently. But I can't complain because I already received a
+>>>>> suggestion for my locale question (Sys.getlocale("LC_MONETARY") and
+>>>>> options("OutDec")).
+>>>>>
+>>>>>
+>>>>> ---------- Forwarded message ----------
+>>>>> From: Dan Murphy <chiefmurphy at gmail.com>
+>>>>> Date: Sun, Oct 19, 2014 at 11:18 PM
+>>>>> Subject: pasteFromExcel
+>>>>> To: "R-help at r-project.org" <r-help at r-project.org>
+>>>>>
+>>>>>
+>>>>> To Users of Excel:
+>>>>>
+>>>>> Following advice from Brian and Markus, I created an RMarkdown
+>>>>> "vignette" that shows an example of how the pasteFromExcel function in
+>>>>> the excelRio package on github could be used by an actuary to transfer
+>>>>> a triangle from Excel to R. See today's post at
+>>>>> http://trinostics.blogspot.com/
+>>>>>
+>>>>> Unfortunately, if you are located outside the US, the demonstrated
+>>>>> functionality will not work for you because the currency regex
+>>>>> implemented assumes the dollar sign ($) and comma/decimal punctuation
+>>>>> of the form 999,999.00.
+>>>>>
+>>>>> If anyone is interested in contributing currency regex expressions
+>>>>> that work in your locale, I would be happy to try to incorporate them
+>>>>> in the package. If anyone knows how best to determine the user's
+>>>>> locale (might "timezone" suffice?), I'd appreciate that help too.
+>>>>>
+>>>>> Thanks a lot.
+>>>>>
+>>>>> Dan
+>>>>>
+>>>>> _______________________________________________
+>>>>> R-SIG-insurance mailing list
+>>>>> R-SIG-insurance at r-project.org
+>>>>> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>>>>
+>>>> David Winsemius
+>>>> Alameda, CA, USA
+>>>>
+>>
+>> David Winsemius
+>> Alameda, CA, USA
+>>
+>> _______________________________________________
+>> R-SIG-insurance mailing list
+>> R-SIG-insurance at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>
+> David Winsemius
+> Alameda, CA, USA
+>
+
+
+From dutangc at gmail.com  Thu Oct 23 08:59:59 2014
+From: dutangc at gmail.com (Christophe Dutang)
+Date: Thu, 23 Oct 2014 08:59:59 +0200
+Subject: [R-sig-ins] running the aggregate claims distribution with the
+	package "actuar"
+In-Reply-To: <CAAJc=rOD6L-qDfi=U8PY_hP0ujJdB4GBJU62qtK2f7BD8dQd9w@mail.gmail.com>
+References: <CAAJc=rOD6L-qDfi=U8PY_hP0ujJdB4GBJU62qtK2f7BD8dQd9w@mail.gmail.com>
+Message-ID: <C7728C65-2B3F-42DC-888D-10B6F27559F8@gmail.com>
+
+Hi,
+
+Did you increase the maximum number of iterations? maxit argument
+
+Regards, Christophe
+?
+Christophe Dutang
+LMM, UdM, Le Mans, France
+web: http://dutangc.free.fr
+
+Le 23 oct. 2014 ? 07:20, Charles Thuo <tcmuigai at gmail.com> a ?crit :
+
+> # i  run the following after fitting claims data into the negative binomial
+> as the frequency  distribution and the lognormal for the severity
+> distribution using the package "fitdistrplus".
+> 
+> require(actuar)
+> 
+> 
+> fx<- discretize(plnorm(x,11.69,0.79331),method="unbiased",step=500,from=0,
+> 
+> 
+>        to=qlnorm(1-1E-6,11.69,0.79331),lev=levlnorm(x,11.69,0.79331))
+> 
+> 
+> 
+> pb<- 2.6/18.6
+> 
+> 
+> pn<- dnbinom(0:qnbinom(1-1E-6,size=2.6,prob=pb),size=2.6,prob=pb)
+> 
+> 
+> 
+> Fs<-
+> aggregateDist("convolution",model.sev=fx,model.freq=pn,x.scale=1,tol=1E-6)
+> 
+> 
+> # The Fs function stalls and does not produce and output. Can anyoen advise
+> why this is the case?
+> 
+> # On the other hand does the convolution method require iterations.
+> # In case the function Fs run successfully how are the parameters of the Fs
+> distribution extracted. How would the same parameters be related to an
+> existing portfolio of outstanding claims.
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-SIG-insurance mailing list
+> R-SIG-insurance at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+

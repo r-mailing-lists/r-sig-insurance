@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2009-12",
+  "messages": [
+    {
+      "id": "msg-0bef5d84e993",
+      "message_id": "<6b6cdb1d0912080704p2ad2a2f2l9e7a31fb4ca4f05e@mail.gmail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
+      "date": "2009-12-08T15:04:15Z",
+      "subject": "[R-sig-ins] Job at Lloyd's",
+      "subject_clean": "Job at Lloyd's",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091208/3259ead7/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091208/3259ead7/attachment.pl>",
+      "thread_id": "thread-0bef5d84e993",
+      "thread_depth": 0,
+      "month": "2009-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-0bef5d84e993",
+      "subject": "Job at Lloyd's",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2009-12-08T15:04:15+00:00",
+      "last_reply": "2009-12-08T15:04:15+00:00",
+      "root_message_id": "msg-0bef5d84e993"
+    }
+  ]
+}

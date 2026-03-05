@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2009-04",
+  "messages": [
+    {
+      "id": "msg-3572cb4948ea",
+      "message_id": "<OF4372D36F.E3178633-ON802575A7.0025DEAB-802575A7.00268306@notes.royalsun.com>",
+      "from_name": "Alan Chalk",
+      "from_email_hash": "b6adde5590c195f73ecc9e934dedb0995c9439f77a4edd99c90e45d6d5e41969",
+      "date": "2009-04-29T08:00:38+01:00",
+      "subject": "[R-sig-ins] Earthquake Models in R",
+      "subject_clean": "Earthquake Models in R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20090429/75fc3257/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20090429/75fc3257/attachment.pl>",
+      "thread_id": "thread-3572cb4948ea",
+      "thread_depth": 0,
+      "month": "2009-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-3572cb4948ea",
+      "subject": "Earthquake Models in R",
+      "message_count": 1,
+      "participants": [
+        "Alan Chalk"
+      ],
+      "started": "2009-04-29T08:00:38+01:00",
+      "last_reply": "2009-04-29T08:00:38+01:00",
+      "root_message_id": "msg-3572cb4948ea"
+    }
+  ]
+}

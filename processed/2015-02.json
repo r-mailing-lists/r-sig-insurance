@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2015-02",
+  "messages": [
+    {
+      "id": "msg-0333e1b54ff3",
+      "message_id": "<BC9D8C9F-B676-41A9-8B49-C15B8FF32C6F@gmail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
+      "date": "2015-02-19T20:29:39Z",
+      "subject": "[R-sig-ins] R in Insurance Conference, Amsterdam, 29 June 2015",
+      "subject_clean": "R in Insurance Conference, Amsterdam, 29 June 2015",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The registration for the third conference on R in Insurance on Monday 29 June 2015 at the University of Amsterdam has opened: http://ase.uva.nl/news-events/r-in-insurance/r-in-insurance-2015.html\n\nThis one-day conference will focus again on applications in insurance and actuarial science that use R, the lingua franca for statistical computation. \n\nThe intended audience of the conference includes both academics and practitioners who are active or interested in the applications of R in insurance. \n\nInvited talks will be given by:\n\n\t? Prof. Richard Gill, Leiden University\n\t? Dr James Guszcza, FCAS, Chief Data Scientist, Deloitte - US\n\nWe invite you to submit a one-page abstract for consideration. Both academic and practitioner proposals related to R are encouraged. The submission deadline for abstracts is 28 March 2015.\n\nPlease email your abstract of no more than 300 words (in text or pdf format) to r-in-insurance at uva.nl.\n\nDetails about the registration and abstract submission are given on the dedicated R in Insurance page at the University of Amsterdam: http://ase.uva.nl/news-events/r-in-insurance/r-in-insurance-2015.html",
+      "body_snippet": "The registration for the third conference on R in Insurance on Monday 29 June 2015 at the University of Amsterdam has opened: http://ase.uva.nl/news-events/r-in-insurance/r-in-insurance-2015.html\n\nThi",
+      "thread_id": "thread-0333e1b54ff3",
+      "thread_depth": 0,
+      "month": "2015-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-0333e1b54ff3",
+      "subject": "R in Insurance Conference, Amsterdam, 29 June 2015",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2015-02-19T20:29:39+00:00",
+      "last_reply": "2015-02-19T20:29:39+00:00",
+      "root_message_id": "msg-0333e1b54ff3"
+    }
+  ]
+}

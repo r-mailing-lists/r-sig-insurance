@@ -1,0 +1,412 @@
+From shearer.ra76 at gmail.com  Wed Aug 12 20:38:41 2015
+From: shearer.ra76 at gmail.com (Ralph Scherer)
+Date: Wed, 12 Aug 2015 20:38:41 +0200
+Subject: [R-sig-ins] Estimate Pareto parameter from compound distribution
+Message-ID: <55CB92B1.6090709@gmail.com>
+
+Dear list members,
+
+I know the value of the 0.005 percentile of a compound claim 
+distribution (Pareto/ Poisson).
+Further I know the frequency of the percentile value which is for 
+example 1/10.
+
+I am searching a formula and/or R code to calculate the parameter of the 
+underlying Pareto distribution..
+Does anybody know a solution for the problem?
+
+Best Wishes
+Ralph
+
+
+From dutangc at gmail.com  Thu Aug 13 08:40:32 2015
+From: dutangc at gmail.com (Christophe Dutang)
+Date: Thu, 13 Aug 2015 08:40:32 +0200
+Subject: [R-sig-ins] Estimate Pareto parameter from compound distribution
+In-Reply-To: <55CB92B1.6090709@gmail.com>
+References: <55CB92B1.6090709@gmail.com>
+Message-ID: <ED2621D5-22CB-4AD3-BA1B-E61162ACEF51@gmail.com>
+
+Dear Ralph,
+
+I think you are looking for quantile matching estimation, which is providing in the fitdistrplus package.
+
+Here is an example
+
+library(actuar)
+library(fitdistrplus)
+
+data(danishuni)
+x <- danishuni$Loss
+
+args(dpareto)
+summary(x)
+
+f1 <- fitdist(x, "pareto", method="qme", probs=c(5/1000, 1/10), start = list(shape=10, scale=10))
+
+cdfcomp(f1, do.points=FALSE, xlogscale=TRUE)
+
+
+On the danish example, one should use a 3-parameter distribution such as Burr.
+
+See also the book of Arthur Charpentier : https://www.crcpress.com/Computational-Actuarial-Science-with-R/Charpentier/9781466592599
+
+Regards, Christophe
+---------------------------------------
+Christophe Dutang
+LMM, UdM, Le Mans, France
+web: http://dutangc.free.fr
+
+Le 12 ao?t 2015 ? 20:38, Ralph Scherer <shearer.ra76 at gmail.com> a ?crit :
+
+> Dear list members,
+> 
+> I know the value of the 0.005 percentile of a compound claim distribution (Pareto/ Poisson).
+> Further I know the frequency of the percentile value which is for example 1/10.
+> 
+> I am searching a formula and/or R code to calculate the parameter of the underlying Pareto distribution..
+> Does anybody know a solution for the problem?
+> 
+> Best Wishes
+> Ralph
+> 
+> _______________________________________________
+> R-SIG-insurance mailing list
+> R-SIG-insurance at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+
+From shearer.ra76 at gmail.com  Thu Aug 13 13:39:26 2015
+From: shearer.ra76 at gmail.com (Ralph Scherer)
+Date: Thu, 13 Aug 2015 13:39:26 +0200
+Subject: [R-sig-ins] Estimate Pareto parameter from compound distribution
+In-Reply-To: <ED2621D5-22CB-4AD3-BA1B-E61162ACEF51@gmail.com>
+References: <55CB92B1.6090709@gmail.com>
+	<ED2621D5-22CB-4AD3-BA1B-E61162ACEF51@gmail.com>
+Message-ID: <CAN_MX0_k8PGC6u6p6NJL5QhYsAgQfpPY9SKj7Mw9yeE5W5cLVA@mail.gmail.com>
+
+Dear Rajesh, dear Christophe,
+
+thank you both for the fast replies.
+Quantile matching sounds good for the problem, when there is only one
+distribution in the background.
+The problem is that the quantile comes from a distribution which has
+the additional information about the frequency.
+For example the claim from the 0.005 quantile has in addition the
+information about the frequency in form of the lambda parameter of the
+Poisson distribution.
+
+To my understanding there is then a compound Poisson/Pareto
+distribution in the background and I am interested in estimating the
+Pareto parameters of this distribution.
+
+The idea of using Bayes statistics sounds interesting for more complex
+distributions, but I hoped that for the Pareto/Poisson distribution an
+easier analytical solution would be possible.
+
+The idea behind this question is that in some cases we have no
+information about the losses and we make assumptions about the
+quantile and the frequency. Then we are interested in the parameter of
+the underlying distribution.
+
+Best Wishes
+Ralph
+
+
+
+2015-08-13 8:40 GMT+02:00, Christophe Dutang <dutangc at gmail.com>:
+> Dear Ralph,
+>
+> I think you are looking for quantile matching estimation, which is providing
+> in the fitdistrplus package.
+>
+> Here is an example
+>
+> library(actuar)
+> library(fitdistrplus)
+>
+> data(danishuni)
+> x <- danishuni$Loss
+>
+> args(dpareto)
+> summary(x)
+>
+> f1 <- fitdist(x, "pareto", method="qme", probs=c(5/1000, 1/10), start =
+> list(shape=10, scale=10))
+>
+> cdfcomp(f1, do.points=FALSE, xlogscale=TRUE)
+>
+>
+> On the danish example, one should use a 3-parameter distribution such as
+> Burr.
+>
+> See also the book of Arthur Charpentier :
+> https://www.crcpress.com/Computational-Actuarial-Science-with-R/Charpentier/9781466592599
+>
+> Regards, Christophe
+> ---------------------------------------
+> Christophe Dutang
+> LMM, UdM, Le Mans, France
+> web: http://dutangc.free.fr
+>
+> Le 12 ao?t 2015 ? 20:38, Ralph Scherer <shearer.ra76 at gmail.com> a ?crit :
+>
+>> Dear list members,
+>>
+>> I know the value of the 0.005 percentile of a compound claim distribution
+>> (Pareto/ Poisson).
+>> Further I know the frequency of the percentile value which is for example
+>> 1/10.
+>>
+>> I am searching a formula and/or R code to calculate the parameter of the
+>> underlying Pareto distribution..
+>> Does anybody know a solution for the problem?
+>>
+>> Best Wishes
+>> Ralph
+>>
+>> _______________________________________________
+>> R-SIG-insurance mailing list
+>> R-SIG-insurance at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>
+>
+
+
+From Rajesh.Sahasrabuddhe at oliverwyman.com  Thu Aug 13 14:04:36 2015
+From: Rajesh.Sahasrabuddhe at oliverwyman.com (Sahasrabuddhe, Rajesh)
+Date: Thu, 13 Aug 2015 08:04:36 -0400
+Subject: [R-sig-ins] Estimate Pareto parameter from compound distribution
+In-Reply-To: <CAN_MX0_k8PGC6u6p6NJL5QhYsAgQfpPY9SKj7Mw9yeE5W5cLVA@mail.gmail.com>
+References: <55CB92B1.6090709@gmail.com>
+	<ED2621D5-22CB-4AD3-BA1B-E61162ACEF51@gmail.com>
+	<CAN_MX0_k8PGC6u6p6NJL5QhYsAgQfpPY9SKj7Mw9yeE5W5cLVA@mail.gmail.com>
+Message-ID: <424EDBEFB000F04ABBB5CB7279DBB1EB04DC198F8D@USFKL11XM21.mercer.com>
+
+Ralph - So I think what you need to fit is a mixture of Pareto distributions (assuming the numbers of components is both finite and relatively small.) The Poisson will be relatively straightforward.
+There is an R package to fit mixtures (I think it's mixtools) but I don?t believe that it supports Pareto mixtures.
+
+I have become a big fan of fitting using Bayesian techniques via JAGS - but that is a decision that you will need to make.
+
+Thanks - Raj
+
+
+
+
+
+Rajesh Sahasrabuddhe
+Oliver Wyman
+Three Logan Square
+1717 Arch Street, Suite 1100
+Philadelphia, PA 19103
+Phone:  +1 215 246 1028
+Cell:  +1 610 209 0143
+Fax:  +1 215 246 1399
+rajesh.sahasrabuddhe at oliverwyman.com
+www.oliverwyman.com
+
+
+Please consider the environment before printing.
+
+
+-----Original Message-----
+From: R-SIG-insurance [mailto:r-sig-insurance-bounces at r-project.org] On Behalf Of Ralph Scherer
+Sent: Thursday, August 13, 2015 7:39 AM
+To: Christophe Dutang
+Cc: r-sig-insurance at r-project.org
+Subject: Re: [R-sig-ins] Estimate Pareto parameter from compound distribution
+
+Dear Rajesh, dear Christophe,
+
+thank you both for the fast replies.
+Quantile matching sounds good for the problem, when there is only one distribution in the background.
+The problem is that the quantile comes from a distribution which has the additional information about the frequency.
+For example the claim from the 0.005 quantile has in addition the information about the frequency in form of the lambda parameter of the Poisson distribution.
+
+To my understanding there is then a compound Poisson/Pareto distribution in the background and I am interested in estimating the Pareto parameters of this distribution.
+
+The idea of using Bayes statistics sounds interesting for more complex distributions, but I hoped that for the Pareto/Poisson distribution an easier analytical solution would be possible.
+
+The idea behind this question is that in some cases we have no information about the losses and we make assumptions about the quantile and the frequency. Then we are interested in the parameter of the underlying distribution.
+
+Best Wishes
+Ralph
+
+
+
+2015-08-13 8:40 GMT+02:00, Christophe Dutang <dutangc at gmail.com>:
+> Dear Ralph,
+>
+> I think you are looking for quantile matching estimation, which is
+> providing in the fitdistrplus package.
+>
+> Here is an example
+>
+> library(actuar)
+> library(fitdistrplus)
+>
+> data(danishuni)
+> x <- danishuni$Loss
+>
+> args(dpareto)
+> summary(x)
+>
+> f1 <- fitdist(x, "pareto", method="qme", probs=c(5/1000, 1/10), start
+> = list(shape=10, scale=10))
+>
+> cdfcomp(f1, do.points=FALSE, xlogscale=TRUE)
+>
+>
+> On the danish example, one should use a 3-parameter distribution such
+> as Burr.
+>
+> See also the book of Arthur Charpentier :
+> https://www.crcpress.com/Computational-Actuarial-Science-with-R/Charpe
+> ntier/9781466592599
+>
+> Regards, Christophe
+> ---------------------------------------
+> Christophe Dutang
+> LMM, UdM, Le Mans, France
+> web: http://dutangc.free.fr
+>
+> Le 12 ao?t 2015 ? 20:38, Ralph Scherer <shearer.ra76 at gmail.com> a ?crit :
+>
+>> Dear list members,
+>>
+>> I know the value of the 0.005 percentile of a compound claim
+>> distribution (Pareto/ Poisson).
+>> Further I know the frequency of the percentile value which is for
+>> example 1/10.
+>>
+>> I am searching a formula and/or R code to calculate the parameter of
+>> the underlying Pareto distribution..
+>> Does anybody know a solution for the problem?
+>>
+>> Best Wishes
+>> Ralph
+>>
+>> _______________________________________________
+>> R-SIG-insurance mailing list
+>> R-SIG-insurance at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>
+>
+
+_______________________________________________
+R-SIG-insurance mailing list
+R-SIG-insurance at r-project.org
+https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+This email and any attachments may be confidential or proprietary. Any review, use, disclosure, distribution or copying of this email is prohibited except by or on behalf of the intended recipient. If you received this message in error or are not the intended recipient, please delete or destroy the email message and any attachments or copies and notify the sender of the erroneous delivery by return email. To the extent that this message or its attachments were sent without encryption, we cannot guarantee that the contents have not been changed or tampered with. Any advice expressed in this message is being delivered to you solely for your use in connection with the matters addressed herein and may not be used for any other purpose without our prior written consent.
+
+From dutangc at gmail.com  Fri Aug 14 11:49:49 2015
+From: dutangc at gmail.com (Christophe Dutang)
+Date: Fri, 14 Aug 2015 11:49:49 +0200
+Subject: [R-sig-ins] Estimate Pareto parameter from compound distribution
+In-Reply-To: <CAN_MX0_k8PGC6u6p6NJL5QhYsAgQfpPY9SKj7Mw9yeE5W5cLVA@mail.gmail.com>
+References: <55CB92B1.6090709@gmail.com>
+	<ED2621D5-22CB-4AD3-BA1B-E61162ACEF51@gmail.com>
+	<CAN_MX0_k8PGC6u6p6NJL5QhYsAgQfpPY9SKj7Mw9yeE5W5cLVA@mail.gmail.com>
+Message-ID: <ADD946FF-8F36-418C-8C5D-3295B4E242CB@gmail.com>
+
+Dear all,
+
+If you know the targeted distribution (empirical?), you can still simulate 1e6 random variates and fit a compound Poisson-Pareto (via pkg Compounding) with fitdistrplus.
+
+Regards, Christophe
+---------------------------------------
+Christophe Dutang
+LMM, UdM, Le Mans, France
+web: http://dutangc.free.fr
+
+Le 13 ao?t 2015 ? 13:39, Ralph Scherer <shearer.ra76 at gmail.com> a ?crit :
+
+> Dear Rajesh, dear Christophe,
+> 
+> thank you both for the fast replies.
+> Quantile matching sounds good for the problem, when there is only one
+> distribution in the background.
+> The problem is that the quantile comes from a distribution which has
+> the additional information about the frequency.
+> For example the claim from the 0.005 quantile has in addition the
+> information about the frequency in form of the lambda parameter of the
+> Poisson distribution.
+> 
+> To my understanding there is then a compound Poisson/Pareto
+> distribution in the background and I am interested in estimating the
+> Pareto parameters of this distribution.
+> 
+> The idea of using Bayes statistics sounds interesting for more complex
+> distributions, but I hoped that for the Pareto/Poisson distribution an
+> easier analytical solution would be possible.
+> 
+> The idea behind this question is that in some cases we have no
+> information about the losses and we make assumptions about the
+> quantile and the frequency. Then we are interested in the parameter of
+> the underlying distribution.
+> 
+> Best Wishes
+> Ralph
+> 
+> 
+> 
+> 2015-08-13 8:40 GMT+02:00, Christophe Dutang <dutangc at gmail.com>:
+>> Dear Ralph,
+>> 
+>> I think you are looking for quantile matching estimation, which is providing
+>> in the fitdistrplus package.
+>> 
+>> Here is an example
+>> 
+>> library(actuar)
+>> library(fitdistrplus)
+>> 
+>> data(danishuni)
+>> x <- danishuni$Loss
+>> 
+>> args(dpareto)
+>> summary(x)
+>> 
+>> f1 <- fitdist(x, "pareto", method="qme", probs=c(5/1000, 1/10), start =
+>> list(shape=10, scale=10))
+>> 
+>> cdfcomp(f1, do.points=FALSE, xlogscale=TRUE)
+>> 
+>> 
+>> On the danish example, one should use a 3-parameter distribution such as
+>> Burr.
+>> 
+>> See also the book of Arthur Charpentier :
+>> https://www.crcpress.com/Computational-Actuarial-Science-with-R/Charpentier/9781466592599
+>> 
+>> Regards, Christophe
+>> ---------------------------------------
+>> Christophe Dutang
+>> LMM, UdM, Le Mans, France
+>> web: http://dutangc.free.fr
+>> 
+>> Le 12 ao?t 2015 ? 20:38, Ralph Scherer <shearer.ra76 at gmail.com> a ?crit :
+>> 
+>>> Dear list members,
+>>> 
+>>> I know the value of the 0.005 percentile of a compound claim distribution
+>>> (Pareto/ Poisson).
+>>> Further I know the frequency of the percentile value which is for example
+>>> 1/10.
+>>> 
+>>> I am searching a formula and/or R code to calculate the parameter of the
+>>> underlying Pareto distribution..
+>>> Does anybody know a solution for the problem?
+>>> 
+>>> Best Wishes
+>>> Ralph
+>>> 
+>>> _______________________________________________
+>>> R-SIG-insurance mailing list
+>>> R-SIG-insurance at r-project.org
+>>> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>> 
+>> 
+
+

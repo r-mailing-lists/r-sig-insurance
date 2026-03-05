@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2018-05",
+  "messages": [
+    {
+      "id": "msg-82b082b71882",
+      "message_id": "<A638EEBB-2881-4972-867A-09A9371363EF@googlemail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "41520ba2989cb3c2717fd179311316638fe32883e2951d4f2dd826b6f6a636dc",
+      "date": "2018-05-21T12:27:11+01:00",
+      "subject": "[R-sig-ins] Insurance Data Science conference & Stan Workshop, London 16 & 17 July 2018",
+      "subject_clean": "Insurance Data Science conference & Stan Workshop, London 16 & 17 July 2018",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nThe first Insurance Data Science conference at will take place at Cass Business School, London, 17 July 2018. It follows on from five iterations of the R in Insurance conferences. \n\nThe programme is finalised and we have contributions to topics related to risk assessment, customer analytics, pricing, reserving, capital management, catastrophe and econometric modelling.  The keynote speakers are Prof. Dr. Gareth Peters (Heriot Watt University) and Eric Novik (CEO, Generable).\n\nFor more details, registration and the conference programme visit: https://insurancedatascience.org\n\nThe conference will be followed by a full-day Stan in insurance workshop with Eric Novik (Stan guru), Paul-Christian B?rkner (author of the ?brms? R package), Jake Morris (London Market actuary) and Mick Cooney (insurance data scientist).\n\nKey dates:\n31 May 2018: Early-bird registrations deadline \n?350.00 (Until 31st May), ?450.00 (From 1st June) for industry practitioner, \ndiscounts for academics and PhD students are available too\n16 July 2018: Insurance Data Science Conference\n17 July 2018: Stan in Insurance workshop (separate event/registration from the conference)\nWe are looking forward to seeing you in London.\n\nBest regards\n\nMarkus\n\nPS: Participants in the conference could claim up to a maximum of 6.5 hours of Continuing Professional Development. \n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear all,\n\nThe first Insurance Data Science conference at will take place at Cass Business School, London, 17 July 2018. It follows on from five iterations of the R in Insurance conferences. \n\nThe pro",
+      "thread_id": "thread-82b082b71882",
+      "thread_depth": 0,
+      "month": "2018-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-82b082b71882",
+      "subject": "Insurance Data Science conference & Stan Workshop, London 16 & 17 July 2018",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2018-05-21T12:27:11+01:00",
+      "last_reply": "2018-05-21T12:27:11+01:00",
+      "root_message_id": "msg-82b082b71882"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2015-01",
+  "messages": [
+    {
+      "id": "msg-463d6ac43690",
+      "message_id": "<2732C804E2DBB04AA90A678D76FAF2CC6236EB606D@DFW1MBX02.mex07a.mlsrvr.com>",
+      "from_name": "Lisa Solomon",
+      "from_email_hash": "375f0ace505fbda9906f09938aec4d544cea2804675c7fc389f42f5ebed96592",
+      "date": "2015-01-12T14:22:37-06:00",
+      "subject": "[R-sig-ins] Tomorrow Webinar: Enter a KDD Cup or Kaggle Competition without being an expert!",
+      "subject_clean": "Tomorrow Webinar: Enter a KDD Cup or Kaggle Competition without being an expert!",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Webinar: Enter a KDD Cup or Kaggle Competition, You don't need to be an expert!\n\nTomorrow, January 13, 2015 from 10am-11am PDT\n\n*         If inconvenient time, please register and we will send you a recording.\n\nClick to Register: http://hubs.ly/y0q_jf0\n\nAbstract:\n\n*         Quickly achieve a place in the top 5: We will show you how Salford's TreeNet gradient boosting can be used for the 2009 KDD Cup competition to quickly achieve a place in the top 5.\n\n*         Takeaway: At the end of this webinar, our goal is that you will be able to build a TreeNet model that can bring you within decimal places of a winning solution.\n\n*         Starting Point for Kaggle, KDD and other data science competitions: Use this information as a starting point for Kaggle competitions and other KDD Cup competitions.\n\n*         30-day software access: All attendees receive 30-day access to TreeNet gradient boosting, and other Salford Predictive Modeler technology.\n\nClick to Register: http://hubs.ly/y0q_jf0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Webinar: Enter a KDD Cup or Kaggle Competition, You don't need to be an expert!\n\nTomorrow, January 13, 2015 from 10am-11am PDT\n\n*         If inconvenient time, please register and we will send you a r",
+      "thread_id": "thread-463d6ac43690",
+      "thread_depth": 0,
+      "month": "2015-01"
+    },
+    {
+      "id": "msg-ffe7e78724de",
+      "message_id": "<BN1PR0101MB0900030B8666D97500590F6AF4310@BN1PR0101MB0900.prod.exchangelabs.com>",
+      "from_name": "Bailey Pinney",
+      "from_email_hash": "5031b263f4beea1201ab3c927b10622974a70ebd534a48b2e7dae4c44010c73b",
+      "date": "2015-01-30T21:00:21Z",
+      "subject": "[R-sig-ins] Ordered Lorenz Curve",
+      "subject_clean": "Ordered Lorenz Curve",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I am just starting to work with the cplm package and ordered Lorenz curves for means to compare models. I am thinking that the scores need to be on the same scale as loss, is that correct?\n\ngg <- gini(loss = \"claim_amount\", score =, base = \"Base_premium\" , data = dat)\n\nI am getting different results when I change the score scale, so that is what lead me to that conclusion. \n\nAny help would be much appreciated.\n\nThanks,\n\nBailey\n\n\n-----Original Message-----\nFrom: R-SIG-insurance [mailto:r-sig-insurance-bounces at r-project.org] On Behalf Of r-sig-insurance-request at r-project.org\nSent: Tuesday, January 13, 2015 4:00 AM\nTo: r-sig-insurance at r-project.org\nSubject: R-SIG-insurance Digest, Vol 24, Issue 1\n\nSend R-SIG-insurance mailing list submissions to\n\tr-sig-insurance at r-project.org\n\nTo subscribe or unsubscribe via the World Wide Web, visit\n\thttps://stat.ethz.ch/mailman/listinfo/r-sig-insurance\nor, via email, send a message with subject or body 'help' to\n\tr-sig-insurance-request at r-project.org\n\nYou can reach the person managing the list at\n\tr-sig-insurance-owner at r-project.org\n\nWhen replying, please edit your Subject line so it is more specific than \"Re: Contents of R-SIG-insurance digest...\"\n\n\nToday's Topics:\n\n   1. Tomorrow Webinar: Enter a KDD Cup or Kaggle Competition\n      without being an expert! (Lisa Solomon)\n\n\n----------------------------------------------------------------------\n\nMessage: 1\nDate: Mon, 12 Jan 2015 14:22:37 -0600\nFrom: Lisa Solomon <lisas at salford-systems.com>\nTo: \"r-sig-insurance at r-project.org\" <r-sig-insurance at r-project.org>\nSubject: [R-sig-ins] Tomorrow Webinar: Enter a KDD Cup or Kaggle\n\tCompetition without being an expert!\nMessage-ID:\n\t<2732C804E2DBB04AA90A678D76FAF2CC6236EB606D at DFW1MBX02.mex07a.mlsrvr.com>\n\t\nContent-Type: text/plain; charset=\"UTF-8\"\n\nWebinar: Enter a KDD Cup or Kaggle Competition, You don't need to be an expert!\n\nTomorrow, January 13, 2015 from 10am-11am PDT\n\n*         If inconvenient time, please register and we will send you a recording.\n\nClick to Register: http://hubs.ly/y0q_jf0\n\nAbstract:\n\n*         Quickly achieve a place in the top 5: We will show you how Salford's TreeNet gradient boosting can be used for the 2009 KDD Cup competition to quickly achieve a place in the top 5.\n\n*         Takeaway: At the end of this webinar, our goal is that you will be able to build a TreeNet model that can bring you within decimal places of a winning solution.\n\n*         Starting Point for Kaggle, KDD and other data science competitions: Use this information as a starting point for Kaggle competitions and other KDD Cup competitions.\n\n*         30-day software access: All attendees receive 30-day access to TreeNet gradient boosting, and other Salford Predictive Modeler technology.\n\nClick to Register: http://hubs.ly/y0q_jf0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t[[alternative HTML version deleted]]\n\n\n\n------------------------------\n\nSubject: Digest Footer\n\n_______________________________________________\nR-SIG-insurance mailing list\nR-SIG-insurance at r-project.org\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-insurance\n\n\n------------------------------\n\nEnd of R-SIG-insurance Digest, Vol 24, Issue 1",
+      "body_snippet": "I am just starting to work with the cplm package and ordered Lorenz curves for means to compare models. I am thinking that the scores need to be on the same scale as loss, is that correct?\n\ngg <- gini",
+      "thread_id": "thread-ffe7e78724de",
+      "thread_depth": 0,
+      "month": "2015-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-463d6ac43690",
+      "subject": "Tomorrow Webinar: Enter a KDD Cup or Kaggle Competition without being an expert!",
+      "message_count": 1,
+      "participants": [
+        "Lisa Solomon"
+      ],
+      "started": "2015-01-12T14:22:37-06:00",
+      "last_reply": "2015-01-12T14:22:37-06:00",
+      "root_message_id": "msg-463d6ac43690"
+    },
+    {
+      "id": "thread-ffe7e78724de",
+      "subject": "Ordered Lorenz Curve",
+      "message_count": 1,
+      "participants": [
+        "Bailey Pinney"
+      ],
+      "started": "2015-01-30T21:00:21+00:00",
+      "last_reply": "2015-01-30T21:00:21+00:00",
+      "root_message_id": "msg-ffe7e78724de"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2015-04",
+  "messages": [
+    {
+      "id": "msg-2a5eda815e86",
+      "message_id": "<CAAJc=rNo5XJpMSzSJeGPw=hbabmPmnm2GLRyS2fumH815ap5Fg@mail.gmail.com>",
+      "from_name": "Charles Thuo",
+      "from_email_hash": "99769c380dc5737bd96fef631eb79f5b1a72cddfba9128683e8624dd6faed7ee",
+      "date": "2015-04-27T10:07:11+03:00",
+      "subject": "[R-sig-ins] how to convert a claims development aggregates into the class \"triangle\" \"matrix\" with Chain Ladder Package",
+      "subject_clean": "how to convert a claims development aggregates into the class \"triangle\" \"matrix\" with Chain Ladder Package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have claims development data  that has already aggregate into the\ntriangles as shown below;\n\nWhen i read the data into R using the following command:\n\nd<- read.table(file=\"clipboard\",sep=\"\\t\",header=TRUE,check.names=FALSE) it\nyields a data frame.\n\nHowever when i check the class of sample data in Chain Ladder\n\n> class(RAA)\n[1] \"triangle\" \"matrix\"\n>\n How can i convert my data to be the same class as RAA\n\n\nCharles.\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I have claims development data  that has already aggregate into the\ntriangles as shown below;\n\nWhen i read the data into R using the following command:\n\nd<- read.table(file=\"clipboard\",sep=\"\\t\",header",
+      "thread_id": "thread-2a5eda815e86",
+      "thread_depth": 0,
+      "month": "2015-04"
+    },
+    {
+      "id": "msg-acfc3c044bca",
+      "message_id": "<9736A60B-A3E3-42D5-BE80-8D5436C98560@gmail.com>",
+      "from_name": "Christophe Dutang",
+      "from_email_hash": "71db47fbb88383c85c0a4105bb9dd5508a39e5eb48ded58e22bd31403fb35064",
+      "date": "2015-04-27T09:14:31+02:00",
+      "subject": "[R-sig-ins] how to convert a claims development aggregates into the class \"triangle\" \"matrix\" with Chain Ladder Package",
+      "subject_clean": "how to convert a claims development aggregates into the class \"triangle\" \"matrix\" with Chain Ladder Package",
+      "in_reply_to": "<CAAJc=rNo5XJpMSzSJeGPw=hbabmPmnm2GLRyS2fumH815ap5Fg@mail.gmail.com>",
+      "references": [
+        "<CAAJc=rNo5XJpMSzSJeGPw=hbabmPmnm2GLRyS2fumH815ap5Fg@mail.gmail.com>"
+      ],
+      "body_plain": "Hi,\n\nI think you need to use as.triangle and look also to the vignette : http://cran.r-project.org/web/packages/ChainLadder/vignettes/ChainLadder.pdf\n\nCD\n---------------------------------------\nChristophe Dutang\nLMM, UdM, Le Mans, France\nweb: http://dutangc.free.fr\n\nLe 27 avr. 2015 ? 09:07, Charles Thuo <tcmuigai at gmail.com> a ?crit :\n\n> I have claims development data  that has already aggregate into the\n> triangles as shown below;\n> \n> When i read the data into R using the following command:\n> \n> d<- read.table(file=\"clipboard\",sep=\"\\t\",header=TRUE,check.names=FALSE) it\n> yields a data frame.\n> \n> However when i check the class of sample data in Chain Ladder\n> \n>> class(RAA)\n> [1] \"triangle\" \"matrix\"\n>> \n> How can i convert my data to be the same class as RAA\n> \n> \n> Charles.\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-SIG-insurance mailing list\n> R-SIG-insurance at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance",
+      "body_snippet": "Hi,\n\nI think you need to use as.triangle and look also to the vignette : http://cran.r-project.org/web/packages/ChainLadder/vignettes/ChainLadder.pdf\n\nCD\n---------------------------------------\nChrist",
+      "thread_id": "thread-2a5eda815e86",
+      "thread_depth": 1,
+      "month": "2015-04"
+    },
+    {
+      "id": "msg-c149753c5149",
+      "message_id": "<2D1AC19CDA3D5643B9D7AE596C377B280C3EF878@GBS0039303.lloyds.net>",
+      "from_name": "Gesmann, Markus",
+      "from_email_hash": "476b59d20b82d06df10ee85b28af07155133bfbb523d75606839fd9dca84bdff",
+      "date": "2015-04-27T08:25:07Z",
+      "subject": "[R-sig-ins] how to convert a claims development aggregates into\tthe class \"triangle\" \"matrix\" with Chain Ladder Package",
+      "subject_clean": "how to convert a claims development aggregates into\tthe class \"triangle\" \"matrix\" with Chain Ladder Package",
+      "in_reply_to": "<9736A60B-A3E3-42D5-BE80-8D5436C98560@gmail.com>",
+      "references": [
+        "<CAAJc=rNo5XJpMSzSJeGPw=hbabmPmnm2GLRyS2fumH815ap5Fg@mail.gmail.com>",
+        "<9736A60B-A3E3-42D5-BE80-8D5436C98560@gmail.com>"
+      ],
+      "body_plain": "I have a blog post, which should help as well: \nhttp://www.magesblog.com/2014/11/first-steps-with-chainladder-import.html\n\n-----Original Message-----\nFrom: R-SIG-insurance [mailto:r-sig-insurance-bounces at r-project.org] On Behalf Of Christophe Dutang\nSent: 27 April 2015 08:15\nTo: Charles Thuo\nCc: r-sig-insurance at r-project.org\nSubject: Re: [R-sig-ins] how to convert a claims development aggregates into the class \"triangle\" \"matrix\" with Chain Ladder Package\n\nHi,\n\nI think you need to use as.triangle and look also to the vignette : http://cran.r-project.org/web/packages/ChainLadder/vignettes/ChainLadder.pdf\n\nCD\n---------------------------------------\nChristophe Dutang\nLMM, UdM, Le Mans, France\nweb: http://dutangc.free.fr\n\nLe 27 avr. 2015 ? 09:07, Charles Thuo <tcmuigai at gmail.com> a ?crit :\n\n> I have claims development data  that has already aggregate into the \n> triangles as shown below;\n> \n> When i read the data into R using the following command:\n> \n> d<- \n> read.table(file=\"clipboard\",sep=\"\\t\",header=TRUE,check.names=FALSE) it yields a data frame.\n> \n> However when i check the class of sample data in Chain Ladder\n> \n>> class(RAA)\n> [1] \"triangle\" \"matrix\"\n>> \n> How can i convert my data to be the same class as RAA\n> \n> \n> Charles.\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-SIG-insurance mailing list\n> R-SIG-insurance at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance\n\n_______________________________________________\nR-SIG-insurance mailing list\nR-SIG-insurance at r-project.org\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-insurance\n\n----------------------------------------------------------------------\nThe information in this E-Mail and in any attachments is...{{dropped:19}}",
+      "body_snippet": "I have a blog post, which should help as well: \nhttp://www.magesblog.com/2014/11/first-steps-with-chainladder-import.html\n\n-----Original Message-----\nFrom: R-SIG-insurance [mailto:r-sig-insurance-boun",
+      "thread_id": "thread-2a5eda815e86",
+      "thread_depth": 2,
+      "month": "2015-04"
+    },
+    {
+      "id": "msg-c57a817f1fff",
+      "message_id": "<2D1AC19CDA3D5643B9D7AE596C377B280C3F0E80@GBS0039303.lloyds.net>",
+      "from_name": "Gesmann, Markus",
+      "from_email_hash": "476b59d20b82d06df10ee85b28af07155133bfbb523d75606839fd9dca84bdff",
+      "date": "2015-04-29T13:20:48Z",
+      "subject": "[R-sig-ins] R in Insurance 2015 Conference Programme",
+      "subject_clean": "R in Insurance 2015 Conference Programme",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The programme for the 3rd R in Insurance conference is on-line: \nhttp://ase.uva.nl/news-events/r-in-insurance/programme/programme.html\n\nThe event will take place on 29 June 2015 at the University of Amsterdam. \n\nTime to register now: http://ase.uva.nl/news-events/r-in-insurance/registration-and-fees/registration-and-fees.html\n\nSpecial thanks to our sponsors, without whom the conference wouldn't be possible: \nCYBAEA, RStudio, APPLIED AI, Milliman, QBE Re, AEGON, Delta Lloyd Amsterdam , Deloitte.\n\nYou find impressions from the previous events on http://www.rininsurance.com\n\nWe hope to see you in Amsterdam!\n\n----------------------------------------------------------------------\nThe information in this E-Mail and in any attachments is...{{dropped:19}}",
+      "body_snippet": "The programme for the 3rd R in Insurance conference is on-line: \nhttp://ase.uva.nl/news-events/r-in-insurance/programme/programme.html\n\nThe event will take place on 29 June 2015 at the University of A",
+      "thread_id": "thread-c57a817f1fff",
+      "thread_depth": 0,
+      "month": "2015-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2a5eda815e86",
+      "subject": "how to convert a claims development aggregates into the class \"triangle\" \"matrix\" with Chain Ladder Package",
+      "message_count": 3,
+      "participants": [
+        "Charles Thuo",
+        "Christophe Dutang",
+        "Gesmann, Markus"
+      ],
+      "started": "2015-04-27T10:07:11+03:00",
+      "last_reply": "2015-04-27T08:25:07+00:00",
+      "root_message_id": "msg-2a5eda815e86"
+    },
+    {
+      "id": "thread-c57a817f1fff",
+      "subject": "R in Insurance 2015 Conference Programme",
+      "message_count": 1,
+      "participants": [
+        "Gesmann, Markus"
+      ],
+      "started": "2015-04-29T13:20:48+00:00",
+      "last_reply": "2015-04-29T13:20:48+00:00",
+      "root_message_id": "msg-c57a817f1fff"
+    }
+  ]
+}

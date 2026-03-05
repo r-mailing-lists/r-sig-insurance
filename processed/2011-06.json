@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2011-06",
+  "messages": [
+    {
+      "id": "msg-f60c0479ee2f",
+      "message_id": "<4DF60CC9.4060203@infosoft.mn>",
+      "from_name": "enkhorkhon",
+      "from_email_hash": "e4e9d836efb8a586919ea1720d866c42a0f0334d017bc41849708777a075ab75",
+      "date": "2011-06-13T21:12:41+08:00",
+      "subject": "[R-sig-ins] Just join",
+      "subject_clean": "Just join",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\nPlease join me.\nEnkhorkon\n\n\n__________ Information from ESET NOD32 Antivirus, version of virus signature database 6201 (20110612) __________\n\nThe message was checked by ESET NOD32 Antivirus.\n\nhttp://www.eset.com",
+      "body_snippet": "Hi,\nPlease join me.\nEnkhorkon\n\n\n__________ Information from ESET NOD32 Antivirus, version of virus signature database 6201 (20110612) __________\n\nThe message was checked by ESET NOD32 Antivirus.\n\nhttp",
+      "thread_id": "thread-f60c0479ee2f",
+      "thread_depth": 0,
+      "month": "2011-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f60c0479ee2f",
+      "subject": "Just join",
+      "message_count": 1,
+      "participants": [
+        "enkhorkhon"
+      ],
+      "started": "2011-06-13T21:12:41+08:00",
+      "last_reply": "2011-06-13T21:12:41+08:00",
+      "root_message_id": "msg-f60c0479ee2f"
+    }
+  ]
+}

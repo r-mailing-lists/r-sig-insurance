@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2009-08",
+  "messages": [
+    {
+      "id": "msg-3fb78b5e2bae",
+      "message_id": "<4a8b3d75.14045a0a.2f7d.1764@mx.google.com>",
+      "from_name": "Diego Mazzeo",
+      "from_email_hash": "ec40168eee0117da800ed0c02668efb4881e148ebd1b2c190ac2f15bdd9ba02e",
+      "date": "2009-08-18T20:46:15-03:00",
+      "subject": "[R-sig-ins] R Examples for Actuaries",
+      "subject_clean": "R Examples for Actuaries",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello everyone,\n\nNot exactly a request for help, but two recent blog entries at Revolutions:\n\nR Examples for Actuaries:\nhttp://blog.revolution-computing.com/2009/08/r-examples-for-actuaries.html\n\nR for Actuaries:\nhttp://blog.revolution-computing.com/2009/07/r-for-actuaries.html\n\nHope this will help this group get going!\n\n\nRegards,\nDiego",
+      "body_snippet": "Hello everyone,\n\nNot exactly a request for help, but two recent blog entries at Revolutions:\n\nR Examples for Actuaries:\nhttp://blog.revolution-computing.com/2009/08/r-examples-for-actuaries.html\n\nR fo",
+      "thread_id": "thread-3fb78b5e2bae",
+      "thread_depth": 0,
+      "month": "2009-08"
+    },
+    {
+      "id": "msg-b79fbd9a9ace",
+      "message_id": "<B9E68C01-C19E-4BF1-BC36-65B344DBADF0@gmail.com>",
+      "from_name": "Christophe Dutang",
+      "from_email_hash": "71db47fbb88383c85c0a4105bb9dd5508a39e5eb48ded58e22bd31403fb35064",
+      "date": "2009-08-24T22:40:27+02:00",
+      "subject": "[R-sig-ins] R Examples for Actuaries",
+      "subject_clean": "R Examples for Actuaries",
+      "in_reply_to": "<4a8b3d75.14045a0a.2f7d.1764@mx.google.com>",
+      "references": [
+        "<4a8b3d75.14045a0a.2f7d.1764@mx.google.com>"
+      ],
+      "body_plain": "Thanks for the links!\n\nIn a similar topic, there is also the book 'Modern Actuarial Risk  \nTheory using R' by Jan Dhaene, Michel Denuit, Rob Kaas and Marc  \nGoovaerts.\n\nChristophe\n\nLe 19 ao?t 09 ? 01:46, Diego Mazzeo a ?crit :\n\n> Hello everyone,\n>\n> Not exactly a request for help, but two recent blog entries at  \n> Revolutions:\n>\n> R Examples for Actuaries:\n> http://blog.revolution-computing.com/2009/08/r-examples-for-actuaries.html\n>\n> R for Actuaries:\n> http://blog.revolution-computing.com/2009/07/r-for-actuaries.html\n>\n> Hope this will help this group get going!\n>\n>\n> Regards,\n> Diego\n>\n> _______________________________________________\n> R-SIG-insurance mailing list\n> R-SIG-insurance at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance\n\n--\nChristophe Dutang\nPh.D. student at ISFA, Lyon, France\nwebsite: http://dutangc.free.fr",
+      "body_snippet": "Thanks for the links!\n\nIn a similar topic, there is also the book 'Modern Actuarial Risk  \nTheory using R' by Jan Dhaene, Michel Denuit, Rob Kaas and Marc  \nGoovaerts.\n\nChristophe\n\nLe 19 ao?t 09 ? 01:",
+      "thread_id": "thread-3fb78b5e2bae",
+      "thread_depth": 1,
+      "month": "2009-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-3fb78b5e2bae",
+      "subject": "R Examples for Actuaries",
+      "message_count": 2,
+      "participants": [
+        "Christophe Dutang",
+        "Diego Mazzeo"
+      ],
+      "started": "2009-08-18T20:46:15-03:00",
+      "last_reply": "2009-08-24T22:40:27+02:00",
+      "root_message_id": "msg-3fb78b5e2bae"
+    }
+  ]
+}

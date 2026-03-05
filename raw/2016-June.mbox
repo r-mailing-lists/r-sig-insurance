@@ -1,0 +1,30 @@
+From Kere.Klein at racq.com.au  Thu Jun 23 01:42:38 2016
+From: Kere.Klein at racq.com.au (Klein, Kere)
+Date: Wed, 22 Jun 2016 23:42:38 +0000
+Subject: [R-sig-ins] Estimating the effects of various factors given optimal
+	premium
+Message-ID: <BDF3C80712B72B4186C3E66279E7D12010377040@PEMPCNMSX4102.racqgroup.local>
+
+Dear All,
+
+I am a newbie to the insurance industry.
+
+I like to know whether R has an established approach in estimating the effects of various factors when the optimal premium for a policy is already known (calculated technically).
+
+It is to revise the look-up tables for the pricing engine.
+
+Many thanks in advance,
+Kere
+
+-
+
+
+Please Note:
+
+If you are not the intended recipient, please delete this email as its use is prohibited.
+RACQ does not warrant or represent that this email is free from viruses or defects.
+If you do not wish to receive any further commercial electronic messages from RACQ, please email unsubscribe at racq.com.au or contact RACQ on 13 19 05.
+We may use your personal information in line with our Privacy Statement. For more details, you can call us on 13 19 05, visit www.racq.com.au or email us on privacy at racq.com.au.
+	[[alternative HTML version deleted]]
+
+

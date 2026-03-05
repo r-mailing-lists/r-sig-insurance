@@ -1,0 +1,112 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2011-08",
+  "messages": [
+    {
+      "id": "msg-06297a4a0463",
+      "message_id": "<CAAbNwirxfLUCDityXDnF=HD5b_zhZQFSx5ssn2sLaNSTCYcbnA@mail.gmail.com>",
+      "from_name": "Fabio CASTANEDA",
+      "from_email_hash": "23b55a9f6f276b4820909dddef33a494dbb4b3f0d60aa78fd03159b63c885f6d",
+      "date": "2011-08-04T17:21:33+02:00",
+      "subject": "[R-sig-ins] Mack Hypothesis",
+      "subject_clean": "Mack Hypothesis",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110804/90c4d6ab/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110804/90c4d6ab/attachment.pl>",
+      "thread_id": "thread-06297a4a0463",
+      "thread_depth": 0,
+      "month": "2011-08"
+    },
+    {
+      "id": "msg-e028109733ab",
+      "message_id": "<6D8F5AB1-5588-4464-88C5-AF87FCBD78F6@gmail.com>",
+      "from_name": "Christophe Dutang",
+      "from_email_hash": "71db47fbb88383c85c0a4105bb9dd5508a39e5eb48ded58e22bd31403fb35064",
+      "date": "2011-08-04T18:35:25+02:00",
+      "subject": "[R-sig-ins] Mack Hypothesis",
+      "subject_clean": "Mack Hypothesis",
+      "in_reply_to": "<CAAbNwirxfLUCDityXDnF=HD5b_zhZQFSx5ssn2sLaNSTCYcbnA@mail.gmail.com>",
+      "references": [
+        "<CAAbNwirxfLUCDityXDnF=HD5b_zhZQFSx5ssn2sLaNSTCYcbnA@mail.gmail.com>"
+      ],
+      "body_plain": "Hello Fabio,\n\nLook at the ChainLadder package of Markus Gesmann, http://cran.r-project.org/web/packages/ChainLadder/index.html. \n\nHope you'll find what you search!\n\nChristophe\n\n--\nChristophe Dutang\nPh.D. student at ISFA, Lyon, France\nwebsite: http://dutangc.free.fr\n\nLe 4 ao?t 2011 ? 17:21, Fabio CASTANEDA a ?crit :\n\n> Hey everyone,\n> \n> This is my first post and I don t really know how am I supposed to ask and\n> get/give answers back. I guess I ll just go ahead and spit it out.\n> \n> Is there an R code or package that tests for the hypothesis of\n> the stochastic version of Chain Ladder (Mack Model) that is :\n> \n> 1-  Independence between the charges (Ci,j) and (Ci',j)  in the whole\n> triangle\n> 2-  Conditional linear relation between  E(Ci,j+1)= L * Ci,j in the whole\n> triangle\n> \n> There is a sketch of tests in Piterbois et Al.(2002) that i\n> have developed in Excel but I would feel much more comfortable in doing it\n> with R.\n> \n> Thanks,\n> \n> Fabio\n> \n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-SIG-insurance mailing list\n> R-SIG-insurance at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance",
+      "body_snippet": "Hello Fabio,\n\nLook at the ChainLadder package of Markus Gesmann, http://cran.r-project.org/web/packages/ChainLadder/index.html. \n\nHope you'll find what you search!\n\nChristophe\n\n--\nChristophe Dutang\nPh",
+      "thread_id": "thread-06297a4a0463",
+      "thread_depth": 1,
+      "month": "2011-08"
+    },
+    {
+      "id": "msg-79f22db7ae39",
+      "message_id": "<CAAbNwiqCdyYzyv9h1+9zFukuD_GAC8Dmp3XC_m6cY7gau5Pq3Q@mail.gmail.com>",
+      "from_name": "Fabio CASTANEDA",
+      "from_email_hash": "23b55a9f6f276b4820909dddef33a494dbb4b3f0d60aa78fd03159b63c885f6d",
+      "date": "2011-08-18T12:52:25+02:00",
+      "subject": "[R-sig-ins] Mack Hypothesis",
+      "subject_clean": "Mack Hypothesis",
+      "in_reply_to": "<2D1AC19CDA3D5643B9D7AE596C377B28071607@GBS0039303.lloyds.net>",
+      "references": [
+        "<CAAbNwirxfLUCDityXDnF=HD5b_zhZQFSx5ssn2sLaNSTCYcbnA@mail.gmail.com>",
+        "<2D1AC19CDA3D5643B9D7AE596C377B28071607@GBS0039303.lloyds.net>"
+      ],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110818/f026c3cd/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110818/f026c3cd/attachment.pl>",
+      "thread_id": "thread-79f22db7ae39",
+      "thread_depth": 0,
+      "month": "2011-08"
+    },
+    {
+      "id": "msg-64e2136cf452",
+      "message_id": "<330F1BE39EE22C418B76986DFEC5F8F42968DC5EF6@E2K7CLSTB.cna.com>",
+      "from_name": "Zhang,Yanwei",
+      "from_email_hash": "7ff3cb2bae42468ab753bba826604c473c838828628a0be0fafa9fc6ff979c59",
+      "date": "2011-08-29T13:20:44-05:00",
+      "subject": "[R-sig-ins] New facility in the package ChainLadder",
+      "subject_clean": "New facility in the package ChainLadder",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110829/93bb1bb8/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110829/93bb1bb8/attachment.pl>",
+      "thread_id": "thread-64e2136cf452",
+      "thread_depth": 0,
+      "month": "2011-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-06297a4a0463",
+      "subject": "Mack Hypothesis",
+      "message_count": 2,
+      "participants": [
+        "Christophe Dutang",
+        "Fabio CASTANEDA"
+      ],
+      "started": "2011-08-04T17:21:33+02:00",
+      "last_reply": "2011-08-04T18:35:25+02:00",
+      "root_message_id": "msg-06297a4a0463"
+    },
+    {
+      "id": "thread-79f22db7ae39",
+      "subject": "Mack Hypothesis",
+      "message_count": 1,
+      "participants": [
+        "Fabio CASTANEDA"
+      ],
+      "started": "2011-08-18T12:52:25+02:00",
+      "last_reply": "2011-08-18T12:52:25+02:00",
+      "root_message_id": "msg-79f22db7ae39"
+    },
+    {
+      "id": "thread-64e2136cf452",
+      "subject": "New facility in the package ChainLadder",
+      "message_count": 1,
+      "participants": [
+        "Zhang,Yanwei"
+      ],
+      "started": "2011-08-29T13:20:44-05:00",
+      "last_reply": "2011-08-29T13:20:44-05:00",
+      "root_message_id": "msg-64e2136cf452"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+From GMeyers at iso.com  Mon Nov  2 16:41:37 2009
+From: GMeyers at iso.com (Meyers, Glenn G.)
+Date: Mon, 2 Nov 2009 10:41:37 -0500
+Subject: [R-sig-ins] R and 64 bit Computing
+Message-ID: <248FB571F3283A4D9F0749C99DC6FFF80C3126AA@ISOEMAILP2.iso.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091102/48319e89/attachment.pl>
+
+From Vincent.Goulet at act.ulaval.ca  Mon Nov  2 17:02:59 2009
+From: Vincent.Goulet at act.ulaval.ca (Vincent Goulet)
+Date: Mon, 2 Nov 2009 11:02:59 -0500
+Subject: [R-sig-ins] R and 64 bit Computing
+In-Reply-To: <248FB571F3283A4D9F0749C99DC6FFF80C3126AA@ISOEMAILP2.iso.com>
+References: <248FB571F3283A4D9F0749C99DC6FFF80C3126AA@ISOEMAILP2.iso.com>
+Message-ID: <B429D809-2640-4452-83F8-423D8190EF4C@act.ulaval.ca>
+
+Hi Glen,
+
+It already does... on Linux and Mac OS. The problem on Windows is the  
+lack of a reliable free 64 bit compiler; see
+
+	http://cran.r-project.org/doc/manuals/R-admin.html#Choosing-between-32_002d-and-64_002dbit-builds
+
+As alluded to in the R for Windows FAQ, Revolution Computing also  
+provide a 64-bit version of R:
+
+	http://www.revolution-computing.com/
+
+Hope this helps,
+
+Vincent
+
+Le lun. 2 nov. ? 10:41, Meyers, Glenn G. a ?crit :
+
+> Does anybody know if R can (or future versions will) take advantage  
+> of a
+> 64-bit computing environment?
+>
+>
+>
+> Glenn Meyers
+>
+> ISO
+>
+> 201-469-2333
+>
+>
+>
+> This email is intended for the recipient only.  If you are not the  
+> intended recipient please disregard, and do not use the information  
+> for any purpose.
+>
+> 	[[alternative HTML version deleted]]
+>
+> _______________________________________________
+> R-SIG-insurance mailing list
+> R-SIG-insurance at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+
+From markus.gesmann at googlemail.com  Tue Nov 24 22:45:15 2009
+From: markus.gesmann at googlemail.com (Markus Gesmann)
+Date: Tue, 24 Nov 2009 21:45:15 +0000
+Subject: [R-sig-ins] ChainLadder package new version 0.1.2-13
+Message-ID: <0AEBBFC9-C68A-4213-A4C7-12712B9B3A07@gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091124/16cd3c4a/attachment.pl>
+

@@ -1,0 +1,59 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2020-03",
+  "messages": [
+    {
+      "id": "msg-cc1308eb5fdd",
+      "message_id": "<E3A0DDF4-AD8D-47ED-BF7B-0BD9AE53E4E4@googlemail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "67d4349e07ad64eeaa08af5e62e5639738e6844648ef14c22a80836edfbbfa68",
+      "date": "2020-03-06T09:26:55Z",
+      "subject": "[R-sig-ins] Call for abstracts for the 2020 Insurance Data Science Conference closes 9 March.",
+      "subject_clean": "Call for abstracts for the 2020 Insurance Data Science Conference closes 9 March.",
+      "in_reply_to": "<7C82E287-D464-4C6F-8C14-4C67A7CEB51E@googlemail.com>",
+      "references": [
+        "<36B48C16-8697-49EB-A929-BBE588D96A9F@googlemail.com>",
+        "<7C82E287-D464-4C6F-8C14-4C67A7CEB51E@googlemail.com>"
+      ],
+      "body_plain": "Hi all,\n\nThe abstract submission deadline for the 2020 Insurance Data Science conference in London closes on Monday, 9 March.\n\nHurry up, if you?d like to submit a proposal for a talk!\n\nThe event will take at Cass Business School, City, University of London, 22 June 2020.\n\nWe are delighted to have Bettina Gr?n (University of Linz, Austria) and Thomas Wiecki (Quantopian, PyMC) as our keynote speakers.\n\nPlease send your abstract to: submissions at insurancedatascience.org <mailto:submissions at insurancedatascience.org>\n\nYour submission should include:\n\n- Name and affiliation of the speaker\n- Email address of the speaker\n- Title of the presentation\n- Abstract of 10 to 20 lines and not more than 5 references\n- Format: pdf file and LaTeX file (template: https://insurancedatascience.org/downloads/Submission_template.tex <https://people.math.ethz.ch/~wmario/InsuranceDataScience/template.tex> )\n\nThe submitted abstracts will be evaluated and speakers will be selected by the scientific committee of the conference. Conference fees will be waived for selected speakers.\n\nFor more information visit the conference web site: https://insurancedatascience.org <https://insurancedatascience.org/>\n\nBest regards\n\nMarkus\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all,\n\nThe abstract submission deadline for the 2020 Insurance Data Science conference in London closes on Monday, 9 March.\n\nHurry up, if you?d like to submit a proposal for a talk!\n\nThe event will ",
+      "thread_id": "thread-cc1308eb5fdd",
+      "thread_depth": 0,
+      "month": "2020-03"
+    },
+    {
+      "id": "msg-61a221169f5a",
+      "message_id": "<EE8F39E7-4135-412A-9CAF-5E70D273F3A4@googlemail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "67d4349e07ad64eeaa08af5e62e5639738e6844648ef14c22a80836edfbbfa68",
+      "date": "2020-03-10T12:27:09Z",
+      "subject": "[R-sig-ins]  Call for abstracts for the 2020 Insurance Data Science Conference closes 9 March.",
+      "subject_clean": "Call for abstracts for the 2020 Insurance Data Science Conference closes 9 March.",
+      "in_reply_to": "<E3A0DDF4-AD8D-47ED-BF7B-0BD9AE53E4E4@googlemail.com>",
+      "references": [
+        "<36B48C16-8697-49EB-A929-BBE588D96A9F@googlemail.com>",
+        "<7C82E287-D464-4C6F-8C14-4C67A7CEB51E@googlemail.com>",
+        "<E3A0DDF4-AD8D-47ED-BF7B-0BD9AE53E4E4@googlemail.com>"
+      ],
+      "body_plain": "Hi all,\n\nThe abstract submission closed yesterday.\n\nHowever, if you submitted an abstract, but haven't received a confirmation email, please resubmit by 23 March, as we had some IT problems.\n\nThanks\n\nMarkus\n\n> On 6 Mar 2020, at 09:26, Markus Gesmann <markus.gesmann at googlemail.com> wrote:\n> \n> Hi all,\n> \n> The abstract submission deadline for the 2020 Insurance Data Science conference in London closes on Monday, 9 March.\n> \n> Hurry up, if you?d like to submit a proposal for a talk!\n> \n> The event will take at Cass Business School, City, University of London, 22 June 2020.\n> \n> We are delighted to have Bettina Gr?n (University of Linz, Austria) and Thomas Wiecki (Quantopian, PyMC) as our keynote speakers.\n> \n> Please send your abstract to: submissions at insurancedatascience.org <mailto:submissions at insurancedatascience.org>\n> \n> Your submission should include:\n> \n> - Name and affiliation of the speaker\n> - Email address of the speaker\n> - Title of the presentation\n> - Abstract of 10 to 20 lines and not more than 5 references\n> - Format: pdf file and LaTeX file (template: https://insurancedatascience.org/downloads/Submission_template.tex <https://people.math.ethz.ch/~wmario/InsuranceDataScience/template.tex> )\n> \n> The submitted abstracts will be evaluated and speakers will be selected by the scientific committee of the conference. Conference fees will be waived for selected speakers.\n> \n> For more information visit the conference web site: https://insurancedatascience.org <https://insurancedatascience.org/>\n> \n> Best regards\n> \n> Markus\n> \n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all,\n\nThe abstract submission closed yesterday.\n\nHowever, if you submitted an abstract, but haven't received a confirmation email, please resubmit by 23 March, as we had some IT problems.\n\nThanks\n\n",
+      "thread_id": "thread-cc1308eb5fdd",
+      "thread_depth": 1,
+      "month": "2020-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-cc1308eb5fdd",
+      "subject": "Call for abstracts for the 2020 Insurance Data Science Conference closes 9 March.",
+      "message_count": 2,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2020-03-06T09:26:55+00:00",
+      "last_reply": "2020-03-10T12:27:09+00:00",
+      "root_message_id": "msg-cc1308eb5fdd"
+    }
+  ]
+}

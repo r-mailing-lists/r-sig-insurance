@@ -1,0 +1,171 @@
+From Vincent.Goulet at act.ulaval.ca  Mon Nov 14 15:06:23 2016
+From: Vincent.Goulet at act.ulaval.ca (Vincent Goulet)
+Date: Mon, 14 Nov 2016 14:06:23 +0000
+Subject: [R-sig-ins] Major update of package actuar
+Message-ID: <C9ED9D22-1783-450B-9C81-D7AB6ECC7E0B@act.ulaval.ca>
+
+Dear useRs,
+
+I'm happy to announce a substantial update of package actuar that bumps the version number to 2.0-0. This release focuses on additional support for continuous and discrete distributions, new functions to simulate data from compound models and mixtures, and revised and improved documentation.
+
+A slightly shortened version of the NEWS file follows:
+
+NEW FEATURES
+
+? Support for the inverse Gaussian distribution. The pdf, cdf and
+  quantile functions are C (read: faster) implementations of otherwise 
+  equivalent functions in package ?statmod?.
+
+? Support for the Gumbel extreme value distribution.
+
+? Extended range of admissible values for many limited
+  expected value functions thanks to new C-level functions
+  ?expint?, ?betaint? and ?gammaint?. These provide special
+  integrals presented in the introduction of Appendix A of
+  Klugman et al. (2012); see also ?vignette("distributions")?.
+
+  Affected functions are: ?levtrbeta?, ?levgenpareto?,
+  ?levburr?, ?levinvburr?, ?levpareto?, ?levinvpareto?,
+  ?levllogis?, ?levparalogis?, ?levinvparalogis? in the
+  Transformed Beta family, and ?levinvtrgamma?, ?levinvgamma?,
+  ?levinvweibull? in the Transformed Gamma family.
+
+? Functions ?expint?, ?betaint? and ?gammaint? to compute
+  the special integrals mentioned above. These are merely
+  convenience R interfaces to the C level functions. They are
+  _not_ exported by the package.
+
+? Support for the Poisson-inverse Gaussian discrete distribution.
+
+? Support for the logarithmic (or log-series) and zero-modified
+  logarithmic distributions.
+
+? Support for the zero-truncated and zero-modified Poisson
+  distributions.
+
+? Support for the zero-truncated and zero-modified negative 
+  binomial distributions.
+
+? Support for the zero-truncated and zero-modified geometric
+  distributions.
+
+? Support for the zero-truncated and zero-modified binomial
+  distributions.
+
+? New vignette ?"distributions"? that reviews in great detail the
+  continuous and discrete distributions provided in the
+  package, along with implementation details.
+
+? ?aggregateDist? now accepts ?"zero-truncated binomial"?,
+  ?"zero-truncated geometric"?, ?"zero-truncated negative
+  binomial"?, ?"zero-truncated poisson"?, ?"zero-modified
+  binomial"?, ?"zero-modified geometric"?, ?"zero-modified
+  negative binomial"?, ?"zero-modified poisson"? and
+  ?"zero-modified logarithmic"? for argument ?model.freq? with
+  the ?"recursive"? method.
+
+? New function ?rmixture? to generate random variates from
+  discrete mixtures, that is from random variables with
+  densities of the form f(x) = p_1 f_1(x) + ... + p_n f_n(x).
+
+? New function ?rcompound? to generate random variates from (non
+  hierarchical) compound models of the form S = X_1 + ... + X_N.
+  Function ?simul? could already do that, but ?rcompound? is
+  substantially faster for non hierarchical models.
+
+? New function 'rcomppois' that is a simplified version of
+  ?rcompound? for the very common compound Poisson case.
+
+? Function ?simul? now accepts an atomic (named or not) vector for
+  argument ?nodes? when simulating from a non hierarchical
+  compound model. But really, one should use ?rcompound? for
+  such cases.
+
+? New alias ?rcomphierarc? for ?simul? that better fits within
+  the usual naming scheme of random generation functions.
+
+? Functions ?grouped.data? and ?ogive? now accept individual
+  data in argument. The former will group the data using
+  ?hist? (therefore, all the algorithms to compute the number
+  of breakpoints available in ?hist? are also available in
+  ?grouped.data?). ?ogive? will first create a grouped data
+  object and then compute the ogive.
+
+  While there is no guarantee that the two functions are
+  backward compatible (the number and position of the
+  arguments have changed), standard calls should not be
+  affected.
+
+USER VISIBLE CHANGES
+
+? The material on probability laws in vignette ?"lossdist"?
+  has been moved to the new vignette ?"distributions"? (see
+  the previous section).
+
+? The first argument of the ?mgf<dist>? functions has changed
+  from ?x? to ?t?. This is a more common notation for moment
+  generating functions.
+
+? In ?aggregateDist? with the ?"recursive"? method, if the
+  length of ?p0? is greater than one, only the first element
+  is used, with a warning.
+
+? ?aggregateDist? with the ?"recursive"? method and
+  ?model.freq = "logarithmic"? now uses the new ?dlogarithmic?
+  family of functions. Therefore, parametrization has changed
+  from the one of Klugman et al. (2012) to the standard
+  parametrization for the logarithmic distribution. Basically,
+  any value of ?prob? for the logarithmic parameter in
+  previous versions of ?actuar? should now be ?1 - prob?.
+
+? The aim of vignette ?"simulation"? is changed from
+  ?simulation of compound hierarchical models? to ?simulation
+  of insurance data with ?actuar?? as it also covers the new
+  functions ?rmixture? and ?rcompound?.
+
+? Vignette ?"lossdist"? is renamed to ?"modeling"? and it is
+  revised to cover the new functionalities of ?grouped.data?
+  and ?ogive?.
+
+BUG FIX
+
+?  An old and nasty out-of-bounds bug could crash R when using
+  the "recursive" method of 'aggregateDist' with a frequency
+  distribution from the (a, b, 1) family.
+
+
+I hope this update will prove useful.
+
+Vincent Goulet, Ph.D.
+Professeur titulaire
+?cole d'actuariat, Universit? Laval
+
+
+From dutangc at gmail.com  Wed Nov 23 13:31:46 2016
+From: dutangc at gmail.com (Christophe Dutang)
+Date: Wed, 23 Nov 2016 13:31:46 +0100
+Subject: [R-sig-ins] R in Insurance conference, Paris, June 8 2017
+Message-ID: <256D6767-626C-40F4-9090-422577241764@gmail.com>
+
+Dear all,
+
+Following the successfull conferences in London (2013, 2014, 2016) and in Amsterdam (2015), the next edition will take place in Paris. The R in insurance 2017 will take place in ENSAE on June 8.
+
+This one-day conference will focus again on applications in insurance and actuarial science that use R, the lingua franca for statistical computation. The intended audience of the conference includes both academics and practitioners who are active or interested in the applications of R in insurance. Please visit the conference website https://rininsurance17.sciencesconf.org/.
+
+Invited talks will be given by:
+        - Katrien Antonio, KU Leuven.
+        - Julie Seguela, Covea.
+
+Online registrations are opened (yet finalization by fee payment will end in 2017. The submission for abstracts opens on January 1 2017, see https://rininsurance17.sciencesconf.org/resource/page/id/2 for important dates.
+
+For more information about the past events visit http://www.rininsurance.com.
+
+Best regards, Christophe
+
+---------------------------------------
+Christophe Dutang
+LMM, UdM, Le Mans, France
+web: http://dutangc.free.fr
+
+

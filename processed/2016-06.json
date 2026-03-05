@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2016-06",
+  "messages": [
+    {
+      "id": "msg-43581eb75b80",
+      "message_id": "<BDF3C80712B72B4186C3E66279E7D12010377040@PEMPCNMSX4102.racqgroup.local>",
+      "from_name": "Klein, Kere",
+      "from_email_hash": "dc79cd83a55eed5cda9eceb726edd8baab25da6ff74ba7f659a9a8a8e589f545",
+      "date": "2016-06-22T23:42:38Z",
+      "subject": "[R-sig-ins] Estimating the effects of various factors given optimal premium",
+      "subject_clean": "Estimating the effects of various factors given optimal premium",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear All,\n\nI am a newbie to the insurance industry.\n\nI like to know whether R has an established approach in estimating the effects of various factors when the optimal premium for a policy is already known (calculated technically).\n\nIt is to revise the look-up tables for the pricing engine.\n\nMany thanks in advance,\nKere\n\n-\n\n\nPlease Note:\n\nIf you are not the intended recipient, please delete this email as its use is prohibited.\nRACQ does not warrant or represent that this email is free from viruses or defects.\nIf you do not wish to receive any further commercial electronic messages from RACQ, please email unsubscribe at racq.com.au or contact RACQ on 13 19 05.\nWe may use your personal information in line with our Privacy Statement. For more details, you can call us on 13 19 05, visit www.racq.com.au or email us on privacy at racq.com.au.\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear All,\n\nI am a newbie to the insurance industry.\n\nI like to know whether R has an established approach in estimating the effects of various factors when the optimal premium for a policy is already ",
+      "thread_id": "thread-43581eb75b80",
+      "thread_depth": 0,
+      "month": "2016-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-43581eb75b80",
+      "subject": "Estimating the effects of various factors given optimal premium",
+      "message_count": 1,
+      "participants": [
+        "Klein, Kere"
+      ],
+      "started": "2016-06-22T23:42:38+00:00",
+      "last_reply": "2016-06-22T23:42:38+00:00",
+      "root_message_id": "msg-43581eb75b80"
+    }
+  ]
+}

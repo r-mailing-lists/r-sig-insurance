@@ -1,0 +1,98 @@
+From markus.gesmann at googlemail.com  Tue Dec 14 08:42:42 2010
+From: markus.gesmann at googlemail.com (Markus Gesmann)
+Date: Tue, 14 Dec 2010 07:42:42 +0000
+Subject: [R-sig-ins] googleVis 0.2.2 - Using the Google Visualisation API
+	with R
+Message-ID: <0177319E-01CE-445D-8929-8B95FB9020A9@googlemail.com>
+
+Hi all,
+
+Version 0.2.2 of the googVis package has been released on CRAN and 
+will be available from your local CRAN mirror in due course. 
+
+googleVis provides an interface between R and the Google Visualisation
+API. The functions of the package allow users to visualise data
+stored in R with the Google Visualisation API without 
+uploading their data to Google. 
+
+We presented our initial ideas on motion charts at LondonR in early
+October. Since then we have developed the package further to include
+also interfaces to Google Maps, Geo Maps, Tables, Tree Maps and
+Annotated Time Lines. 
+
+Combining R with the Google Visualisation API enables users to
+create powerful analysis tools which are easily accessible also to
+non-data analysts. 
+
+The "Statistics Relating to Lloyd's" site (http://www.lloyds.com/stats)
+is an example which used the functions of the googleVis package to
+create a data visualisation page. 
+The page shows how interactive charts can be used to engage with users, 
+allowing them to identify trends and insights over time.
+
+For more information and examples visit the project web site:
+http://code.google.com/p/google-motion-charts-with-r/
+
+Please feel free to send us an email <rvisualisation at gmail.com>
+if you would like to be kept informed of new versions,
+or if you have any feedback, ideas, suggestions or would
+like to collaborate.
+
+Markus Gesmann, Diego de Castillo
+
+And now the NEWS:
+
+Version 0.2.2 [2010-12-12]
+==========================
+
+Changes
+    
+    o Fixed typos in documentation
+
+NEW FEATURES
+
+   o New function:
+     - createGoogleGadget which allows users to create Google Gadgets XML output 
+
+
+Version 0.2.1 [2010-11-30]
+==========================
+
+Changes
+    
+    o First version to be released on CRAN
+
+NEW FEATURES
+
+   o New function:
+     - gvisAnnotatedTimeLine to generate interactive annotated time line charts
+
+Version 0.2.0 [2010-11-14]
+==========================
+
+Changes
+
+   o The package has been renamed from GoogleMotionChart to googleVis to reflect 
+     a new more flexible implementation.
+   o More functions of the Google Visualisation API are now available.
+
+USER-VISIBLE CHANGES
+
+   o New interfaces, all visualisation functions start with 'gvis'.
+   o Output is now of class 'gvis' with generic print and plot
+     functions.
+   o 'gvis' objects are list of lists, which allow the user to extract
+     the various parts of the visualisation output, e.g. the chart object.  
+  
+NEW FEATURES
+
+   o New functions:
+     - gvisMotionChart to generate motion charts
+     - gvisGeoMap to generate geographical maps
+     - gvisMap to generate maps
+     - gvisTreeMap to generate tree maps
+     - gvisTable to generate table output
+     - print.gvis: generic function to print 'gvis' objects
+     - plot.gvis: generic function to display 'gvis' objects in a browser via the R.rsp package. 
+
+

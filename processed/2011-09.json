@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2011-09",
+  "messages": [
+    {
+      "id": "msg-26252da42342",
+      "message_id": "<e9da436a0eeeaf3bb8d35bf00b0c107f@93.35.248.74>",
+      "from_name": "Spedicato.giorgio",
+      "from_email_hash": "0b9767cc3df93010fd57945b396196f59b8d11fb0643c21e75f5e5b6494ac5b7",
+      "date": "2011-09-08T20:50:07+02:00",
+      "subject": "[R-sig-ins] package lifecontingencies released",
+      "subject_clean": "package lifecontingencies released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110908/c341ddcc/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110908/c341ddcc/attachment.pl>",
+      "thread_id": "thread-26252da42342",
+      "thread_depth": 0,
+      "month": "2011-09"
+    },
+    {
+      "id": "msg-efab4b543f44",
+      "message_id": "<330F1BE39EE22C418B76986DFEC5F8F429698FFE17@E2K7CLSTB.cna.com>",
+      "from_name": "Zhang,Yanwei",
+      "from_email_hash": "7ff3cb2bae42468ab753bba826604c473c838828628a0be0fafa9fc6ff979c59",
+      "date": "2011-09-15T09:58:38-05:00",
+      "subject": "[R-sig-ins] R package cplm",
+      "subject_clean": "R package cplm",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110915/8cbb22db/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110915/8cbb22db/attachment.pl>",
+      "thread_id": "thread-efab4b543f44",
+      "thread_depth": 0,
+      "month": "2011-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-26252da42342",
+      "subject": "package lifecontingencies released",
+      "message_count": 1,
+      "participants": [
+        "Spedicato.giorgio"
+      ],
+      "started": "2011-09-08T20:50:07+02:00",
+      "last_reply": "2011-09-08T20:50:07+02:00",
+      "root_message_id": "msg-26252da42342"
+    },
+    {
+      "id": "thread-efab4b543f44",
+      "subject": "R package cplm",
+      "message_count": 1,
+      "participants": [
+        "Zhang,Yanwei"
+      ],
+      "started": "2011-09-15T09:58:38-05:00",
+      "last_reply": "2011-09-15T09:58:38-05:00",
+      "root_message_id": "msg-efab4b543f44"
+    }
+  ]
+}

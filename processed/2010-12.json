@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2010-12",
+  "messages": [
+    {
+      "id": "msg-84f618ed5a27",
+      "message_id": "<0177319E-01CE-445D-8929-8B95FB9020A9@googlemail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
+      "date": "2010-12-14T07:42:42Z",
+      "subject": "[R-sig-ins] googleVis 0.2.2 - Using the Google Visualisation API with R",
+      "subject_clean": "googleVis 0.2.2 - Using the Google Visualisation API with R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all,\n\nVersion 0.2.2 of the googVis package has been released on CRAN and \nwill be available from your local CRAN mirror in due course. \n\ngoogleVis provides an interface between R and the Google Visualisation\nAPI. The functions of the package allow users to visualise data\nstored in R with the Google Visualisation API without \nuploading their data to Google. \n\nWe presented our initial ideas on motion charts at LondonR in early\nOctober. Since then we have developed the package further to include\nalso interfaces to Google Maps, Geo Maps, Tables, Tree Maps and\nAnnotated Time Lines. \n\nCombining R with the Google Visualisation API enables users to\ncreate powerful analysis tools which are easily accessible also to\nnon-data analysts. \n\nThe \"Statistics Relating to Lloyd's\" site (http://www.lloyds.com/stats)\nis an example which used the functions of the googleVis package to\ncreate a data visualisation page. \nThe page shows how interactive charts can be used to engage with users, \nallowing them to identify trends and insights over time.\n\nFor more information and examples visit the project web site:\nhttp://code.google.com/p/google-motion-charts-with-r/\n\nPlease feel free to send us an email <rvisualisation at gmail.com>\nif you would like to be kept informed of new versions,\nor if you have any feedback, ideas, suggestions or would\nlike to collaborate.\n\nMarkus Gesmann, Diego de Castillo\n\nAnd now the NEWS:\n\nVersion 0.2.2 [2010-12-12]\n==========================\n\nChanges\n    \n    o Fixed typos in documentation\n\nNEW FEATURES\n\n   o New function:\n     - createGoogleGadget which allows users to create Google Gadgets XML output \n\n\nVersion 0.2.1 [2010-11-30]\n==========================\n\nChanges\n    \n    o First version to be released on CRAN\n\nNEW FEATURES\n\n   o New function:\n     - gvisAnnotatedTimeLine to generate interactive annotated time line charts\n\nVersion 0.2.0 [2010-11-14]\n==========================\n\nChanges\n\n   o The package has been renamed from GoogleMotionChart to googleVis to reflect \n     a new more flexible implementation.\n   o More functions of the Google Visualisation API are now available.\n\nUSER-VISIBLE CHANGES\n\n   o New interfaces, all visualisation functions start with 'gvis'.\n   o Output is now of class 'gvis' with generic print and plot\n     functions.\n   o 'gvis' objects are list of lists, which allow the user to extract\n     the various parts of the visualisation output, e.g. the chart object.  \n  \nNEW FEATURES\n\n   o New functions:\n     - gvisMotionChart to generate motion charts\n     - gvisGeoMap to generate geographical maps\n     - gvisMap to generate maps\n     - gvisTreeMap to generate tree maps\n     - gvisTable to generate table output\n     - print.gvis: generic function to print 'gvis' objects\n     - plot.gvis: generic function to display 'gvis' objects in a browser via the R.rsp package.",
+      "body_snippet": "Hi all,\n\nVersion 0.2.2 of the googVis package has been released on CRAN and \nwill be available from your local CRAN mirror in due course. \n\ngoogleVis provides an interface between R and the Google Vis",
+      "thread_id": "thread-84f618ed5a27",
+      "thread_depth": 0,
+      "month": "2010-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-84f618ed5a27",
+      "subject": "googleVis 0.2.2 - Using the Google Visualisation API with R",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2010-12-14T07:42:42+00:00",
+      "last_reply": "2010-12-14T07:42:42+00:00",
+      "root_message_id": "msg-84f618ed5a27"
+    }
+  ]
+}

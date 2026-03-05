@@ -1,0 +1,54 @@
+From rm@h@rp @end|ng |rom me@com  Fri Mar 15 21:45:38 2019
+From: rm@h@rp @end|ng |rom me@com (R. Mark Sharp)
+Date: Fri, 15 Mar 2019 15:45:38 -0500
+Subject: [R-sig-ins] licensing of R code in financial institution code
+Message-ID: <4B128A51-A136-416F-B5B8-1B94F5D91825@me.com>
+
+How is the industry addressing the pushback against GPL-x as described in https://r-posts.com/how-gpl-makes-me-leave-r-for-python/
+
+Mark
+R. Mark Sharp, Ph.D.
+Data Scientist and Biomedical Statistical Consultant
+7526 Meadow Green St.
+San Antonio, TX 78251
+mobile: 210-218-2868
+rmsharp at me.com
+
+
+From kev|nykuo @end|ng |rom gm@||@com  Fri Mar 15 22:16:01 2019
+From: kev|nykuo @end|ng |rom gm@||@com (Kevin Kuo)
+Date: Fri, 15 Mar 2019 14:16:01 -0700
+Subject: [R-sig-ins] licensing of R code in financial institution code
+In-Reply-To: <4B128A51-A136-416F-B5B8-1B94F5D91825@me.com>
+References: <4B128A51-A136-416F-B5B8-1B94F5D91825@me.com>
+Message-ID: <CAA1+RSGNf9LQWEF0hy-w_tJ-UqL04tWMDwDtH8f-_DSdtQ_6CA@mail.gmail.com>
+
+I haven't come across any realistic use cases for actuaries and data
+scientists where this would be an issue, since they're usually not in the
+business of building custom libraries to distribute as proprietary software.
+
+If you're at a place where GPL software can't be used for analytics, it'd
+be interesting to hear the arguments from the counsel.
+
+On Fri, Mar 15, 2019 at 1:45 PM R. Mark Sharp <rmsharp at me.com> wrote:
+
+> How is the industry addressing the pushback against GPL-x as described in
+> https://r-posts.com/how-gpl-makes-me-leave-r-for-python/
+>
+> Mark
+> R. Mark Sharp, Ph.D.
+> Data Scientist and Biomedical Statistical Consultant
+> 7526 Meadow Green St.
+> San Antonio, TX 78251
+> mobile: 210-218-2868
+> rmsharp at me.com
+>
+> _______________________________________________
+> R-SIG-insurance mailing list
+> R-SIG-insurance at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+>
+
+	[[alternative HTML version deleted]]
+
+

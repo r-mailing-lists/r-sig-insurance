@@ -1,0 +1,67 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2019-01",
+  "messages": [
+    {
+      "id": "msg-acb29d1f66df",
+      "message_id": "<A043B62B-5848-49D1-94DB-F851471731A3@googlemail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "41520ba2989cb3c2717fd179311316638fe32883e2951d4f2dd826b6f6a636dc",
+      "date": "2019-01-09T17:01:57Z",
+      "subject": "[R-sig-ins] Call for abstracts: Insurance Data Science Conference, ETH Zurich, 14 June 2019",
+      "subject_clean": "Call for abstracts: Insurance Data Science Conference, ETH Zurich, 14 June 2019",
+      "in_reply_to": null,
+      "references": [
+        "<9E7A1E5C-336B-4661-A285-314CC667DC6A@googlemail.com>"
+      ],
+      "body_plain": "Hi all,\n\nThe call for abstracts is open for the second Insurance Data Science Conference at RiskLab (ETH Zurich), 14 June 2019.\n\nHave you considered presenting your work?\n \nPlease send your abstract until 15 February 2019, to: submissions at insurancedatascience.org\n\nYour submission should include:\n\n- Name and affiliation of the speake\n- Email address of the speaker\n- Title of the presentation\n- Abstract of 10 to 20 lines and not more than 5 references\n- Format: pdf file and LaTeX file (template: https://people.math.ethz.ch/~wmario/InsuranceDataScience/template.tex)\n\nThe submitted abstracts will be evaluated and speakers will be selected by the scientific committee of the conference. Conference fees will be waived for selected speakers.\n\nA first programme will be announced on March 10, 2019.\n\nFor more information visit the conference web site: https://insurancedatascience.org\n\nBest wishes\n\nMarkus",
+      "body_snippet": "Hi all,\n\nThe call for abstracts is open for the second Insurance Data Science Conference at RiskLab (ETH Zurich), 14 June 2019.\n\nHave you considered presenting your work?\n \nPlease send your abstract u",
+      "thread_id": "thread-acb29d1f66df",
+      "thread_depth": 0,
+      "month": "2019-01"
+    },
+    {
+      "id": "msg-f7dfcb485b25",
+      "message_id": "<7C82E287-D464-4C6F-8C14-4C67A7CEB51E@googlemail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "67d4349e07ad64eeaa08af5e62e5639738e6844648ef14c22a80836edfbbfa68",
+      "date": "2019-01-31T08:55:15Z",
+      "subject": "[R-sig-ins] Only two weeks left: Call for abstracts for the 2019 Insurance Data Science Conference closes 15 Feb.",
+      "subject_clean": "Only two weeks left: Call for abstracts for the 2019 Insurance Data Science Conference closes 15 Feb.",
+      "in_reply_to": "<36B48C16-8697-49EB-A929-BBE588D96A9F@googlemail.com>",
+      "references": [
+        "<36B48C16-8697-49EB-A929-BBE588D96A9F@googlemail.com>"
+      ],
+      "body_plain": "Hi all,\n\nOnly two weeks left to submit your abstract proposal for the 2019 edition of the Insurance Data Science conference.\n\nThe event will take place RiskLab (ETH Zurich), 14 June 2019.\n\nPlease send your abstract until 15 February 2019, to: submissions at insurancedatascience.org\n\nYour submission should include:\n\n- Name and affiliation of the speaker\n- Email address of the speaker\n- Title of the presentation\n- Abstract of 10 to 20 lines and not more than 5 references\n- Format: pdf file and LaTeX file (template: https://people.math.ethz.ch/~wmario/InsuranceDataScience/template.tex <https://people.math.ethz.ch/~wmario/InsuranceDataScience/template.tex> )\n\nThe submitted abstracts will be evaluated and speakers will be selected by the scientific committee of the conference. Conference fees will be waived for selected speakers.\n\nFor more information visit the conference web site: https://insurancedatascience.org <https://insurancedatascience.org/>\n\nBest regards\n\nMarkus\n\n> On 9 Jan 2019, at 15:57, Markus Gesmann <markus.gesmann at googlemail.com> wrote:\n> \n> Hi there,\n> \n> A belated happy New Year!\n> \n> The call for abstracts is open for the second Insurance Data Science Conference at RiskLab (ETH Zurich), 14 June 2019.\n> \n> I am contacting you today as you have submitted abstracts in the past or supported the conference in other forms. \n> \n> We would very much welcome to receive an abstract from you again. If last year your presentation wasn?t selected, please don't be discouraged and send one again.\n>  \n> Please send your abstract until 15 February 2019, to: submissions at insurancedatascience.org <mailto:submissions at insurancedatascience.org>\n> \n> Your submission should include:\n> \n> - Name and affiliation of the speaker\n> - Email address of the speaker\n> - Title of the presentation\n> - Abstract of 10 to 20 lines and not more than 5 references\n> - Format: pdf file and LaTeX file (template) <https://people.math.ethz.ch/~wmario/InsuranceDataScience/template.tex>\n> \n> The submitted abstracts will be evaluated and speakers will be selected by the scientific committee of the conference. Conference fees will be waived for selected speakers.\n> \n> A first programme will be announced on March 10, 2019.\n> \n> For more information visit the conference web site: https://insurancedatascience.org <https://insurancedatascience.org/>\n> \n> Best wishes\n> \n> Markus\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all,\n\nOnly two weeks left to submit your abstract proposal for the 2019 edition of the Insurance Data Science conference.\n\nThe event will take place RiskLab (ETH Zurich), 14 June 2019.\n\nPlease send",
+      "thread_id": "thread-f7dfcb485b25",
+      "thread_depth": 0,
+      "month": "2019-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-acb29d1f66df",
+      "subject": "Call for abstracts: Insurance Data Science Conference, ETH Zurich, 14 June 2019",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2019-01-09T17:01:57+00:00",
+      "last_reply": "2019-01-09T17:01:57+00:00",
+      "root_message_id": "msg-acb29d1f66df"
+    },
+    {
+      "id": "thread-f7dfcb485b25",
+      "subject": "Only two weeks left: Call for abstracts for the 2019 Insurance Data Science Conference closes 15 Feb.",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2019-01-31T08:55:15+00:00",
+      "last_reply": "2019-01-31T08:55:15+00:00",
+      "root_message_id": "msg-f7dfcb485b25"
+    }
+  ]
+}

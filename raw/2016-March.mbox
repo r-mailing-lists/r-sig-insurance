@@ -1,0 +1,58 @@
+From sherry.lamonica at oracle.com  Thu Mar 31 17:31:29 2016
+From: sherry.lamonica at oracle.com (Sherry Lamonica)
+Date: Thu, 31 Mar 2016 08:31:29 -0700
+Subject: [R-sig-ins] EEV
+Message-ID: <56FD42D1.7030302@oracle.com>
+
+Hello,
+
+I?m looking for R function to computeEuropean Embedded Value  <https://www.soa.org/library/journals/actuarial-practice-forum/2006/october/APF0610_2.pdf>  (EEV).
+I've searched but cannot find an R package that covers this topic.
+Before I create it myself, does anyone know of an R resource for computing EEV?
+
+Thank you in advance.
+
+Sherry LaMonica
+
+
+	[[alternative HTML version deleted]]
+
+
+From dutangc at gmail.com  Thu Mar 31 21:26:05 2016
+From: dutangc at gmail.com (Christophe Dutang)
+Date: Thu, 31 Mar 2016 21:26:05 +0200
+Subject: [R-sig-ins] EEV
+In-Reply-To: <56FD42D1.7030302@oracle.com>
+References: <56FD42D1.7030302@oracle.com>
+Message-ID: <152EBDAF-F941-454E-B2E9-97C509BA7417@gmail.com>
+
+Sorry to say that, but I have never heard of any package doing that. 
+
+---------------------------------------
+Christophe Dutang
+LMM, UdM, Le Mans, France
+web: http://dutangc.free.fr <http://dutangc.free.fr/>
+> Le 31 mars 2016 ? 17:31, Sherry Lamonica <sherry.lamonica at oracle.com> a ?crit :
+> 
+> Hello,
+> 
+> I?m looking for R function to computeEuropean Embedded Value  <https://www.soa.org/library/journals/actuarial-practice-forum/2006/october/APF0610_2.pdf>  (EEV).
+> I've searched but cannot find an R package that covers this topic.
+> Before I create it myself, does anyone know of an R resource for computing EEV?
+> 
+> Thank you in advance.
+> 
+> Sherry LaMonica
+> 
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-SIG-insurance mailing list
+> R-SIG-insurance at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+
+	[[alternative HTML version deleted]]
+
+

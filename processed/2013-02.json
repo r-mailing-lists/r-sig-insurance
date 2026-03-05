@@ -1,0 +1,90 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2013-02",
+  "messages": [
+    {
+      "id": "msg-dae9998104e6",
+      "message_id": "<CAHgH9_Eg5XHCv4pWdhQjs4ewpYeDHoEvmUqiLAULkZt7=1WLZw@mail.gmail.com>",
+      "from_name": "Dan Murphy",
+      "from_email_hash": "0229b26428ac00a2f8e46076223dfbeff88021c4fa9d3dae1120dc1945d2e96b",
+      "date": "2013-02-11T05:15:14-08:00",
+      "subject": "[R-sig-ins] mondate version 0.9.10.04 now on CRAN",
+      "subject_clean": "mondate version 0.9.10.04 now on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "To R-Sig-Insurance:\n\nThe mondate package enables date arithmetic in units of 'months' and\n'years', not available with the base 'difftime' function. This can be\nparticularly helpful for calculating the actuarial age of\nproperty/casualty/general insurance liabilities.\n\nUpdate ...04 expands the signature of the year, month, and day\nfunctions to Date and POSIXt data. See NEWS at\ncran.r-project.org/web/packages/mondate/index.html.\n\nAn example of using mondate is\n> library(mondate)\n> mondate(as.Date(\"2013-03-31\")) - mondate(as.Date(\"2013-02-28\"))\n[1] 1\n\nA potential future package enhancement would be to extend 'difftime'\nso that the following functionality is possible\n> difftime(as.Date(\"2013-03-31\"), as.Date(\"2013-02-28\"), units = \"months\")\nTime difference of 1 month\n\nFor more information on mondate, visit http://code.google.com/p/mondate/\n\nDan Murphy",
+      "body_snippet": "To R-Sig-Insurance:\n\nThe mondate package enables date arithmetic in units of 'months' and\n'years', not available with the base 'difftime' function. This can be\nparticularly helpful for calculating the",
+      "thread_id": "thread-dae9998104e6",
+      "thread_depth": 0,
+      "month": "2013-02"
+    },
+    {
+      "id": "msg-add10b83aa1f",
+      "message_id": "<CAHosgjW_Z0hJKNTavTq-EjS1aO_khtK_iCAY2b3hTT-Ne-vawA@mail.gmail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
+      "date": "2013-02-15T09:08:12Z",
+      "subject": "[R-sig-ins] New Data Scientist role at Lloyd's",
+      "subject_clean": "New Data Scientist role at Lloyd's",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Lloyd's of London is looking for a Data Scientist as part of the Analysis team.\n\nSee Lloyd's career web site for more details:\nhttp://jobs.lloyds.com/fe/tpl_lloyds01.asp?s=PyAxDIfSqHTyVvHqn&jobid=81827,6982498702&key=68190269&c=875262514822&pagestamp=seuarhkizesujvrfri",
+      "body_snippet": "Lloyd's of London is looking for a Data Scientist as part of the Analysis team.\n\nSee Lloyd's career web site for more details:\nhttp://jobs.lloyds.com/fe/tpl_lloyds01.asp?s=PyAxDIfSqHTyVvHqn&jobid=8182",
+      "thread_id": "thread-add10b83aa1f",
+      "thread_depth": 0,
+      "month": "2013-02"
+    },
+    {
+      "id": "msg-6a492970ff3d",
+      "message_id": "<892109022.13113.1361914311739.JavaMail.help@alum.mit.edu>",
+      "from_name": "Lisa Solomon",
+      "from_email_hash": "3b5f37573428031d0b37829ae63f3922f3346b89aa579ecc548938a78e7dc55b",
+      "date": "2013-02-26T16:31:51-05:00",
+      "subject": "[R-sig-ins] Webinar Series: The Evolution of Regression from Classical Linear Regression to Modern Ensembles (Hands-on Component)",
+      "subject_clean": "Webinar Series: The Evolution of Regression from Classical Linear Regression to Modern Ensembles (Hands-on Component)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Begins Friday (no charge) \nThe Evolution of Regression: An Upcoming Webinar Series \n(Hands-on Component) \n\nRegistration: http://bit.ly/salford-systems-regression-webinar-series \n\nRegression is one of the most popular modeling methods, but the classical approach has significant problems. This webinar series address these problems. Are you are working with larger datasets? Is your data challenging? Does your data include missing values, nonlinear relationships, local patterns and interactions? This webinar series is for you! We will cover improvements to conventional and logistic regression, and will include a discussion of classical, regularized, and nonlinear regression, as well as modern ensemble and data mining approaches. This series will be of value to any classically trained statistician or modeler.\n \nOvercoming Linear Regression Limitations \n\nPart 1: March 1 - Regression methods discussed \n? Classical Regression \n? Logistic Regression \n? Regularized Regression: GPS Generalized Path Seeker \n? Nonlinear Regression: MARS Regression Splines \n\nPart 2: March 15 - Hands-on demonstration of concepts discussed in Part 1 \n? Step-by-step demonstration \n? Datasets and software available for download \n? Instructions for reproducing demo at your leisure \n? For the dedicated student: apply these methods to your own data (optional) \n\nPart 3: March 29 - Regression methods discussed \n*Part 1 is a recommended pre-requisite \n? Nonlinear Ensemble Approaches: TreeNet Gradient Boosting; Random Forests; Gradient Boosting incorporating RF\n ? Ensemble Post-Processing: ISLE; RuleLearner \n\nPart 4: April 12 - Hands-on demonstration of concepts discussed in Part 3 \n? Step-by-step demonstration \n? Datasets and software available for download \n? Instructions for reproducing demo at your leisure \n? For the dedicated student: apply these methods to your own data (optional)",
+      "body_snippet": "Begins Friday (no charge) \nThe Evolution of Regression: An Upcoming Webinar Series \n(Hands-on Component) \n\nRegistration: http://bit.ly/salford-systems-regression-webinar-series \n\nRegression is one of ",
+      "thread_id": "thread-6a492970ff3d",
+      "thread_depth": 0,
+      "month": "2013-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-dae9998104e6",
+      "subject": "mondate version 0.9.10.04 now on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Dan Murphy"
+      ],
+      "started": "2013-02-11T05:15:14-08:00",
+      "last_reply": "2013-02-11T05:15:14-08:00",
+      "root_message_id": "msg-dae9998104e6"
+    },
+    {
+      "id": "thread-add10b83aa1f",
+      "subject": "New Data Scientist role at Lloyd's",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2013-02-15T09:08:12+00:00",
+      "last_reply": "2013-02-15T09:08:12+00:00",
+      "root_message_id": "msg-add10b83aa1f"
+    },
+    {
+      "id": "thread-6a492970ff3d",
+      "subject": "Webinar Series: The Evolution of Regression from Classical Linear Regression to Modern Ensembles (Hands-on Component)",
+      "message_count": 1,
+      "participants": [
+        "Lisa Solomon"
+      ],
+      "started": "2013-02-26T16:31:51-05:00",
+      "last_reply": "2013-02-26T16:31:51-05:00",
+      "root_message_id": "msg-6a492970ff3d"
+    }
+  ]
+}

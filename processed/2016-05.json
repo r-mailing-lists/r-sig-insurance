@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2016-05",
+  "messages": [
+    {
+      "id": "msg-779522d027c6",
+      "message_id": "<95AED2C4-D957-478D-9316-A15BFBD0CE89@googlemail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
+      "date": "2016-05-19T15:56:43+01:00",
+      "subject": "[R-sig-ins] CONFERENCE: R in Insurance early booking advantage ends 30 May",
+      "subject_clean": "CONFERENCE: R in Insurance early booking advantage ends 30 May",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all,\n\nThe 4th R in Insurance conference will take place 11 July 2016 at Cass Business School London. \n\nThe early booking advantage will end 30 May. Hurry, to secure your ticket. \n\nProgram and further details on www.rininsurance.com. \n\nRegards\n\nMarkus\n\n--\nMarkus Gesmann\nBlog: http://www.magesblog.com",
+      "body_snippet": "Hi all,\n\nThe 4th R in Insurance conference will take place 11 July 2016 at Cass Business School London. \n\nThe early booking advantage will end 30 May. Hurry, to secure your ticket. \n\nProgram and furth",
+      "thread_id": "thread-779522d027c6",
+      "thread_depth": 0,
+      "month": "2016-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-779522d027c6",
+      "subject": "CONFERENCE: R in Insurance early booking advantage ends 30 May",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2016-05-19T15:56:43+01:00",
+      "last_reply": "2016-05-19T15:56:43+01:00",
+      "root_message_id": "msg-779522d027c6"
+    }
+  ]
+}

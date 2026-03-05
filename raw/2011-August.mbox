@@ -1,0 +1,85 @@
+From fabio.castanedab at gmail.com  Thu Aug  4 17:21:33 2011
+From: fabio.castanedab at gmail.com (Fabio CASTANEDA)
+Date: Thu, 4 Aug 2011 17:21:33 +0200
+Subject: [R-sig-ins] Mack Hypothesis
+Message-ID: <CAAbNwirxfLUCDityXDnF=HD5b_zhZQFSx5ssn2sLaNSTCYcbnA@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110804/90c4d6ab/attachment.pl>
+
+From dutangc at gmail.com  Thu Aug  4 18:35:25 2011
+From: dutangc at gmail.com (Christophe Dutang)
+Date: Thu, 4 Aug 2011 18:35:25 +0200
+Subject: [R-sig-ins] Mack Hypothesis
+In-Reply-To: <CAAbNwirxfLUCDityXDnF=HD5b_zhZQFSx5ssn2sLaNSTCYcbnA@mail.gmail.com>
+References: <CAAbNwirxfLUCDityXDnF=HD5b_zhZQFSx5ssn2sLaNSTCYcbnA@mail.gmail.com>
+Message-ID: <6D8F5AB1-5588-4464-88C5-AF87FCBD78F6@gmail.com>
+
+Hello Fabio,
+
+Look at the ChainLadder package of Markus Gesmann, http://cran.r-project.org/web/packages/ChainLadder/index.html. 
+
+Hope you'll find what you search!
+
+Christophe
+
+--
+Christophe Dutang
+Ph.D. student at ISFA, Lyon, France
+website: http://dutangc.free.fr
+
+Le 4 ao?t 2011 ? 17:21, Fabio CASTANEDA a ?crit :
+
+> Hey everyone,
+> 
+> This is my first post and I don t really know how am I supposed to ask and
+> get/give answers back. I guess I ll just go ahead and spit it out.
+> 
+> Is there an R code or package that tests for the hypothesis of
+> the stochastic version of Chain Ladder (Mack Model) that is :
+> 
+> 1-  Independence between the charges (Ci,j) and (Ci',j)  in the whole
+> triangle
+> 2-  Conditional linear relation between  E(Ci,j+1)= L * Ci,j in the whole
+> triangle
+> 
+> There is a sketch of tests in Piterbois et Al.(2002) that i
+> have developed in Excel but I would feel much more comfortable in doing it
+> with R.
+> 
+> Thanks,
+> 
+> Fabio
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-SIG-insurance mailing list
+> R-SIG-insurance at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+
+From fabio.castanedab at gmail.com  Thu Aug 18 12:52:25 2011
+From: fabio.castanedab at gmail.com (Fabio CASTANEDA)
+Date: Thu, 18 Aug 2011 12:52:25 +0200
+Subject: [R-sig-ins] Mack Hypothesis
+In-Reply-To: <2D1AC19CDA3D5643B9D7AE596C377B28071607@GBS0039303.lloyds.net>
+References: <CAAbNwirxfLUCDityXDnF=HD5b_zhZQFSx5ssn2sLaNSTCYcbnA@mail.gmail.com>
+	<2D1AC19CDA3D5643B9D7AE596C377B28071607@GBS0039303.lloyds.net>
+Message-ID: <CAAbNwiqCdyYzyv9h1+9zFukuD_GAC8Dmp3XC_m6cY7gau5Pq3Q@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110818/f026c3cd/attachment.pl>
+
+From Yanwei.Zhang at cna.com  Mon Aug 29 20:20:44 2011
+From: Yanwei.Zhang at cna.com (Zhang,Yanwei)
+Date: Mon, 29 Aug 2011 13:20:44 -0500
+Subject: [R-sig-ins] New facility in the package ChainLadder
+Message-ID: <330F1BE39EE22C418B76986DFEC5F8F42968DC5EF6@E2K7CLSTB.cna.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110829/93bb1bb8/attachment.pl>
+

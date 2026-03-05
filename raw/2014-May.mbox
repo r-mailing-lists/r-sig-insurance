@@ -1,0 +1,57 @@
+From sd.ali90 at ymail.com  Tue May 27 18:32:21 2014
+From: sd.ali90 at ymail.com (Syed Danish Ali)
+Date: Tue, 27 May 2014 09:32:21 -0700 (PDT)
+Subject: [R-sig-ins] URGENT:having problem in glmReserve
+Message-ID: <1401208341.98180.YahooMailNeo@web162905.mail.bf1.yahoo.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20140527/6fa3ba6b/attachment.pl>
+
+From markus.gesmann at googlemail.com  Tue May 27 19:19:33 2014
+From: markus.gesmann at googlemail.com (Markus Gesmann)
+Date: Tue, 27 May 2014 18:19:33 +0100
+Subject: [R-sig-ins] URGENT:having problem in glmReserve
+In-Reply-To: <1401208341.98180.YahooMailNeo@web162905.mail.bf1.yahoo.com>
+References: <1401208341.98180.YahooMailNeo@web162905.mail.bf1.yahoo.com>
+Message-ID: <41B2481C-84FF-4712-901D-DA49B33A2601@gmail.com>
+
+Hi Danish,
+
+Please provide reproducible data and code so that we can help you.
+See: http://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example 
+
+Thanks
+
+Markus
+
+On 27 May 2014, at 17:32, Syed Danish Ali <sd.ali90 at ymail.com> wrote:
+
+> Dear All
+> 
+> I am converting my data frame into class of triangles using as(triangle name csv file, "triangles") and by running class code it is conforming that triangle is now of the class 'triangles'
+> 
+> Even then when i run glmReserve it gives the error : triangle must be of class 'triangle'.
+> 
+> Kindly help me as soon as possible.
+> 
+> Regards
+> Danish
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-SIG-insurance mailing list
+> R-SIG-insurance at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance
+
+
+From markus.gesmann at googlemail.com  Thu May 29 10:03:53 2014
+From: markus.gesmann at googlemail.com (Markus Gesmann)
+Date: Thu, 29 May 2014 09:03:53 +0100
+Subject: [R-sig-ins] Early bird registration for R in Insurance ends tomorrow
+Message-ID: <CAHosgjUTSujfxSGrhOvRP3tvnhsY=KQeDthYPF8_siDMqewX=Q@mail.gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20140529/366435af/attachment.pl>
+

@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2018-02",
+  "messages": [
+    {
+      "id": "msg-941b50a5b478",
+      "message_id": "<56498946-8A25-45DE-B4CC-60AA81A65D5E@googlemail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
+      "date": "2018-02-01T16:02:50Z",
+      "subject": "[R-sig-ins] Insurance Data Science Conference 2018: Ticket Registration and Call for presentations",
+      "subject_clean": "Insurance Data Science Conference 2018: Ticket Registration and Call for presentations",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all,\n\nRegistrations are now open for the first Insurance Data Science conference (https://insurancedatascience.org) on 16 July 2018 at Cass Business School, London.\n\nWe follow from five iterations of the highly successful R in Insurance conferences as a focussed one-day conference, providing expert talks, networking opportunities and a fresh perspective for practitioners and academics on data science in insurance.\n\nAbout the Conference:\n\n- We have keynotes from Prof. Dr. Gareth Peters (Heriot Watt University) and Eric Novik (CEO, Generable).\n- The conference day is a single track of short presentations with breaks and a roundtable discussion, covering a wide gamut of interests and specialisations including risk assessment, customer analytics, pricing, reserving, capital management, catastrophe and econometric modelling\n- The following day we have a full-day Stan in Insurance workshop with Eric Novik and Paul-Christian B?rkner, supported by Jake Morris and Mick Cooney\n\nCall for presentations:\n\n - We would like contributions to topics related to risk assessment, customer analytics, pricing, reserving, capital management, catastrophe and econometric modelling\n - Reflecting our new name, we?re language agnostic, so whether you use R, Python, Scala, Rust, C++, Matlab, Julia or anything else, we?d like to hear about it. \n - The deadline for submitting an abstract is 9 April 2018, so please send proposals for review to info at insurancedatascience.org\n\nFor more details visit: https://insurancedatascience.org",
+      "body_snippet": "Hi all,\n\nRegistrations are now open for the first Insurance Data Science conference (https://insurancedatascience.org) on 16 July 2018 at Cass Business School, London.\n\nWe follow from five iterations ",
+      "thread_id": "thread-941b50a5b478",
+      "thread_depth": 0,
+      "month": "2018-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-941b50a5b478",
+      "subject": "Insurance Data Science Conference 2018: Ticket Registration and Call for presentations",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2018-02-01T16:02:50+00:00",
+      "last_reply": "2018-02-01T16:02:50+00:00",
+      "root_message_id": "msg-941b50a5b478"
+    }
+  ]
+}

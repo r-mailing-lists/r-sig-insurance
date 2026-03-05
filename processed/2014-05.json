@@ -1,0 +1,82 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2014-05",
+  "messages": [
+    {
+      "id": "msg-32f06f4722a7",
+      "message_id": "<1401208341.98180.YahooMailNeo@web162905.mail.bf1.yahoo.com>",
+      "from_name": "Syed Danish Ali",
+      "from_email_hash": "3183f8e10775d63a0ef048fa3927d8e4b28645e672162f61c2745ee82847df46",
+      "date": "2014-05-27T09:32:21-07:00",
+      "subject": "[R-sig-ins] URGENT:having problem in glmReserve",
+      "subject_clean": "URGENT:having problem in glmReserve",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20140527/6fa3ba6b/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20140527/6fa3ba6b/attachment.pl>",
+      "thread_id": "thread-32f06f4722a7",
+      "thread_depth": 0,
+      "month": "2014-05"
+    },
+    {
+      "id": "msg-71a3b21f0531",
+      "message_id": "<41B2481C-84FF-4712-901D-DA49B33A2601@gmail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
+      "date": "2014-05-27T18:19:33+01:00",
+      "subject": "[R-sig-ins] URGENT:having problem in glmReserve",
+      "subject_clean": "URGENT:having problem in glmReserve",
+      "in_reply_to": "<1401208341.98180.YahooMailNeo@web162905.mail.bf1.yahoo.com>",
+      "references": [
+        "<1401208341.98180.YahooMailNeo@web162905.mail.bf1.yahoo.com>"
+      ],
+      "body_plain": "Hi Danish,\n\nPlease provide reproducible data and code so that we can help you.\nSee: http://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example \n\nThanks\n\nMarkus\n\nOn 27 May 2014, at 17:32, Syed Danish Ali <sd.ali90 at ymail.com> wrote:\n\n> Dear All\n> \n> I am converting my data frame into class of triangles using as(triangle name csv file, \"triangles\") and by running class code it is conforming that triangle is now of the class 'triangles'\n> \n> Even then when i run glmReserve it gives the error : triangle must be of class 'triangle'.\n> \n> Kindly help me as soon as possible.\n> \n> Regards\n> Danish\n> \t[[alternative HTML version deleted]]\n> \n> _______________________________________________\n> R-SIG-insurance mailing list\n> R-SIG-insurance at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance",
+      "body_snippet": "Hi Danish,\n\nPlease provide reproducible data and code so that we can help you.\nSee: http://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example \n\nThanks\n\nMarkus\n\nOn 27 May 20",
+      "thread_id": "thread-32f06f4722a7",
+      "thread_depth": 1,
+      "month": "2014-05"
+    },
+    {
+      "id": "msg-00658ac5cd93",
+      "message_id": "<CAHosgjUTSujfxSGrhOvRP3tvnhsY=KQeDthYPF8_siDMqewX=Q@mail.gmail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
+      "date": "2014-05-29T09:03:53+01:00",
+      "subject": "[R-sig-ins] Early bird registration for R in Insurance ends tomorrow",
+      "subject_clean": "Early bird registration for R in Insurance ends tomorrow",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20140529/366435af/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20140529/366435af/attachment.pl>",
+      "thread_id": "thread-00658ac5cd93",
+      "thread_depth": 0,
+      "month": "2014-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-32f06f4722a7",
+      "subject": "URGENT:having problem in glmReserve",
+      "message_count": 2,
+      "participants": [
+        "Markus Gesmann",
+        "Syed Danish Ali"
+      ],
+      "started": "2014-05-27T09:32:21-07:00",
+      "last_reply": "2014-05-27T18:19:33+01:00",
+      "root_message_id": "msg-32f06f4722a7"
+    },
+    {
+      "id": "thread-00658ac5cd93",
+      "subject": "Early bird registration for R in Insurance ends tomorrow",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2014-05-29T09:03:53+01:00",
+      "last_reply": "2014-05-29T09:03:53+01:00",
+      "root_message_id": "msg-00658ac5cd93"
+    }
+  ]
+}

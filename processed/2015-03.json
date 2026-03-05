@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2015-03",
+  "messages": [
+    {
+      "id": "msg-8cd90f44645f",
+      "message_id": "<2D1AC19CDA3D5643B9D7AE596C377B280C3CA91D@GBS0039303.lloyds.net>",
+      "from_name": "Gesmann, Markus",
+      "from_email_hash": "476b59d20b82d06df10ee85b28af07155133bfbb523d75606839fd9dca84bdff",
+      "date": "2015-03-18T10:12:41Z",
+      "subject": "[R-sig-ins] R in Insurance: Abstract submission closes end of March",
+      "subject_clean": "R in Insurance: Abstract submission closes end of March",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hurry! The abstract submission deadline for the 3rd R in Insurance conference in Amsterdam, 29 June 2015 is approaching fast.\n\nYou have until the 28th of March to submit a one-page abstract for consideration. Both academic and practitioner proposals related to R are encouraged. Please email your abstract of no more than 300 words (in text or pdf format) to r-in-insurance at uva.nl.\n \nThe intended audience of the conference includes both academics and practitioners who are active or interested in the applications of R in insurance. \n\nInvited talks will be given by:\n-  Prof. Richard Gill, Leiden University\n-  Dr James Guszcza, FCAS, Chief Data Scientist, Deloitte - US\n\nDetails about the registration are given on the dedicated R in Insurance page at the University of Amsterdam:\nhttp://ase.uva.nl/news-events/r-in-insurance/r-in-insurance-2015.html\n\nSpecial thanks to our sponsors again: Rstudio, Cybea, Applied AI, Milliman, QBE, AEGON and Delta Lloyd Amsterdam.\n \nBtw, notes from last year's conference were published in the R Journal: http://journal.r-project.org/archive/2014-2/gesmann-tsanakas.pdf\n\n----------------------------------------------------------------------\nThe information in this E-Mail and in any attachments is...{{dropped:19}}",
+      "body_snippet": "Hurry! The abstract submission deadline for the 3rd R in Insurance conference in Amsterdam, 29 June 2015 is approaching fast.\n\nYou have until the 28th of March to submit a one-page abstract for consid",
+      "thread_id": "thread-8cd90f44645f",
+      "thread_depth": 0,
+      "month": "2015-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-8cd90f44645f",
+      "subject": "R in Insurance: Abstract submission closes end of March",
+      "message_count": 1,
+      "participants": [
+        "Gesmann, Markus"
+      ],
+      "started": "2015-03-18T10:12:41+00:00",
+      "last_reply": "2015-03-18T10:12:41+00:00",
+      "root_message_id": "msg-8cd90f44645f"
+    }
+  ]
+}

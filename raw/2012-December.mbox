@@ -1,0 +1,47 @@
+From lisasolomon at alum.mit.edu  Thu Dec 13 21:00:51 2012
+From: lisasolomon at alum.mit.edu (Lisa Solomon)
+Date: Thu, 13 Dec 2012 15:00:51 -0500
+Subject: [R-sig-ins] Webinar: Advances in Gradient Boosting: the Power of
+ Post-Processing. TOMORROW, 10-11 a.m., PST
+Message-ID: <1454932067.6037.1355428851959.JavaMail.help@alum.mit.edu>
+
+Webinar: Advances in Gradient Boosting: the Power of Post-Processing
+TOMORROW: December 14, 10-11 a.m., PST
+
+Webinar Registration: http://2.salford-systems.com/gradientboosting-and-post-processing/
+ 
+ Course Outline: 
+I. Gradient Boosting and Post-Processing: 
+o What is missing from Gradient Boosting? 
+o Why post-processing techniques are used? 
+
+II. Applications Benefiting from Post-Processing: Examples from a variety of industries. 
+o Financial Services 
+o Biomedical 
+o Environmental 
+o Manufacturing 
+o Adserving 
+
+III. Typical Post-Processing Steps 
+
+IV. Techniques: 
+o Generalized Path Seeker (GPS): modern high-speed LASSO-style regularized regression. 
+o Importance Sampled Learning Ensembles (ISLE): identify and reweight the most influential trees. 
+o Rulefit: ISLE on ?steroids.? Identify the most influential nodes and rules. 
+
+V. Case Study Example: 
+o Output/Results without Post-Processing 
+o Output/Results with Post-Processing 
+o Demo
+
+From markus.gesmann at googlemail.com  Wed Dec 19 08:45:26 2012
+From: markus.gesmann at googlemail.com (Markus Gesmann)
+Date: Wed, 19 Dec 2012 07:45:26 +0000
+Subject: [R-sig-ins] R in Insurance Conference, London, 15 July 2013
+References: <29984310-4608-4B5C-B184-460CF1F3674A@gmail.com>
+Message-ID: <D8D8C859-77AE-4EF6-903D-7916678117EB@gmail.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121219/58c5d8f0/attachment.pl>
+

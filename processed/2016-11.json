@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2016-11",
+  "messages": [
+    {
+      "id": "msg-b74aa674681f",
+      "message_id": "<C9ED9D22-1783-450B-9C81-D7AB6ECC7E0B@act.ulaval.ca>",
+      "from_name": "Vincent Goulet",
+      "from_email_hash": "773d704bb01dd05dd0f2d10c30d30f8968194f70b20d8fe3f1dd9b43e0bb6057",
+      "date": "2016-11-14T14:06:23Z",
+      "subject": "[R-sig-ins] Major update of package actuar",
+      "subject_clean": "Major update of package actuar",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear useRs,\n\nI'm happy to announce a substantial update of package actuar that bumps the version number to 2.0-0. This release focuses on additional support for continuous and discrete distributions, new functions to simulate data from compound models and mixtures, and revised and improved documentation.\n\nA slightly shortened version of the NEWS file follows:\n\nNEW FEATURES\n\n? Support for the inverse Gaussian distribution. The pdf, cdf and\n  quantile functions are C (read: faster) implementations of otherwise \n  equivalent functions in package ?statmod?.\n\n? Support for the Gumbel extreme value distribution.\n\n? Extended range of admissible values for many limited\n  expected value functions thanks to new C-level functions\n  ?expint?, ?betaint? and ?gammaint?. These provide special\n  integrals presented in the introduction of Appendix A of\n  Klugman et al. (2012); see also ?vignette(\"distributions\")?.\n\n  Affected functions are: ?levtrbeta?, ?levgenpareto?,\n  ?levburr?, ?levinvburr?, ?levpareto?, ?levinvpareto?,\n  ?levllogis?, ?levparalogis?, ?levinvparalogis? in the\n  Transformed Beta family, and ?levinvtrgamma?, ?levinvgamma?,\n  ?levinvweibull? in the Transformed Gamma family.\n\n? Functions ?expint?, ?betaint? and ?gammaint? to compute\n  the special integrals mentioned above. These are merely\n  convenience R interfaces to the C level functions. They are\n  _not_ exported by the package.\n\n? Support for the Poisson-inverse Gaussian discrete distribution.\n\n? Support for the logarithmic (or log-series) and zero-modified\n  logarithmic distributions.\n\n? Support for the zero-truncated and zero-modified Poisson\n  distributions.\n\n? Support for the zero-truncated and zero-modified negative \n  binomial distributions.\n\n? Support for the zero-truncated and zero-modified geometric\n  distributions.\n\n? Support for the zero-truncated and zero-modified binomial\n  distributions.\n\n? New vignette ?\"distributions\"? that reviews in great detail the\n  continuous and discrete distributions provided in the\n  package, along with implementation details.\n\n? ?aggregateDist? now accepts ?\"zero-truncated binomial\"?,\n  ?\"zero-truncated geometric\"?, ?\"zero-truncated negative\n  binomial\"?, ?\"zero-truncated poisson\"?, ?\"zero-modified\n  binomial\"?, ?\"zero-modified geometric\"?, ?\"zero-modified\n  negative binomial\"?, ?\"zero-modified poisson\"? and\n  ?\"zero-modified logarithmic\"? for argument ?model.freq? with\n  the ?\"recursive\"? method.\n\n? New function ?rmixture? to generate random variates from\n  discrete mixtures, that is from random variables with\n  densities of the form f(x) = p_1 f_1(x) + ... + p_n f_n(x).\n\n? New function ?rcompound? to generate random variates from (non\n  hierarchical) compound models of the form S = X_1 + ... + X_N.\n  Function ?simul? could already do that, but ?rcompound? is\n  substantially faster for non hierarchical models.\n\n? New function 'rcomppois' that is a simplified version of\n  ?rcompound? for the very common compound Poisson case.\n\n? Function ?simul? now accepts an atomic (named or not) vector for\n  argument ?nodes? when simulating from a non hierarchical\n  compound model. But really, one should use ?rcompound? for\n  such cases.\n\n? New alias ?rcomphierarc? for ?simul? that better fits within\n  the usual naming scheme of random generation functions.\n\n? Functions ?grouped.data? and ?ogive? now accept individual\n  data in argument. The former will group the data using\n  ?hist? (therefore, all the algorithms to compute the number\n  of breakpoints available in ?hist? are also available in\n  ?grouped.data?). ?ogive? will first create a grouped data\n  object and then compute the ogive.\n\n  While there is no guarantee that the two functions are\n  backward compatible (the number and position of the\n  arguments have changed), standard calls should not be\n  affected.\n\nUSER VISIBLE CHANGES\n\n? The material on probability laws in vignette ?\"lossdist\"?\n  has been moved to the new vignette ?\"distributions\"? (see\n  the previous section).\n\n? The first argument of the ?mgf<dist>? functions has changed\n  from ?x? to ?t?. This is a more common notation for moment\n  generating functions.\n\n? In ?aggregateDist? with the ?\"recursive\"? method, if the\n  length of ?p0? is greater than one, only the first element\n  is used, with a warning.\n\n? ?aggregateDist? with the ?\"recursive\"? method and\n  ?model.freq = \"logarithmic\"? now uses the new ?dlogarithmic?\n  family of functions. Therefore, parametrization has changed\n  from the one of Klugman et al. (2012) to the standard\n  parametrization for the logarithmic distribution. Basically,\n  any value of ?prob? for the logarithmic parameter in\n  previous versions of ?actuar? should now be ?1 - prob?.\n\n? The aim of vignette ?\"simulation\"? is changed from\n  ?simulation of compound hierarchical models? to ?simulation\n  of insurance data with ?actuar?? as it also covers the new\n  functions ?rmixture? and ?rcompound?.\n\n? Vignette ?\"lossdist\"? is renamed to ?\"modeling\"? and it is\n  revised to cover the new functionalities of ?grouped.data?\n  and ?ogive?.\n\nBUG FIX\n\n?  An old and nasty out-of-bounds bug could crash R when using\n  the \"recursive\" method of 'aggregateDist' with a frequency\n  distribution from the (a, b, 1) family.\n\n\nI hope this update will prove useful.\n\nVincent Goulet, Ph.D.\nProfesseur titulaire\n?cole d'actuariat, Universit? Laval",
+      "body_snippet": "Dear useRs,\n\nI'm happy to announce a substantial update of package actuar that bumps the version number to 2.0-0. This release focuses on additional support for continuous and discrete distributions, ",
+      "thread_id": "thread-b74aa674681f",
+      "thread_depth": 0,
+      "month": "2016-11"
+    },
+    {
+      "id": "msg-d2329812dde7",
+      "message_id": "<256D6767-626C-40F4-9090-422577241764@gmail.com>",
+      "from_name": "Christophe Dutang",
+      "from_email_hash": "71db47fbb88383c85c0a4105bb9dd5508a39e5eb48ded58e22bd31403fb35064",
+      "date": "2016-11-23T13:31:46+01:00",
+      "subject": "[R-sig-ins] R in Insurance conference, Paris, June 8 2017",
+      "subject_clean": "R in Insurance conference, Paris, June 8 2017",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nFollowing the successfull conferences in London (2013, 2014, 2016) and in Amsterdam (2015), the next edition will take place in Paris. The R in insurance 2017 will take place in ENSAE on June 8.\n\nThis one-day conference will focus again on applications in insurance and actuarial science that use R, the lingua franca for statistical computation. The intended audience of the conference includes both academics and practitioners who are active or interested in the applications of R in insurance. Please visit the conference website https://rininsurance17.sciencesconf.org/.\n\nInvited talks will be given by:\n        - Katrien Antonio, KU Leuven.\n        - Julie Seguela, Covea.\n\nOnline registrations are opened (yet finalization by fee payment will end in 2017. The submission for abstracts opens on January 1 2017, see https://rininsurance17.sciencesconf.org/resource/page/id/2 for important dates.\n\nFor more information about the past events visit http://www.rininsurance.com.\n\nBest regards, Christophe\n\n---------------------------------------\nChristophe Dutang\nLMM, UdM, Le Mans, France\nweb: http://dutangc.free.fr",
+      "body_snippet": "Dear all,\n\nFollowing the successfull conferences in London (2013, 2014, 2016) and in Amsterdam (2015), the next edition will take place in Paris. The R in insurance 2017 will take place in ENSAE on Ju",
+      "thread_id": "thread-d2329812dde7",
+      "thread_depth": 0,
+      "month": "2016-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b74aa674681f",
+      "subject": "Major update of package actuar",
+      "message_count": 1,
+      "participants": [
+        "Vincent Goulet"
+      ],
+      "started": "2016-11-14T14:06:23+00:00",
+      "last_reply": "2016-11-14T14:06:23+00:00",
+      "root_message_id": "msg-b74aa674681f"
+    },
+    {
+      "id": "thread-d2329812dde7",
+      "subject": "R in Insurance conference, Paris, June 8 2017",
+      "message_count": 1,
+      "participants": [
+        "Christophe Dutang"
+      ],
+      "started": "2016-11-23T13:31:46+01:00",
+      "last_reply": "2016-11-23T13:31:46+01:00",
+      "root_message_id": "msg-d2329812dde7"
+    }
+  ]
+}

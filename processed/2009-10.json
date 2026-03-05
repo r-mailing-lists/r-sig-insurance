@@ -1,0 +1,245 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2009-10",
+  "messages": [
+    {
+      "id": "msg-117eb2b43568",
+      "message_id": "<f4f6f09713965.4acb3e48@eafit.edu.co>",
+      "from_name": "Cesar Escalante Coterio - CIENCIAS BASICAS",
+      "from_email_hash": "e1917afc12523d7000e43434c4d56de0393696c226e3f8ad17301362b3f19a4b",
+      "date": "2009-10-06T12:55:36-05:00",
+      "subject": "[R-sig-ins] Frequency of loss models  ZM - Modelos de frecuencia de pérdidas ZM",
+      "subject_clean": "Frequency of loss models  ZM - Modelos de frecuencia de pérdidas ZM",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Good afternoon to everyone. \n\nDoes the actuar or other package has functions for adjusting frequency data to zero-modified distributions ZM? \n\nThanks for your attention. \n\nGreetings. \n\nC?sar Escalante C.\n\n--------------------------------------------\n\nBuenas tardes para todos.\n\n?El paquete actuar u otro tiene funciones especiales para ajustar datos de frecuencia a distribuciones cero modificadas ZM?\n\nGracias por su atenci?n.\n\nSaludos.\n\nC?sar Escalante C.",
+      "body_snippet": "Good afternoon to everyone. \n\nDoes the actuar or other package has functions for adjusting frequency data to zero-modified distributions ZM? \n\nThanks for your attention. \n\nGreetings. \n\nC?sar Escalante",
+      "thread_id": "thread-117eb2b43568",
+      "thread_depth": 0,
+      "month": "2009-10"
+    },
+    {
+      "id": "msg-a9e0d4be3378",
+      "message_id": "<66B81D33-FCCF-4A04-83EE-DA4E3F8CBAFF@gmail.com>",
+      "from_name": "Christophe Dutang",
+      "from_email_hash": "71db47fbb88383c85c0a4105bb9dd5508a39e5eb48ded58e22bd31403fb35064",
+      "date": "2009-10-06T20:32:18+02:00",
+      "subject": "[R-sig-ins] Frequency of loss models  ZM - Modelos de frecuencia de pérdidas ZM",
+      "subject_clean": "Frequency of loss models  ZM - Modelos de frecuencia de pérdidas ZM",
+      "in_reply_to": "<f4f6f09713965.4acb3e48@eafit.edu.co>",
+      "references": [
+        "<f4f6f09713965.4acb3e48@eafit.edu.co>"
+      ],
+      "body_plain": "There is no fit functions in actuar. However you can use the  \nfitdistrplus package that provide a general interface for the  \ndistribution (extending the MASS functions) and one pkg with an  \nimplementation of zero modified distributions (see cran task view on  \ndistributions) for example VGAM just to name it.\n\nChristophe\n\niPhone.fan\n\nLe 6 oct. 2009 ? 19:55, Cesar Escalante Coterio - CIENCIAS BASICAS <cescalan at eafit.edu.c \no> a ?crit :\n\n> Good afternoon to everyone.\n>\n> Does the actuar or other package has functions for adjusting  \n> frequency data to zero-modified distributions ZM?\n>\n> Thanks for your attention.\n>\n> Greetings.\n>\n> C?sar Escalante C.\n>\n> --------------------------------------------\n>\n> Buenas tardes para todos.\n>\n> ?El paquete actuar u otro tiene funciones especiales para ajustar da \n> tos de frecuencia a distribuciones cero modificadas ZM?\n>\n> Gracias por su atenci?n.\n>\n> Saludos.\n>\n> C?sar Escalante C.\n>\n> _______________________________________________\n> R-SIG-insurance mailing list\n> R-SIG-insurance at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance",
+      "body_snippet": "There is no fit functions in actuar. However you can use the  \nfitdistrplus package that provide a general interface for the  \ndistribution (extending the MASS functions) and one pkg with an  \nimpleme",
+      "thread_id": "thread-117eb2b43568",
+      "thread_depth": 1,
+      "month": "2009-10"
+    },
+    {
+      "id": "msg-09dd023c4f07",
+      "message_id": "<B9319B60-7DB0-44C1-9CF3-9D6986C5331F@comcast.net>",
+      "from_name": "David Winsemius",
+      "from_email_hash": "e3a7b8eb6067ea7800bca3bfc3867dc752c8c60a378f21755e53d6893a6080bc",
+      "date": "2009-10-06T14:58:45-04:00",
+      "subject": "[R-sig-ins] Frequency of loss models  ZM - Modelos de frecuencia de pérdidas ZM",
+      "subject_clean": "Frequency of loss models  ZM - Modelos de frecuencia de pérdidas ZM",
+      "in_reply_to": "<f4f6f09713965.4acb3e48@eafit.edu.co>",
+      "references": [
+        "<f4f6f09713965.4acb3e48@eafit.edu.co>"
+      ],
+      "body_plain": "On Oct 6, 2009, at 1:55 PM, Cesar Escalante Coterio - CIENCIAS BASICAS  \nwrote:\n\n> Good afternoon to everyone.\n>\n> Does the actuar or other package has functions for adjusting  \n> frequency data to zero-modified distributions ZM?\n\n88 hits for \"zero-inflated\" on R-Search:\nhttp://search.r-project.org/cgi-bin/namazu.cgi?query=%22zero-inflated%22&max=100&result=normal&sort=score&idxname=functions&idxname=Rhelp08&idxname=views\n\nOne hit for \"zero-modified\" ....  which _was_ in the actuar package:\nhttp://finzi.psych.upenn.edu/R/library/actuar/html/aggregateDist.html\n\n11 hits for \"hurdle model\"\nhttp://search.r-project.org/cgi-bin/namazu.cgi?query=%22hurdle+model%22&max=100&result=normal&sort=score&idxname=functions&idxname=Rhelp08&idxname=views\n\nAnd then there would also be zero-altered negative binomial and  \nPoisson models:\nhttp://finzi.psych.upenn.edu/R/library/VGAM/html/zanegbinomial.html\nhttp://finzi.psych.upenn.edu/R/library/VGAM/html/zapoisson.html\n\nHope this helps;\nDavid Winsemius, MD\n\n>\n> Thanks for your attention.\n>\n> Greetings.\n>\n> C?sar Escalante C.\n>\n> --------------------------------------------\n>\n> Buenas tardes para todos.\n>\n> ?El paquete actuar u otro tiene funciones especiales para ajustar  \n> datos de frecuencia a distribuciones cero modificadas ZM?\n>\n> Gracias por su atenci?n.\n>\n> Saludos.\n>\n> C?sar Escalante C.",
+      "body_snippet": "On Oct 6, 2009, at 1:55 PM, Cesar Escalante Coterio - CIENCIAS BASICAS  \nwrote:\n\n> Good afternoon to everyone.\n>\n> Does the actuar or other package has functions for adjusting  \n> frequency data to ze",
+      "thread_id": "thread-117eb2b43568",
+      "thread_depth": 1,
+      "month": "2009-10"
+    },
+    {
+      "id": "msg-822ee232eb18",
+      "message_id": "<f441bcbb1d0b0.4acdc5a6@eafit.edu.co>",
+      "from_name": "Cesar Escalante Coterio - CIENCIAS BASICAS",
+      "from_email_hash": "e1917afc12523d7000e43434c4d56de0393696c226e3f8ad17301362b3f19a4b",
+      "date": "2009-10-08T10:57:42-05:00",
+      "subject": "[R-sig-ins] Frequency of loss models  ZM - Modelos de frecuencia de pérdidas ZM",
+      "subject_clean": "Frequency of loss models  ZM - Modelos de frecuencia de pérdidas ZM",
+      "in_reply_to": "<B9319B60-7DB0-44C1-9CF3-9D6986C5331F@comcast.net>",
+      "references": [
+        "<f4f6f09713965.4acb3e48@eafit.edu.co>",
+        "<B9319B60-7DB0-44C1-9CF3-9D6986C5331F@comcast.net>"
+      ],
+      "body_plain": "Gracias, Christophe, David.\n\nSaludos.\n\nCesar Escalante\n\n----- Mensaje original -----\nDe: David Winsemius <dwinsemius at comcast.net>\nFecha: Martes, Octubre 6, 2009 1:59 pm\nAsunto: Re: [R-sig-ins] Frequency of loss models  ZM - Modelos de frecuencia de p?rdidas ZM\nA: Cesar Escalante Coterio - CIENCIAS BASICAS <cescalan at eafit.edu.co>\nCC: r-sig-insurance at r-project.org\n\n\n>  On Oct 6, 2009, at 1:55 PM, Cesar Escalante Coterio - CIENCIAS \n> BASICAS  \n>  wrote:\n>  \n>  > Good afternoon to everyone.\n>  >\n>  > Does the actuar or other package has functions for adjusting  \n>  > frequency data to zero-modified distributions ZM?\n>  \n>  88 hits for \"zero-inflated\" on R-Search:\n>  http://search.r-project.org/cgi-bin/namazu.cgi?query=%22zero-inflated%22&max=100&result=normal&sort=score&idxname=functions&idxname=Rhelp08&idxname=views\n>  \n>  One hit for \"zero-modified\" ....  which _was_ in the actuar package:\n>  http://finzi.psych.upenn.edu/R/library/actuar/html/aggregateDist.html\n>  \n>  11 hits for \"hurdle model\"\n>  http://search.r-project.org/cgi-bin/namazu.cgi?query=%22hurdle+model%22&max=100&result=normal&sort=score&idxname=functions&idxname=Rhelp08&idxname=views\n>  \n>  And then there would also be zero-altered negative binomial and  \n>  Poisson models:\n>  http://finzi.psych.upenn.edu/R/library/VGAM/html/zanegbinomial.html\n>  http://finzi.psych.upenn.edu/R/library/VGAM/html/zapoisson.html\n>  \n>  Hope this helps;\n>  David Winsemius, MD\n>  \n>  >\n>  > Thanks for your attention.\n>  >\n>  > Greetings.\n>  >\n>  > C?sar Escalante C.\n>  >\n>  > --------------------------------------------\n>  >\n>  > Buenas tardes para todos.\n>  >\n>  > ?El paquete actuar u otro tiene funciones especiales para ajustar  \n> \n>  > datos de frecuencia a distribuciones cero modificadas ZM?\n>  >\n>  > Gracias por su atenci?n.\n>  >\n>  > Saludos.\n>  >\n>  > C?sar Escalante C.\n>  \n>  \n>  \n>",
+      "body_snippet": "Gracias, Christophe, David.\n\nSaludos.\n\nCesar Escalante\n\n----- Mensaje original -----\nDe: David Winsemius <dwinsemius at comcast.net>\nFecha: Martes, Octubre 6, 2009 1:59 pm\nAsunto: Re: [R-sig-ins] Freq",
+      "thread_id": "thread-117eb2b43568",
+      "thread_depth": 2,
+      "month": "2009-10"
+    },
+    {
+      "id": "msg-520e87e5dcc4",
+      "message_id": "<20091020224035.9dbcd8cf.misc7@emerose.org>",
+      "from_name": "Ben",
+      "from_email_hash": "81e4f9021427e7d42d448f2b6873b3a1a410631781ef43136c35b0e2001e62d4",
+      "date": "2009-10-20T22:40:35-05:00",
+      "subject": "[R-sig-ins] Hacking on the ChainLadder package?",
+      "subject_clean": "Hacking on the ChainLadder package?",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all,\n\nI'm new to R but would like to work on (and hopefully contribute\nusefully to) Markus Gesmann's excellent ChainLadder package.  However,\nI don't have a development loop in place, so I'd appreciate some\nguidance on how best to work on this.  I have the actual package\ninstalled in\n\n    ~/R/x86_64-pc-linux-gnu-library/2.8/ChainLadder\n\nand I have the code checked out from subversion in:\n\n    ~/prog/chainladder-read-only\n\nI'd like some way of editing the files,\ne.g. ~/prog/chainladder-read-only/R/Triangles.R and testing it without\nhaving to make a whole new package and install it.  However, I can't\nseem to load the package from my subversion directory:\n\n    > library(ChainLadder, lib=\"~/prog\")\n    Error in library(ChainLadder, lib = \"~/prog/chainladder-read-only\") : \n      there is no package called 'ChainLadder'\n\nif I make the symbolic link \"ChainLadder\" to \"chainladder-read-only\" I\nget:\n\n    > library(ChainLadder, lib=\"~/prog\")\n    Error in library(ChainLadder, lib = \"~/prog\") : \n      'ChainLadder' is not a valid package -- installed < 2.0.0?\n\nwhich I don't know what it means and google isn't super-helpful.  I'm\nalso not even sure I'm on the right track.\n\nSo anyway, I'd really appreciate it if Markus or another ChainLadder\nor R guru has some tips on how best to use subversion and R.  If it\nmatters, I'm using emacs/ESS as my editor.\n\nThank you very much,\n\n-- \nBen Escoto",
+      "body_snippet": "Hi all,\n\nI'm new to R but would like to work on (and hopefully contribute\nusefully to) Markus Gesmann's excellent ChainLadder package.  However,\nI don't have a development loop in place, so I'd apprec",
+      "thread_id": "thread-520e87e5dcc4",
+      "thread_depth": 0,
+      "month": "2009-10"
+    },
+    {
+      "id": "msg-537a35238dae",
+      "message_id": "<CA98F344-94E0-493E-A084-00B0021D3BD1@gmail.com>",
+      "from_name": "Christophe Dutang",
+      "from_email_hash": "71db47fbb88383c85c0a4105bb9dd5508a39e5eb48ded58e22bd31403fb35064",
+      "date": "2009-10-21T08:07:41+02:00",
+      "subject": "[R-sig-ins] Hacking on the ChainLadder package?",
+      "subject_clean": "Hacking on the ChainLadder package?",
+      "in_reply_to": "<20091020224035.9dbcd8cf.misc7@emerose.org>",
+      "references": [
+        "<20091020224035.9dbcd8cf.misc7@emerose.org>"
+      ],
+      "body_plain": "Hi,\n> Hi all,\n>\n> I'm new to R but would like to work on (and hopefully contribute\n> usefully to) Markus Gesmann's excellent ChainLadder package.  However,\n> I don't have a development loop in place, so I'd appreciate some\n> guidance on how best to work on this.  I have the actual package\n> installed in\n>\n>    ~/R/x86_64-pc-linux-gnu-library/2.8/ChainLadder\n>\n> and I have the code checked out from subversion in:\n>\n>    ~/prog/chainladder-read-only\n>\n> I'd like some way of editing the files,\n> e.g. ~/prog/chainladder-read-only/R/Triangles.R and testing it without\n> having to make a whole new package and install it.\nLook at the r admin manual, but i think you need to build the pkg with  \nth? command\nR CMD build --binary  chainladder-read-only\n\n> However, I can't\n> seem to load the package from my subversion directory:\n>\n>> library(ChainLadder, lib=\"~/prog\")\n>    Error in library(ChainLadder, lib = \"~/prog/chainladder-read- \n> only\") :\n>      there is no package called 'ChainLadder'\n>\n> if I make the symbolic link \"ChainLadder\" to \"chainladder-read-only\" I\n> get:\n>\n>> library(ChainLadder, lib=\"~/prog\")\n>    Error in library(ChainLadder, lib = \"~/prog\") :\n>      'ChainLadder' is not a valid package -- installed < 2.0.0?\n>\n> which I don't know what it means and google isn't super-helpful.  I'm\n> also not even sure I'm on the right track.\nLook on Google with \"install r packages on local library\".\n\nSomething that will work is to install your modified version of  \nchainladder and then go back to th? original one by installing it  \nagain.\n\nChristophe\n\n>\n> So anyway, I'd really appreciate it if Markus or another ChainLadder\n> or R guru has some tips on how best to use subversion and R.  If it\n> matters, I'm using emacs/ESS as my editor.\n>\n> Thank you very much,\n>\n> -- \n> Ben Escoto\n>\n> _______________________________________________\n> R-SIG-insurance mailing list\n> R-SIG-insurance at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-insurance",
+      "body_snippet": "Hi,\n> Hi all,\n>\n> I'm new to R but would like to work on (and hopefully contribute\n> usefully to) Markus Gesmann's excellent ChainLadder package.  However,\n> I don't have a development loop in place, ",
+      "thread_id": "thread-520e87e5dcc4",
+      "thread_depth": 1,
+      "month": "2009-10"
+    },
+    {
+      "id": "msg-e9162d8e4094",
+      "message_id": "<4ADEA6DC.40401@dbmail.com>",
+      "from_name": "Romain Francois",
+      "from_email_hash": "59e39d3ea92dfd200ae594261b1588764b0f983f395cce1fc006e71efaf2c073",
+      "date": "2009-10-21T08:14:52+02:00",
+      "subject": "[R-sig-ins] Hacking on the ChainLadder package?",
+      "subject_clean": "Hacking on the ChainLadder package?",
+      "in_reply_to": "<20091020224035.9dbcd8cf.misc7@emerose.org>",
+      "references": [
+        "<20091020224035.9dbcd8cf.misc7@emerose.org>"
+      ],
+      "body_plain": "On 10/21/2009 05:40 AM, Ben wrote:\n>\n> Hi all,\n>\n> I'm new to R but would like to work on (and hopefully contribute\n> usefully to) Markus Gesmann's excellent ChainLadder package.  However,\n> I don't have a development loop in place, so I'd appreciate some\n> guidance on how best to work on this.  I have the actual package\n> installed in\n>\n>      ~/R/x86_64-pc-linux-gnu-library/2.8/ChainLadder\n>\n> and I have the code checked out from subversion in:\n>\n>      ~/prog/chainladder-read-only\n\nHi,\n\nwhat you checked out is the source of the package, this is really \ndifferent from the compiled package you'll find in \n/R/x86_64-pc-linux-gnu-library/2.8/ChainLadder which is the kind of \nstructure \"library\" expects.\n\nThe best way is to recompile the package after your change, i.e.\n\ncd prog\nR CMD build chainladder-read-only\nR CMD INSTALL ChainLadder*.tar.gz \n--library=~/R/x86_64-pc-linux-gnu-library/2.8\n\n\nBut you can also just source the file you modified, something like :\n\nR> chainladder.dir <- \"~/prog/chainladder-read-only/R\"\nR> source( file.path( chainladder.dir, \"Triangles.R\" ) )\n\nRomain\n\n> I'd like some way of editing the files,\n> e.g. ~/prog/chainladder-read-only/R/Triangles.R and testing it without\n> having to make a whole new package and install it.  However, I can't\n> seem to load the package from my subversion directory:\n>\n>      >  library(ChainLadder, lib=\"~/prog\")\n>      Error in library(ChainLadder, lib = \"~/prog/chainladder-read-only\") :\n>        there is no package called 'ChainLadder'\n>\n> if I make the symbolic link \"ChainLadder\" to \"chainladder-read-only\" I\n> get:\n>\n>      >  library(ChainLadder, lib=\"~/prog\")\n>      Error in library(ChainLadder, lib = \"~/prog\") :\n>        'ChainLadder' is not a valid package -- installed<  2.0.0?\n>\n> which I don't know what it means and google isn't super-helpful.  I'm\n> also not even sure I'm on the right track.\n>\n> So anyway, I'd really appreciate it if Markus or another ChainLadder\n> or R guru has some tips on how best to use subversion and R.  If it\n> matters, I'm using emacs/ESS as my editor.\n>\n> Thank you very much,\n>\n\n\n-- \nRomain Francois\nProfessional R Enthusiast\n+33(0) 6 28 91 30 30\nhttp://romainfrancois.blog.free.fr\n|- http://tr.im/BcPw : celebrating R commit #50000\n|- http://tr.im/ztCu : RGG #158:161: examples of package IDPmisc\n`- http://tr.im/yw8E : New R package : sos",
+      "body_snippet": "On 10/21/2009 05:40 AM, Ben wrote:\n>\n> Hi all,\n>\n> I'm new to R but would like to work on (and hopefully contribute\n> usefully to) Markus Gesmann's excellent ChainLadder package.  However,\n> I don't h",
+      "thread_id": "thread-520e87e5dcc4",
+      "thread_depth": 1,
+      "month": "2009-10"
+    },
+    {
+      "id": "msg-44109a951e81",
+      "message_id": "<20091021015626.91d9619d.misc7@emerose.org>",
+      "from_name": "Ben",
+      "from_email_hash": "81e4f9021427e7d42d448f2b6873b3a1a410631781ef43136c35b0e2001e62d4",
+      "date": "2009-10-21T01:56:26-05:00",
+      "subject": "[R-sig-ins] Hacking on the ChainLadder package?",
+      "subject_clean": "Hacking on the ChainLadder package?",
+      "in_reply_to": "<4ADEA6DC.40401@dbmail.com>",
+      "references": [
+        "<20091020224035.9dbcd8cf.misc7@emerose.org>",
+        "<4ADEA6DC.40401@dbmail.com>"
+      ],
+      "body_plain": "Thank you very much Romain, these commands work.  I thought R (being\nan interpreted language, and no part of this package needs\ncompilation) might have a short-cut to reload a module without\ninstalling, but it really doesn't matter because the build/install\nprocess runs in a few seconds on my computer anyway.\n\nI can also source individual files as you mentioned.  Although if I\nunderstand correctly, I need to be careful with that because the\nsourced files will affect the bindings in a different namespace than\nthe original package.  Hmm, to continue with this thought, I guess I\ncould just write a file that sources all the files in the package;\nthat way I think I could just source the file I changed and the other\nfiles, because they were installed in the default namespace, would\nread the changed file.\n\n\nThanks again,\n\n-- \nBen Escoto\n\n----------------- Original message -----------------\nFrom: Romain Francois <romain.francois at dbmail.com>\nTo: Ben <misc7 at emerose.org>\nDate: Wed, 21 Oct 2009 08:14:52 +0200\nOn 10/21/2009 05:40 AM, Ben wrote:\n>\n> Hi all,\n>\n> I'm new to R but would like to work on (and hopefully contribute\n> usefully to) Markus Gesmann's excellent ChainLadder package.  However,\n> I don't have a development loop in place, so I'd appreciate some\n> guidance on how best to work on this.  I have the actual package\n> installed in\n>\n>      ~/R/x86_64-pc-linux-gnu-library/2.8/ChainLadder\n>\n> and I have the code checked out from subversion in:\n>\n>      ~/prog/chainladder-read-only\n\nHi,\n\nwhat you checked out is the source of the package, this is really \ndifferent from the compiled package you'll find in \n/R/x86_64-pc-linux-gnu-library/2.8/ChainLadder which is the kind of \nstructure \"library\" expects.\n\nThe best way is to recompile the package after your change, i.e.\n\ncd prog\nR CMD build chainladder-read-only\nR CMD INSTALL ChainLadder*.tar.gz \n--library=~/R/x86_64-pc-linux-gnu-library/2.8\n\n\nBut you can also just source the file you modified, something like :\n\nR> chainladder.dir <- \"~/prog/chainladder-read-only/R\"\nR> source( file.path( chainladder.dir, \"Triangles.R\" ) )\n\nRomain\n\n> I'd like some way of editing the files,\n> e.g. ~/prog/chainladder-read-only/R/Triangles.R and testing it without\n> having to make a whole new package and install it.  However, I can't\n> seem to load the package from my subversion directory:\n>\n>      >  library(ChainLadder, lib=\"~/prog\")\n>      Error in library(ChainLadder, lib = \"~/prog/chainladder-read-only\") :\n>        there is no package called 'ChainLadder'\n>\n> if I make the symbolic link \"ChainLadder\" to \"chainladder-read-only\" I\n> get:\n>\n>      >  library(ChainLadder, lib=\"~/prog\")\n>      Error in library(ChainLadder, lib = \"~/prog\") :\n>        'ChainLadder' is not a valid package -- installed<  2.0.0?\n>\n> which I don't know what it means and google isn't super-helpful.  I'm\n> also not even sure I'm on the right track.\n>\n> So anyway, I'd really appreciate it if Markus or another ChainLadder\n> or R guru has some tips on how best to use subversion and R.  If it\n> matters, I'm using emacs/ESS as my editor.\n>\n> Thank you very much,\n>\n\n\n-- \nRomain Francois\nProfessional R Enthusiast\n+33(0) 6 28 91 30 30\nhttp://romainfrancois.blog.free.fr\n|- http://tr.im/BcPw : celebrating R commit #50000\n|- http://tr.im/ztCu : RGG #158:161: examples of package IDPmisc\n`- http://tr.im/yw8E : New R package : sos",
+      "body_snippet": "Thank you very much Romain, these commands work.  I thought R (being\nan interpreted language, and no part of this package needs\ncompilation) might have a short-cut to reload a module without\ninstallin",
+      "thread_id": "thread-520e87e5dcc4",
+      "thread_depth": 2,
+      "month": "2009-10"
+    },
+    {
+      "id": "msg-88684e8a90ec",
+      "message_id": "<4ADEB317.3030700@dbmail.com>",
+      "from_name": "Romain Francois",
+      "from_email_hash": "59e39d3ea92dfd200ae594261b1588764b0f983f395cce1fc006e71efaf2c073",
+      "date": "2009-10-21T09:07:03+02:00",
+      "subject": "[R-sig-ins] Hacking on the ChainLadder package?",
+      "subject_clean": "Hacking on the ChainLadder package?",
+      "in_reply_to": "<20091021015626.91d9619d.misc7@emerose.org>",
+      "references": [
+        "<20091020224035.9dbcd8cf.misc7@emerose.org>",
+        "<4ADEA6DC.40401@dbmail.com>",
+        "<20091021015626.91d9619d.misc7@emerose.org>"
+      ],
+      "body_plain": "On 10/21/2009 08:56 AM, Ben wrote:\n>\n> Thank you very much Romain, these commands work.  I thought R (being\n> an interpreted language, and no part of this package needs\n> compilation) might have a short-cut to reload a module without\n> installing, but it really doesn't matter because the build/install\n> process runs in a few seconds on my computer anyway.\n\nIt's not actually compilation. It just sort of organize the files, \narchive them, ... there is currently no compilation in byte code or \nanything.\n\n> I can also source individual files as you mentioned.  Although if I\n> understand correctly, I need to be careful with that because the\n> sourced files will affect the bindings in a different namespace than\n> the original package.  Hmm, to continue with this thought, I guess I\n> could just write a file that sources all the files in the package;\n> that way I think I could just source the file I changed and the other\n> files, because they were installed in the default namespace, would\n> read the changed file.\n\nThen you want to have a look at ?assignInNamespace or ?sys.source (untested)\n\nsys.source( \"Triangle.R\", env = asNamespace( \"ChainLadder\" ) )\n\nIt probably won't work because the bindings in the namespace are \nprobably locked, so you might want to unlock them first :\n\nNAMESPACE <- asNamespace(\"ChainLadder\")\nsapply( ls( envir = NAMESPACE ), unlockBinding, env = NAMESPACE )\nsys.source( \"Triangle.R\", env = asNamespace( \"ChainLadder\" ) )\n\nBut all of this is quite dangerous and won't work if the package uses \nvarious kinds of NAMESPACE trickery, etc ... but for packages with just \nstandard functions, it might work.\n\n> Thanks again,\n>\n\n\n-- \nRomain Francois\nProfessional R Enthusiast\n+33(0) 6 28 91 30 30\nhttp://romainfrancois.blog.free.fr\n|- http://tr.im/BcPw : celebrating R commit #50000\n|- http://tr.im/ztCu : RGG #158:161: examples of package IDPmisc\n`- http://tr.im/yw8E : New R package : sos",
+      "body_snippet": "On 10/21/2009 08:56 AM, Ben wrote:\n>\n> Thank you very much Romain, these commands work.  I thought R (being\n> an interpreted language, and no part of this package needs\n> compilation) might have a sho",
+      "thread_id": "thread-520e87e5dcc4",
+      "thread_depth": 3,
+      "month": "2009-10"
+    },
+    {
+      "id": "msg-02bce4c1cb9a",
+      "message_id": "<EDEA168D-FC45-4A81-9872-C04BDA7149CE@gmail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
+      "date": "2009-10-21T23:08:04+01:00",
+      "subject": "[R-sig-ins] ChainLadder package new version 0.1.2-12",
+      "subject_clean": "ChainLadder package new version 0.1.2-12",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all,\n\nI have uploaded version 0.1.2-12 of the ChainLadder package to http://code.google.com/p/chainladder/\nThe new version has some new features which you might really like:\n\nNEW FEATURES\n  o New triangle class with S3 methods for plot, print and conversion  \nfrom triangles to data.frames and vis versa\n  o New utility functions 'incr2cum' and 'cum2incr' to convert  \nincremental triangles into cumulative triangles\n  and vis versa. Thanks to Chritophe Dutang.\n  o New logical argument lattice for plot.MackChainLadder (and  \nplot.triangle), which allows to plot developments\n    by origin period in separate panels.\n\nBUG FIXES\n   o 'MunichChainLadder': tail factors were not accepted. Thanks to  \nStefan Pohl for reporting this issue.\n\nEXAMPLES\nPlease see a few examples here http://code.google.com/p/chainladder/wiki/Examples\n\nDOWNLOAD\nYou can get the new version currently from the project web site at http://code.google.com/p/chainladder/downloads/list\nThe source code is available here: http://code.google.com/p/chainladder/source/browse/#svn/trunk\n\nI intend to upload the new version to CRAN soon. Therefore, any  \nfeedback will be much appreciated!\n\nBest regards\n\nMarkus",
+      "body_snippet": "Hi all,\n\nI have uploaded version 0.1.2-12 of the ChainLadder package to http://code.google.com/p/chainladder/\nThe new version has some new features which you might really like:\n\nNEW FEATURES\n  o New t",
+      "thread_id": "thread-02bce4c1cb9a",
+      "thread_depth": 0,
+      "month": "2009-10"
+    },
+    {
+      "id": "msg-18e9544f52fe",
+      "message_id": "<20091022203008.d3ad3cb7.misc7@emerose.org>",
+      "from_name": "Ben",
+      "from_email_hash": "81e4f9021427e7d42d448f2b6873b3a1a410631781ef43136c35b0e2001e62d4",
+      "date": "2009-10-22T20:30:08-05:00",
+      "subject": "[R-sig-ins] Hacking on the ChainLadder package?",
+      "subject_clean": "Hacking on the ChainLadder package?",
+      "in_reply_to": "<4ADEB317.3030700@dbmail.com>",
+      "references": [
+        "<20091020224035.9dbcd8cf.misc7@emerose.org>",
+        "<4ADEA6DC.40401@dbmail.com>",
+        "<20091021015626.91d9619d.misc7@emerose.org>",
+        "<4ADEB317.3030700@dbmail.com>"
+      ],
+      "body_plain": "Thanks, Romain, your trick below works great for editing functions in\npackages.  However, it appears that introducing a new binding to a\nlocked namespace/environment (are these synonyms?) fails, and\nunlockBinding doesn't work because there is nothing there to unlock\nyet.  e.g.,\n\n> sys.source(\"MackChainLadderFunctions.R\", env = asNamespace( \"ChainLadder\" ))\nError in eval(expr, envir, enclos) : \n  cannot add bindings to a locked environment\n\nIs there some way to add a new function to a locked package?\n\nThanks,\n\n-- \nBen Escoto\n\n----------------- Original message -----------------\nFrom: Romain Francois <romain.francois at dbmail.com>\nTo: Ben <misc7 at emerose.org>\nDate: Wed, 21 Oct 2009 09:07:03 +0200\n...\n\nThen you want to have a look at ?assignInNamespace or ?sys.source (untested)\n\nsys.source( \"Triangle.R\", env = asNamespace( \"ChainLadder\" ) )\n\nIt probably won't work because the bindings in the namespace are \nprobably locked, so you might want to unlock them first :\n\nNAMESPACE <- asNamespace(\"ChainLadder\")\nsapply( ls( envir = NAMESPACE ), unlockBinding, env = NAMESPACE )\nsys.source( \"Triangle.R\", env = asNamespace( \"ChainLadder\" ) )\n\nBut all of this is quite dangerous and won't work if the package uses \nvarious kinds of NAMESPACE trickery, etc ... but for packages with just \nstandard functions, it might work.\n\n...\n\n-- \nRomain Francois\nProfessional R Enthusiast\n+33(0) 6 28 91 30 30\nhttp://romainfrancois.blog.free.fr\n|- http://tr.im/BcPw : celebrating R commit #50000\n|- http://tr.im/ztCu : RGG #158:161: examples of package IDPmisc\n`- http://tr.im/yw8E : New R package : sos",
+      "body_snippet": "Thanks, Romain, your trick below works great for editing functions in\npackages.  However, it appears that introducing a new binding to a\nlocked namespace/environment (are these synonyms?) fails, and\nu",
+      "thread_id": "thread-520e87e5dcc4",
+      "thread_depth": 4,
+      "month": "2009-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-117eb2b43568",
+      "subject": "Frequency of loss models  ZM - Modelos de frecuencia de pérdidas ZM",
+      "message_count": 4,
+      "participants": [
+        "Cesar Escalante Coterio - CIENCIAS BASICAS",
+        "Christophe Dutang",
+        "David Winsemius"
+      ],
+      "started": "2009-10-06T12:55:36-05:00",
+      "last_reply": "2009-10-08T10:57:42-05:00",
+      "root_message_id": "msg-117eb2b43568"
+    },
+    {
+      "id": "thread-520e87e5dcc4",
+      "subject": "Hacking on the ChainLadder package?",
+      "message_count": 6,
+      "participants": [
+        "Ben",
+        "Christophe Dutang",
+        "Romain Francois"
+      ],
+      "started": "2009-10-20T22:40:35-05:00",
+      "last_reply": "2009-10-22T20:30:08-05:00",
+      "root_message_id": "msg-520e87e5dcc4"
+    },
+    {
+      "id": "thread-02bce4c1cb9a",
+      "subject": "ChainLadder package new version 0.1.2-12",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2009-10-21T23:08:04+01:00",
+      "last_reply": "2009-10-21T23:08:04+01:00",
+      "root_message_id": "msg-02bce4c1cb9a"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2012-11",
+  "messages": [
+    {
+      "id": "msg-893f539107e1",
+      "message_id": "<F9DC3A5D0420BA4C9DDB2414825640F1016C5AAAD543@MBXVS01.HMC.local>",
+      "from_name": "andres.susrud at killiconsult.no",
+      "from_email_hash": "846f89cfcb878e7e9624a056b706fa7833ec0b95b017542cc2e9cd187a853095",
+      "date": "2012-11-01T09:09:03+01:00",
+      "subject": "[R-sig-ins] documentation on TVOG for market consistent embedded value calculation",
+      "subject_clean": "documentation on TVOG for market consistent embedded value calculation",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121101/0b42a44f/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121101/0b42a44f/attachment.pl>",
+      "thread_id": "thread-893f539107e1",
+      "thread_depth": 0,
+      "month": "2012-11"
+    },
+    {
+      "id": "msg-d6f1be72c6c6",
+      "message_id": "<1178073719.3126.1351781187373.JavaMail.help@alum.mit.edu>",
+      "from_name": "Lisa Solomon",
+      "from_email_hash": "3b5f37573428031d0b37829ae63f3922f3346b89aa579ecc548938a78e7dc55b",
+      "date": "2012-11-01T10:46:27-04:00",
+      "subject": "[R-sig-ins] Webinar signup: Gradient Boosting and Classification Trees: A Winning Combination. November 9, 10-11 a.m., PST",
+      "subject_clean": "Webinar signup: Gradient Boosting and Classification Trees: A Winning Combination. November 9, 10-11 a.m., PST",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Webinar signup: \nGradient Boosting, Tree Ensembles and Classification Trees: A Winning Combination\nNovember 9, 10-11 a.m., PST.\n\nWebinar Registration: \nhttp://2.salford-systems.com/gradientboosting/ \n\nUnderstand major shortcomings of using only decision trees and how tree ensembles can help overcome these challenges and improve your model building. Combine all of the advantages of using classification and regression trees with the power-house accuracy and interpretability of stochastic gradient boosting.",
+      "body_snippet": "Webinar signup: \nGradient Boosting, Tree Ensembles and Classification Trees: A Winning Combination\nNovember 9, 10-11 a.m., PST.\n\nWebinar Registration: \nhttp://2.salford-systems.com/gradientboosting/ \n",
+      "thread_id": "thread-d6f1be72c6c6",
+      "thread_depth": 0,
+      "month": "2012-11"
+    },
+    {
+      "id": "msg-7732fd7d320a",
+      "message_id": "<OF9BABA070.2B0A6D2D-ON80257AA9.0058181F-80257AA9.0058181F@notes.royalsun.com>",
+      "from_name": "Alan Chalk",
+      "from_email_hash": "28984665461089ab07f986707f245987cbe2a550b4746bdf9f7861c823ad33e8",
+      "date": "2012-11-01T16:02:13Z",
+      "subject": "[R-sig-ins] AUTO: Alan Chalk has left RSA (returning 30/11/2012)",
+      "subject_clean": "AUTO: Alan Chalk has left RSA (returning 30/11/2012)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121101/e73e1887/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121101/e73e1887/attachment.pl>",
+      "thread_id": "thread-7732fd7d320a",
+      "thread_depth": 0,
+      "month": "2012-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-893f539107e1",
+      "subject": "documentation on TVOG for market consistent embedded value calculation",
+      "message_count": 1,
+      "participants": [
+        "andres.susrud at killiconsult.no"
+      ],
+      "started": "2012-11-01T09:09:03+01:00",
+      "last_reply": "2012-11-01T09:09:03+01:00",
+      "root_message_id": "msg-893f539107e1"
+    },
+    {
+      "id": "thread-d6f1be72c6c6",
+      "subject": "Webinar signup: Gradient Boosting and Classification Trees: A Winning Combination. November 9, 10-11 a.m., PST",
+      "message_count": 1,
+      "participants": [
+        "Lisa Solomon"
+      ],
+      "started": "2012-11-01T10:46:27-04:00",
+      "last_reply": "2012-11-01T10:46:27-04:00",
+      "root_message_id": "msg-d6f1be72c6c6"
+    },
+    {
+      "id": "thread-7732fd7d320a",
+      "subject": "AUTO: Alan Chalk has left RSA (returning 30/11/2012)",
+      "message_count": 1,
+      "participants": [
+        "Alan Chalk"
+      ],
+      "started": "2012-11-01T16:02:13+00:00",
+      "last_reply": "2012-11-01T16:02:13+00:00",
+      "root_message_id": "msg-7732fd7d320a"
+    }
+  ]
+}

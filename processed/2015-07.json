@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2015-07",
+  "messages": [
+    {
+      "id": "msg-da97908323c7",
+      "message_id": "<786E0C0B-CE18-483F-85E5-BDDF3FED5558@gmail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
+      "date": "2015-07-13T07:05:11+01:00",
+      "subject": "[R-sig-ins] ChainLadder version 0.2.1 released on CRAN",
+      "subject_clean": "ChainLadder version 0.2.1 released on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Version 0.2.1 of the ChainLadder package for claims reserving has been pushed to CRAN (http://cran.at.r-project.org/package=ChainLadder):\n\nNEW FEATURES\n\n  o New function PaidIncurredChain by Fabio Concina, based on the\n     2010 Merz & Wuthrich paper Paid-incurred chain claims reserving method\n\n  o plot.MackChainLadder and plot.BootChainLadder gained new argument     \n     'which', allowing users to specify which sub-plot to display. \n     Thanks to Christophe Dutang for this suggestion.\n  \nChanges\n  \n  o Updated NAMESPACE file to comply with new R CMD checks in R-3.3.0\n  \n  o Removed package dependencies on grDevices and Hmisc\n  \n  o Expanded package vignette with new paragraph on importing spreadsheet\n     data, a new section \"Paid-Incurred Chain Model\" and an added example for\n     a full claims development picture in the \"One Year Claims Development\n     Result\" section.\n\n\nBinary versions of the package will appear on the various CRAN mirrors over the \nnext couple of days. Alternatively you can install ChainLadder directly from \nGitHub (https://github.com/mages/ChainLadder) using the following R commands:\n\ninstall.packages(c(?systemfit?, ?actuar\", \"statmod\", \"tweedie\", \"devtools\"))\nlibrary(devtools)\ninstall_github(\"mages/ChainLadder\")\n\nCompletely new to ChainLadder? Start with the package vignette:\nhttp://cran.at.r-project.org/web/packages/ChainLadder/vignettes/ChainLadder.pdf\n\n?\nMarkus Gesmann\nBlog: www.magesblog.com",
+      "body_snippet": "Version 0.2.1 of the ChainLadder package for claims reserving has been pushed to CRAN (http://cran.at.r-project.org/package=ChainLadder):\n\nNEW FEATURES\n\n  o New function PaidIncurredChain by Fabio Con",
+      "thread_id": "thread-da97908323c7",
+      "thread_depth": 0,
+      "month": "2015-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-da97908323c7",
+      "subject": "ChainLadder version 0.2.1 released on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2015-07-13T07:05:11+01:00",
+      "last_reply": "2015-07-13T07:05:11+01:00",
+      "root_message_id": "msg-da97908323c7"
+    }
+  ]
+}

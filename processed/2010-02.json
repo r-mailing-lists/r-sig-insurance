@@ -1,0 +1,63 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2010-02",
+  "messages": [
+    {
+      "id": "msg-496149974903",
+      "message_id": "<4b6ce283.0409c00a.68c4.4729@mx.google.com>",
+      "from_name": "Diego Mazzeo",
+      "from_email_hash": "ec40168eee0117da800ed0c02668efb4881e148ebd1b2c190ac2f15bdd9ba02e",
+      "date": "2010-02-06T00:26:20-03:00",
+      "subject": "[R-sig-ins] SOA CompAct - R Corner",
+      "subject_clean": "SOA CompAct - R Corner",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20100206/dc643b47/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20100206/dc643b47/attachment.pl>",
+      "thread_id": "thread-496149974903",
+      "thread_depth": 0,
+      "month": "2010-02"
+    },
+    {
+      "id": "msg-1bf820509fe7",
+      "message_id": "<19701474.10878.1266865591200.JavaMail.www@wwinf2207>",
+      "from_name": "jeanmichel.piat",
+      "from_email_hash": "dab7fc491382911e73b950e26131ed8f82a4976bd66180175d9c1abbd94b7173",
+      "date": "2010-02-22T20:06:31+01:00",
+      "subject": "[R-sig-ins] e-mail address",
+      "subject_clean": "e-mail address",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "",
+      "body_snippet": "",
+      "thread_id": "thread-1bf820509fe7",
+      "thread_depth": 0,
+      "month": "2010-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-496149974903",
+      "subject": "SOA CompAct - R Corner",
+      "message_count": 1,
+      "participants": [
+        "Diego Mazzeo"
+      ],
+      "started": "2010-02-06T00:26:20-03:00",
+      "last_reply": "2010-02-06T00:26:20-03:00",
+      "root_message_id": "msg-496149974903"
+    },
+    {
+      "id": "thread-1bf820509fe7",
+      "subject": "e-mail address",
+      "message_count": 1,
+      "participants": [
+        "jeanmichel.piat"
+      ],
+      "started": "2010-02-22T20:06:31+01:00",
+      "last_reply": "2010-02-22T20:06:31+01:00",
+      "root_message_id": "msg-1bf820509fe7"
+    }
+  ]
+}

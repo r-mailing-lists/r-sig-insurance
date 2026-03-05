@@ -1,0 +1,38 @@
+{
+  "list": "r-sig-insurance",
+  "description": "",
+  "month": "2018-06",
+  "messages": [
+    {
+      "id": "msg-fa3b4123ab93",
+      "message_id": "<561FC97B-63C9-4702-9C40-C484628EAEB0@googlemail.com>",
+      "from_name": "Markus Gesmann",
+      "from_email_hash": "41520ba2989cb3c2717fd179311316638fe32883e2951d4f2dd826b6f6a636dc",
+      "date": "2018-06-25T17:02:04+01:00",
+      "subject": "[R-sig-ins] Insurance Data Science conference & Stan Workshop, London 16 & 17 July 2018",
+      "subject_clean": "Insurance Data Science conference & Stan Workshop, London 16 & 17 July 2018",
+      "in_reply_to": "<A638EEBB-2881-4972-867A-09A9371363EF@googlemail.com>",
+      "references": [
+        "<A638EEBB-2881-4972-867A-09A9371363EF@googlemail.com>"
+      ],
+      "body_plain": "The online registration process for the Insurance Data Science conference and Stan Workshop, 16 - 17 July at Cass Business School London, closes next Monday, 2 July. Don?t miss out: https://insurancedatascience.org\n\n\n> On 21 May 2018, at 12:27, Markus Gesmann <markus.gesmann at googlemail.com> wrote:\n> \n> Dear all,\n> \n> The first Insurance Data Science conference at will take place at Cass Business School, London, 17 July 2018. It follows on from five iterations of the R in Insurance conferences. \n> \n> The programme is finalised and we have contributions to topics related to risk assessment, customer analytics, pricing, reserving, capital management, catastrophe and econometric modelling.  The keynote speakers are Prof. Dr. Gareth Peters (Heriot Watt University) and Eric Novik (CEO, Generable).\n> \n> For more details, registration and the conference programme visit: https://insurancedatascience.org <https://insurancedatascience.org/>\n> \n> The conference will be followed by a full-day Stan in insurance workshop with Eric Novik (Stan guru), Paul-Christian B?rkner (author of the ?brms? R package), Jake Morris (London Market actuary) and Mick Cooney (insurance data scientist).\n> \n> Key dates:\n> 31 May 2018: Early-bird registrations deadline \n> ?350.00 (Until 31st May), ?450.00 (From 1st June) for industry practitioner, \n> discounts for academics and PhD students are available too\n> 16 July 2018: Insurance Data Science Conference\n> 17 July 2018: Stan in Insurance workshop (separate event/registration from the conference)\n> We are looking forward to seeing you in London.\n> \n> Best regards\n> \n> Markus\n> \n> PS: Participants in the conference could claim up to a maximum of 6.5 hours of Continuing Professional Development. \n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "The online registration process for the Insurance Data Science conference and Stan Workshop, 16 - 17 July at Cass Business School London, closes next Monday, 2 July. Don?t miss out: https://insuranced",
+      "thread_id": "thread-fa3b4123ab93",
+      "thread_depth": 0,
+      "month": "2018-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-fa3b4123ab93",
+      "subject": "Insurance Data Science conference & Stan Workshop, London 16 & 17 July 2018",
+      "message_count": 1,
+      "participants": [
+        "Markus Gesmann"
+      ],
+      "started": "2018-06-25T17:02:04+01:00",
+      "last_reply": "2018-06-25T17:02:04+01:00",
+      "root_message_id": "msg-fa3b4123ab93"
+    }
+  ]
+}
