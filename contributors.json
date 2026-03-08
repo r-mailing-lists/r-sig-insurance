@@ -1,0 +1,429 @@
+[
+  {
+    "name": "Markus Gesmann",
+    "slug": "markus-gesmann",
+    "messageCount": 24,
+    "firstDate": "2009-10-21T23:08:04+01:00",
+    "lastDate": "2022-12-05T17:41:09+01:00",
+    "yearlyActivity": {
+      "2009": 3,
+      "2010": 2,
+      "2012": 1,
+      "2013": 1,
+      "2014": 4,
+      "2015": 2,
+      "2016": 2,
+      "2018": 4,
+      "2019": 2,
+      "2020": 2,
+      "2022": 1
+    }
+  },
+  {
+    "name": "Christophe Dutang",
+    "slug": "christophe-dutang",
+    "messageCount": 14,
+    "firstDate": "2009-08-24T22:40:27+02:00",
+    "lastDate": "2016-11-23T13:31:46+01:00",
+    "yearlyActivity": {
+      "2009": 3,
+      "2010": 1,
+      "2011": 1,
+      "2014": 3,
+      "2015": 4,
+      "2016": 2
+    }
+  },
+  {
+    "name": "Dan Murphy",
+    "slug": "dan-murphy",
+    "messageCount": 10,
+    "firstDate": "2013-02-11T05:15:14-08:00",
+    "lastDate": "2014-10-22T23:23:51-07:00",
+    "yearlyActivity": {
+      "2013": 1,
+      "2014": 9
+    }
+  },
+  {
+    "name": "David Winsemius",
+    "slug": "david-winsemius",
+    "messageCount": 5,
+    "firstDate": "2009-10-06T14:58:45-04:00",
+    "lastDate": "2014-10-22T12:56:38-07:00",
+    "yearlyActivity": {
+      "2009": 1,
+      "2014": 4
+    }
+  },
+  {
+    "name": "Brian Fannin",
+    "slug": "brian-fannin",
+    "messageCount": 5,
+    "firstDate": "2014-09-29T01:03:00+00:00",
+    "lastDate": "2014-10-01T21:01:25+00:00",
+    "yearlyActivity": {
+      "2014": 5
+    }
+  },
+  {
+    "name": "Gesmann, Markus",
+    "slug": "gesmann-markus",
+    "messageCount": 5,
+    "firstDate": "2014-09-11T10:28:56+00:00",
+    "lastDate": "2016-02-09T11:01:42+00:00",
+    "yearlyActivity": {
+      "2014": 1,
+      "2015": 3,
+      "2016": 1
+    }
+  },
+  {
+    "name": "Lisa Solomon",
+    "slug": "lisa-solomon",
+    "messageCount": 4,
+    "firstDate": "2012-11-01T10:46:27-04:00",
+    "lastDate": "2015-01-12T14:22:37-06:00",
+    "yearlyActivity": {
+      "2012": 2,
+      "2013": 1,
+      "2015": 1
+    }
+  },
+  {
+    "name": "Diego Mazzeo",
+    "slug": "diego-mazzeo",
+    "messageCount": 3,
+    "firstDate": "2009-08-18T20:46:15-03:00",
+    "lastDate": "2011-02-04T01:20:03-03:00",
+    "yearlyActivity": {
+      "2009": 1,
+      "2010": 1,
+      "2011": 1
+    }
+  },
+  {
+    "name": "Vincent Goulet",
+    "slug": "vincent-goulet",
+    "messageCount": 3,
+    "firstDate": "2009-05-18T22:26:16-04:00",
+    "lastDate": "2016-11-14T14:06:23+00:00",
+    "yearlyActivity": {
+      "2009": 2,
+      "2016": 1
+    }
+  },
+  {
+    "name": "Zhang,Yanwei",
+    "slug": "zhang-yanwei",
+    "messageCount": 3,
+    "firstDate": "2011-08-29T13:20:44-05:00",
+    "lastDate": "2011-10-26T13:49:09-05:00",
+    "yearlyActivity": {
+      "2011": 3
+    }
+  },
+  {
+    "name": "Ben",
+    "slug": "ben",
+    "messageCount": 3,
+    "firstDate": "2009-10-20T22:40:35-05:00",
+    "lastDate": "2009-10-22T20:30:08-05:00",
+    "yearlyActivity": {
+      "2009": 3
+    }
+  },
+  {
+    "name": "Charles Thuo",
+    "slug": "charles-thuo",
+    "messageCount": 3,
+    "firstDate": "2014-10-23T08:20:49+03:00",
+    "lastDate": "2015-06-10T14:14:38+03:00",
+    "yearlyActivity": {
+      "2014": 1,
+      "2015": 2
+    }
+  },
+  {
+    "name": "Cesar Escalante Coterio - CIENCIAS BASICAS",
+    "slug": "cesar-escalante-coterio-ciencias-basicas",
+    "messageCount": 2,
+    "firstDate": "2009-10-06T12:55:36-05:00",
+    "lastDate": "2009-10-08T10:57:42-05:00",
+    "yearlyActivity": {
+      "2009": 2
+    }
+  },
+  {
+    "name": "Spedicato.giorgio",
+    "slug": "spedicato-giorgio",
+    "messageCount": 2,
+    "firstDate": "2011-09-08T20:50:07+02:00",
+    "lastDate": "2012-03-10T16:01:15+01:00",
+    "yearlyActivity": {
+      "2011": 1,
+      "2012": 1
+    }
+  },
+  {
+    "name": "Romain Francois",
+    "slug": "romain-francois",
+    "messageCount": 2,
+    "firstDate": "2009-10-21T08:14:52+02:00",
+    "lastDate": "2009-10-21T09:07:03+02:00",
+    "yearlyActivity": {
+      "2009": 2
+    }
+  },
+  {
+    "name": "Fabio CASTANEDA",
+    "slug": "fabio-castaneda",
+    "messageCount": 2,
+    "firstDate": "2011-08-04T17:21:33+02:00",
+    "lastDate": "2011-08-18T12:52:25+02:00",
+    "yearlyActivity": {
+      "2011": 2
+    }
+  },
+  {
+    "name": "Alan Chalk",
+    "slug": "alan-chalk",
+    "messageCount": 2,
+    "firstDate": "2009-04-29T08:00:38+01:00",
+    "lastDate": "2012-11-01T16:02:13+00:00",
+    "yearlyActivity": {
+      "2009": 1,
+      "2012": 1
+    }
+  },
+  {
+    "name": "Edward Roche",
+    "slug": "edward-roche",
+    "messageCount": 2,
+    "firstDate": "2014-09-27T00:16:41+01:00",
+    "lastDate": "2014-09-30T00:19:16+01:00",
+    "yearlyActivity": {
+      "2014": 2
+    }
+  },
+  {
+    "name": "Ralph Scherer",
+    "slug": "ralph-scherer",
+    "messageCount": 2,
+    "firstDate": "2015-08-12T20:38:41+02:00",
+    "lastDate": "2015-08-13T13:39:26+02:00",
+    "yearlyActivity": {
+      "2015": 2
+    }
+  },
+  {
+    "name": "Giorgio Spedicato",
+    "slug": "giorgio-spedicato",
+    "messageCount": 1,
+    "firstDate": "2013-10-30T23:24:02+01:00",
+    "lastDate": "2013-10-30T23:24:02+01:00",
+    "yearlyActivity": {
+      "2013": 1
+    }
+  },
+  {
+    "name": "Gerald Reymari Cagayan",
+    "slug": "gerald-reymari-cagayan",
+    "messageCount": 1,
+    "firstDate": "2016-04-05T03:53:25+08:00",
+    "lastDate": "2016-04-05T03:53:25+08:00",
+    "yearlyActivity": {
+      "2016": 1
+    }
+  },
+  {
+    "name": "andres.susrud at killiconsult.no",
+    "slug": "andres-susrud-at-killiconsult-no",
+    "messageCount": 1,
+    "firstDate": "2012-11-01T09:09:03+01:00",
+    "lastDate": "2012-11-01T09:09:03+01:00",
+    "yearlyActivity": {
+      "2012": 1
+    }
+  },
+  {
+    "name": "Herbert Desson",
+    "slug": "herbert-desson",
+    "messageCount": 1,
+    "firstDate": "2016-04-05T17:18:39+07:00",
+    "lastDate": "2016-04-05T17:18:39+07:00",
+    "yearlyActivity": {
+      "2016": 1
+    }
+  },
+  {
+    "name": "Kevin Kuo",
+    "slug": "kevin-kuo",
+    "messageCount": 1,
+    "firstDate": "2019-03-15T14:16:01-07:00",
+    "lastDate": "2019-03-15T14:16:01-07:00",
+    "yearlyActivity": {
+      "2019": 1
+    }
+  },
+  {
+    "name": "Sahasrabuddhe, Rajesh",
+    "slug": "sahasrabuddhe-rajesh",
+    "messageCount": 1,
+    "firstDate": "2015-08-13T08:04:36-04:00",
+    "lastDate": "2015-08-13T08:04:36-04:00",
+    "yearlyActivity": {
+      "2015": 1
+    }
+  },
+  {
+    "name": "Richman, Ronald",
+    "slug": "richman-ronald",
+    "messageCount": 1,
+    "firstDate": "2014-09-30T07:13:09+00:00",
+    "lastDate": "2014-09-30T07:13:09+00:00",
+    "yearlyActivity": {
+      "2014": 1
+    }
+  },
+  {
+    "name": "jeanmichel.piat",
+    "slug": "jeanmichel-piat",
+    "messageCount": 1,
+    "firstDate": "2010-02-22T20:06:31+01:00",
+    "lastDate": "2010-02-22T20:06:31+01:00",
+    "yearlyActivity": {
+      "2010": 1
+    }
+  },
+  {
+    "name": "Ralph.Scherer at trb.talanx.com",
+    "slug": "ralph-scherer-at-trb-talanx-com",
+    "messageCount": 1,
+    "firstDate": "2014-09-11T10:14:51+00:00",
+    "lastDate": "2014-09-11T10:14:51+00:00",
+    "yearlyActivity": {
+      "2014": 1
+    }
+  },
+  {
+    "name": "Sherry Lamonica",
+    "slug": "sherry-lamonica",
+    "messageCount": 1,
+    "firstDate": "2016-03-31T08:31:29-07:00",
+    "lastDate": "2016-03-31T08:31:29-07:00",
+    "yearlyActivity": {
+      "2016": 1
+    }
+  },
+  {
+    "name": "Meyers, Glenn G.",
+    "slug": "meyers-glenn-g",
+    "messageCount": 1,
+    "firstDate": "2009-11-02T10:41:37-05:00",
+    "lastDate": "2009-11-02T10:41:37-05:00",
+    "yearlyActivity": {
+      "2009": 1
+    }
+  },
+  {
+    "name": "Bailey Pinney",
+    "slug": "bailey-pinney",
+    "messageCount": 1,
+    "firstDate": "2015-01-30T21:00:21+00:00",
+    "lastDate": "2015-01-30T21:00:21+00:00",
+    "yearlyActivity": {
+      "2015": 1
+    }
+  },
+  {
+    "name": "Syed Danish Ali",
+    "slug": "syed-danish-ali",
+    "messageCount": 1,
+    "firstDate": "2014-05-27T09:32:21-07:00",
+    "lastDate": "2014-05-27T09:32:21-07:00",
+    "yearlyActivity": {
+      "2014": 1
+    }
+  },
+  {
+    "name": "Klein, Kere",
+    "slug": "klein-kere",
+    "messageCount": 1,
+    "firstDate": "2016-06-22T23:42:38+00:00",
+    "lastDate": "2016-06-22T23:42:38+00:00",
+    "yearlyActivity": {
+      "2016": 1
+    }
+  },
+  {
+    "name": "Konan Eugène KOUADIO",
+    "slug": "konan-eug-ne-kouadio",
+    "messageCount": 1,
+    "firstDate": "2010-11-22T12:02:51+00:00",
+    "lastDate": "2010-11-22T12:02:51+00:00",
+    "yearlyActivity": {
+      "2010": 1
+    }
+  },
+  {
+    "name": "Mark Shapland",
+    "slug": "mark-shapland",
+    "messageCount": 1,
+    "firstDate": "2014-10-02T05:14:26+00:00",
+    "lastDate": "2014-10-02T05:14:26+00:00",
+    "yearlyActivity": {
+      "2014": 1
+    }
+  },
+  {
+    "name": "enkhorkhon",
+    "slug": "enkhorkhon",
+    "messageCount": 1,
+    "firstDate": "2011-06-13T21:12:41+08:00",
+    "lastDate": "2011-06-13T21:12:41+08:00",
+    "yearlyActivity": {
+      "2011": 1
+    }
+  },
+  {
+    "name": "R. Mark Sharp",
+    "slug": "r-mark-sharp",
+    "messageCount": 1,
+    "firstDate": "2019-03-15T15:45:38-05:00",
+    "lastDate": "2019-03-15T15:45:38-05:00",
+    "yearlyActivity": {
+      "2019": 1
+    }
+  },
+  {
+    "name": "aurelien.leguay at hsbc.fr",
+    "slug": "aurelien-leguay-at-hsbc-fr",
+    "messageCount": 1,
+    "firstDate": "2010-05-05T22:45:28+02:00",
+    "lastDate": "2010-05-05T22:45:28+02:00",
+    "yearlyActivity": {
+      "2010": 1
+    }
+  },
+  {
+    "name": "RATIARISON Eric",
+    "slug": "ratiarison-eric",
+    "messageCount": 1,
+    "firstDate": "2010-05-05T22:19:33+02:00",
+    "lastDate": "2010-05-05T22:19:33+02:00",
+    "yearlyActivity": {
+      "2010": 1
+    }
+  },
+  {
+    "name": "Daniel Murphy",
+    "slug": "daniel-murphy",
+    "messageCount": 1,
+    "firstDate": "2010-11-13T11:55:47-08:00",
+    "lastDate": "2010-11-13T11:55:47-08:00",
+    "yearlyActivity": {
+      "2010": 1
+    }
+  }
+]
