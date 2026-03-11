@@ -8,7 +8,7 @@
       "message_id": "<1454932067.6037.1355428851959.JavaMail.help@alum.mit.edu>",
       "from_name": "Lisa Solomon",
       "from_email_hash": "3b5f37573428031d0b37829ae63f3922f3346b89aa579ecc548938a78e7dc55b",
-      "date": "2012-12-13T15:00:51-05:00",
+      "date": "2012-12-13T20:00:51Z",
       "subject": "[R-sig-ins] Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
       "subject_clean": "Webinar: Advances in Gradient Boosting: the Power of Post-Processing. TOMORROW, 10-11 a.m., PST",
       "in_reply_to": null,
@@ -46,8 +46,8 @@
       "participants": [
         "Lisa Solomon"
       ],
-      "started": "2012-12-13T15:00:51-05:00",
-      "last_reply": "2012-12-13T15:00:51-05:00",
+      "started": "2012-12-13T20:00:51Z",
+      "last_reply": "2012-12-13T20:00:51Z",
       "root_message_id": "msg-d3068d5defc5"
     },
     {
@@ -57,8 +57,8 @@
       "participants": [
         "Markus Gesmann"
       ],
-      "started": "2012-12-19T07:45:26+00:00",
-      "last_reply": "2012-12-19T07:45:26+00:00",
+      "started": "2012-12-19T07:45:26Z",
+      "last_reply": "2012-12-19T07:45:26Z",
       "root_message_id": "msg-19fcd3e1ba9b"
     }
   ]

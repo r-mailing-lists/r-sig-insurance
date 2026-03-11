@@ -8,7 +8,7 @@
       "message_id": "<F9DC3A5D0420BA4C9DDB2414825640F1016C5AAAD543@MBXVS01.HMC.local>",
       "from_name": "andres.susrud at killiconsult.no",
       "from_email_hash": "846f89cfcb878e7e9624a056b706fa7833ec0b95b017542cc2e9cd187a853095",
-      "date": "2012-11-01T09:09:03+01:00",
+      "date": "2012-11-01T08:09:03Z",
       "subject": "[R-sig-ins] documentation on TVOG for market consistent embedded value calculation",
       "subject_clean": "documentation on TVOG for market consistent embedded value calculation",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<1178073719.3126.1351781187373.JavaMail.help@alum.mit.edu>",
       "from_name": "Lisa Solomon",
       "from_email_hash": "3b5f37573428031d0b37829ae63f3922f3346b89aa579ecc548938a78e7dc55b",
-      "date": "2012-11-01T10:46:27-04:00",
+      "date": "2012-11-01T14:46:27Z",
       "subject": "[R-sig-ins] Webinar signup: Gradient Boosting and Classification Trees: A Winning Combination. November 9, 10-11 a.m., PST",
       "subject_clean": "Webinar signup: Gradient Boosting and Classification Trees: A Winning Combination. November 9, 10-11 a.m., PST",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "andres.susrud at killiconsult.no"
       ],
-      "started": "2012-11-01T09:09:03+01:00",
-      "last_reply": "2012-11-01T09:09:03+01:00",
+      "started": "2012-11-01T08:09:03Z",
+      "last_reply": "2012-11-01T08:09:03Z",
       "root_message_id": "msg-893f539107e1"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "Lisa Solomon"
       ],
-      "started": "2012-11-01T10:46:27-04:00",
-      "last_reply": "2012-11-01T10:46:27-04:00",
+      "started": "2012-11-01T14:46:27Z",
+      "last_reply": "2012-11-01T14:46:27Z",
       "root_message_id": "msg-d6f1be72c6c6"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "Alan Chalk"
       ],
-      "started": "2012-11-01T16:02:13+00:00",
-      "last_reply": "2012-11-01T16:02:13+00:00",
+      "started": "2012-11-01T16:02:13Z",
+      "last_reply": "2012-11-01T16:02:13Z",
       "root_message_id": "msg-7732fd7d320a"
     }
   ]

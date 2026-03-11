@@ -8,7 +8,7 @@
       "message_id": "<OF4372D36F.E3178633-ON802575A7.0025DEAB-802575A7.00268306@notes.royalsun.com>",
       "from_name": "Alan Chalk",
       "from_email_hash": "b6adde5590c195f73ecc9e934dedb0995c9439f77a4edd99c90e45d6d5e41969",
-      "date": "2009-04-29T08:00:38+01:00",
+      "date": "2009-04-29T07:00:38Z",
       "subject": "[R-sig-ins] Earthquake Models in R",
       "subject_clean": "Earthquake Models in R",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Alan Chalk"
       ],
-      "started": "2009-04-29T08:00:38+01:00",
-      "last_reply": "2009-04-29T08:00:38+01:00",
+      "started": "2009-04-29T07:00:38Z",
+      "last_reply": "2009-04-29T07:00:38Z",
       "root_message_id": "msg-3572cb4948ea"
     }
   ]

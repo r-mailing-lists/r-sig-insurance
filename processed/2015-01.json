@@ -8,7 +8,7 @@
       "message_id": "<2732C804E2DBB04AA90A678D76FAF2CC6236EB606D@DFW1MBX02.mex07a.mlsrvr.com>",
       "from_name": "Lisa Solomon",
       "from_email_hash": "375f0ace505fbda9906f09938aec4d544cea2804675c7fc389f42f5ebed96592",
-      "date": "2015-01-12T14:22:37-06:00",
+      "date": "2015-01-12T20:22:37Z",
       "subject": "[R-sig-ins] Tomorrow Webinar: Enter a KDD Cup or Kaggle Competition without being an expert!",
       "subject_clean": "Tomorrow Webinar: Enter a KDD Cup or Kaggle Competition without being an expert!",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Lisa Solomon"
       ],
-      "started": "2015-01-12T14:22:37-06:00",
-      "last_reply": "2015-01-12T14:22:37-06:00",
+      "started": "2015-01-12T20:22:37Z",
+      "last_reply": "2015-01-12T20:22:37Z",
       "root_message_id": "msg-463d6ac43690"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Bailey Pinney"
       ],
-      "started": "2015-01-30T21:00:21+00:00",
-      "last_reply": "2015-01-30T21:00:21+00:00",
+      "started": "2015-01-30T21:00:21Z",
+      "last_reply": "2015-01-30T21:00:21Z",
       "root_message_id": "msg-ffe7e78724de"
     }
   ]

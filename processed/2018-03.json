@@ -8,7 +8,7 @@
       "message_id": "<593D9E9C-684D-4A36-AF92-307C1402C2DF@googlemail.com>",
       "from_name": "Markus Gesmann",
       "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
-      "date": "2018-03-26T16:58:51+01:00",
+      "date": "2018-03-26T15:58:51Z",
       "subject": "[R-sig-ins] Insurance Data Science Conference 2018: Ticket Registration and Call for presentations",
       "subject_clean": "Insurance Data Science Conference 2018: Ticket Registration and Call for presentations",
       "in_reply_to": "<56498946-8A25-45DE-B4CC-60AA81A65D5E@googlemail.com>",
@@ -30,8 +30,8 @@
       "participants": [
         "Markus Gesmann"
       ],
-      "started": "2018-03-26T16:58:51+01:00",
-      "last_reply": "2018-03-26T16:58:51+01:00",
+      "started": "2018-03-26T15:58:51Z",
+      "last_reply": "2018-03-26T15:58:51Z",
       "root_message_id": "msg-b7197e7695eb"
     }
   ]

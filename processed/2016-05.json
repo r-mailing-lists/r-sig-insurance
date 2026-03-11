@@ -8,7 +8,7 @@
       "message_id": "<95AED2C4-D957-478D-9316-A15BFBD0CE89@googlemail.com>",
       "from_name": "Markus Gesmann",
       "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
-      "date": "2016-05-19T15:56:43+01:00",
+      "date": "2016-05-19T14:56:43Z",
       "subject": "[R-sig-ins] CONFERENCE: R in Insurance early booking advantage ends 30 May",
       "subject_clean": "CONFERENCE: R in Insurance early booking advantage ends 30 May",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Markus Gesmann"
       ],
-      "started": "2016-05-19T15:56:43+01:00",
-      "last_reply": "2016-05-19T15:56:43+01:00",
+      "started": "2016-05-19T14:56:43Z",
+      "last_reply": "2016-05-19T14:56:43Z",
       "root_message_id": "msg-779522d027c6"
     }
   ]

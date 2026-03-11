@@ -42,7 +42,7 @@
       "message_id": "<5425F3D9.4050708@yahoo.co.uk>",
       "from_name": "Edward Roche",
       "from_email_hash": "c431a87bfce169b6be5070edbdad8526999ff2aef9fc4f9a685e799e041004af",
-      "date": "2014-09-27T00:16:41+01:00",
+      "date": "2014-09-26T23:16:41Z",
       "subject": "[R-sig-ins] General Insurance Data",
       "subject_clean": "General Insurance Data",
       "in_reply_to": null,
@@ -58,7 +58,7 @@
       "message_id": "<263CECA0-CB51-4A21-9920-F9E5A1F00FBD@gmail.com>",
       "from_name": "Christophe Dutang",
       "from_email_hash": "71db47fbb88383c85c0a4105bb9dd5508a39e5eb48ded58e22bd31403fb35064",
-      "date": "2014-09-27T15:08:12+02:00",
+      "date": "2014-09-27T13:08:12Z",
       "subject": "[R-sig-ins] General Insurance Data",
       "subject_clean": "General Insurance Data",
       "in_reply_to": "<5425F3D9.4050708@yahoo.co.uk>",
@@ -76,7 +76,7 @@
       "message_id": "<22467A25-096C-4C1E-AED0-02EB39902203@gmail.com>",
       "from_name": "Markus Gesmann",
       "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
-      "date": "2014-09-28T11:36:02+01:00",
+      "date": "2014-09-28T10:36:02Z",
       "subject": "[R-sig-ins] General Insurance Data",
       "subject_clean": "General Insurance Data",
       "in_reply_to": "<263CECA0-CB51-4A21-9920-F9E5A1F00FBD@gmail.com>",
@@ -95,7 +95,7 @@
       "message_id": "<CAHgH9_F1xohemjo=Mk+MaJEG=e7LDUqdS+y9bAr58m+9N7NDcg@mail.gmail.com>",
       "from_name": "Dan Murphy",
       "from_email_hash": "0229b26428ac00a2f8e46076223dfbeff88021c4fa9d3dae1120dc1945d2e96b",
-      "date": "2014-09-28T12:21:25-07:00",
+      "date": "2014-09-28T19:21:25Z",
       "subject": "[R-sig-ins] R-SIG-insurance Digest, Vol 22, Issue 3",
       "subject_clean": "R-SIG-insurance Digest, Vol 22, Issue 3",
       "in_reply_to": "<mailman.3.1411898401.25327.r-sig-insurance@r-project.org>",
@@ -133,7 +133,7 @@
       "message_id": "<5429E8F4.2090609@yahoo.co.uk>",
       "from_name": "Edward Roche",
       "from_email_hash": "c431a87bfce169b6be5070edbdad8526999ff2aef9fc4f9a685e799e041004af",
-      "date": "2014-09-30T00:19:16+01:00",
+      "date": "2014-09-29T23:19:16Z",
       "subject": "[R-sig-ins] General Insurance Data",
       "subject_clean": "General Insurance Data",
       "in_reply_to": "<125d3ad45fec45baade2cb817996a8eb@ex01.redwoodsgroup.com>",
@@ -154,7 +154,7 @@
       "message_id": "<FCAF0708-6E3D-426A-A45C-E6F6954BBB0F@googlemail.com>",
       "from_name": "Markus Gesmann",
       "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
-      "date": "2014-09-30T03:36:26+01:00",
+      "date": "2014-09-30T02:36:26Z",
       "subject": "[R-sig-ins] General Insurance Data",
       "subject_clean": "General Insurance Data",
       "in_reply_to": "<5429E8F4.2090609@yahoo.co.uk>",
@@ -214,7 +214,7 @@
       "message_id": "<F171CF7B-9EE1-455B-8DBB-C8D890907EC7@gmail.com>",
       "from_name": "Christophe Dutang",
       "from_email_hash": "71db47fbb88383c85c0a4105bb9dd5508a39e5eb48ded58e22bd31403fb35064",
-      "date": "2014-09-30T17:30:06+02:00",
+      "date": "2014-09-30T15:30:06Z",
       "subject": "[R-sig-ins] General Insurance Data",
       "subject_clean": "General Insurance Data",
       "in_reply_to": "<93d0f9223ca044c7a30f7939cc9d0b3f@ex01.redwoodsgroup.com>",
@@ -266,8 +266,8 @@
         "Gesmann, Markus",
         "Ralph.Scherer at trb.talanx.com"
       ],
-      "started": "2014-09-11T10:14:51+00:00",
-      "last_reply": "2014-09-11T10:28:56+00:00",
+      "started": "2014-09-11T10:14:51Z",
+      "last_reply": "2014-09-11T10:28:56Z",
       "root_message_id": "msg-ce6e662ff2c7"
     },
     {
@@ -280,8 +280,8 @@
         "Edward Roche",
         "Markus Gesmann"
       ],
-      "started": "2014-09-27T00:16:41+01:00",
-      "last_reply": "2014-09-30T17:37:21+00:00",
+      "started": "2014-09-26T23:16:41Z",
+      "last_reply": "2014-09-30T17:37:21Z",
       "root_message_id": "msg-7dc315de4fbe"
     },
     {
@@ -291,8 +291,8 @@
       "participants": [
         "Dan Murphy"
       ],
-      "started": "2014-09-28T12:21:25-07:00",
-      "last_reply": "2014-09-28T12:21:25-07:00",
+      "started": "2014-09-28T19:21:25Z",
+      "last_reply": "2014-09-28T19:21:25Z",
       "root_message_id": "msg-36d0d6641591"
     },
     {
@@ -302,8 +302,8 @@
       "participants": [
         "Richman, Ronald"
       ],
-      "started": "2014-09-30T07:13:09+00:00",
-      "last_reply": "2014-09-30T07:13:09+00:00",
+      "started": "2014-09-30T07:13:09Z",
+      "last_reply": "2014-09-30T07:13:09Z",
       "root_message_id": "msg-93789042324a"
     }
   ]

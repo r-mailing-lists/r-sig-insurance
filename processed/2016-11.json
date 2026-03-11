@@ -24,7 +24,7 @@
       "message_id": "<256D6767-626C-40F4-9090-422577241764@gmail.com>",
       "from_name": "Christophe Dutang",
       "from_email_hash": "71db47fbb88383c85c0a4105bb9dd5508a39e5eb48ded58e22bd31403fb35064",
-      "date": "2016-11-23T13:31:46+01:00",
+      "date": "2016-11-23T12:31:46Z",
       "subject": "[R-sig-ins] R in Insurance conference, Paris, June 8 2017",
       "subject_clean": "R in Insurance conference, Paris, June 8 2017",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Vincent Goulet"
       ],
-      "started": "2016-11-14T14:06:23+00:00",
-      "last_reply": "2016-11-14T14:06:23+00:00",
+      "started": "2016-11-14T14:06:23Z",
+      "last_reply": "2016-11-14T14:06:23Z",
       "root_message_id": "msg-b74aa674681f"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Christophe Dutang"
       ],
-      "started": "2016-11-23T13:31:46+01:00",
-      "last_reply": "2016-11-23T13:31:46+01:00",
+      "started": "2016-11-23T12:31:46Z",
+      "last_reply": "2016-11-23T12:31:46Z",
       "root_message_id": "msg-d2329812dde7"
     }
   ]

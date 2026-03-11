@@ -8,7 +8,7 @@
       "message_id": "<561FC97B-63C9-4702-9C40-C484628EAEB0@googlemail.com>",
       "from_name": "Markus Gesmann",
       "from_email_hash": "41520ba2989cb3c2717fd179311316638fe32883e2951d4f2dd826b6f6a636dc",
-      "date": "2018-06-25T17:02:04+01:00",
+      "date": "2018-06-25T16:02:04Z",
       "subject": "[R-sig-ins] Insurance Data Science conference & Stan Workshop, London 16 & 17 July 2018",
       "subject_clean": "Insurance Data Science conference & Stan Workshop, London 16 & 17 July 2018",
       "in_reply_to": "<A638EEBB-2881-4972-867A-09A9371363EF@googlemail.com>",
@@ -30,8 +30,8 @@
       "participants": [
         "Markus Gesmann"
       ],
-      "started": "2018-06-25T17:02:04+01:00",
-      "last_reply": "2018-06-25T17:02:04+01:00",
+      "started": "2018-06-25T16:02:04Z",
+      "last_reply": "2018-06-25T16:02:04Z",
       "root_message_id": "msg-fa3b4123ab93"
     }
   ]

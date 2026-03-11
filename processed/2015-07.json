@@ -8,7 +8,7 @@
       "message_id": "<786E0C0B-CE18-483F-85E5-BDDF3FED5558@gmail.com>",
       "from_name": "Markus Gesmann",
       "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
-      "date": "2015-07-13T07:05:11+01:00",
+      "date": "2015-07-13T06:05:11Z",
       "subject": "[R-sig-ins] ChainLadder version 0.2.1 released on CRAN",
       "subject_clean": "ChainLadder version 0.2.1 released on CRAN",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Markus Gesmann"
       ],
-      "started": "2015-07-13T07:05:11+01:00",
-      "last_reply": "2015-07-13T07:05:11+01:00",
+      "started": "2015-07-13T06:05:11Z",
+      "last_reply": "2015-07-13T06:05:11Z",
       "root_message_id": "msg-da97908323c7"
     }
   ]

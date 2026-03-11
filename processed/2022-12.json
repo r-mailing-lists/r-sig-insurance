@@ -8,7 +8,7 @@
       "message_id": "<4D6E6140-111A-4141-B8E2-7ED5EA67671E@googlemail.com>",
       "from_name": "Markus Gesmann",
       "from_email_hash": "67d4349e07ad64eeaa08af5e62e5639738e6844648ef14c22a80836edfbbfa68",
-      "date": "2022-12-05T17:41:09+01:00",
+      "date": "2022-12-05T16:41:09Z",
       "subject": "[R-sig-ins] Save the date! The Insurance Data Science conference 2023",
       "subject_clean": "Save the date! The Insurance Data Science conference 2023",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Markus Gesmann"
       ],
-      "started": "2022-12-05T17:41:09+01:00",
-      "last_reply": "2022-12-05T17:41:09+01:00",
+      "started": "2022-12-05T16:41:09Z",
+      "last_reply": "2022-12-05T16:41:09Z",
       "root_message_id": "msg-b0f8ed124512"
     }
   ]

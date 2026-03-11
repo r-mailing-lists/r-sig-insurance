@@ -8,7 +8,7 @@
       "message_id": "<003301ced5be$bd44ac60$37ce0520$@email.it>",
       "from_name": "Giorgio Spedicato",
       "from_email_hash": "0b9767cc3df93010fd57945b396196f59b8d11fb0643c21e75f5e5b6494ac5b7",
-      "date": "2013-10-30T23:24:02+01:00",
+      "date": "2013-10-30T22:24:02Z",
       "subject": "[R-sig-ins] mbbefd distribution in R",
       "subject_clean": "mbbefd distribution in R",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Giorgio Spedicato"
       ],
-      "started": "2013-10-30T23:24:02+01:00",
-      "last_reply": "2013-10-30T23:24:02+01:00",
+      "started": "2013-10-30T22:24:02Z",
+      "last_reply": "2013-10-30T22:24:02Z",
       "root_message_id": "msg-a37264d01f6e"
     }
   ]

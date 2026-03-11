@@ -8,7 +8,7 @@
       "message_id": "<4DF60CC9.4060203@infosoft.mn>",
       "from_name": "enkhorkhon",
       "from_email_hash": "e4e9d836efb8a586919ea1720d866c42a0f0334d017bc41849708777a075ab75",
-      "date": "2011-06-13T21:12:41+08:00",
+      "date": "2011-06-13T13:12:41Z",
       "subject": "[R-sig-ins] Just join",
       "subject_clean": "Just join",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "enkhorkhon"
       ],
-      "started": "2011-06-13T21:12:41+08:00",
-      "last_reply": "2011-06-13T21:12:41+08:00",
+      "started": "2011-06-13T13:12:41Z",
+      "last_reply": "2011-06-13T13:12:41Z",
       "root_message_id": "msg-f60c0479ee2f"
     }
   ]

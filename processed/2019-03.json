@@ -8,7 +8,7 @@
       "message_id": "<4B128A51-A136-416F-B5B8-1B94F5D91825@me.com>",
       "from_name": "R. Mark Sharp",
       "from_email_hash": "64fe47c33b295df5c0397f567ab03d6f876095de03bd063b14ecb1b7b0ad4f1d",
-      "date": "2019-03-15T15:45:38-05:00",
+      "date": "2019-03-15T20:45:38Z",
       "subject": "[R-sig-ins] licensing of R code in financial institution code",
       "subject_clean": "licensing of R code in financial institution code",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<CAA1+RSGNf9LQWEF0hy-w_tJ-UqL04tWMDwDtH8f-_DSdtQ_6CA@mail.gmail.com>",
       "from_name": "Kevin Kuo",
       "from_email_hash": "9534891fc9d1c01f5df0c5f5b9a674196067b7c90beecf515bb336e806344239",
-      "date": "2019-03-15T14:16:01-07:00",
+      "date": "2019-03-15T21:16:01Z",
       "subject": "[R-sig-ins] licensing of R code in financial institution code",
       "subject_clean": "licensing of R code in financial institution code",
       "in_reply_to": "<4B128A51-A136-416F-B5B8-1B94F5D91825@me.com>",
@@ -47,8 +47,8 @@
         "Kevin Kuo",
         "R. Mark Sharp"
       ],
-      "started": "2019-03-15T15:45:38-05:00",
-      "last_reply": "2019-03-15T14:16:01-07:00",
+      "started": "2019-03-15T20:45:38Z",
+      "last_reply": "2019-03-15T21:16:01Z",
       "root_message_id": "msg-4682a39da7d3"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<55AD9B98-DB4C-45D9-893E-D64B9BF5B011@act.ulaval.ca>",
       "from_name": "Vincent Goulet",
       "from_email_hash": "e1091a7ef24172cab8ff1701d0e6c2c555c786b66d61ed102070f87705da8ffd",
-      "date": "2009-05-18T22:26:16-04:00",
+      "date": "2009-05-19T02:26:16Z",
       "subject": "[R-sig-ins] New version of actuar",
       "subject_clean": "New version of actuar",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Vincent Goulet"
       ],
-      "started": "2009-05-18T22:26:16-04:00",
-      "last_reply": "2009-05-18T22:26:16-04:00",
+      "started": "2009-05-19T02:26:16Z",
+      "last_reply": "2009-05-19T02:26:16Z",
       "root_message_id": "msg-c3bd27dc1202"
     }
   ]

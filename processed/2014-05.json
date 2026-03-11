@@ -8,7 +8,7 @@
       "message_id": "<1401208341.98180.YahooMailNeo@web162905.mail.bf1.yahoo.com>",
       "from_name": "Syed Danish Ali",
       "from_email_hash": "3183f8e10775d63a0ef048fa3927d8e4b28645e672162f61c2745ee82847df46",
-      "date": "2014-05-27T09:32:21-07:00",
+      "date": "2014-05-27T16:32:21Z",
       "subject": "[R-sig-ins] URGENT:having problem in glmReserve",
       "subject_clean": "URGENT:having problem in glmReserve",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<41B2481C-84FF-4712-901D-DA49B33A2601@gmail.com>",
       "from_name": "Markus Gesmann",
       "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
-      "date": "2014-05-27T18:19:33+01:00",
+      "date": "2014-05-27T17:19:33Z",
       "subject": "[R-sig-ins] URGENT:having problem in glmReserve",
       "subject_clean": "URGENT:having problem in glmReserve",
       "in_reply_to": "<1401208341.98180.YahooMailNeo@web162905.mail.bf1.yahoo.com>",
@@ -42,7 +42,7 @@
       "message_id": "<CAHosgjUTSujfxSGrhOvRP3tvnhsY=KQeDthYPF8_siDMqewX=Q@mail.gmail.com>",
       "from_name": "Markus Gesmann",
       "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
-      "date": "2014-05-29T09:03:53+01:00",
+      "date": "2014-05-29T08:03:53Z",
       "subject": "[R-sig-ins] Early bird registration for R in Insurance ends tomorrow",
       "subject_clean": "Early bird registration for R in Insurance ends tomorrow",
       "in_reply_to": null,
@@ -63,8 +63,8 @@
         "Markus Gesmann",
         "Syed Danish Ali"
       ],
-      "started": "2014-05-27T09:32:21-07:00",
-      "last_reply": "2014-05-27T18:19:33+01:00",
+      "started": "2014-05-27T16:32:21Z",
+      "last_reply": "2014-05-27T17:19:33Z",
       "root_message_id": "msg-32f06f4722a7"
     },
     {
@@ -74,8 +74,8 @@
       "participants": [
         "Markus Gesmann"
       ],
-      "started": "2014-05-29T09:03:53+01:00",
-      "last_reply": "2014-05-29T09:03:53+01:00",
+      "started": "2014-05-29T08:03:53Z",
+      "last_reply": "2014-05-29T08:03:53Z",
       "root_message_id": "msg-00658ac5cd93"
     }
   ]

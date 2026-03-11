@@ -8,7 +8,7 @@
       "message_id": "<CAAXqAM1=409+Tkwhypbs05F53b=NEYvCXBpeL06zkfcyVBQzPg@mail.gmail.com>",
       "from_name": "Gerald Reymari Cagayan",
       "from_email_hash": "20ae20c14c487647caec9a5490bcef8586ff67a9b50b3f079daa2d772dfc7824",
-      "date": "2016-04-05T03:53:25+08:00",
+      "date": "2016-04-04T19:53:25Z",
       "subject": "[R-sig-ins] R Programming",
       "subject_clean": "R Programming",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<F06BC9F735879047BDDEE79E0241FDE11118D07569@genth-maildb>",
       "from_name": "Herbert Desson",
       "from_email_hash": "778d5cffc556b47a297ab8007bc4d31f2f01cdf7d7a6ec4b3e4275ad98aa848c",
-      "date": "2016-04-05T17:18:39+07:00",
+      "date": "2016-04-05T10:18:39Z",
       "subject": "[R-sig-ins] R-SIG-insurance Digest, Vol 32, Issue 2",
       "subject_clean": "R-SIG-insurance Digest, Vol 32, Issue 2",
       "in_reply_to": "<mailman.27.1459850403.25995.r-sig-insurance@r-project.org>",
@@ -46,8 +46,8 @@
       "participants": [
         "Gerald Reymari Cagayan"
       ],
-      "started": "2016-04-05T03:53:25+08:00",
-      "last_reply": "2016-04-05T03:53:25+08:00",
+      "started": "2016-04-04T19:53:25Z",
+      "last_reply": "2016-04-04T19:53:25Z",
       "root_message_id": "msg-8320a8b42468"
     },
     {
@@ -57,8 +57,8 @@
       "participants": [
         "Herbert Desson"
       ],
-      "started": "2016-04-05T17:18:39+07:00",
-      "last_reply": "2016-04-05T17:18:39+07:00",
+      "started": "2016-04-05T10:18:39Z",
+      "last_reply": "2016-04-05T10:18:39Z",
       "root_message_id": "msg-37ce0b6ccc39"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<248FB571F3283A4D9F0749C99DC6FFF80C3126AA@ISOEMAILP2.iso.com>",
       "from_name": "Meyers, Glenn G.",
       "from_email_hash": "b04aca66b0952d3621b5847c9a34ecaf102c7bc312da3235801e18a3e099e02c",
-      "date": "2009-11-02T10:41:37-05:00",
+      "date": "2009-11-02T15:41:37Z",
       "subject": "[R-sig-ins] R and 64 bit Computing",
       "subject_clean": "R and 64 bit Computing",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<B429D809-2640-4452-83F8-423D8190EF4C@act.ulaval.ca>",
       "from_name": "Vincent Goulet",
       "from_email_hash": "773d704bb01dd05dd0f2d10c30d30f8968194f70b20d8fe3f1dd9b43e0bb6057",
-      "date": "2009-11-02T11:02:59-05:00",
+      "date": "2009-11-02T16:02:59Z",
       "subject": "[R-sig-ins] R and 64 bit Computing",
       "subject_clean": "R and 64 bit Computing",
       "in_reply_to": "<248FB571F3283A4D9F0749C99DC6FFF80C3126AA@ISOEMAILP2.iso.com>",
@@ -63,8 +63,8 @@
         "Meyers, Glenn G.",
         "Vincent Goulet"
       ],
-      "started": "2009-11-02T10:41:37-05:00",
-      "last_reply": "2009-11-02T11:02:59-05:00",
+      "started": "2009-11-02T15:41:37Z",
+      "last_reply": "2009-11-02T16:02:59Z",
       "root_message_id": "msg-90118966156b"
     },
     {
@@ -74,8 +74,8 @@
       "participants": [
         "Markus Gesmann"
       ],
-      "started": "2009-11-24T21:45:15+00:00",
-      "last_reply": "2009-11-24T21:45:15+00:00",
+      "started": "2009-11-24T21:45:15Z",
+      "last_reply": "2009-11-24T21:45:15Z",
       "root_message_id": "msg-bea229fb784b"
     }
   ]

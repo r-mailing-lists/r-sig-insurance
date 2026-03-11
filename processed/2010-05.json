@@ -8,7 +8,7 @@
       "message_id": "<851F35936693404E90B5F11BCE37618189D042@apollo2.groupemonceau.com>",
       "from_name": "RATIARISON Eric",
       "from_email_hash": "2677dfca987ffb12af401e9be7d299fd693f046ebc5fac0447edae19e348a227",
-      "date": "2010-05-05T22:19:33+02:00",
+      "date": "2010-05-05T20:19:33Z",
       "subject": "[R-sig-ins] Maximum pseudo likehood vs tweedie.",
       "subject_clean": "Maximum pseudo likehood vs tweedie.",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<OFC58503B5.7DED5C14-ONC125771A.007206DC-C125771A.007206DC@hsbc.fr>",
       "from_name": "aurelien.leguay at hsbc.fr",
       "from_email_hash": "fbea61b1c04ebd04164df9edc93043e7b7e97b62261f9fb313f214fdcc32ee24",
-      "date": "2010-05-05T22:45:28+02:00",
+      "date": "2010-05-05T20:45:28Z",
       "subject": "[R-sig-ins] Aurelien LEGUAY est absent(e).",
       "subject_clean": "Aurelien LEGUAY est absent(e).",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<C50DD106-45C0-4BA3-9A53-265E304F1A6C@gmail.com>",
       "from_name": "Christophe Dutang",
       "from_email_hash": "71db47fbb88383c85c0a4105bb9dd5508a39e5eb48ded58e22bd31403fb35064",
-      "date": "2010-05-06T07:38:40+02:00",
+      "date": "2010-05-06T05:38:40Z",
       "subject": "[R-sig-ins] Maximum pseudo likehood vs tweedie.",
       "subject_clean": "Maximum pseudo likehood vs tweedie.",
       "in_reply_to": "<851F35936693404E90B5F11BCE37618189D042@apollo2.groupemonceau.com>",
@@ -58,7 +58,7 @@
       "message_id": "<C87A4B85-105F-4185-A8A4-DA89A4F9E9F3@googlemail.com>",
       "from_name": "Markus Gesmann",
       "from_email_hash": "6fcb58ff8ebdda71412f05e66028373e96b0d1a2a71fbea0e1fb1d9050f686db",
-      "date": "2010-05-18T06:59:41+01:00",
+      "date": "2010-05-18T05:59:41Z",
       "subject": "[R-sig-ins] ChainLadder: New version 0.1.3-3 available on CRAN including multivariate models",
       "subject_clean": "ChainLadder: New version 0.1.3-3 available on CRAN including multivariate models",
       "in_reply_to": null,
@@ -79,8 +79,8 @@
         "Christophe Dutang",
         "RATIARISON Eric"
       ],
-      "started": "2010-05-05T22:19:33+02:00",
-      "last_reply": "2010-05-06T07:38:40+02:00",
+      "started": "2010-05-05T20:19:33Z",
+      "last_reply": "2010-05-06T05:38:40Z",
       "root_message_id": "msg-e8ad7de46ad6"
     },
     {
@@ -90,8 +90,8 @@
       "participants": [
         "aurelien.leguay at hsbc.fr"
       ],
-      "started": "2010-05-05T22:45:28+02:00",
-      "last_reply": "2010-05-05T22:45:28+02:00",
+      "started": "2010-05-05T20:45:28Z",
+      "last_reply": "2010-05-05T20:45:28Z",
       "root_message_id": "msg-6934dc88d513"
     },
     {
@@ -101,8 +101,8 @@
       "participants": [
         "Markus Gesmann"
       ],
-      "started": "2010-05-18T06:59:41+01:00",
-      "last_reply": "2010-05-18T06:59:41+01:00",
+      "started": "2010-05-18T05:59:41Z",
+      "last_reply": "2010-05-18T05:59:41Z",
       "root_message_id": "msg-1d6388b2e810"
     }
   ]

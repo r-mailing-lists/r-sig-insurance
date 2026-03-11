@@ -8,7 +8,7 @@
       "message_id": "<f75c7e23950a821ace688714711493e7@93.36.14.191>",
       "from_name": "Spedicato.giorgio",
       "from_email_hash": "0b9767cc3df93010fd57945b396196f59b8d11fb0643c21e75f5e5b6494ac5b7",
-      "date": "2012-03-10T16:01:15+01:00",
+      "date": "2012-03-10T15:01:15Z",
       "subject": "[R-sig-ins] lifecontingencies package",
       "subject_clean": "lifecontingencies package",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Spedicato.giorgio"
       ],
-      "started": "2012-03-10T16:01:15+01:00",
-      "last_reply": "2012-03-10T16:01:15+01:00",
+      "started": "2012-03-10T15:01:15Z",
+      "last_reply": "2012-03-10T15:01:15Z",
       "root_message_id": "msg-dd5d3555adfd"
     }
   ]

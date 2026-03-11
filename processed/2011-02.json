@@ -8,7 +8,7 @@
       "message_id": "<4d4b7fa1.0e3e650a.43cb.1142@mx.google.com>",
       "from_name": "Diego Mazzeo",
       "from_email_hash": "ec40168eee0117da800ed0c02668efb4881e148ebd1b2c190ac2f15bdd9ba02e",
-      "date": "2011-02-04T01:20:03-03:00",
+      "date": "2011-02-04T04:20:03Z",
       "subject": "[R-sig-ins] SOA CompAct - R Corner",
       "subject_clean": "SOA CompAct - R Corner",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Diego Mazzeo"
       ],
-      "started": "2011-02-04T01:20:03-03:00",
-      "last_reply": "2011-02-04T01:20:03-03:00",
+      "started": "2011-02-04T04:20:03Z",
+      "last_reply": "2011-02-04T04:20:03Z",
       "root_message_id": "msg-2243066b6d89"
     }
   ]
