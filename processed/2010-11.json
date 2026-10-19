@@ -13,11 +13,14 @@
       "subject_clean": "Clark method enhancement to ChainLadder package",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20101113/e07fadee/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20101113/e07fadee/attachment.pl>",
+      "body_plain": "Greetings,\n\nVersion 0.1.4-0 of the ChainLadder package is available via CRAN and\nhttp://code.google.com/p/chainladder/\n\nThe ChainLadder package, which is focused on claims reserving methods\ntypically carried out by property/casualty insurance actuaries, has recently\nbeen enhanced to implement the methods in David Clark's 2003 CAS (Casualty\nActuarial Society) *Forum* paper \"LDF Curve-Fitting and Stochastic\nReserving: A Maximum Likelihood Approach.\" Clark's methods are ready to be\nput to use on a wide variety of \"triangles\".\n\nTo see a demonstration of the example in Clark's paper (ChainLadder's\n\"GenIns\" is the same dataset), run\n\n> library(ChainLadder)\n> demo(clarkDemo)\n\nThis will run the \"LDF Method\" with the loglogistic growth function limited\nto 20 years of development, per Clark's example. It will also run the\n\"CapeCod Method\" with the weibull growth function. In both cases, per\nClark's recommendation, the option is selected to fit the growth function to\nthe average date of loss of each accident year (a.k.a., year of origin). The\ndemo output consists of two displays: the table of expected values, standard\nerrors and CV's as on page 65 of the paper, and four residual plots.\n\nType ?ClarkLDF and ?ClarkCapeCod for help on running Clark's two methods.\n\nPlease contact the author,  Daniel Murphy at chiefmurph _at_ yahoo.com, with\nquestions, suggestions, ideas or problems.\n\nIf anyone is interested in collaborating to develop additional ChainLadder\npackage functionality, do not hesitate to contact Dan or any of the other\nChainLadder authors. You don't have to be an R expert or an actuary to be\nhelpful!\n\nMore details:\n\nVersion 0.1.4-0\n================\nNEW FEATURES\n\n  o New implementation of the methods in David Clark's \"LDF Curve Fitting\"\npaper in the 2003 Forum by Daniel Murphy.\n        - Includes LDF and CapeCod methods (functions 'ClarkLDF' and\n'ClarkCapeCod', respectively)\n        - Programmed to handle loglogistic and weibull growth functions\n        - Printing an object returned by the function results in a table\nsimilar to that on p. 65 of the paper\n        - Plotting such an object results in four residual plots, including\na Q-Q plot with the results of the Shapiro-Wilk test\n\nCheers,\nThe ChainLadder Team\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Greetings,\n\nVersion 0.1.4-0 of the ChainLadder package is available via CRAN and\nhttp://code.google.com/p/chainladder/\n\nThe ChainLadder package, which is focused on claims reserving methods\ntypically ",
       "thread_id": "thread-aaa6dc18983a",
       "thread_depth": 0,
-      "month": "2010-11"
+      "month": "2010-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20101113/e07fadee/attachment.pl"
+      ]
     },
     {
       "id": "msg-6f788cb036f0",
@@ -29,11 +32,14 @@
       "subject_clean": "(no subject)",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20101122/6f2bee7b/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20101122/6f2bee7b/attachment.pl>",
+      "body_plain": "Just to confirme my e-mail adress\n\n\n\n\n\n\nKonan Eugène KOUADIO\nCommissaire Contrôleur des Assurances\nau Secrétariat Général de la CIMA\nMastère Spécialisé Actuariat, ENSAE ParisTech\nMobile : (+33) (0)6 34 67 68 70\n \nL'Eternet est ma Lumière et mon salut\n\n\n      \n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Just to confirme my e-mail adress\n\n\n\n\n\n\nKonan Eugène KOUADIO\nCommissaire Contrôleur des Assurances\nau Secrétariat Général de la CIMA\nMastère Spécialisé Actuariat, ENSAE ParisTech\nMobile : (+33) (0)6 3",
       "thread_id": "thread-6f788cb036f0",
       "thread_depth": 0,
-      "month": "2010-11"
+      "month": "2010-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20101122/6f2bee7b/attachment.pl"
+      ]
     }
   ],
   "threads": [

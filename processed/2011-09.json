@@ -13,11 +13,14 @@
       "subject_clean": "package lifecontingencies released",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110908/c341ddcc/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110908/c341ddcc/attachment.pl>",
+      "body_plain": "I've recently published on CRAN repository the  package lifecontingencies.\nIt appears to be the first R package to perform  lifecontingencies actuarial\npresent value evaluations. Suggestions and bug  reporting from those who\nwish to try the package are welcome. \n --\n Caselle da 1GB, trasmetti allegati fino a 3GB e in piu' IMAP, POP3 e SMTP\nautenticato? GRATIS solo con Email.it: http://www.email.it/f\n \n Sponsor:\n Dal 9 al 12 last second settembre all inclusive in camera standard da euro\n183 a persona, bimbi gratis al Park Hotel Kursaal Misano Adriatico\n Clicca qui: http://adv.email.it/cgi-bin/foclick.cgi?mid=11785&d=20110908\n\n\n \n \n --\n Caselle da 1GB, trasmetti allegati fino a 3GB e in piu' IMAP, POP3 e SMTP autenticato? GRATIS solo con Email.it http://www.email.it/f\n \n Sponsor:\n Last minute settembre all inclusive da euro 34 a persona al giorno nei Tombari Hotels Cattolica! Ultime disponibilita'!\n Clicca qui: http://adv.email.it/cgi-bin/foclick.cgi?mid=11786&d=8-9\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I've recently published on CRAN repository the  package lifecontingencies.\nIt appears to be the first R package to perform  lifecontingencies actuarial\npresent value evaluations. Suggestions and bug  ",
       "thread_id": "thread-26252da42342",
       "thread_depth": 0,
-      "month": "2011-09"
+      "month": "2011-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110908/c341ddcc/attachment.pl"
+      ]
     },
     {
       "id": "msg-efab4b543f44",
@@ -29,11 +32,14 @@
       "subject_clean": "R package cplm",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110915/8cbb22db/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110915/8cbb22db/attachment.pl>",
+      "body_plain": "Dear list,\n\nI have released another R package \"cplm\" that may be of special interest to the actuarial profession. This package focuses on estimation problems in common linear models with the Tweedie compound Poisson distribution. Currently, it implements Monte Carlo EM and Markov Chain Monte Carlo methods in generalized linear models, and in the next two months or so, I would add functions for estimating mixed-effect models with several frequentists' methods and one MCMC approach. In the meanwhile, I would appreciate any comments on the currently available functionality. Thanks.\n\nP.S. The package can be downloaded either from CRAN or the project host:\nhttp://code.google.com/p/cplm/\n\n\nRegards,\n\nWayne (Yanwei) Zhang\n\n\n\n\n\nNOTICE:  This e-mail message, including any attachments and appended messages, is for the sole use of the intended recipients and may contain confidential and legally privileged information.\nIf you are not the intended recipient, any review, dissemination, distribution, copying, storage or other use of all or any portion of this message is strictly prohibited.\nIf you received this message in error, please immediately notify the sender by reply e-mail and delete this message in its entirety.\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear list,\n\nI have released another R package \"cplm\" that may be of special interest to the actuarial profession. This package focuses on estimation problems in common linear models with the Tweedie c",
       "thread_id": "thread-efab4b543f44",
       "thread_depth": 0,
-      "month": "2011-09"
+      "month": "2011-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20110915/8cbb22db/attachment.pl"
+      ]
     }
   ],
   "threads": [

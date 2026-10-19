@@ -13,11 +13,14 @@
       "subject_clean": "documentation on TVOG for market consistent embedded value calculation",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121101/0b42a44f/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121101/0b42a44f/attachment.pl>",
+      "body_plain": "Dear readers,\n\nI'm looking for some documentation, about stochastic calculation of the Time value of (financial) options and guarantees.\nI know that the standard method is to take the deterministic present value of future profits - the average of the stochastic scenarios, but I cannot find any documentation on the topic anywhere.\n\nBR\n\nAndres S. Susrud\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear readers,\n\nI'm looking for some documentation, about stochastic calculation of the Time value of (financial) options and guarantees.\nI know that the standard method is to take the deterministic pr",
       "thread_id": "thread-893f539107e1",
       "thread_depth": 0,
-      "month": "2012-11"
+      "month": "2012-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121101/0b42a44f/attachment.pl"
+      ]
     },
     {
       "id": "msg-d6f1be72c6c6",
@@ -45,11 +48,14 @@
       "subject_clean": "AUTO: Alan Chalk has left RSA (returning 30/11/2012)",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121101/e73e1887/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121101/e73e1887/attachment.pl>",
+      "body_plain": "I am out of the office until 30/11/2012.\n\nPlease send work related emails to laura.jordan at uk.rsagroup.com or personal\nemails to alanchalk at gmail.com.\n\n\nNote: This is an automated response to your message  \"R-SIG-insurance\nDigest, Vol 17, Issue 1\" sent on 01/11/2012 11:00:02.\n\nThis is the only notification you will receive while this person is away.\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "I am out of the office until 30/11/2012.\n\nPlease send work related emails to laura.jordan at uk.rsagroup.com or personal\nemails to alanchalk at gmail.com.\n\n\nNote: This is an automated response to your",
       "thread_id": "thread-7732fd7d320a",
       "thread_depth": 0,
-      "month": "2012-11"
+      "month": "2012-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121101/e73e1887/attachment.pl"
+      ]
     }
   ],
   "threads": [

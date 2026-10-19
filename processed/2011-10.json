@@ -13,11 +13,14 @@
       "subject_clean": "R package cplm",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20111026/05b3d55c/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20111026/05b3d55c/attachment.pl>",
+      "body_plain": "Hi all,\n\nVersion 0.3-1 of the \"cplm\" package is released, which now handles Tweedie compound Poisson mixed-effect models using Laplace approximation. The next release is going to include the corresponding Bayesian hierarchical model. See below for all the new features in this release.\n\n\nNEW FEATURES\n\no Function 'cpglmm' is added that handles mixed-effect models using\nLaplace approximations. This is based on the R package 'lme4'.\no Function 'bcpglm' now has a second method to fit Bayesian compound\nPoisson GLM using direct Tweedie density approximation.\no Function 'bcpglm' also has a tuning phase that automatically updates\nthe scale parameter in the proposal distribution.\no The profile likelihood method in 'cpglm' is now automated\n\n\nRegards,\nWayne (Yanwei) Zhang\n\n\nNOTICE:  This e-mail message, including any attachments and appended messages, is for the sole use of the intended recipients and may contain confidential and legally privileged information.\nIf you are not the intended recipient, any review, dissemination, distribution, copying, storage or other use of all or any portion of this message is strictly prohibited.\nIf you received this message in error, please immediately notify the sender by reply e-mail and delete this message in its entirety.\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all,\n\nVersion 0.3-1 of the \"cplm\" package is released, which now handles Tweedie compound Poisson mixed-effect models using Laplace approximation. The next release is going to include the correspon",
       "thread_id": "thread-d04bf250b7ac",
       "thread_depth": 0,
-      "month": "2011-10"
+      "month": "2011-10",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20111026/05b3d55c/attachment.pl"
+      ]
     }
   ],
   "threads": [

@@ -13,11 +13,14 @@
       "subject_clean": "Job at Lloyd's",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091208/3259ead7/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091208/3259ead7/attachment.pl>",
+      "body_plain": "Hi all,\n\nLloyd's is looking for an analyst with sound R, SQL and Latex skills.\nYou find more information here:\nhttp://www2.i-grasp.com/fe/tpl_lloyds01.asp?newms=jj&id=55718\nIf you need further information don't hesitate to contact me directly.\n\nKind regards\n\nMarkus\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all,\n\nLloyd's is looking for an analyst with sound R, SQL and Latex skills.\nYou find more information here:\nhttp://www2.i-grasp.com/fe/tpl_lloyds01.asp?newms=jj&id=55718\nIf you need further informa",
       "thread_id": "thread-0bef5d84e993",
       "thread_depth": 0,
-      "month": "2009-12"
+      "month": "2009-12",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091208/3259ead7/attachment.pl"
+      ]
     }
   ],
   "threads": [

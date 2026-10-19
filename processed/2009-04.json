@@ -13,11 +13,14 @@
       "subject_clean": "Earthquake Models in R",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20090429/75fc3257/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20090429/75fc3257/attachment.pl>",
+      "body_plain": "Hi,\n\nI need to do some basic work to understand the potential insurance costs of\nclaims arising from earthquates across our property portfolios in various\ncountries.\n\nIn each case I will have a set of geocoded data with the value of the\nproperties we insure at each longtitude/latitude.  I will also have a set\nof historic earthquake information.  Has something already been done in an\nR library which would help estimate the costs for each historic quake\n(assuming say all properties within a given radius get damaged as some\nfunction of the strength of the quake and distance from the epicentre)?\n\nAlso, do you know if anyone has published datasets within R of historic\nearthquake catalogs?\n\nMany thanks\n\nAlan Chalk\n\n================================================================================\n\nNotice of Confidentiality\n\nThis transmission contains information that may be confidential and that may also be privileged. Unless you are the intended recipient of the message (or authorised to receive it for the intended recipient) you may not copy, forward, or otherwise use it, or disclose it or its contents to anyone else. If you have received this transmission in error please notify us immediately and delete it from your system.\n\nRSA Insurance Group plc. Registered in England No. 2339826. The Registered Office is 9th Floor, One Plantation Place, 30 Fenchurch Street, London EC3M 3BD\n\n================================================================================\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi,\n\nI need to do some basic work to understand the potential insurance costs of\nclaims arising from earthquates across our property portfolios in various\ncountries.\n\nIn each case I will have a set of",
       "thread_id": "thread-3572cb4948ea",
       "thread_depth": 0,
-      "month": "2009-04"
+      "month": "2009-04",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20090429/75fc3257/attachment.pl"
+      ]
     }
   ],
   "threads": [

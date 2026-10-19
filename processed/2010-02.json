@@ -13,11 +13,14 @@
       "subject_clean": "SOA CompAct - R Corner",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20100206/dc643b47/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20100206/dc643b47/attachment.pl>",
+      "body_plain": "Hi everyone,\n \nThe US Society of Actuaries (SOA) has a quarterly newsletter: CompAct\n<http://www.soa.org/news-and-publications/newsletters/technology/compact-det\nails.aspx> Electronic Newsletter, which from issue 29 (Oct-2008) onwards\nincludes a column called R Corner. The articles are written by Steve\nCraighead and so far most of them have been nicely aimed at picking up\nuseful basic concepts for the actuarial type. However there seems to be a\ntendency that articles will get more complex and specific as introductory\ntopics are covered -- save for issue 34 ;).\n \nHere is a summary of the concepts / subjects already dealt with:\n \n    - Issue 29: introduction to CRAN | demo() | help()\n    - Issue 30: read.csv() | write.csv() | RODBC package\n    - Issue 31: data types: vectors | matrices | data.frames | related\nfunctions\n    - Issue 32: model formula framework: formula basics | LM | GLM | I()\n    - Issue 33: cluster analysis | predictive modeling\n    - Issue 34: user-defined functions\n \nThe only drawback seems to be that, as far as I can see, there are no\nsubscription / RSS options. If anyone knows how to get alerted of new\nissues, please share!\n \nAlso from Steve Craighead:\n<http://www.soa.org/library/newsletters/risk-management-newsletter/2008/marc\nh/rmn-2008-iss12-craighead.pdf> A Toy Copula ERM Model in R.\n \n \nRegards,\nDiego\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi everyone,\n \nThe US Society of Actuaries (SOA) has a quarterly newsletter: CompAct\n<http://www.soa.org/news-and-publications/newsletters/technology/compact-det\nails.aspx> Electronic Newsletter, whic",
       "thread_id": "thread-496149974903",
       "thread_depth": 0,
-      "month": "2010-02"
+      "month": "2010-02",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20100206/dc643b47/attachment.pl"
+      ]
     },
     {
       "id": "msg-1bf820509fe7",

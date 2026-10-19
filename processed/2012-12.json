@@ -31,11 +31,14 @@
       "references": [
         "<29984310-4608-4B5C-B184-460CF1F3674A@gmail.com>"
       ],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121219/58c5d8f0/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121219/58c5d8f0/attachment.pl>",
+      "body_plain": "> The first conference on R in Insurance will be held on Monday 15 July 2013 at Cass Business School in London, UK. \n> \n> The intended audience of the conference includes both academics and practitioners who are active or interested in the applications of R in insurance.\n> \n> This one-day conference will focus on applications in insurance and actuarial science that use R, the lingua franca for statistical computation. Topics covered may include actuarial statistics, capital modelling, pricing, reserving, reinsurance and extreme events, portfolio allocation, advanced risk tools, high-performance computing, econometrics and more. All topics will be discussed within the context of using R as a primary tool for insurance risk management, analysis and modelling.\n> \n> The intended audience of the conference includes both academics and practitioners who are active or interested in the applications of R in insurance. \n> \n> The 2013 R in Insurance conference builds upon the success of the R in Finance and R/Rmetrics events. We expect invited keynote lectures by:\n> Prof. Dr. Gerhard Stahl, Talanx and Institute of Finance University of Hannover\n> tba\n> The conference fee will be £300 for practitioners and £100 for academics. Postgraduate students can attend the conference for free. \n> \n> We invite you to submit a one-page abstract for consideration. Both academic and practitioner proposals related to R are encouraged.\n> \n> More details will follow soon! You can contact us via rinsuranceconference at gmail dot com.\n> \n> The organisers gratefully acknowledge the sponsorship of Mango Solutions.\n> \n> From the organisers\n> Markus Gesmann\n> http://lamages.blogspot.com/\n>  \n> Andreas Tsanakas\n> http://www.cass.city.ac.uk/experts/a.tsanakas\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "> The first conference on R in Insurance will be held on Monday 15 July 2013 at Cass Business School in London, UK. \n> \n> The intended audience of the conference includes both academics and practition",
       "thread_id": "thread-19fcd3e1ba9b",
       "thread_depth": 0,
-      "month": "2012-12"
+      "month": "2012-12",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20121219/58c5d8f0/attachment.pl"
+      ]
     }
   ],
   "threads": [

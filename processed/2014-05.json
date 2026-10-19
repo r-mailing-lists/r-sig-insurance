@@ -13,11 +13,14 @@
       "subject_clean": "URGENT:having problem in glmReserve",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20140527/6fa3ba6b/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20140527/6fa3ba6b/attachment.pl>",
+      "body_plain": "Dear All\n\nI am converting my data frame into class of triangles using as(triangle name csv file, \"triangles\") and by running class code it is conforming that triangle is now of the class 'triangles'\n\nEven then when i run glmReserve it gives the error : triangle must be of class 'triangle'.\n\nKindly help me as soon as possible.\n\nRegards\nDanish\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear All\n\nI am converting my data frame into class of triangles using as(triangle name csv file, \"triangles\") and by running class code it is conforming that triangle is now of the class 'triangles'\n\n",
       "thread_id": "thread-32f06f4722a7",
       "thread_depth": 0,
-      "month": "2014-05"
+      "month": "2014-05",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20140527/6fa3ba6b/attachment.pl"
+      ]
     },
     {
       "id": "msg-71a3b21f0531",
@@ -47,11 +50,14 @@
       "subject_clean": "Early bird registration for R in Insurance ends tomorrow",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20140529/366435af/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20140529/366435af/attachment.pl>",
+      "body_plain": "The early bird registration offer for the 2nd R in Insurance conference, 14\nJuly 2014, at Cass Business School ends tomorrow.\n\nThis one-day conference will focus once more on applications in insurance\nand actuarial science that use R, the lingua franca for statistical\ncomputation. Topics covered include reserving, pricing, loss modelling, the\nuse of R in a production environment, and more. All topics are to be\ndiscussed within the context of using R as a primary tool for insurance\nrisk management, analysis and modelling.\n\nThe conference programme consists of invited talks and contributed\npresentations discussing the wide range of fields in which R is used in\ninsurance:\n\nR in Insurance\nCass Business School, London, 14 July 2014\n\n9:00 - 10:00 Opening keynote:\nMontserrat Guillen and Leo Guelman: New trends in predictive modelling -\nthe uplift models success story\n\n10:00 - 11:00 Session 1: Reserving (20 min. each)\n\n        • Munir Hiabu: RBNS preserving double chain ladder\n        • Els Godecharle: Reserving by conditioning on markers of\nindividual claims: a case study using historical simulation\n        • Brian Fannin: Multivariate regression models for reserving\n\n11:00 - 11:30 Coffee\n\n11:30 - 12:30: Lightning talks (10 min each)\n\n        • Roel Verbelen: Loss modelling with mixtures of Erlang\ndistributions\n        • Nicolas Baradel: R Program GUI Manager\n        • Karl-Kuno Kunze: Time Series Data Quality Analysis\n        • Ed Tredger: Integrating R with existing software in the London\nMarket\n        • Wim Konings: Estimating the duration of non-maturing liabilities\nin a user friendly Shiny web application\n        • Markus Gesmann: End User Computing with R under Solvency II\n\n12:30 - 13:30 Lunch\n\n13:30 - 14:30 Session 2: Pricing (20 min. each)\n\n        • Giorgio Spedicato: R data mining for insurance retention modelling\n        • Bernhard Kübler: Assessing exploration risk for geothermal wells\n        • Xavier Marechal: Geographical ratemaking with R\n\n14:30 - 15:00 Panel discussion: R at the Interface of Practitioner/Academic\nCommunication\n\n15:00 - 15:30: Coffee\n\n15:30 - 16:30 Session 3: Life / Using R in a production environment (20\nmin. each)\n\n        • Ana Debon: Modelling trends and inequality of longevity in\nEuropean Union countries\n        • Kate Hanley: Dynamic Report Generation in R: LaTeX vs. Markdown\n        • Matthew Dowle: Introduction to data.table\n\n16:30 - 17:30 Closing keynote:\nArthur Charpentier: Going Bayesian with R - a non-Bayesian perspective\n\n18:00 - 22:00 Reception and conference dinner, Ironmongers Hall\n\nAttendance of the whole conference is the equivalent of 6.5 hours of CPD\nfor members of the Actuarial Profession.\n\nYou can register directly on the conference web site www.rininsurance.com.\n\nThe organisers gratefully acknowledge the sponsorship of Mango Solutions,\nCYBAEA, RStudio and PwCwithout whom the event wouldn't be possible.\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "The early bird registration offer for the 2nd R in Insurance conference, 14\nJuly 2014, at Cass Business School ends tomorrow.\n\nThis one-day conference will focus once more on applications in insurance",
       "thread_id": "thread-00658ac5cd93",
       "thread_depth": 0,
-      "month": "2014-05"
+      "month": "2014-05",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20140529/366435af/attachment.pl"
+      ]
     }
   ],
   "threads": [

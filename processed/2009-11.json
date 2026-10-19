@@ -13,11 +13,14 @@
       "subject_clean": "R and 64 bit Computing",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091102/48319e89/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091102/48319e89/attachment.pl>",
+      "body_plain": "Does anybody know if R can (or future versions will) take advantage of a\n64-bit computing environment? \n\n \n\nGlenn Meyers\n\nISO\n\n201-469-2333\n\n \n\nThis email is intended for the recipient only.  If you are not the intended recipient please disregard, and do not use the information for any purpose.\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Does anybody know if R can (or future versions will) take advantage of a\n64-bit computing environment? \n\n \n\nGlenn Meyers\n\nISO\n\n201-469-2333\n\n \n\nThis email is intended for the recipient only.  If you a",
       "thread_id": "thread-90118966156b",
       "thread_depth": 0,
-      "month": "2009-11"
+      "month": "2009-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091102/48319e89/attachment.pl"
+      ]
     },
     {
       "id": "msg-59bf58da0a5f",
@@ -47,11 +50,14 @@
       "subject_clean": "ChainLadder package new version 0.1.2-13",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091124/16cd3c4a/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091124/16cd3c4a/attachment.pl>",
+      "body_plain": "Hi all,\n\nI have uploaded version 0.1.2-13 of the ChainLadder package to\nhttp://code.google.com/p/chainladder/ and also to CRAN.\n\nMy understanding is that you can get the new version of the package from CRAN for R 2.10.x and R 2.9.x\nIf you use an older version of R (<2.10) you should be able to use the ChainLadder package from the project web site:\nhttp://code.google.com/p/chainladder/downloads/list\n\nAnd now the details!\n\nVersion 0.1.2-13\n================\nUSER-VISIBLE CHANGES\n\n o 'MackChainLadder' has new argument 'alpha' as an additional weighting parameter. \n    As a result, the argument 'weights' is now just that, weights should be between 0 and 1.\n    The argument 'alpha' describes the different chain ladder age-to-age factors:\n    The default for alpha for all development periods is 1. See Mack's 1999 paper: \n    alpha=1 gives the historical chain ladder age-to-age factors, \n    alpha=0 gives the straight average of the observed individual development factors and \n    alpha=2 is the result of an ordinary regression with intercept 0. \n\n o Basic 'chainladder' function now available using linear models. See ?chainladder for more information.\n\n o More examples for 'MackChainLadder' demonstrate how to apply the MackChainLadder over \n   several triangles in 'one-line'.\n\n o 'as.data.frame.triangle' has new argument 'lob' (e.g. line of business) which allows to set \n   an additional label column in the data frame output.\n\nBUG FIXES\n\n o 'MackChainLadder':  Latest position of incomplete triangles were in some cases not returned \n    correctly. Thanks to Ben Escoto for reporting and providing a patch.\n\n o 'MackChainLadder': \n   - Mack.S.E was not correctly calculated for non-standard chain ladder age-to-age factors (e.g. \n     straight averages or ordinary regression through the origin) due the missing argument \n     for 'alpha'. \n   - Chain ladder age-to-age factors were always applied to diagonal elements to calculate forecasts,\n     although data in sub-diagonal triangle could exist. \n     Many thanks to Przemyslaw Sloma for reporting those issues. \n\nThe source code of the package is available here: http://code.google.com/p/chainladder/source/browse/#svn/trunk\n\nAs usual any feedback, suggestions, contribution, etc are much appreciated. Don't be shy!\n\nBest regards\n\nMarkus\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all,\n\nI have uploaded version 0.1.2-13 of the ChainLadder package to\nhttp://code.google.com/p/chainladder/ and also to CRAN.\n\nMy understanding is that you can get the new version of the package fro",
       "thread_id": "thread-bea229fb784b",
       "thread_depth": 0,
-      "month": "2009-11"
+      "month": "2009-11",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20091124/16cd3c4a/attachment.pl"
+      ]
     }
   ],
   "threads": [

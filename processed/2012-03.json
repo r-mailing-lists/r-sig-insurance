@@ -13,11 +13,14 @@
       "subject_clean": "lifecontingencies package",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20120310/0a5adfed/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20120310/0a5adfed/attachment.pl>",
+      "body_plain": "A major release of lifecontingencies package has been recently released. It\nincludes full stochastic functions for life contingencies random variables\nevaluation. Feedbacks will be very welcomed.\n\n\n&nbsp;\n\n\nGS\n\n \n --\n Caselle da 1GB, trasmetti allegati fino a 3GB e in piu' IMAP, POP3 e SMTP\nautenticato? GRATIS solo con Email.it: http://www.email.it/f\n \n Sponsor:\n Last minute Pasqua sulla riviera romagnola, offerte hotel Riccione, hotel\nRimini, hotel Cattolica e hotel Misano in pensione completa\n Clicca qui: http://adv.email.it/cgi-bin/foclick.cgi?mid=12196&d=20120310\n\n\n \n \n --\n Caselle da 1GB, trasmetti allegati fino a 3GB e in piu' IMAP, POP3 e SMTP autenticato? GRATIS solo con Email.it http://www.email.it/f\n \n Sponsor:\n Cesenatico Speciale al primo sole dell'Adriatico: Pasini Hotels prenota prima! scopri le offerte sul sito pasinihotels.com\n Clicca qui: http://adv.email.it/cgi-bin/foclick.cgi?mid=12200&d=10-3\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "A major release of lifecontingencies package has been recently released. It\nincludes full stochastic functions for life contingencies random variables\nevaluation. Feedbacks will be very welcomed.\n\n\n&n",
       "thread_id": "thread-dd5d3555adfd",
       "thread_depth": 0,
-      "month": "2012-03"
+      "month": "2012-03",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20120310/0a5adfed/attachment.pl"
+      ]
     }
   ],
   "threads": [

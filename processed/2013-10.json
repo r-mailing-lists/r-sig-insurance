@@ -13,11 +13,14 @@
       "subject_clean": "mbbefd distribution in R",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20131030/30c7ea9d/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20131030/30c7ea9d/attachment.pl>",
+      "body_plain": "Hi all,\n\nI have written an R package to handle MBBEFD distributions and underlying\nexposure curves in R.\n\n \n\nThe package is mbbefd, of course.\n\n \n\nAny comments welcome.\n\n \n\nGiorgio\n\n\n \n \n --\n Caselle da 1GB, trasmetti allegati fino a 3GB e in piu' IMAP, POP3 e SMTP autenticato? GRATIS solo con Email.it http://www.email.it/f\n \n Sponsor:\n GoVolo: I migliori prezzi per i tuoi voli, hotel e fine settimana!\n Clicca qui: http://adv.email.it/cgi-bin/foclick.cgi?mid=13133&d=30-10\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all,\n\nI have written an R package to handle MBBEFD distributions and underlying\nexposure curves in R.\n\n \n\nThe package is mbbefd, of course.\n\n \n\nAny comments welcome.\n\n \n\nGiorgio\n\n\n \n \n --\n Caselle ",
       "thread_id": "thread-a37264d01f6e",
       "thread_depth": 0,
-      "month": "2013-10"
+      "month": "2013-10",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-insurance/attachments/20131030/30c7ea9d/attachment.pl"
+      ]
     }
   ],
   "threads": [
